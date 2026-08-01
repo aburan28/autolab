@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "cover_order_replay": true,
+    "deck_replay": true,
+    "frobenius_replay": true,
+    "image_replay": true,
+    "origin_control_replay": true,
+    "primary_pass": true,
+    "regular_frame_replay": true,
+    "schema": true
+  },
+  "primary_sha256": "4a34092fc21f0fa7383002ec5c9dba3d5f54ddcc725df5cf3188ee947a6c45f8",
+  "strongest_valid_statement": "Independent replay recovers the degree-nine deck frame and all regular-fibre, cover-map, deck, and Frobenius laws. It does not construct the missing H018 bundle morphism.",
+  "verified": true
+}
