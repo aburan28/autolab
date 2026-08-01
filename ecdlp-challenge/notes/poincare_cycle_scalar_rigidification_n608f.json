@@ -1,0 +1,50 @@
+{
+  "claim_status": "NEGATIVE RESULT / EVALUATION-INDEPENDENT-SCALAR-RIGIDIFICATION-REJECTED / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_cycle_products_nonzero": true,
+    "enough_common_regular_samples": true,
+    "evaluation_independent_scalar_rigidification_rejected": true,
+    "unique_109th_root_per_sample": true
+  },
+  "next_requirement": "Construct a point-dependent normalized Poincare frame or an explicit matrix-valued intertwiner to the N606U pushforward bundle; do not reuse a single scalar cycle gauge.",
+  "preflight_pass": true,
+  "records": {
+    "common_regular_sample_count": 12,
+    "cycle_order": 109,
+    "distinct_full_cycle_products": 12,
+    "field_degree": 2,
+    "field_unit_order": 10608,
+    "full_cycle_products": [
+      "96*a + 27",
+      "7*a + 20",
+      "69*a + 67",
+      "34*a + 33",
+      "8*a + 6",
+      "95*a + 14",
+      "14*a + 41",
+      "89*a + 55",
+      "93*a + 79",
+      "10*a + 69",
+      "86*a + 82",
+      "17*a + 65"
+    ],
+    "sample_points": [
+      "(0 : 36*a + 85 : 1)",
+      "(0 : 67*a + 18 : 1)",
+      "(3 : 49*a + 27 : 1)",
+      "(3 : 54*a + 76 : 1)",
+      "(5 : 30*a + 88 : 1)",
+      "(5 : 73*a + 15 : 1)",
+      "(6 : 10*a + 98 : 1)",
+      "(6 : 93*a + 5 : 1)",
+      "(7 : 27*a + 38 : 1)",
+      "(7 : 76*a + 65 : 1)",
+      "(11 : 4*a + 101 : 1)",
+      "(11 : 99*a + 2 : 1)"
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-cycle-scalar-rigidification.n608f.v1",
+  "script_sha256": "65cf8ac02daa56bbfc0dfc81f924709359f1dde5c6b5de378ab266035f890fe4",
+  "strongest_valid_statement": "The N607A one-point scalar strictification cannot be promoted to a common-domain scalar rigidification: the 109-edge product varies across sampled regular extension-field evaluations. A point-dependent or matrix-valued geometric bundle map remains untested.",
+  "timestamp_utc": "2026-08-01T20:20:41.671356+00:00"
+}

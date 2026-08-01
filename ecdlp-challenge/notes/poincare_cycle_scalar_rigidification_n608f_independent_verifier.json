@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "cycle_and_field_shape": true,
+    "primary_pass": true,
+    "products_are_distinct": true,
+    "sample_shape": true,
+    "scalar_boundary": true,
+    "schema": true
+  },
+  "primary_sha256": "3db88e03c9b89c3518bfcfaff7d36e95dd7d49492c976dc6372a680b94c5e7d2",
+  "strongest_valid_statement": "N608F's serialized common-domain full-cycle products are all distinct, so a single evaluation-independent scalar strictification is rejected for this moving-frame transport.",
+  "verified": true
+}
