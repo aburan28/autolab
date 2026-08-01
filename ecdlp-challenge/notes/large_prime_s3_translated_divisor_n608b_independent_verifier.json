@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "constructed_gcd_nonconstant": true,
+    "constructed_sources_exact": true,
+    "pair_divisor_matches_signed_pair_quotient": true,
+    "primary_pass": true,
+    "random_sources_exact": true,
+    "secondary_divisor_matches_signed_secondary": true
+  },
+  "strongest_valid_statement": "The serialized N608B certificate is exact and has the expected B^2 primary and 2S translated-secondary degrees; no cost improvement is implied.",
+  "verified": true
+}

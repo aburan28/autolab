@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "all_constructed_sources_found": true,
+    "all_expected_configurations": true,
+    "all_replayed_sixteen_times": true,
+    "all_sources_verify": true,
+    "charged_secondary_work_shape": true,
+    "gates_match_rows": true,
+    "query_shape": true,
+    "random_hit_indicators_agree": true,
+    "schema": true,
+    "serialized_slowdown_matches_ratios": true,
+    "signed_pair_divisor_shape": true
+  },
+  "primary_sha256": "05c7e70c0998e2deb14568c4ff2fb7f78e9d5e4c8fa9a00dda60d50da7621372",
+  "strongest_valid_statement": "The serialized N608C result has the expected signed-pair and secondary-work shapes, recovers and verifies all constructed sources, and records a local slowdown in every tested row. This is a toy backend result, not an ECDLP complexity claim.",
+  "verified": true
+}

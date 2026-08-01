@@ -1,0 +1,119 @@
+{
+  "claim_status": "OBSERVATION / EXACT_TRANSLATED_DIVISOR_CERTIFICATE / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_constructed_sources_exact": true,
+    "all_random_sources_exact": true,
+    "pair_divisor_remains_quadratic_in_primary": true,
+    "translated_divisor_remains_linear_in_secondary": true
+  },
+  "next_requirement": "Charge fast polynomial construction, gcd, root recovery, large-prime collision rank, and target descent against direct S-scanning before any promotion.",
+  "preflight_pass": true,
+  "rows": [
+    {
+      "constructed_gcd_degree": 1,
+      "constructed_sources_exact": true,
+      "pair_divisor_degree": 64,
+      "pair_entry_count": 128,
+      "primary_size": 8,
+      "random_direct_witness_total": 0,
+      "random_gcd_degree_total": 0,
+      "random_source_agreement": true,
+      "secondary_mode": "low_tail",
+      "secondary_size": 16,
+      "translated_secondary_divisor_degree": 32
+    },
+    {
+      "constructed_gcd_degree": 1,
+      "constructed_sources_exact": true,
+      "pair_divisor_degree": 64,
+      "pair_entry_count": 128,
+      "primary_size": 8,
+      "random_direct_witness_total": 0,
+      "random_gcd_degree_total": 0,
+      "random_source_agreement": true,
+      "secondary_mode": "random_x",
+      "secondary_size": 16,
+      "translated_secondary_divisor_degree": 32
+    },
+    {
+      "constructed_gcd_degree": 1,
+      "constructed_sources_exact": true,
+      "pair_divisor_degree": 64,
+      "pair_entry_count": 128,
+      "primary_size": 8,
+      "random_direct_witness_total": 1,
+      "random_gcd_degree_total": 1,
+      "random_source_agreement": true,
+      "secondary_mode": "low_tail",
+      "secondary_size": 32,
+      "translated_secondary_divisor_degree": 64
+    },
+    {
+      "constructed_gcd_degree": 1,
+      "constructed_sources_exact": true,
+      "pair_divisor_degree": 64,
+      "pair_entry_count": 128,
+      "primary_size": 8,
+      "random_direct_witness_total": 0,
+      "random_gcd_degree_total": 0,
+      "random_source_agreement": true,
+      "secondary_mode": "random_x",
+      "secondary_size": 32,
+      "translated_secondary_divisor_degree": 64
+    },
+    {
+      "constructed_gcd_degree": 1,
+      "constructed_sources_exact": true,
+      "pair_divisor_degree": 256,
+      "pair_entry_count": 512,
+      "primary_size": 16,
+      "random_direct_witness_total": 0,
+      "random_gcd_degree_total": 0,
+      "random_source_agreement": true,
+      "secondary_mode": "low_tail",
+      "secondary_size": 16,
+      "translated_secondary_divisor_degree": 32
+    },
+    {
+      "constructed_gcd_degree": 1,
+      "constructed_sources_exact": true,
+      "pair_divisor_degree": 256,
+      "pair_entry_count": 512,
+      "primary_size": 16,
+      "random_direct_witness_total": 0,
+      "random_gcd_degree_total": 0,
+      "random_source_agreement": true,
+      "secondary_mode": "random_x",
+      "secondary_size": 16,
+      "translated_secondary_divisor_degree": 32
+    },
+    {
+      "constructed_gcd_degree": 1,
+      "constructed_sources_exact": true,
+      "pair_divisor_degree": 256,
+      "pair_entry_count": 512,
+      "primary_size": 16,
+      "random_direct_witness_total": 0,
+      "random_gcd_degree_total": 0,
+      "random_source_agreement": true,
+      "secondary_mode": "low_tail",
+      "secondary_size": 32,
+      "translated_secondary_divisor_degree": 64
+    },
+    {
+      "constructed_gcd_degree": 1,
+      "constructed_sources_exact": true,
+      "pair_divisor_degree": 256,
+      "pair_entry_count": 512,
+      "primary_size": 16,
+      "random_direct_witness_total": 3,
+      "random_gcd_degree_total": 3,
+      "random_source_agreement": true,
+      "secondary_mode": "random_x",
+      "secondary_size": 32,
+      "translated_secondary_divisor_degree": 64
+    }
+  ],
+  "schema": "ecdlp.large-prime.s3-translated-divisor.n608b.v1",
+  "strongest_valid_statement": "The translated-secondary gcd gives exact S3 witnesses on the tested raw x representation, but it retains a degree-linear secondary divisor and a degree-quadratic primary-pair divisor. Exactness alone is not a sub-rho cost improvement."
+}
