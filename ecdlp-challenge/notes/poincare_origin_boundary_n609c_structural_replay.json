@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "boundary_coefficients_exact": true,
+    "compactification_requirement_retained": true,
+    "finite_pole_and_origin_zero_retained": true,
+    "primary_preflight_pass": true,
+    "regularity_boundary_retained": true,
+    "two_rational_finite_zeros_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "a87b3c406daa594a5c23d307110383227c5f2bb44378ba493a6dc393dbe664f0",
+  "schema": "ecdlp.h018.poincare-origin-boundary.n609c.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T22:39:37.494734+00:00",
+  "verifier_sha256": "b1dbdb8f985cd5f2cde5e115fe50ccf3b4bc6b9a67b75787c503f6941a0b2d7f"
+}

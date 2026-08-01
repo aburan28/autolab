@@ -1,0 +1,75 @@
+{
+  "claim_status": "OBSERVATION / REGULARIZED Q=O BOUNDARY OF SELECTED H018 X SECTION / MODEL-BOUND / TOY-EVIDENCE / COMPACT RESIDUAL IDENTIFICATION OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "deleting_x4_lowers_pole_degree": true,
+    "finite_boundary_pole_degree_is_eight": true,
+    "finite_rational_boundary_zeros_are_exact": true,
+    "l9_section_has_one_origin_zero": true,
+    "x3y_boundary_coefficient_is_zero": true,
+    "x4_boundary_coefficient_is_nonzero": true,
+    "x_boundary_coefficients_descend": true,
+    "x_section_regular_at_origin": true,
+    "y_section_remains_nonregular": true
+  },
+  "next_requirement": "Compare this formal Q=O fibre and its origin zero with the compactification of the N609A residual divisor, then determine the second projection and global H018 divisor class before any genus or relation claim.",
+  "preflight_pass": true,
+  "records": {
+    "finite_boundary_pole_degree": 8,
+    "finite_rational_zero_count": 2,
+    "finite_rational_zeros": [
+      "(64 : 32 : 1)",
+      "(64 : 71 : 1)"
+    ],
+    "finite_zero_divisor_degree": 8,
+    "l9_basis": [
+      "1",
+      "x",
+      "y",
+      "x^2",
+      "xy",
+      "x^3",
+      "x^2y",
+      "x^4",
+      "x^3y"
+    ],
+    "origin_zero_multiplicity_as_l9_section": 1,
+    "x_boundary_coefficients": [
+      27,
+      42,
+      0,
+      94,
+      0,
+      56,
+      0,
+      45,
+      0
+    ],
+    "x_boundary_function": "45*X^4 + 56*X^3 + 94*X^2 + 42*X + 27",
+    "x_regular_frame_valuations": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "y_regular_frame_valuations": [
+      -1,
+      -1,
+      0,
+      -1,
+      0,
+      -1,
+      0,
+      -1,
+      0
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-origin-boundary.n609c.v1",
+  "script_sha256": "24f2555c3f2cf6e0d9221b4560522a755ffbc34298e9bc23c8f699962d4461eb",
+  "strongest_valid_statement": "Under the N608R regularized global-section model, the Q=O limit of the selected x section is 27+42x+94x^2+56x^3+45x^4. It has finite pole degree eight and therefore one additional zero at P=O when regarded as an L(9O) section, giving a degree-nine boundary fibre for this section.",
+  "timestamp_utc": "2026-08-01T22:39:36.910410+00:00"
+}
