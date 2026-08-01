@@ -1,0 +1,2300 @@
+{
+  "claim_status": "OBSERVATION / RATIONAL P-ORIGIN LOCAL REPRESENTATIVE FOR N609J DETERMINANT / MODEL-BOUND / TOY-EVIDENCE / GLOBAL CARTIER EXTENSION OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_108_nonzero_q_fibres_used": true,
+    "all_324_selected_rows_have_nonzero_leading_determinant": true,
+    "all_324_selected_rows_have_nonzero_regularized_p_origin_value": true,
+    "all_324_selected_rows_have_nonzero_x4_coefficient": true,
+    "representative_formula_matches_local_parameter_replay": true,
+    "zeroed_x4_coefficient_mutation_has_zero_limit": true
+  },
+  "next_requirement": "Derive Cech transition functions joining the rational P-origin and true-pole representatives to the Q-origin frame, then prove or refute a global Cartier extension before smoothness, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "local_parameter": "v=-x(P)/y(P)",
+    "local_parameter_replay": {
+      "formula_matches_local_parameter_replay": true,
+      "level": 0,
+      "local_parameter_value_nonzero": true,
+      "only_x4_has_nonzero_normalized_constant": true,
+      "q": "(1 : 51 : 1)"
+    },
+    "regularized_limit_formula": "-det(V_Q)*x4_coefficient",
+    "row_count": 324,
+    "rows": [
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(1 : 51 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(1 : 51 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(1 : 51 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(1 : 52 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(1 : 52 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(1 : 52 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(2 : 31 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(2 : 31 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(2 : 31 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(2 : 72 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(2 : 72 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(2 : 72 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(4 : 35 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(4 : 35 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(4 : 35 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(4 : 68 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(4 : 68 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(4 : 68 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(8 : 21 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(8 : 21 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(8 : 21 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(8 : 82 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(8 : 82 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(8 : 82 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(9 : 12 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(9 : 12 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(9 : 12 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(9 : 91 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(9 : 91 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(9 : 91 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(10 : 2 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(10 : 2 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(10 : 2 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(10 : 101 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(10 : 101 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(10 : 101 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(12 : 42 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(12 : 42 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(12 : 42 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(12 : 61 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(12 : 61 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(12 : 61 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(14 : 1 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(14 : 1 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(14 : 1 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(14 : 102 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(14 : 102 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(14 : 102 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(15 : 18 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(15 : 18 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(15 : 18 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(15 : 85 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(15 : 85 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(15 : 85 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(16 : 4 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(16 : 4 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(16 : 4 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(16 : 99 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(16 : 99 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(16 : 99 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(19 : 1 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(19 : 1 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(19 : 1 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(19 : 102 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(19 : 102 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(19 : 102 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(21 : 6 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(21 : 6 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(21 : 6 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(21 : 97 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(21 : 97 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(21 : 97 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(23 : 36 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(23 : 36 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(23 : 36 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(23 : 67 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(23 : 67 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(23 : 67 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(25 : 11 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(25 : 11 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(25 : 11 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(25 : 92 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(25 : 92 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(25 : 92 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(26 : 42 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(26 : 42 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(26 : 42 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(26 : 61 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(26 : 61 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(26 : 61 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(27 : 24 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(27 : 24 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(27 : 24 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(27 : 79 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(27 : 79 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(27 : 79 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(30 : 45 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(30 : 45 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(30 : 45 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(30 : 58 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(30 : 58 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(30 : 58 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(31 : 39 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(31 : 39 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(31 : 39 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(31 : 64 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(31 : 64 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(31 : 64 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(34 : 4 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(34 : 4 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(34 : 4 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(34 : 99 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(34 : 99 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(34 : 99 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(37 : 48 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(37 : 48 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(37 : 48 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(37 : 55 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(37 : 55 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(37 : 55 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(41 : 39 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(41 : 39 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(41 : 39 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(41 : 64 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(41 : 64 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(41 : 64 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(42 : 32 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(42 : 32 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(42 : 32 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(42 : 71 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(42 : 71 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(42 : 71 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(43 : 26 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(43 : 26 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(43 : 26 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(43 : 77 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(43 : 77 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(43 : 77 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(50 : 49 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(50 : 49 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(50 : 49 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(50 : 54 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(50 : 54 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(50 : 54 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(53 : 4 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(53 : 4 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(53 : 4 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(53 : 99 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(53 : 99 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(53 : 99 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(54 : 40 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(54 : 40 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(54 : 40 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(54 : 63 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(54 : 63 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(54 : 63 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(56 : 9 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(56 : 9 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(56 : 9 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(56 : 94 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(56 : 94 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(56 : 94 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(58 : 3 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(58 : 3 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(58 : 3 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(58 : 100 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(58 : 100 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(58 : 100 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(60 : 14 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(60 : 14 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(60 : 14 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(60 : 89 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(60 : 89 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(60 : 89 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(62 : 22 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(62 : 22 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(62 : 22 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(62 : 81 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(62 : 81 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(62 : 81 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(63 : 16 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(63 : 16 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(63 : 16 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(63 : 87 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(63 : 87 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(63 : 87 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(64 : 32 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(64 : 32 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(64 : 32 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(64 : 71 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(64 : 71 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(64 : 71 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(65 : 42 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(65 : 42 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(65 : 42 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(65 : 61 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(65 : 61 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(65 : 61 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(69 : 49 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(69 : 49 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(69 : 49 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(69 : 54 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(69 : 54 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(69 : 54 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(70 : 1 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(70 : 1 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(70 : 1 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(70 : 102 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(70 : 102 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(70 : 102 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(71 : 9 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(71 : 9 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(71 : 9 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(71 : 94 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(71 : 94 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(71 : 94 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(72 : 22 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(72 : 22 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(72 : 22 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(72 : 81 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(72 : 81 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(72 : 81 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(73 : 17 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(73 : 17 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(73 : 17 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(73 : 86 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(73 : 86 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(73 : 86 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(74 : 29 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(74 : 29 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(74 : 29 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(74 : 74 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(74 : 74 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(74 : 74 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(78 : 37 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(78 : 37 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(78 : 37 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(78 : 66 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(78 : 66 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(78 : 66 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(79 : 9 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(79 : 9 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(79 : 9 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(79 : 94 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(79 : 94 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(79 : 94 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(80 : 20 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(80 : 20 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(80 : 20 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(80 : 83 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(80 : 83 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(80 : 83 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(81 : 13 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(81 : 13 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(81 : 13 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(81 : 90 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(81 : 90 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(81 : 90 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(83 : 48 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(83 : 48 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(83 : 48 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(83 : 55 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(83 : 55 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(83 : 55 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(86 : 48 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(86 : 48 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(86 : 48 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(86 : 55 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(86 : 55 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(86 : 55 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(87 : 49 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(87 : 49 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(87 : 49 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(87 : 54 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(87 : 54 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(87 : 54 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(88 : 41 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(88 : 41 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(88 : 41 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(88 : 62 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(88 : 62 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(88 : 62 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(94 : 25 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(94 : 25 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(94 : 25 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(94 : 78 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(94 : 78 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(94 : 78 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(95 : 15 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(95 : 15 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(95 : 15 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(95 : 88 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(95 : 88 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(95 : 88 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(97 : 27 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(97 : 27 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(97 : 27 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(97 : 76 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(97 : 76 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(97 : 76 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(98 : 10 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(98 : 10 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(98 : 10 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(98 : 93 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(98 : 93 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(98 : 93 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(99 : 33 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(99 : 33 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(99 : 33 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(99 : 70 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(99 : 70 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(99 : 70 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(100 : 32 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(100 : 32 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(100 : 32 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(100 : 71 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(100 : 71 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(100 : 71 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(101 : 23 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(101 : 23 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(101 : 23 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 0,
+        "q": "(101 : 80 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 1,
+        "q": "(101 : 80 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "leading_determinant_nonzero": true,
+        "level": 17,
+        "q": "(101 : 80 : 1)",
+        "regularized_p_origin_value_nonzero": true,
+        "x4_coefficient_nonzero": true
+      }
+    ],
+    "zeroed_x4_coefficient_mutation_value": 0
+  },
+  "schema": "ecdlp.h018.poincare-p-origin-extension.n609l.v1",
+  "script_sha256": "e689a48855d100c6ef8a13d84454398975b3b23cd0a1907b5220897bf7338c61",
+  "strongest_valid_statement": "On every declared rational nonzero Q fibre and levels 0,1,17, v^8*D_t has a nonzero local value at P=O under the moving Cauchy trivialization. The algebraic local-parameter basis replay agrees with -det(V_Q)*c_7 at a representative fibre.",
+  "timestamp_utc": "2026-08-01T23:36:17.759799+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "complete_rational_grid_retained": true,
+    "global_extension_boundary_retained": true,
+    "local_nonvanishing_data_retained": true,
+    "local_parameter_replay_retained": true,
+    "primary_preflight_pass": true,
+    "trivialization_data_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "450ddc1bc05348f976b5f0afd702b4c28749e40bebde376737352f0a2a53d8a4",
+  "schema": "ecdlp.h018.poincare-p-origin-extension.n609l.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T23:36:18.786201+00:00",
+  "verifier_sha256": "0a7daf98d7e93184f872fbf3136ae4e5340bc3cb182a9b826012cd743d604848"
+}
