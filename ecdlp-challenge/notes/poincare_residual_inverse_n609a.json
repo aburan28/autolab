@@ -1,0 +1,52 @@
+{
+  "claim_status": "OBSERVATION / DEGREE-NINE COMPLETE OPEN-LEVEL SOURCE INVERSE / MODEL-BOUND / TOY-EVIDENCE / RELATION MECHANISM OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_complete_open_matches": true,
+    "all_residual_polynomials_degree_nine": true,
+    "cauchy_sign_mutation_rejects_unsquared_graph": true,
+    "declared_open_counts_retained": true,
+    "one_root_factor_per_nonzero_q": true,
+    "three_declared_levels_present": true
+  },
+  "next_requirement": "Compactify and identify the residual divisor globally, then establish a target-bearing relation law, factor-base size, rank, descent, and fully charged comparison before any ECDLP claim.",
+  "preflight_pass": true,
+  "records": {
+    "base_graph_removed": "P=4Q",
+    "curve_order": 109,
+    "levels": [
+      {
+        "complete_open_match": true,
+        "exhaustive_open_point_count": 84,
+        "level": 0,
+        "removed_base_graph_residual_intersection_count": 8,
+        "residual_inverse_point_count": 84,
+        "residual_polynomial_degree": 9,
+        "root_factor_calls": 108
+      },
+      {
+        "complete_open_match": true,
+        "exhaustive_open_point_count": 108,
+        "level": 1,
+        "removed_base_graph_residual_intersection_count": 0,
+        "residual_inverse_point_count": 108,
+        "residual_polynomial_degree": 9,
+        "root_factor_calls": 108
+      },
+      {
+        "complete_open_match": true,
+        "exhaustive_open_point_count": 144,
+        "level": 17,
+        "removed_base_graph_residual_intersection_count": 2,
+        "residual_inverse_point_count": 144,
+        "residual_polynomial_degree": 9,
+        "root_factor_calls": 108
+      }
+    ],
+    "mutated_cauchy_sign_unsquared_graph_equation_pass_count_at_t_zero": 0,
+    "source_generator_cost_model": "For a fixed level, scan 108 nonzero base Q values and factor one degree-nine residual polynomial per Q; no scan over P is used by the inverse."
+  },
+  "schema": "ecdlp.h018.poincare-residual-inverse.n609a.v1",
+  "script_sha256": "c894344d914e1074be3e460478e419b17a4f77720de763ee9ea5cc6fc58279ad",
+  "strongest_valid_statement": "Removing the N608Z common graph yields a degree-nine residual polynomial for every declared Q and level. Factoring those residuals recovers exactly the N608U exhaustive open source sets of sizes 84, 108, and 144.",
+  "timestamp_utc": "2026-08-01T22:28:29.421960+00:00"
+}

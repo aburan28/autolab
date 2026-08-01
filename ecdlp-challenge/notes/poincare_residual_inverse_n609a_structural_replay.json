@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_degree_nine_residuals_retained": true,
+    "all_open_matches_retained": true,
+    "base_graph_and_mutation_retained": true,
+    "declared_levels_and_counts_retained": true,
+    "one_factor_per_q_retained": true,
+    "primary_preflight_pass": true,
+    "relation_boundary_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "fde37ef682ee597e2af105a96fbb17c9fa9feb7c77ef5d9f6703db557924c436",
+  "schema": "ecdlp.h018.poincare-residual-inverse.n609a.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T22:28:30.575982+00:00",
+  "verifier_sha256": "115665425c8a2357afc1c7f88bafa0a4547937f88d8ec2d3b889b3c597efb9ca"
+}
