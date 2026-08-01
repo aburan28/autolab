@@ -1,0 +1,36 @@
+{
+  "candidate": "N607F H018 Poincare fibre/polarization orientation audit",
+  "claim_status": "RESTRICTED THEOREM / FORMAL_POINCARE_FIBRE_ORIENTATION / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "conventions": {
+    "kernel_relation_mod_two": "(P,Q)=(pi Q,Q)",
+    "line_bundle": "p1^*Theta^9 tensor p2^*Theta^11 tensor (id,z)^*P",
+    "p1_fibre_class": "8[O]+[zQ]",
+    "polarization_matrix": "[[9,zbar],[z,11]]",
+    "z": "-3-pi",
+    "zbar": "2+pi"
+  },
+  "gates": {
+    "adjoint_fibre_would_swap_hermitian_orientation": true,
+    "h018_matrix_orientation_exact": true,
+    "kernel_is_graph_p_equals_pi_q": true,
+    "n606y_shift_is_z_shift": true,
+    "p1_fibre_uses_z_not_zbar": true,
+    "z_fibre_translation_law": true,
+    "zbar_alternative_has_distinct_shift": true
+  },
+  "preflight_pass": true,
+  "records": {
+    "kernel_size": 4,
+    "z_base_shift": "[84]",
+    "z_on_base_field": "[-4]",
+    "zbar_hypothetical_shift": "[106]",
+    "zbar_on_base_field": "[3]"
+  },
+  "schema": "ecdlp.product-kummer.h018.poincare-fibre-orientation.n607f.v1",
+  "still_open": [
+    "normalized Poincare rigidification",
+    "explicit H018 surface-section space",
+    "smooth member, factor base, relations, rank, descent, and cost"
+  ],
+  "supersedes": "The suspected adjoint-fibre mismatch is rejected; N606Y through N607E retain their stated restricted scope."
+}

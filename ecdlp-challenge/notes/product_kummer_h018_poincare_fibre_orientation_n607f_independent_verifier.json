@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "adjoint_shift_distinct": true,
+    "declared_roles": true,
+    "fibre_shift": true,
+    "kernel_relation": true,
+    "primary_pass": true
+  },
+  "strongest_valid_statement": "Independent replay confirms that z indexes the p1 fibre and zbar enters the polarization-map component; the H018 kernel graph does not swap those roles.",
+  "verified": true
+}
