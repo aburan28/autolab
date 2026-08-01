@@ -1,0 +1,795 @@
+{
+  "claim_status": "NEGATIVE RESULT / H018 CERTIFIED COMPLETE LEVELS DO NOT GIVE A SINGLE-VALUED ADDITIVE TARGET RELATION / MODEL-BOUND / TOY-EVIDENCE / NONLINEAR_RELATIONS_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_109_additive_maps_screened": true,
+    "all_three_certified_levels_used": true,
+    "best_map_retains_nontrivial_level_ambiguity": true,
+    "no_additive_level_map_is_single_valued": true
+  },
+  "next_requirement": "Test a genuinely nonlinear correspondence with an explicit compact correction state, or prove a relation law from a compact normalization/Jacobian before factor-base, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "best_additive_map": {
+      "maximum_level_image_size": 72,
+      "mean_level_image_size": 69.0,
+      "minimum_level_image_size": 65,
+      "multiplier": 80,
+      "singleton_level_count": 0
+    },
+    "certified_levels": [
+      0,
+      1,
+      17
+    ],
+    "curve_order": 109,
+    "rows": [
+      {
+        "maximum_level_image_size": 76,
+        "mean_level_image_size": 70.66666666666667,
+        "minimum_level_image_size": 62,
+        "multiplier": 0,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 78,
+        "mean_level_image_size": 66.66666666666667,
+        "minimum_level_image_size": 55,
+        "multiplier": 1,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 84,
+        "mean_level_image_size": 69.33333333333333,
+        "minimum_level_image_size": 59,
+        "multiplier": 2,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 81,
+        "mean_level_image_size": 68.33333333333333,
+        "minimum_level_image_size": 60,
+        "multiplier": 3,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 88,
+        "mean_level_image_size": 74.0,
+        "minimum_level_image_size": 60,
+        "multiplier": 4,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 85,
+        "mean_level_image_size": 68.66666666666667,
+        "minimum_level_image_size": 56,
+        "multiplier": 5,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 84,
+        "mean_level_image_size": 72.66666666666667,
+        "minimum_level_image_size": 62,
+        "multiplier": 6,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 74,
+        "mean_level_image_size": 65.66666666666667,
+        "minimum_level_image_size": 56,
+        "multiplier": 7,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 78,
+        "mean_level_image_size": 67.66666666666667,
+        "minimum_level_image_size": 56,
+        "multiplier": 8,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 85,
+        "mean_level_image_size": 72.66666666666667,
+        "minimum_level_image_size": 60,
+        "multiplier": 9,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 91,
+        "mean_level_image_size": 72.0,
+        "minimum_level_image_size": 57,
+        "multiplier": 10,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 81,
+        "mean_level_image_size": 69.33333333333333,
+        "minimum_level_image_size": 59,
+        "multiplier": 11,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 76,
+        "mean_level_image_size": 68.66666666666667,
+        "minimum_level_image_size": 60,
+        "multiplier": 12,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 89,
+        "mean_level_image_size": 71.33333333333333,
+        "minimum_level_image_size": 49,
+        "multiplier": 13,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 86,
+        "mean_level_image_size": 73.0,
+        "minimum_level_image_size": 66,
+        "multiplier": 14,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 79,
+        "mean_level_image_size": 68.66666666666667,
+        "minimum_level_image_size": 61,
+        "multiplier": 15,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 81,
+        "mean_level_image_size": 67.33333333333333,
+        "minimum_level_image_size": 58,
+        "multiplier": 16,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 74,
+        "mean_level_image_size": 67.0,
+        "minimum_level_image_size": 56,
+        "multiplier": 17,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 77,
+        "mean_level_image_size": 65.33333333333333,
+        "minimum_level_image_size": 57,
+        "multiplier": 18,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 78,
+        "mean_level_image_size": 66.33333333333333,
+        "minimum_level_image_size": 58,
+        "multiplier": 19,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 80,
+        "mean_level_image_size": 70.33333333333333,
+        "minimum_level_image_size": 59,
+        "multiplier": 20,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 80,
+        "mean_level_image_size": 71.66666666666667,
+        "minimum_level_image_size": 59,
+        "multiplier": 21,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 75,
+        "mean_level_image_size": 70.0,
+        "minimum_level_image_size": 60,
+        "multiplier": 22,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 83,
+        "mean_level_image_size": 71.0,
+        "minimum_level_image_size": 62,
+        "multiplier": 23,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 86,
+        "mean_level_image_size": 71.33333333333333,
+        "minimum_level_image_size": 60,
+        "multiplier": 24,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 77,
+        "mean_level_image_size": 67.66666666666667,
+        "minimum_level_image_size": 56,
+        "multiplier": 25,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 83,
+        "mean_level_image_size": 68.33333333333333,
+        "minimum_level_image_size": 58,
+        "multiplier": 26,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 81,
+        "mean_level_image_size": 73.33333333333333,
+        "minimum_level_image_size": 60,
+        "multiplier": 27,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 85,
+        "mean_level_image_size": 71.66666666666667,
+        "minimum_level_image_size": 58,
+        "multiplier": 28,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 80,
+        "mean_level_image_size": 69.33333333333333,
+        "minimum_level_image_size": 56,
+        "multiplier": 29,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 85,
+        "mean_level_image_size": 73.0,
+        "minimum_level_image_size": 64,
+        "multiplier": 30,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 75,
+        "mean_level_image_size": 64.0,
+        "minimum_level_image_size": 56,
+        "multiplier": 31,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 85,
+        "mean_level_image_size": 70.33333333333333,
+        "minimum_level_image_size": 52,
+        "multiplier": 32,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 78,
+        "mean_level_image_size": 72.66666666666667,
+        "minimum_level_image_size": 67,
+        "multiplier": 33,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 75,
+        "mean_level_image_size": 66.33333333333333,
+        "minimum_level_image_size": 56,
+        "multiplier": 34,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 81,
+        "mean_level_image_size": 68.66666666666667,
+        "minimum_level_image_size": 57,
+        "multiplier": 35,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 76,
+        "mean_level_image_size": 70.33333333333333,
+        "minimum_level_image_size": 62,
+        "multiplier": 36,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 88,
+        "mean_level_image_size": 72.33333333333333,
+        "minimum_level_image_size": 57,
+        "multiplier": 37,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 78,
+        "mean_level_image_size": 66.33333333333333,
+        "minimum_level_image_size": 54,
+        "multiplier": 38,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 78,
+        "mean_level_image_size": 66.66666666666667,
+        "minimum_level_image_size": 56,
+        "multiplier": 39,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 82,
+        "mean_level_image_size": 70.0,
+        "minimum_level_image_size": 56,
+        "multiplier": 40,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 89,
+        "mean_level_image_size": 72.33333333333333,
+        "minimum_level_image_size": 60,
+        "multiplier": 41,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 82,
+        "mean_level_image_size": 69.0,
+        "minimum_level_image_size": 56,
+        "multiplier": 42,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 76,
+        "mean_level_image_size": 68.0,
+        "minimum_level_image_size": 55,
+        "multiplier": 43,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 84,
+        "mean_level_image_size": 71.33333333333333,
+        "minimum_level_image_size": 60,
+        "multiplier": 44,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 79,
+        "mean_level_image_size": 69.66666666666667,
+        "minimum_level_image_size": 62,
+        "multiplier": 45,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 79,
+        "mean_level_image_size": 71.66666666666667,
+        "minimum_level_image_size": 61,
+        "multiplier": 46,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 81,
+        "mean_level_image_size": 70.33333333333333,
+        "minimum_level_image_size": 57,
+        "multiplier": 47,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 86,
+        "mean_level_image_size": 72.66666666666667,
+        "minimum_level_image_size": 62,
+        "multiplier": 48,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 79,
+        "mean_level_image_size": 68.33333333333333,
+        "minimum_level_image_size": 61,
+        "multiplier": 49,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 82,
+        "mean_level_image_size": 70.66666666666667,
+        "minimum_level_image_size": 61,
+        "multiplier": 50,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 81,
+        "mean_level_image_size": 71.66666666666667,
+        "minimum_level_image_size": 61,
+        "multiplier": 51,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 86,
+        "mean_level_image_size": 71.66666666666667,
+        "minimum_level_image_size": 59,
+        "multiplier": 52,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 85,
+        "mean_level_image_size": 69.33333333333333,
+        "minimum_level_image_size": 56,
+        "multiplier": 53,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 80,
+        "mean_level_image_size": 68.33333333333333,
+        "minimum_level_image_size": 57,
+        "multiplier": 54,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 79,
+        "mean_level_image_size": 70.33333333333333,
+        "minimum_level_image_size": 64,
+        "multiplier": 55,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 81,
+        "mean_level_image_size": 66.0,
+        "minimum_level_image_size": 53,
+        "multiplier": 56,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 74,
+        "mean_level_image_size": 67.0,
+        "minimum_level_image_size": 57,
+        "multiplier": 57,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 78,
+        "mean_level_image_size": 66.0,
+        "minimum_level_image_size": 58,
+        "multiplier": 58,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 88,
+        "mean_level_image_size": 74.33333333333333,
+        "minimum_level_image_size": 64,
+        "multiplier": 59,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 82,
+        "mean_level_image_size": 71.66666666666667,
+        "minimum_level_image_size": 61,
+        "multiplier": 60,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 79,
+        "mean_level_image_size": 69.0,
+        "minimum_level_image_size": 62,
+        "multiplier": 61,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 85,
+        "mean_level_image_size": 70.0,
+        "minimum_level_image_size": 54,
+        "multiplier": 62,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 80,
+        "mean_level_image_size": 68.33333333333333,
+        "minimum_level_image_size": 55,
+        "multiplier": 63,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 85,
+        "mean_level_image_size": 71.0,
+        "minimum_level_image_size": 58,
+        "multiplier": 64,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 79,
+        "mean_level_image_size": 72.33333333333333,
+        "minimum_level_image_size": 68,
+        "multiplier": 65,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 80,
+        "mean_level_image_size": 66.0,
+        "minimum_level_image_size": 57,
+        "multiplier": 66,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 80,
+        "mean_level_image_size": 71.33333333333333,
+        "minimum_level_image_size": 66,
+        "multiplier": 67,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 80,
+        "mean_level_image_size": 68.33333333333333,
+        "minimum_level_image_size": 58,
+        "multiplier": 68,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 78,
+        "mean_level_image_size": 67.33333333333333,
+        "minimum_level_image_size": 52,
+        "multiplier": 69,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 75,
+        "mean_level_image_size": 67.0,
+        "minimum_level_image_size": 56,
+        "multiplier": 70,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 82,
+        "mean_level_image_size": 69.33333333333333,
+        "minimum_level_image_size": 60,
+        "multiplier": 71,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 73,
+        "mean_level_image_size": 65.66666666666667,
+        "minimum_level_image_size": 56,
+        "multiplier": 72,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 81,
+        "mean_level_image_size": 69.66666666666667,
+        "minimum_level_image_size": 62,
+        "multiplier": 73,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 78,
+        "mean_level_image_size": 68.33333333333333,
+        "minimum_level_image_size": 62,
+        "multiplier": 74,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 82,
+        "mean_level_image_size": 71.33333333333333,
+        "minimum_level_image_size": 62,
+        "multiplier": 75,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 76,
+        "mean_level_image_size": 69.66666666666667,
+        "minimum_level_image_size": 60,
+        "multiplier": 76,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 77,
+        "mean_level_image_size": 71.66666666666667,
+        "minimum_level_image_size": 64,
+        "multiplier": 77,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 82,
+        "mean_level_image_size": 69.66666666666667,
+        "minimum_level_image_size": 63,
+        "multiplier": 78,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 82,
+        "mean_level_image_size": 69.66666666666667,
+        "minimum_level_image_size": 60,
+        "multiplier": 79,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 72,
+        "mean_level_image_size": 69.0,
+        "minimum_level_image_size": 65,
+        "multiplier": 80,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 77,
+        "mean_level_image_size": 70.66666666666667,
+        "minimum_level_image_size": 60,
+        "multiplier": 81,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 80,
+        "mean_level_image_size": 68.66666666666667,
+        "minimum_level_image_size": 56,
+        "multiplier": 82,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 74,
+        "mean_level_image_size": 66.0,
+        "minimum_level_image_size": 56,
+        "multiplier": 83,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 73,
+        "mean_level_image_size": 67.33333333333333,
+        "minimum_level_image_size": 64,
+        "multiplier": 84,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 77,
+        "mean_level_image_size": 64.0,
+        "minimum_level_image_size": 56,
+        "multiplier": 85,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 78,
+        "mean_level_image_size": 65.66666666666667,
+        "minimum_level_image_size": 58,
+        "multiplier": 86,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 84,
+        "mean_level_image_size": 66.33333333333333,
+        "minimum_level_image_size": 55,
+        "multiplier": 87,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 84,
+        "mean_level_image_size": 72.33333333333333,
+        "minimum_level_image_size": 64,
+        "multiplier": 88,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 76,
+        "mean_level_image_size": 65.33333333333333,
+        "minimum_level_image_size": 54,
+        "multiplier": 89,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 80,
+        "mean_level_image_size": 66.66666666666667,
+        "minimum_level_image_size": 58,
+        "multiplier": 90,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 73,
+        "mean_level_image_size": 66.66666666666667,
+        "minimum_level_image_size": 59,
+        "multiplier": 91,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 80,
+        "mean_level_image_size": 72.0,
+        "minimum_level_image_size": 64,
+        "multiplier": 92,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 76,
+        "mean_level_image_size": 68.0,
+        "minimum_level_image_size": 63,
+        "multiplier": 93,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 85,
+        "mean_level_image_size": 71.0,
+        "minimum_level_image_size": 58,
+        "multiplier": 94,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 84,
+        "mean_level_image_size": 69.66666666666667,
+        "minimum_level_image_size": 54,
+        "multiplier": 95,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 85,
+        "mean_level_image_size": 75.0,
+        "minimum_level_image_size": 60,
+        "multiplier": 96,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 82,
+        "mean_level_image_size": 73.33333333333333,
+        "minimum_level_image_size": 69,
+        "multiplier": 97,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 75,
+        "mean_level_image_size": 67.33333333333333,
+        "minimum_level_image_size": 56,
+        "multiplier": 98,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 88,
+        "mean_level_image_size": 74.0,
+        "minimum_level_image_size": 64,
+        "multiplier": 99,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 81,
+        "mean_level_image_size": 69.66666666666667,
+        "minimum_level_image_size": 60,
+        "multiplier": 100,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 86,
+        "mean_level_image_size": 74.33333333333333,
+        "minimum_level_image_size": 66,
+        "multiplier": 101,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 79,
+        "mean_level_image_size": 68.0,
+        "minimum_level_image_size": 51,
+        "multiplier": 102,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 75,
+        "mean_level_image_size": 65.33333333333333,
+        "minimum_level_image_size": 57,
+        "multiplier": 103,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 83,
+        "mean_level_image_size": 68.33333333333333,
+        "minimum_level_image_size": 56,
+        "multiplier": 104,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 88,
+        "mean_level_image_size": 73.33333333333333,
+        "minimum_level_image_size": 58,
+        "multiplier": 105,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 79,
+        "mean_level_image_size": 66.66666666666667,
+        "minimum_level_image_size": 55,
+        "multiplier": 106,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 84,
+        "mean_level_image_size": 69.66666666666667,
+        "minimum_level_image_size": 61,
+        "multiplier": 107,
+        "singleton_level_count": 0
+      },
+      {
+        "maximum_level_image_size": 85,
+        "mean_level_image_size": 68.33333333333333,
+        "minimum_level_image_size": 58,
+        "multiplier": 108,
+        "singleton_level_count": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-additive-relation-preflight.n609n.v1",
+  "script_sha256": "534f3cf606bd3283655db6f57381cece889c20fb31144722b47b602bd9cfa7a6",
+  "strongest_valid_statement": "For every c in E(F_103), none of the three certified complete H018 level correspondences has P+cQ uniquely determined across all declared sources. Thus the raw complete-level data supplies no direct additive target-bearing relation P+cQ=H(t) on the tested levels.",
+  "timestamp_utc": "2026-08-01T23:45:43.330787+00:00"
+}
