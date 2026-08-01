@@ -1,0 +1,36 @@
+{
+  "claim_status": "OBSERVATION / COVER_SIDE_FIBRE_EVALUATOR / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "explicit_bundle_isomorphism_constructed": false,
+  "gates": {
+    "cover_sections_independent_on_fibre": true,
+    "cyclic_kernel": true,
+    "degree_nine_cover": true,
+    "finite_fibre": true,
+    "frobenius_permutation": true,
+    "rational_map_agreement": true,
+    "section_descent": true
+  },
+  "next_requirement": "Construct a normalized-Poincare frame and an explicit isomorphism to this cover-pushforward frame before treating these values as H018 surface sections.",
+  "preflight_pass": true,
+  "records": {
+    "cover": "Elliptic Curve defined by y^2 = x^3 + 42*x + 28 over Finite Field of size 103",
+    "cover_degree": 9,
+    "cover_section_basis": [
+      "1",
+      "x"
+    ],
+    "cover_section_evaluation_rank": 2,
+    "cover_section_frobenius_equivariance": true,
+    "curve": "Elliptic Curve defined by y^2 = x^3 + x + 24 over Finite Field of size 103",
+    "fibre_contains_origin": false,
+    "fibre_size": 9,
+    "field_degree": 6,
+    "frobenius_fibre_permutation_exact": true,
+    "frobenius_kernel_multiplier_mod_9": 5,
+    "kernel_generator_order": 9,
+    "origin_fibre_affine_evaluator_rejected": true,
+    "rational_map_matches_isogeny_on_fibre": true
+  },
+  "schema": "ecdlp.product-kummer.h018.cover-fibre-evaluator.n606w.v1",
+  "surface_sections_evaluated": false
+}

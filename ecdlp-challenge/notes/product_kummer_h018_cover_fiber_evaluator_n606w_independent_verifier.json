@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "boundary": true,
+    "degree": true,
+    "fibre": true,
+    "frobenius": true,
+    "kernel_order": true,
+    "primary_pass": true,
+    "rank": true
+  },
+  "strongest_valid_statement": "Independent replay confirms a cover-side fibre evaluator only; no H018 surface section is evaluated.",
+  "verified": true
+}
