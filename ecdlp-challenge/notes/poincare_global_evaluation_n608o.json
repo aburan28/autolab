@@ -1,0 +1,54 @@
+{
+  "assumptions": [
+    "N608N normalized symmetric origin-class identification h^*L_H018=O_Eprime(3Oprime).",
+    "The N606Y divisor model is the stated normalized H018 pushforward F."
+  ],
+  "claim_status": "RESTRICTED THEOREM / GLOBAL UNIVERSAL-EVALUATION ELEMENTARY TRANSFORM / STANDARD-FACT-BOUND / MODEL-BOUND / TOY-EVIDENCE / QUOTIENT DIRECTION OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_nonzero_base_fibres_tested": true,
+    "determinant_line_has_degree_one": true,
+    "graph_evaluation_full_rank_away_from_origin": true,
+    "nonzero_determinant_cannot_vanish_at_nonzero_rational_point": true,
+    "pi_control_collapses_all_fibres": true
+  },
+  "next_requirement": "Audit the origin quotient direction to compare im(ev_h) with pi_*O(2Oprime), then derive actual H018 sections and test source recovery, relation rank, descent, and charged cost.",
+  "preflight_pass": true,
+  "records": {
+    "cokernel_conclusion": "A nonzero determinant section of O(O) has divisor O; hence coker(ev_h)=k(O) once the global universal-evaluation construction is used.",
+    "cover_degree": 9,
+    "determinant_line": "O(O)",
+    "global_morphism_definition": "ev_h is the adjoint of h^*F -> h^*L_H018 = O_Eprime(3Oprime), obtained from universal evaluation.",
+    "pi_control_rank_distribution": {
+      "0": 0,
+      "1": 108,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    "rank_distribution": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 108
+    },
+    "source_bundle": "F with det(F)=O(2O)",
+    "target_bundle": "pi_*O_Eprime(3Oprime) with det=O(3O)",
+    "tested_nonzero_base_fibres": 108,
+    "unresolved_quotient_direction": "Whether im(ev_h) equals the particular subbundle pi_*O(2Oprime) is not established."
+  },
+  "schema": "ecdlp.h018.poincare-global-evaluation.n608o.v1",
+  "script_sha256": "3a33012790373f91dcc580c62b306597c3933410354e452abe02557a494af05f",
+  "strongest_valid_statement": "Under the declared line-bundle identifications, universal graph evaluation is a global full-rank morphism F -> pi_*O(3Oprime) whose determinant has the unique origin zero and whose cokernel is k(O). Its image is an explicit degree-two elementary transform isomorphic to F.",
+  "timestamp_utc": "2026-08-01T21:29:39.767408+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "cover_order_recomputes": true,
+    "determinant_delta_matches": true,
+    "elementary_modification_sequence_is_declared": true,
+    "induced_action_recomputes": true,
+    "line_target_is_degree_three": true,
+    "no_rational_two_torsion_recomputes": true,
+    "primary_preflight_pass": true,
+    "rank_degree_delta_matches": true
+  },
+  "pass": true,
+  "primary_sha256": "2f1ead13b015033b4188b91c534ba2d9b5d68a5001046a57338e84ed8c790ce8",
+  "schema": "ecdlp.h018.poincare-elementary-modification.n608n.independent-verifier.v1",
+  "timestamp_utc": "2026-08-01T21:27:17.296839+00:00",
+  "verifier_sha256": "c14b5f155993e07d6f5a4c0c51fba0bf8dfe99a7a323b1b77db67e5031e14f5f"
+}

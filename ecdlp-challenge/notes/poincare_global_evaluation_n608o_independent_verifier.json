@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_108_fibres_recomputed": true,
+    "determinant_line_is_origin_line": true,
+    "graph_ranks_all_nine": true,
+    "pi_control_ranks_all_one": true,
+    "primary_preflight_pass": true,
+    "quotient_direction_stays_open": true,
+    "rank_distributions_match": true
+  },
+  "pass": true,
+  "primary_sha256": "02e1e2cc7d2bb06da459662f6007a1d8fa5985e343505080297650d8170ff0f4",
+  "schema": "ecdlp.h018.poincare-global-evaluation.n608o.independent-verifier.v1",
+  "timestamp_utc": "2026-08-01T21:29:43.858665+00:00",
+  "verifier_sha256": "69af9746a2cf2ef79e54d222d786217acad517f190110ea01b1f64bd461d786e"
+}
