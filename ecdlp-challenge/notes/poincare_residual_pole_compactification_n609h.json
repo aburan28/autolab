@@ -1,0 +1,1712 @@
+{
+  "claim_status": "RESTRICTED THEOREM / P-FIBRE COMPACTIFICATION OF H018 RESIDUAL PENCIL / MODEL-BOUND / TOY-EVIDENCE / GLOBAL SURFACE CLASS OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_108_nonzero_base_points_used": true,
+    "all_nonzero_q_fibres_have_exact_eight_plus_one_pole_divisor": true,
+    "all_q_origin_members_descend": true,
+    "all_q_origin_members_have_compatible_degree_nine_divisor": true
+  },
+  "next_requirement": "Glue these P-fibre compactifications into an actual global surface section, determine its Q projection and H018 class, and analyze its normalization before any genus, Jacobian, relation, rank, descent, cost, or ECDLP claim.",
+  "preflight_pass": true,
+  "records": {
+    "nonzero_q_fibre_count": 108,
+    "nonzero_q_pole_divisor": "8[O]+[-4Q]",
+    "nonzero_q_rows": [
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(1 : 51 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(1 : 52 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(2 : 31 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(2 : 72 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(4 : 35 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(4 : 68 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(8 : 21 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(8 : 82 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(9 : 12 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(9 : 91 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(10 : 2 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(10 : 101 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(12 : 42 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(12 : 61 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(14 : 1 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(14 : 102 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(15 : 18 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(15 : 85 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(16 : 4 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(16 : 99 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(19 : 1 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(19 : 102 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(21 : 6 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(21 : 97 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(23 : 36 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(23 : 67 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(25 : 11 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(25 : 92 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(26 : 42 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(26 : 61 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(27 : 24 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(27 : 79 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(30 : 45 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(30 : 58 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(31 : 39 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(31 : 64 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(34 : 4 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(34 : 99 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(37 : 48 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(37 : 55 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(41 : 39 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(41 : 64 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(42 : 32 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(42 : 71 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(43 : 26 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(43 : 77 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(50 : 49 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(50 : 54 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(53 : 4 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(53 : 99 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(54 : 40 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(54 : 63 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(56 : 9 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(56 : 94 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(58 : 3 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(58 : 100 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(60 : 14 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(60 : 89 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(62 : 22 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(62 : 81 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(63 : 16 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(63 : 87 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(64 : 32 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(64 : 71 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(65 : 42 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(65 : 61 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(69 : 49 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(69 : 54 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(70 : 1 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(70 : 102 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(71 : 9 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(71 : 94 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(72 : 22 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(72 : 81 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(73 : 17 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(73 : 86 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(74 : 29 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(74 : 74 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(78 : 37 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(78 : 66 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(79 : 9 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(79 : 94 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(80 : 20 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(80 : 83 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(81 : 13 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(81 : 90 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(83 : 48 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(83 : 55 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(86 : 48 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(86 : 55 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(87 : 49 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(87 : 54 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(88 : 41 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(88 : 62 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(94 : 25 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(94 : 78 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(95 : 15 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(95 : 88 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(97 : 27 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(97 : 76 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(98 : 10 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(98 : 93 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(99 : 33 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(99 : 70 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(100 : 32 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(100 : 71 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(101 : 23 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      },
+      {
+        "cauchy_coefficient_nonzero": true,
+        "p_origin_pole_order": 8,
+        "p_zero_divisor_degree": 9,
+        "q": "(101 : 80 : 1)",
+        "support_pole_order": 1,
+        "x4_coefficient_nonzero": true
+      }
+    ],
+    "q_origin_pencil_member_count": 103,
+    "q_origin_rows": [
+      {
+        "finite_pole_degree": 8,
+        "level": 0,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 1,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 2,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 3,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 4,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 5,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 6,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 7,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 8,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 9,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 10,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 11,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 12,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 13,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 14,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 15,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 16,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 17,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 18,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 19,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 20,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 21,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 22,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 23,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 24,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 25,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 26,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 27,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 28,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 29,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 30,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 31,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 32,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 33,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 34,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 35,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 36,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 37,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 38,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 39,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 40,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 41,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 42,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 43,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 44,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 45,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 46,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 47,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 48,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 49,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 50,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 51,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 52,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 53,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 54,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 55,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 56,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 57,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 58,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 59,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 60,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 61,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 62,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 63,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 64,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 65,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 66,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 67,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 68,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 69,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 70,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 71,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 72,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 73,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 74,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 75,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 76,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 77,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 78,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 79,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 80,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 81,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 82,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 83,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 84,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 85,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 86,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 87,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 88,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 89,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 90,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 91,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 92,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 93,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 94,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 95,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 96,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 97,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 98,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 99,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 100,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 101,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      },
+      {
+        "finite_pole_degree": 8,
+        "level": 102,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_zero_divisor_degree_as_l9_section": 9,
+        "x3y_coefficient": 0,
+        "x4_coefficient": 45
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-residual-pole-compactification.n609h.v1",
+  "script_sha256": "65ade5365eb25dd12a7573c14714c2510ef3b8f04b44259f267a7da43f860440",
+  "strongest_valid_statement": "For every declared nonzero Q, lambda(P,Q)-t has exact P-pole divisor 8[O]+[-4Q], so its P-zero divisor has degree nine. At Q=O every selected boundary member has finite pole degree eight and one P=O zero as an L(9O) section, giving the compatible degree-nine boundary fibre.",
+  "timestamp_utc": "2026-08-01T23:09:55.111945+00:00"
+}

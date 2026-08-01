@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "all_nonzero_q_poles_retained": true,
+    "all_q_origin_boundary_members_retained": true,
+    "global_surface_boundary_retained": true,
+    "primary_preflight_pass": true
+  },
+  "pass": true,
+  "primary_sha256": "e78521afc4c55f8058481710aeea66593e1a3f83df497edf757cbaa7447c0637",
+  "schema": "ecdlp.h018.poincare-residual-pole-compactification.n609h.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T23:09:56.721302+00:00",
+  "verifier_sha256": "e98e0fdd44159ef3d57474a4ea398bd811e48f03f7d110a5f9b597cc4bb0c214"
+}
