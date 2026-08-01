@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "boundary_preserved": true,
+    "coprime_replay": true,
+    "cover_arithmetic": true,
+    "primary_pass": true,
+    "schema": true,
+    "source_arithmetic": true,
+    "translation_stabilizer_replay": true
+  },
+  "primary_sha256": "aaf11ae85b3238cf14859622bb257c76840a68ccb46e8b3a166924d4d03bd3a5",
+  "strongest_valid_statement": "Independent replay verifies the arithmetic prerequisites for the named standard-theorem stability/classification argument. It does not provide the required explicit H018-to-cover matrix.",
+  "verified": true
+}

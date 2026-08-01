@@ -1,0 +1,68 @@
+{
+  "abstract_bundle_isomorphism_discharged": true,
+  "claim_status": "RESTRICTED THEOREM / ABSTRACT BUNDLE ISOMORPHISM / STANDARD-THEOREM-BOUND / MODEL-BOUND / TOY-EVIDENCE / NO EXPLICIT INTERTWINER / NO_ECDLP_CLAIM",
+  "explicit_h018_to_cover_intertwiner_constructed": false,
+  "gates": {
+    "alpha_degree_97": true,
+    "both_rank_degree_pairs_coprime": true,
+    "cover_determinant_is_O2": true,
+    "cover_is_cyclic_degree_9": true,
+    "cover_odd_kernel_translate_control": true,
+    "cover_rank_degree_is_9_2": true,
+    "source_determinant_is_O2": true,
+    "source_rank_degree_is_9_2": true,
+    "z_separable": true
+  },
+  "next_requirement": "Construct the isomorphism as an explicit local matrix with declared charts and verify it against the normalized Poincare fibre model; do not substitute a finite-orbit gauge.",
+  "preflight_pass": true,
+  "records": {
+    "alpha_name": "3+pi",
+    "alpha_x_degree": 97,
+    "characteristic": 103,
+    "coprime_rank_degree": {
+      "cover_gcd": 1,
+      "source_gcd": 1
+    },
+    "cover": "Elliptic Curve defined by y^2 = x^3 + 42*x + 28 over Finite Field of size 103",
+    "curve": "Elliptic Curve defined by y^2 = x^3 + x + 24 over Finite Field of size 103",
+    "cyclic_cover": {
+      "all_nonzero_translates_of_O2_distinct": true,
+      "degree": 9,
+      "determinant_pi_pushforward_O": "O",
+      "kernel_generator_order": 9,
+      "kernel_translation_stabilizer_indices_for_O2": [
+        0
+      ],
+      "nonzero_kernel_translate_count": 8,
+      "norm_O2": "O(2O)",
+      "pushforward_degree": 2,
+      "pushforward_determinant": "O(2O)",
+      "pushforward_rank": 9
+    },
+    "fourier_mukai_w9": {
+      "degree": -1,
+      "determinant": "O(-O)",
+      "rank": 9
+    },
+    "h018_pushforward": {
+      "degree": 2,
+      "degree_after_z_pullback": -97,
+      "determinant": "O(2O)",
+      "rank": 9,
+      "theta11_degree_addend": 99
+    },
+    "standard_theorem_dependencies": [
+      "Fourier--Mukai transform of O(9O) is stable of rank 9, degree -1, determinant O(-O).",
+      "Separable pullback preserves semistability on a smooth projective curve.",
+      "A semistable elliptic bundle with coprime rank and degree is stable.",
+      "For a finite etale Galois cover, pullback of pi_*L is the direct sum of kernel translates of L.",
+      "Stable elliptic bundles with coprime rank and degree are classified by determinant."
+    ],
+    "z_is_separable": true,
+    "z_name": "-3-pi=-alpha"
+  },
+  "schema": "ecdlp.h018.poincare-pushforward-stability.n608i.v1",
+  "script_sha256": "560d2189517a936b0f85497a1b866685df470554c6b39dece044af4208d8152f",
+  "strongest_valid_statement": "Using the named standard elliptic-bundle theorems, the N606U H018 pushforward and pi_*O_Eprime(2Oprime) are stable rank-nine degree-two bundles with determinant O(2O), hence are isomorphic on this F_103 fixture. This is an existence theorem only: it supplies no matrix, section evaluator, source inverse, relation, descent, or ECDLP speedup.",
+  "timestamp_utc": "2026-08-01T20:47:19.947373+00:00"
+}
