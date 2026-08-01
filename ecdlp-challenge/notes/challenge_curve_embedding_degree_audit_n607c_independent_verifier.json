@@ -1,0 +1,8 @@
+{
+  "checks": {
+    "boundary": true,
+    "order": true,
+    "primary": true
+  },
+  "verified": true
+}

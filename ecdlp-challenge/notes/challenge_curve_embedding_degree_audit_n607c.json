@@ -1,0 +1,17 @@
+{
+  "claim_status": "RESTRICTED THEOREM / EXACT_MOV_EMBEDDING_DEGREE / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "exact_large_embedding_degree": true,
+    "factorization": true,
+    "order_divides_n_minus_one": true
+  },
+  "next_requirement": "Any pairing route must name a different target subgroup or additional special structure; this MOV embedding degree is not practical.",
+  "preflight_pass": true,
+  "records": {
+    "embedding_degree": 17135633077,
+    "n": 616882790773,
+    "n_minus_one_factorization": "2^2 * 3^2 * 17135633077",
+    "p": 616883774851
+  },
+  "schema": "ecdlp.challenge-curve.embedding-degree-audit.n607c.v1"
+}
