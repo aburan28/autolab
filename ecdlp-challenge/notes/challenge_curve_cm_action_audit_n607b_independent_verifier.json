@@ -1,9 +1,9 @@
 {
   "checks": {
+    "maximal_frobenius_order": true,
     "norm": true,
     "primary": true,
-    "rho": true,
-    "scalar_boundary": true
+    "rho": true
   },
   "verified": true
 }
