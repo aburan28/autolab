@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "norm": true,
+    "primary": true,
+    "rho": true,
+    "scalar_boundary": true
+  },
+  "verified": true
+}

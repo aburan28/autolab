@@ -1,0 +1,16 @@
+#!/usr/bin/env sage -python
+"""N607B: CM action and minimum non-scalar norm on the public 40-bit curve."""
+import argparse,json
+from math import isqrt
+from pathlib import Path
+from sage.all import EllipticCurve,GF
+P=616883774851; A=24569641080; B=109798974509; N=616882790773; T=984079
+def main():
+ p=argparse.ArgumentParser();p.add_argument("--output",type=Path,required=True);a=p.parse_args();E=EllipticCurve(GF(P),[0,0,0,A,B]);G=E.gens()[0]
+ # N(a+b*pi)=a^2+t*a*b+p*b^2.  Completing the square bounds b!=0.
+ amin=-(T-1)//2; minimum=amin*amin+T*amin+P
+ frobenius_g=E(G[0]**P,G[1]**P)
+ rho_scale=isqrt(N)
+ checks={"frobenius_identity_on_generator":frobenius_g==G,"cm_scalar_action_samples":all((u+v)*G==(u*G+v*G) for u,v in [(1,1),(-3,7),(123,456)]),"minimum_nonintegral_norm":minimum==P-(T*T-1)//4,"minimum_exceeds_rho_scale":minimum>rho_scale}
+ out={"schema":"ecdlp.challenge-curve.cm-action-audit.n607b.v1","claim_status":"RESTRICTED THEOREM / BASE_FIELD_CM_ACTION_IS_SCALAR / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM","records":{"p":P,"n":N,"frobenius_trace":T,"minimum_norm_for_b_nonzero":minimum,"rho_operation_scale":rho_scale,"norm_form":"a^2+t*a*b+p*b^2"},"gates":checks,"preflight_pass":all(checks.values()),"next_requirement":"A non-base-field endomorphism proposal must materialize an independent action on the target subgroup and account for extension descent."};a.output.write_text(json.dumps(out,indent=2,sort_keys=True)+"\n");print(json.dumps({"checks":sum(checks.values()),"output":str(a.output)},sort_keys=True))
+if __name__=="__main__":main()

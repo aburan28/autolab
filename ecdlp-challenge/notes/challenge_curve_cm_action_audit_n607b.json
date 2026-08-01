@@ -1,0 +1,20 @@
+{
+  "claim_status": "RESTRICTED THEOREM / BASE_FIELD_CM_ACTION_IS_SCALAR / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "cm_scalar_action_samples": true,
+    "frobenius_identity_on_generator": true,
+    "minimum_exceeds_rho_scale": true,
+    "minimum_nonintegral_norm": true
+  },
+  "next_requirement": "A non-base-field endomorphism proposal must materialize an independent action on the target subgroup and account for extension descent.",
+  "preflight_pass": true,
+  "records": {
+    "frobenius_trace": 984079,
+    "minimum_norm_for_b_nonzero": 374780905291,
+    "n": 616882790773,
+    "norm_form": "a^2+t*a*b+p*b^2",
+    "p": 616883774851,
+    "rho_operation_scale": 785418
+  },
+  "schema": "ecdlp.challenge-curve.cm-action-audit.n607b.v1"
+}
