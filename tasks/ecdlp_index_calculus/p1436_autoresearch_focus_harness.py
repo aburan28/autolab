@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v106"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v107"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -538,6 +538,10 @@ DEFAULT_M6_LAMBDA_ZERO_FITTING_TARGET_NORM_DEDUP_PROBE = Path(
     "p1553_m6_lambda_zero_fitting_target_norm_dedup_"
     "probe_report_r170.json"
 )
+DEFAULT_M6_BALANCED_MILLER_TREE_NORM_STREAMING_PROBE = Path(
+    "p1553_m6_balanced_miller_tree_norm_streaming_"
+    "probe_report_r171.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -855,6 +859,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_lambda_zero_fitting_target_norm_dedup": (
         "p1553.m6_lambda_zero_fitting_target_norm_dedup.r170.v1"
+    ),
+    "m6_balanced_miller_tree_norm_streaming": (
+        "p1553.m6_balanced_miller_tree_norm_streaming.r171.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -4086,6 +4093,41 @@ CRITICAL_EXPERIMENTS = {
             "lambda_zero_fitting_norm_and_density_r170.json",
         ],
     },
+    "s63_nonlocal_batched_elliptic_leaf_translate_product": {
+        "hypothesis": (
+            "A nonlocal elliptic batch operator can fuse the N surviving target "
+            "leaves against the degree-n selected divisor and emit the aggregate "
+            "target norm modulo U below B^(5/2), preferably B^(9/4), without "
+            "node-local or pair-local expansion."
+        ),
+        "decisive_test": (
+            "Freeze U,V, the compact target and selected divisors, the exact R171 "
+            "signed leaf ledger, and all R167 correction semantics. Specify a "
+            "point-list-to-product arithmetic DAG that emits product_j "
+            "U(x(T_j-P)) modulo U or gcd(U,C). Charge divisor compilation, "
+            "elliptic addition charts, any bivariate resultant or transposed "
+            "multipoint input body, quotient reduction, zero-divisor branches, "
+            "factorization, candidate output, and signed verification. Require "
+            "softly O(n+N) work and total cost below B^(5/2), then replay all "
+            "R171/R170/R167/R166 controls."
+        ),
+        "falsifier": (
+            "The route visits the n-by-N point/leaf grid, materializes N dense "
+            "elements of F_p[X]/U or a degree-nN body, invokes generic "
+            "multipoint or truncated-resultant theorems without constructing "
+            "their represented input inside the budget, specializes individual "
+            "line ratios at f0(-P)=0, inverts candidate nonunits, reaches "
+            "B^(5/2), consumes a DLP/norm/resultant/root/count/marginal/rank/"
+            "source oracle, or fails exact replay."
+        ),
+        "required_artifacts": [
+            "frozen_m6_balanced_miller_tree_norm_streaming.json",
+            "m6_balanced_miller_tree_norm_streaming_cost_ledger.json",
+            "m6_balanced_miller_tree_norm_streaming_replay.json",
+            "m6_balanced_miller_tree_norm_streaming_controls.json",
+            "balanced_miller_tree_and_leaf_cancellation_r171.json",
+        ],
+    },
     "routing_intervention_generalization": {
         "hypothesis": "One fixed routing rule recovers natural-route rank on unseen curves.",
         "decisive_test": "Freeze the rule on development cells and replay it unchanged on every prospective cell.",
@@ -6447,7 +6489,39 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_lambda_zero_fitting_target_norm_dedup_lane.get(
+    m6_balanced_miller_tree_norm_streaming_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_balanced_miller_tree_norm_streaming"
+        )
+        or {}
+    )
+    if m6_balanced_miller_tree_norm_streaming_lane.get(
+        "closed_by_current_evidence"
+    ):
+        admission = (
+            m6_balanced_miller_tree_norm_streaming_lane.get("admission") or {}
+        )
+        add_focus_candidate(
+            candidates,
+            "s63_nonlocal_batched_elliptic_leaf_translate_product",
+            304,
+            str(
+                m6_balanced_miller_tree_norm_streaming_lane.get("next_action")
+                or CRITICAL_EXPERIMENTS[
+                    "s63_nonlocal_batched_elliptic_leaf_translate_product"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_balanced_miller_tree_norm_streaming_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} balanced-Miller "
+                "obligations pass. Exact tree and line-norm semantics close "
+                "node-local streaming at B^(7/2); symbolic cancellation leaves "
+                "exactly the original target leaves. Only a nonlocal batched "
+                "leaf-translate product remains."
+            ),
+        )
+    elif m6_lambda_zero_fitting_target_norm_dedup_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -11236,6 +11310,28 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_balanced_miller_tree_norm_streaming_scope",
+            "observed": (
+                "R171 instantiates both generalized Miller functions as exact "
+                "balanced line trees. Six controls verify 192 dense/tree ratios, "
+                "1,222 admissible line-reciprocity rows, all 140 candidate roots, "
+                "and signed telescoping to exactly the 40 original target leaves. "
+                "At selected endpoints f0(-P)=0, so nodewise specialization is "
+                "invalid until numerator/denominator origin factors cancel."
+            ),
+            "resolution": (
+                "Remove balanced-tree construction, node-local norm streaming, "
+                "and per-leaf correction cancellation from the open contract. "
+                "Require only a nonlocal point-list-to-product elliptic batch "
+                "operator below B^(5/2); reject nN pair visits, represented "
+                "target factors, uncharged multipoint/resultant inputs, and "
+                "individual line specialization at selected endpoints."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -12430,6 +12526,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_LAMBDA_ZERO_FITTING_TARGET_NORM_DEDUP_PROBE,
     )
+    parser.add_argument(
+        "--m6-balanced-miller-tree-norm-streaming-probe",
+        dest="m6_balanced_miller_tree_norm_streaming_probe",
+        type=Path,
+        default=DEFAULT_M6_BALANCED_MILLER_TREE_NORM_STREAMING_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -12865,6 +12967,10 @@ def main() -> int:
         (
             "m6_lambda_zero_fitting_target_norm_dedup",
             args.m6_lambda_zero_fitting_target_norm_dedup_probe,
+        ),
+        (
+            "m6_balanced_miller_tree_norm_streaming",
+            args.m6_balanced_miller_tree_norm_streaming_probe,
         ),
     ):
         if path.exists():
