@@ -1,0 +1,70 @@
+{
+  "all_source_counts_match": true,
+  "all_static_supports_exceed_pair_state": true,
+  "candidate": "full direct line-coordinate triple quotient-remainder source",
+  "overall_passed": true,
+  "primary": "notes/line_coordinate_full_triple_preflight_rep_auxline018.json",
+  "rows": [
+    {
+      "degree": 5,
+      "independent_remainder_support": 104,
+      "independent_source_lines": 0,
+      "independent_zero_sum_triples": 0,
+      "passed": true,
+      "primary_random_counts_match": true,
+      "primary_remainder_support": 104,
+      "primary_source_lines": 0,
+      "primary_zero_sum_triples": 0,
+      "support_exceeds_pair_state": true
+    },
+    {
+      "degree": 10,
+      "independent_remainder_support": 446,
+      "independent_source_lines": 1,
+      "independent_zero_sum_triples": 1,
+      "passed": true,
+      "primary_random_counts_match": true,
+      "primary_remainder_support": 446,
+      "primary_source_lines": 1,
+      "primary_zero_sum_triples": 1,
+      "support_exceeds_pair_state": true
+    },
+    {
+      "degree": 20,
+      "independent_remainder_support": 1799,
+      "independent_source_lines": 4,
+      "independent_zero_sum_triples": 4,
+      "passed": true,
+      "primary_random_counts_match": true,
+      "primary_remainder_support": 1799,
+      "primary_source_lines": 4,
+      "primary_zero_sum_triples": 4,
+      "support_exceeds_pair_state": true
+    },
+    {
+      "degree": 25,
+      "independent_remainder_support": 2804,
+      "independent_source_lines": 26,
+      "independent_zero_sum_triples": 26,
+      "passed": true,
+      "primary_random_counts_match": true,
+      "primary_remainder_support": 2804,
+      "primary_source_lines": 26,
+      "primary_zero_sum_triples": 26,
+      "support_exceeds_pair_state": true
+    },
+    {
+      "degree": 50,
+      "independent_remainder_support": 10733,
+      "independent_source_lines": 211,
+      "independent_zero_sum_triples": 211,
+      "passed": true,
+      "primary_random_counts_match": true,
+      "primary_remainder_support": 10733,
+      "primary_source_lines": 211,
+      "primary_zero_sum_triples": 211,
+      "support_exceeds_pair_state": true
+    }
+  ],
+  "timestamp": "2026-08-01T18:14:42Z"
+}

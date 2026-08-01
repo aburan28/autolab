@@ -1,0 +1,458 @@
+{
+  "base_field_principal_theta_quotient_available": false,
+  "candidate": "N606R H018 principal-theta quotient field-of-definition gate",
+  "claim_status": "RESTRICTED THEOREM / NEGATIVE BASE_FIELD_PRINCIPAL_THETA_QUOTIENT_SHORTCUT / CUBIC_ORBIT_DESCENT_CONSTRUCTION_OPEN / MODEL-BOUND / TOY-EVIDENCE / LITERATURE_BOUND / NO_ECDLP_CLAIM",
+  "command": [
+    "tools/product_kummer_h018_principal_theta_quotient_descent_n606r.py",
+    "--output",
+    "notes/product_kummer_h018_principal_theta_quotient_descent_n606r.json"
+  ],
+  "contract": "notes/product_kummer_h018_principal_theta_quotient_descent_contract_n606r.md",
+  "cubic_orbit_principal_quotient_route_available": true,
+  "elapsed_seconds": 0.02320316700206604,
+  "gates": [
+    {
+      "evidence": {
+        "G_g": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ],
+        "G_gh": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ],
+        "G_h": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ]
+      },
+      "name": "h018_kernel_has_three_order_two_lines",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "G_g": "G_h",
+        "G_gh": "G_g",
+        "G_h": "G_gh"
+      },
+      "name": "frobenius_cycles_all_maximal_isotropic_lines",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "whole_kernel": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ],
+        "zero": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "name": "no_maximal_isotropic_line_is_base_field_stable",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "G_g": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ],
+        "G_gh": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ],
+        "G_h": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ]
+      },
+      "name": "each_maximal_isotropic_line_stabilizes_over_cubic_extension",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "G_g": true,
+        "G_gh": true,
+        "G_h": true
+      },
+      "name": "identity_frobenius_positive_control_stabilizes_all_lines",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "whole_kernel": 4,
+        "zero": 1
+      },
+      "name": "zero_and_whole_kernel_negative_controls_are_not_maximal_lines",
+      "passed": true
+    }
+  ],
+  "git_commit": "dca04ac33",
+  "inputs": {
+    "base_field": "F_103",
+    "descent_assumption": "A maximal isotropic subgroup of K(L) gives a principally polarized quotient carrying a descended L.",
+    "frobenius": "coordinatewise multiplication by pi in F_4",
+    "kernel": {
+      "g": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "g_plus_h": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "h": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "origin": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "literature": "Lubicz--Robert (2015), Section 1 descent discussion",
+    "polarization_type": "(1,2)"
+  },
+  "limitations": [
+    "The cited descent theorem is applied as an explicit assumption; this receipt does not construct any quotient equation or theta divisor.",
+    "A cubic quotient orbit is not a pair of F_103 scalar sections until semilinear descent is explicitly solved.",
+    "No evaluator, factor base, relation rank, target descent, sub-rho cost, or ECDLP algorithm is established."
+  ],
+  "next_requirement": "N606S must construct one F_103^3 principal quotient from G_g, its principal theta divisor, and its two Frobenius conjugates; then compute the induced semilinear action on their pullbacks and solve for a rigidified F_103 basis s0,s1.",
+  "principal_theta_quotient_descent_gate_pass": true,
+  "schema": "ecdlp.product-kummer.h018.principal-theta-quotient-descent.n606r.v1",
+  "still_false_gates": {
+    "algorithmic_success": false,
+    "base_locus_computed": false,
+    "fiber_degree_audit": false,
+    "principal_quotient_equations_over_f103_cubed_constructed": false,
+    "principal_theta_divisors_constructed": false,
+    "relation_rank": false,
+    "rigidified_scalar_sections_s0_s1_constructed": false,
+    "section_evaluator_on_refined_cover": false,
+    "semilinear_section_descent_solved": false,
+    "source_recovery_audit": false,
+    "subrho_cost": false,
+    "target_descent": false,
+    "three_conjugate_pullback_sections_constructed": false
+  },
+  "strongest_valid_statement": "The three maximal isotropic order-two subgroups of the H018 type-(1,2) kernel form one Frobenius orbit. Under standard polarization descent, no single principal-polarized quotient can be defined from this kernel over F_103; each quotient becomes available over F_103^3. This rejects only the base-field principal-theta shortcut and gives a concrete cubic-orbit theta-descent construction target.",
+  "subgroup_record": {
+    "base_field_stable_subgroups": {
+      "whole_kernel": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "zero": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      ]
+    },
+    "cubic_stability": {
+      "G_g": true,
+      "G_gh": true,
+      "G_h": true
+    },
+    "frobenius_line_permutation": {
+      "G_g": "G_h",
+      "G_gh": "G_g",
+      "G_h": "G_gh"
+    },
+    "order_two_lines": {
+      "G_g": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "G_gh": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "G_h": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      ]
+    },
+    "principal_quotient_field_degree": 3
+  },
+  "timestamp_utc": "2026-08-01T18:29:04.832579+00:00",
+  "tool_sha256": "c56077bd638e47a4a1deb965b07d203696ee0040b9f551c77279268f015f8f41"
+}

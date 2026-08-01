@@ -1,0 +1,33 @@
+{
+  "fiber_checks": [
+    {
+      "degree": 190,
+      "samples": 257,
+      "valid": true
+    },
+    {
+      "degree": 486,
+      "samples": 257,
+      "valid": true
+    }
+  ],
+  "overall_passed": true,
+  "report": "notes/compositional_coset_ternary_preflight_rep_auxline017.json",
+  "s4_checks": [
+    {
+      "e3_degree": 4,
+      "p": 101,
+      "valid": true
+    },
+    {
+      "e3_degree": 4,
+      "p": 107,
+      "valid": true
+    },
+    {
+      "e3_degree": 4,
+      "p": 127,
+      "valid": true
+    }
+  ]
+}

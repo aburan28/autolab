@@ -1,0 +1,76 @@
+{
+  "primary": {
+    "claim_status": "RESTRICTED THEOREM / NEGATIVE SPLIT_THETA_FACTORIZATION_GATE / INTRINSIC_NONSPLIT_THETA_DATA_REQUIRED / MODEL-BOUND / TOY-EVIDENCE / NOVELTY-UNVERIFIED / NO_ECDLP_CLAIM",
+    "path": "notes/product_kummer_h018_split_theta_factorization_n606q.json"
+  },
+  "recomputed": {
+    "all_small_entries_integral": true,
+    "minimum_nonintegral_cm_norm": 97,
+    "primary_has_no_factorization_match": true,
+    "primary_off_diagonals_integral": true,
+    "small_norm_11": [
+      [
+        -3,
+        0
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "small_norm_9": [
+      [
+        -3,
+        0
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ]
+    ]
+  },
+  "schema": "ecdlp.product-kummer.h018.split-theta-factorization.n606q.verify.v1",
+  "strongest_valid_statement": "Independent arithmetic replay confirms the norm-97 nonintegral threshold and the resulting split type-(1,2) factorization obstruction.",
+  "timestamp_utc": "2026-08-01T18:22:35.963291+00:00",
+  "verified": true
+}

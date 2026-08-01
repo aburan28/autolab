@@ -1,0 +1,88 @@
+{
+  "claim_status": "HYPOTHESIS / MODEL-BOUND / TOY-EVIDENCE",
+  "contract": "notes/compositional_coset_ternary_preflight_contract.md",
+  "elapsed_seconds": 2.0076945410037297,
+  "exact_membership": [
+    "P_d(e1,e2,e3)=3c",
+    "P_2d(e1,e2,e3)=3c^2",
+    "e3^d=c^3"
+  ],
+  "fiber_rows": [
+    {
+      "bits": 20,
+      "coset_constant": 375819,
+      "coset_index": 1,
+      "degree": 190,
+      "factor_base_size": 88,
+      "membership": {
+        "biconditional_passed": true,
+        "samples": 128
+      },
+      "p": 746891,
+      "pair_state_dimension": 3916,
+      "power_2d_support": 12224,
+      "power_2d_support_at_least_pair_state": true,
+      "power_2d_to_pair_state_ratio": 3.121552604698672,
+      "power_d_support": 3104,
+      "seed": 305419896
+    },
+    {
+      "bits": 22,
+      "coset_constant": 1,
+      "coset_index": 0,
+      "degree": 486,
+      "factor_base_size": 218,
+      "membership": {
+        "biconditional_passed": true,
+        "samples": 128
+      },
+      "p": 3172123,
+      "pair_state_dimension": 23871,
+      "power_2d_support": 79219,
+      "power_2d_support_at_least_pair_state": true,
+      "power_2d_to_pair_state_ratio": 3.318629299149596,
+      "power_d_support": 19927,
+      "seed": 305419898
+    }
+  ],
+  "s4_elementary_rows": [
+    {
+      "a": 1,
+      "b": 32,
+      "elementary_monomial_count": 118,
+      "p": 101,
+      "s4_e3_degree": 4,
+      "s4_monomial_count": 439,
+      "s4_symmetric_reconstruction_passed": true,
+      "s4_z_degree": 4
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "elementary_monomial_count": 118,
+      "p": 107,
+      "s4_e3_degree": 4,
+      "s4_monomial_count": 439,
+      "s4_symmetric_reconstruction_passed": true,
+      "s4_z_degree": 4
+    },
+    {
+      "a": 1,
+      "b": 7,
+      "elementary_monomial_count": 118,
+      "p": 127,
+      "s4_e3_degree": 4,
+      "s4_monomial_count": 439,
+      "s4_symmetric_reconstruction_passed": true,
+      "s4_z_degree": 4
+    }
+  ],
+  "summary": {
+    "advance_to_ternary_source_solver": false,
+    "all_membership_biconditionals_pass": true,
+    "all_power_2d_supports_at_least_pair_state": true,
+    "all_s4_e3_degrees_are_four": true,
+    "wall_clock_not_rho_comparable": true
+  },
+  "timestamp": "2026-08-01T18:02:00Z"
+}

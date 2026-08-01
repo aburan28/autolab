@@ -1,0 +1,177 @@
+{
+  "bounded_factorization_search": {
+    "attainable_off_diagonals": [
+      "-1",
+      "-7",
+      "-9",
+      "1",
+      "7",
+      "9"
+    ],
+    "candidate_pair_count": 24,
+    "first_column_count": 6,
+    "matches": [],
+    "second_column_count": 4
+  },
+  "candidate": "N606Q split type-(1,2) product-theta factorization of H018",
+  "claim_status": "RESTRICTED THEOREM / NEGATIVE SPLIT_THETA_FACTORIZATION_GATE / INTRINSIC_NONSPLIT_THETA_DATA_REQUIRED / MODEL-BOUND / TOY-EVIDENCE / NOVELTY-UNVERIFIED / NO_ECDLP_CLAIM",
+  "cm_order": "Z[pi], pi^2+5*pi+103=0",
+  "command": [
+    "python3",
+    "/Volumes/Volume/autolab/ecdlp-challenge/tools/product_kummer_h018_split_theta_factorization_n606q.py",
+    "--output",
+    "notes/product_kummer_h018_split_theta_factorization_n606q.json"
+  ],
+  "elapsed_seconds": 0.01919320799788693,
+  "gates": [
+    {
+      "evidence": {
+        "-1": 97,
+        "-2": 387,
+        "1": 97,
+        "2": 387
+      },
+      "name": "nonintegral_cm_elements_have_norm_at_least_97",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "norm_at_most_11": [
+          "0",
+          "-1",
+          "1",
+          "-2",
+          "2",
+          "-3",
+          "3"
+        ],
+        "norm_at_most_9": [
+          "0",
+          "-1",
+          "1",
+          "-2",
+          "2",
+          "-3",
+          "3"
+        ]
+      },
+      "name": "h018_diagonal_budgets_force_integral_matrix_entries",
+      "passed": true
+    },
+    {
+      "evidence": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "2"
+        ]
+      ],
+      "name": "split_type_12_positive_control_reconstructs_diagonal",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "attainable_off_diagonals": [
+          "-1",
+          "-7",
+          "-9",
+          "1",
+          "7",
+          "9"
+        ],
+        "candidate_pair_count": 24,
+        "first_column_count": 6,
+        "matches": [],
+        "second_column_count": 4
+      },
+      "name": "all_diagonal_budget_factorizations_have_integral_off_diagonal",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "attainable_off_diagonals": [
+          "-1",
+          "-7",
+          "-9",
+          "1",
+          "7",
+          "9"
+        ],
+        "candidate_pair_count": 24,
+        "first_column_count": 6,
+        "matches": [],
+        "second_column_count": 4
+      },
+      "name": "no_split_type_12_factorization_matches_h018_off_diagonal_2_plus_pi",
+      "passed": true
+    }
+  ],
+  "git_commit": "dca04ac33",
+  "next_requirement": "Construct intrinsically non-split theta/Poincare sections rather than a product-theta pullback, with named scalar sections, rigidification anchors, and refined-cover evaluation.",
+  "norm_bound": {
+    "formula": "N(a+b*pi)=(a-5b/2)^2+387*b^2/4",
+    "nonintegral_minimum": 97,
+    "small_elements_norm_at_most_11": [
+      "0",
+      "-1",
+      "1",
+      "-2",
+      "2",
+      "-3",
+      "3"
+    ],
+    "small_elements_norm_at_most_9": [
+      "0",
+      "-1",
+      "1",
+      "-2",
+      "2",
+      "-3",
+      "3"
+    ]
+  },
+  "schema": "ecdlp.product-kummer.h018.split-theta-factorization.n606q.v1",
+  "split_product_theta_evaluator_available": false,
+  "split_theta_factorization_gate_pass": true,
+  "still_false_gates": {
+    "algorithmic_success": false,
+    "base_locus_computed": false,
+    "fiber_degree_audit": false,
+    "intrinsic_nonsplit_theta_sections_constructed": false,
+    "relation_rank": false,
+    "rigidified_scalar_sections_s0_s1_constructed": false,
+    "section_evaluator_on_refined_cover": false,
+    "source_recovery_audit": false,
+    "subrho_cost": false,
+    "target_descent": false
+  },
+  "strongest_valid_statement": "Any split type-(1,2) factorization H018=A^*diag(1,2)A would force the four CM entries of A to have norm at most 11. Every such entry is integral because every nonintegral CM element has norm at least 97; hence the off-diagonal is integral, contradicting H018[0,1]=2+pi. A split product-theta coordinate change cannot supply the N606Q evaluator.",
+  "target": {
+    "factorization": "H018=A^*diag(1,2)A",
+    "h018": [
+      [
+        "9",
+        "2+pi"
+      ],
+      [
+        "-3-pi",
+        "11"
+      ]
+    ],
+    "split_polarization": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "2"
+      ]
+    ]
+  },
+  "timestamp_utc": "2026-08-01T18:22:35.907264+00:00",
+  "tool_sha256": "cf0c821a3f59590850b34cb589ce9e1bb4c24f2f1673af944c7ba38ac9cfbfe6"
+}

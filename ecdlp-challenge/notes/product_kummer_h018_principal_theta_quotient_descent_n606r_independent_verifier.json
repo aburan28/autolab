@@ -1,0 +1,55 @@
+{
+  "primary": {
+    "claim_status": "RESTRICTED THEOREM / NEGATIVE BASE_FIELD_PRINCIPAL_THETA_QUOTIENT_SHORTCUT / CUBIC_ORBIT_DESCENT_CONSTRUCTION_OPEN / MODEL-BOUND / TOY-EVIDENCE / LITERATURE_BOUND / NO_ECDLP_CLAIM",
+    "path": "notes/product_kummer_h018_principal_theta_quotient_descent_n606r.json"
+  },
+  "recomputed": {
+    "base_field_stable_maximal_lines": [],
+    "cubic_stability": {
+      "G_g": true,
+      "G_gh": true,
+      "G_h": true
+    },
+    "frobenius_line_cycle": {
+      "G_g": "G_h",
+      "G_gh": "G_g",
+      "G_h": "G_gh"
+    },
+    "kernel_vectors": {
+      "g": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "g_plus_h": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "h": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  "schema": "ecdlp.product-kummer.h018.principal-theta-quotient-descent.n606r.verify.v1",
+  "strongest_valid_statement": "Independent finite-field replay confirms that the three H018 maximal isotropic lines form a single Frobenius three-cycle and only stabilize after cubic extension.",
+  "timestamp_utc": "2026-08-01T18:29:04.888759+00:00",
+  "verified": true
+}
