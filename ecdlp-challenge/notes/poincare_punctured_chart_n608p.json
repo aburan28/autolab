@@ -1,0 +1,61 @@
+{
+  "claim_status": "OBSERVATION / TARGET-INDUCED PUNCTURED-BASE CHART / INDEPENDENTLY VERIFIED / MODEL-BOUND / TOY-EVIDENCE / ORIGIN EXTENSION OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_107_open_path_transitions_invertible": true,
+    "all_108_nonzero_orbit_points_used": true,
+    "all_graph_matrices_full_rank": true,
+    "all_open_path_transitions_descend": true,
+    "all_open_path_transitions_fix_constant": true,
+    "all_three_section_coefficients_descend": true,
+    "target_section_values_are_rank_three": true
+  },
+  "next_requirement": "Compute the origin quotient direction in this target-induced frame. Only then select the two global H018 sections and test source recovery, relations, rank, descent, and cost.",
+  "preflight_pass": true,
+  "records": {
+    "construction": "V_Q is graph evaluation in the N606Y moving basis; T_Q=V_(Q+step)^(-1)V_Q uses the fixed rational lift of [84] on the cover.",
+    "cover_degree": 9,
+    "fibre_section_rank_distribution": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 108,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    "field_degree": 6,
+    "nonorigin_adjacent_transitions": 107,
+    "nonzero_orbit_points": 108,
+    "section_coefficient_base_field_counts": {
+      "1": 108,
+      "x": 108,
+      "y": 108
+    },
+    "target_section_basis": [
+      "1",
+      "x",
+      "y"
+    ],
+    "transition_base_field_count": 107,
+    "transition_constant_fixed_count": 107,
+    "transition_rank_distribution": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 107
+    }
+  },
+  "schema": "ecdlp.h018.poincare-punctured-chart.n608p.v1",
+  "script_sha256": "a221572ba1c6e76bfcd0fedb3eece91ae6e83018c64b68ddfc4ca4957993c6d0",
+  "strongest_valid_statement": "The N608O graph morphism induces explicit base-field transition matrices on the 108-point punctured base orbit. The cover sections 1, x, and y invert to base-field N606Y coefficients in every fibre, and the target-induced transitions fix the constant coefficient without pointwise gauge fitting.",
+  "timestamp_utc": "2026-08-01T21:35:35.658644+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_coefficient_descents_recompute": true,
+    "all_fibre_section_ranks_recompute": true,
+    "all_transition_entries_descend": true,
+    "all_transition_fix_constant": true,
+    "all_transition_ranks_recompute": true,
+    "origin_boundary_retained": true,
+    "primary_preflight_pass": true
+  },
+  "pass": true,
+  "primary_sha256": "88ee47e84986a9541aef694fffea712519b8275d3b1a8ad40edf1d0ea1c290e6",
+  "schema": "ecdlp.h018.poincare-punctured-chart.n608p.independent-verifier.v1",
+  "timestamp_utc": "2026-08-01T21:35:38.576043+00:00",
+  "verifier_sha256": "71cbc4578ee874c9183cbf6fee808d2d0495d59aad2077fef5758b4acb8954db"
+}
