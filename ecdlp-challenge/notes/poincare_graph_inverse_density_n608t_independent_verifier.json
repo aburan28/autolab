@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "boundary_retains_complete_inverse": true,
+    "maximum_fraction": true,
+    "primary_preflight_pass": true,
+    "reachable_value_count": true,
+    "surface_level_range": true,
+    "total_density": true,
+    "two_sources_per_reachable_value": true
+  },
+  "pass": true,
+  "primary_sha256": "aeebfc90cf6defca7dac8a7e7fc2d1444ead69e1f7665b88ce96447d98efe749",
+  "schema": "ecdlp.h018.poincare-graph-inverse-density.n608t.independent-verifier.v1",
+  "timestamp_utc": "2026-08-01T21:53:49.012706+00:00",
+  "verifier_sha256": "49fda0c9c6635e916c91cd1a9d7c15a6c7a5a7a5ebac8788b7b26fa477069186"
+}

@@ -1,0 +1,29 @@
+{
+  "claim_status": "NEGATIVE RESULT / GRAPH-RESTRICTED SOURCE INVERSE TOO SPARSE / MODEL-BOUND / TOY-EVIDENCE / COMPLETE-LEVEL INVERSE OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "complete_level_inverse_required": true,
+    "each_reachable_value_has_two_graph_sources": true,
+    "graph_fraction_is_not_constant_scale": true,
+    "graph_identity_holds": true,
+    "total_graph_density_is_small": true
+  },
+  "next_requirement": "Derive a complete projective pencil level curve and an inverse or low-cost source generator whose coverage is not graph-dimensional; then test relation rank, descent, and charged cost.",
+  "preflight_pass": true,
+  "records": {
+    "conclusion": "The graph inverse supplies two sources on each of 54 reachable values but is only a sparse one-dimensional subset of the open pencil surface.",
+    "graph_identity_checks": 108,
+    "graph_open_density": "1/106",
+    "graph_source_count_set": [
+      2
+    ],
+    "maximum_graph_fraction_on_reachable_level": "1/41",
+    "minimum_graph_fraction_on_reachable_level": "1/78",
+    "reachable_graph_values": 54,
+    "surface_fibre_count_max_for_reachable_values": 156,
+    "surface_fibre_count_min_for_reachable_values": 82
+  },
+  "schema": "ecdlp.h018.poincare-graph-inverse-density.n608t.v1",
+  "script_sha256": "5ed76e63550ff5ec2feac9ba9884440e84638a188a4d3a7e3bdee2e349ba1b03",
+  "strongest_valid_statement": "The exact N608S graph inverse is valid but too sparse to act as a surface relation collector: it gives two points on each reachable level, at most 1/41 of that level and 1/106 of the measured open surface.",
+  "timestamp_utc": "2026-08-01T21:53:48.519745+00:00"
+}
