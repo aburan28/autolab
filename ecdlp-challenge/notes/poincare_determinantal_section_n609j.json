@@ -1,0 +1,46 @@
+{
+  "claim_status": "OBSERVATION / DECK-INVARIANT DETERMINANTAL H018 QUOTIENT-CHART EQUATION / MODEL-BOUND / TOY-EVIDENCE / GLOBAL CARTIER EXTENSION OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_origin_boundary_l9_models_and_heldouts_match": true,
+    "deck_shift_invariance_exact": true,
+    "mutation_changes_determinant": true,
+    "nonzero_chart_matrix_is_invertible": true,
+    "origin_matrix_has_unit_determinant": true,
+    "schur_identity_exact": true
+  },
+  "next_requirement": "Prove that the determinant, with its line-bundle transition data, extends as a global Cartier section across the true pole and non-rational loci; only then use its H018 class for smoothness, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "boundary_rows": [
+      {
+        "boundary_coefficient_vector_match": true,
+        "held_out_l9_replay_match": true,
+        "held_out_point_count": 6,
+        "interpolation_point_count": 9,
+        "level": 0
+      },
+      {
+        "boundary_coefficient_vector_match": true,
+        "held_out_l9_replay_match": true,
+        "held_out_point_count": 6,
+        "interpolation_point_count": 9,
+        "level": 1
+      },
+      {
+        "boundary_coefficient_vector_match": true,
+        "held_out_l9_replay_match": true,
+        "held_out_point_count": 6,
+        "interpolation_point_count": 9,
+        "level": 17
+      }
+    ],
+    "deck_cycle_sign": 1,
+    "origin_matrix_determinant_valuation": 0,
+    "test_p": "(1 : 51 : 1)",
+    "test_q": "(1 : 51 : 1)"
+  },
+  "schema": "ecdlp.h018.poincare-determinantal-section.n609j.v1",
+  "script_sha256": "a86d8dff1efe0bc1c5dfcfe2656804e59df53f04f42acf3176e0d5e476660804",
+  "strongest_valid_statement": "The bordered determinant is invariant under changing the degree-nine cover lift by one deck generator and equals -det(V_Q)*(lambda-t) on the tested regular chart. At Q=O, its constants reconstruct a degree-nine model proportional to the N609C boundary section from nine independent finite rational P values and replay on six held-out finite rational P values for levels 0,1,17.",
+  "timestamp_utc": "2026-08-01T23:26:31.412875+00:00"
+}

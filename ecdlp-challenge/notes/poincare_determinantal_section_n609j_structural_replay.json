@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "boundary_reconstruction_data_retained": true,
+    "deck_descent_data_retained": true,
+    "global_cartier_boundary_retained": true,
+    "origin_unit_data_retained": true,
+    "primary_preflight_pass": true,
+    "regular_chart_schur_data_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "38228e162613958ac81aa442b93a9e8134c7e95df6130f663a1f419e6e141ed3",
+  "schema": "ecdlp.h018.poincare-determinantal-section.n609j.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T23:26:39.527720+00:00",
+  "verifier_sha256": "2bd2fcbb8f5170d40ce6f7081b285f2afee01273139bb03957a540fe5050d167"
+}
