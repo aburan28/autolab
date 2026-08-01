@@ -1,0 +1,61 @@
+{
+  "claim_status": "NEGATIVE RESULT / DECLARED INTEGRAL CORRESPONDENCE LATTICE ONLY / MODEL-BOUND / TOY-EVIDENCE / OTHER CORRESPONDENCES OR MODIFICATIONS OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "degree_two_rejected_modulo_nine": true,
+    "known_maps_replay_as_lattice_combinations": true,
+    "n608l_positive_control_degree_three": true,
+    "no_degree_two_in_wide_exact_window": true,
+    "positive_degree_minimum_is_three_in_window": true
+  },
+  "next_requirement": "Search a correspondence outside this declared lattice or build a genuine elementary modification with normalized-Poincare charts; do not cure the mismatch by pointwise weights.",
+  "preflight_pass": true,
+  "records": {
+    "cover_order": 109,
+    "degree_polynomial": "99*a^2 + 27*a*b + 81*b^2 - 195*a - 9*b + 99",
+    "degree_two_congruence_obstruction": "3*a == 2 (mod 9) has no integer solution",
+    "degree_two_solutions_search_window": [],
+    "known_map_combination_controls": {
+      "17": {
+        "combination": [
+          1,
+          -1
+        ],
+        "h018_pullback_degree": 66,
+        "pointwise_equal_up_to_codomain_sign": true
+      },
+      "23": {
+        "combination": [
+          -1,
+          -1
+        ],
+        "h018_pullback_degree": 510,
+        "pointwise_equal_up_to_codomain_sign": true
+      },
+      "41": {
+        "combination": [
+          1,
+          -2
+        ],
+        "h018_pullback_degree": 291,
+        "pointwise_equal_up_to_codomain_sign": true
+      }
+    },
+    "minimum_positive_search_window": {
+      "a": 1,
+      "b": 0,
+      "degree": 3
+    },
+    "modulo_nine": "degree(a,b) == 3*a (mod 9)",
+    "phi_11_degree": 11,
+    "pi_degree": 9,
+    "positive_control": {
+      "a": 1,
+      "b": 0,
+      "degree": 3
+    }
+  },
+  "schema": "ecdlp.h018.poincare-correspondence-lattice.n608m.v1",
+  "script_sha256": "81a1f9edca628eacb1ab29812e80e18e96a53dac5eb0e488b95546a9311a7c0e",
+  "strongest_valid_statement": "The declared integral lattice u_(a,b)=((a phi_11+b pi),pi) has no H018 pullback of degree two: its degree is congruent to 3a modulo 9. Its least positive sampled value is the exact degree-three N608J correspondence.",
+  "timestamp_utc": "2026-08-01T21:11:45.522384+00:00"
+}

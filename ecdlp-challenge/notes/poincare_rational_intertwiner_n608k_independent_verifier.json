@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "boundary_preserved": true,
+    "generic_rank_replay": true,
+    "map_replay": true,
+    "open_locus_replay": true,
+    "primary_pass": true,
+    "schema": true
+  },
+  "primary_sha256": "ba611a371f1d8f7cf8f0332331823ddbb0266ee525da1f0dc0683a753a81ca12",
+  "strongest_valid_statement": "Independent replay verifies that the declared open-locus evaluator is regular on all registered rational fibres and generically full rank. The normalized-Poincare chart extension remains unconstructed.",
+  "verified": true
+}

@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "alpha_base_group_replay": true,
+    "degree_boundary": true,
+    "induced_base_group_replay": true,
+    "primary_pass": true,
+    "schema": true,
+    "trace_replay": true
+  },
+  "primary_sha256": "d347cd579347167feb6e803430cf42118a38a63488833d7106fb22ae1552d829",
+  "strongest_valid_statement": "Independent full base-group replay confirms that the induced H018 polarization acts as [3] on the registered cover group, consistent with the producer's exact rational-map calculation and incompatible with direct degree-two target extension.",
+  "verified": true
+}

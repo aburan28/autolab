@@ -1,0 +1,52 @@
+{
+  "claim_status": "NEGATIVE RESULT / DIRECT GLOBAL EXTENSION OF N608K REJECTED / MODEL-BOUND / TOY-EVIDENCE / OTHER CORRESPONDENCES OR MODIFICATIONS OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "alpha_rational_map_exact": true,
+    "cross_terms_cancel_frobenius": true,
+    "degree_two_direct_extension_rejected": true,
+    "expected_frobenius_trace": true,
+    "induced_polarization_is_three": true
+  },
+  "next_requirement": "Search for a different correspondence whose H018 pullback has degree two, or construct and charge a genuine elementary modification with explicit normalized-Poincare charts. Do not repair the degree mismatch by pointwise weights.",
+  "preflight_pass": true,
+  "records": {
+    "alpha_candidate": "[4]+F",
+    "alpha_cm_coordinates": [
+      4,
+      1
+    ],
+    "alpha_phi_dual_pi_degree": 99,
+    "alpha_sign_check_on_generator": true,
+    "alpha_x_maps_equal_exactly": true,
+    "cover": "Elliptic Curve defined by y^2 = x^3 + 42*x + 28 over Finite Field of size 103",
+    "direct_base_group_scalar_control": 3,
+    "dual_alpha_cm_coordinates": [
+      -1,
+      -1
+    ],
+    "frobenius_relation": "F^2+5F+103=0",
+    "h018_cross_terms": {
+      "phi_dual_zbar_pi": [
+        -95,
+        1
+      ],
+      "pi_dual_z_phi": [
+        -100,
+        -1
+      ]
+    },
+    "h018_induced_polarization_cm_coordinates": [
+      3,
+      0
+    ],
+    "phi_degree": 11,
+    "pi_degree": 9,
+    "pullback_line_degree": 3,
+    "target_line_degree": 2,
+    "trace_of_frobenius": -5
+  },
+  "schema": "ecdlp.h018.poincare-evaluation-degree.n608l.v1",
+  "script_sha256": "e76c94b4ff7326e2e2d9c04015431ea6b0dadf3e53c3865a93669a85a2c83390",
+  "strongest_valid_statement": "The N608J correspondence pulls the H018 line bundle back with induced polarization [3], hence degree three, while the N606U target line has degree two. The N608K rational local evaluator cannot extend directly to a global morphism into O_Eprime(2Oprime).",
+  "timestamp_utc": "2026-08-01T21:02:58.951514+00:00"
+}

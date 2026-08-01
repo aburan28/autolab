@@ -1,0 +1,893 @@
+{
+  "claim_status": "OBSERVATION / EXPLICIT RATIONAL LOCAL MORPHISM / MODEL-BOUND / TOY-EVIDENCE / NORMALIZED-POINCARE CHART GLUING OPEN / NO SECTION EVALUATOR / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_registered_fibres_in_open_locus": true,
+    "all_regular_evaluations_full_rank": true,
+    "all_regular_target_weights_are_named": true,
+    "declared_open_locus_is_nonempty": true,
+    "one_nonzero_determinant_proves_generic_rank": true
+  },
+  "global_normalized_poincare_intertwiner_constructed": false,
+  "next_requirement": "Compute the determinant divisor and give chart transition matrices extending this rational morphism across its finite excluded locus; verify normalized-Poincare compatibility rather than choosing pointwise rescalings.",
+  "preflight_pass": true,
+  "rational_local_morphism_constructed": true,
+  "records": {
+    "cover_degree": 9,
+    "regular_fibre_count": 108,
+    "rejected_fibre_count": 0,
+    "rows": [
+      {
+        "determinant_nonzero": true,
+        "q": "(1 : 51 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(1 : 52 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(2 : 31 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(2 : 72 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(4 : 35 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(4 : 68 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(8 : 21 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(8 : 82 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(9 : 12 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(9 : 91 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(10 : 2 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(10 : 101 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(12 : 42 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(12 : 61 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(14 : 1 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(14 : 102 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(15 : 18 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(15 : 85 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(16 : 4 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(16 : 99 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(19 : 1 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(19 : 102 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(21 : 6 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(21 : 97 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(23 : 36 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(23 : 67 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(25 : 11 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(25 : 92 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(26 : 42 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(26 : 61 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(27 : 24 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(27 : 79 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(30 : 45 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(30 : 58 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(31 : 39 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(31 : 64 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(34 : 4 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(34 : 99 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(37 : 48 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(37 : 55 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(41 : 39 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(41 : 64 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(42 : 32 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(42 : 71 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(43 : 26 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(43 : 77 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(50 : 49 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(50 : 54 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(53 : 4 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(53 : 99 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(54 : 40 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(54 : 63 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(56 : 9 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(56 : 94 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(58 : 3 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(58 : 100 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(60 : 14 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(60 : 89 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(62 : 22 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(62 : 81 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(63 : 16 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(63 : 87 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(64 : 32 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(64 : 71 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(65 : 42 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(65 : 61 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(69 : 49 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(69 : 54 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(70 : 1 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(70 : 102 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(71 : 9 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(71 : 94 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(72 : 22 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(72 : 81 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(73 : 17 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(73 : 86 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(74 : 29 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(74 : 74 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(78 : 37 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(78 : 66 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(79 : 9 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(79 : 94 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(80 : 20 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(80 : 83 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(81 : 13 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(81 : 90 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(83 : 48 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(83 : 55 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(86 : 48 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(86 : 55 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(87 : 49 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(87 : 54 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(88 : 41 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(88 : 62 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(94 : 25 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(94 : 78 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(95 : 15 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(95 : 88 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(97 : 27 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(97 : 76 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(98 : 10 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(98 : 93 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(99 : 33 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(99 : 70 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(100 : 32 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(100 : 71 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(101 : 23 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      },
+      {
+        "determinant_nonzero": true,
+        "q": "(101 : 80 : 1)",
+        "rank": 9,
+        "regular": true,
+        "source_points_distinct": true,
+        "target_constant_section_one_nonzero": true
+      }
+    ],
+    "separating_map_degree": 11,
+    "source_divisor_model": "O(8O+[zQ]), z=[-4] on E(F_103)",
+    "target_weight": "canonical section 1 of O_Eprime(2Oprime) on Eprime minus {Oprime}",
+    "tested_nonzero_base_points": 108
+  },
+  "schema": "ecdlp.h018.poincare-rational-intertwiner.n608k.v1",
+  "script_sha256": "edcf29b9d2740c0c5afbb4acf7aa09d37f76bb22cf6bf180cbace61916bc4b3e",
+  "strongest_valid_statement": "On the declared nonempty open locus, evaluation at phi(R) followed by multiplication by the named target section 1 defines a rational local morphism from the N606Y divisor-model H018 pushforward to pi_*O_Eprime(2Oprime). Its determinant is generically nonzero. The global normalized-Poincare chart transitions are not yet constructed.",
+  "timestamp_utc": "2026-08-01T20:56:45.819437+00:00"
+}

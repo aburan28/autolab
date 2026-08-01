@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "boundary_preserved": true,
+    "collapse_control_replay": true,
+    "deck_separation_replay": true,
+    "full_rank_replay": true,
+    "map_degree_replay": true,
+    "primary_pass": true,
+    "regular_count_replay": true,
+    "schema": true
+  },
+  "primary_sha256": "bd864460146594409f9b07bcac5b58b56788672ffe2fb5776c6ecdefde87f247",
+  "strongest_valid_statement": "Independent replay confirms full rank for all 108 regular degree-eleven evaluations and rank one for the cover-map collapse control. This remains a fibrewise evaluator, not a regular weighted bundle morphism.",
+  "verified": true
+}

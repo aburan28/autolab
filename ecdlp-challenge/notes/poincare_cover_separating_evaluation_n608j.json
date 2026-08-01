@@ -1,0 +1,1010 @@
+{
+  "claim_status": "OBSERVATION / COVER-SEPARATING FIBRE EVALUATION / MODEL-BOUND / TOY-EVIDENCE / NO BUNDLE MORPHISM / NO_ECDLP_CLAIM",
+  "explicit_bundle_morphism_constructed": false,
+  "gates": {
+    "all_regular_phi_evaluations_full_rank": true,
+    "all_regular_phi_images_distinct": true,
+    "deck_is_separated": true,
+    "degree_eleven_map_to_target": true,
+    "pi_collapse_control_rank_one": true,
+    "regular_fibres_exist": true
+  },
+  "next_requirement": "If the rank gate passes, derive the target O(2Oprime) weights and chart transition functions, then test regularity and normalized-Poincare compatibility of the resulting matrix.",
+  "preflight_pass": true,
+  "records": {
+    "cover": "Elliptic Curve defined by y^2 = x^3 + 42*x + 28 over Finite Field of size 103",
+    "cover_degree": 9,
+    "cover_kernel_order": 9,
+    "curve": "Elliptic Curve defined by y^2 = x^3 + x + 24 over Finite Field of size 103",
+    "field_degree": 6,
+    "phi_rank_distribution": {
+      "9": 108
+    },
+    "pi_control_rank_distribution": {
+      "1": 108
+    },
+    "regular_fibre_count": 108,
+    "rejected_fibre_count": 0,
+    "rows": [
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(1 : 51 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(1 : 52 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(2 : 31 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(2 : 72 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(4 : 35 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(4 : 68 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(8 : 21 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(8 : 82 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(9 : 12 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(9 : 91 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(10 : 2 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(10 : 101 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(12 : 42 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(12 : 61 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(14 : 1 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(14 : 102 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(15 : 18 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(15 : 85 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(16 : 4 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(16 : 99 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(19 : 1 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(19 : 102 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(21 : 6 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(21 : 97 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(23 : 36 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(23 : 67 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(25 : 11 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(25 : 92 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(26 : 42 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(26 : 61 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(27 : 24 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(27 : 79 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(30 : 45 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(30 : 58 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(31 : 39 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(31 : 64 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(34 : 4 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(34 : 99 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(37 : 48 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(37 : 55 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(41 : 39 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(41 : 64 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(42 : 32 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(42 : 71 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(43 : 26 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(43 : 77 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(50 : 49 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(50 : 54 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(53 : 4 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(53 : 99 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(54 : 40 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(54 : 63 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(56 : 9 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(56 : 94 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(58 : 3 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(58 : 100 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(60 : 14 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(60 : 89 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(62 : 22 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(62 : 81 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(63 : 16 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(63 : 87 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(64 : 32 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(64 : 71 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(65 : 42 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(65 : 61 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(69 : 49 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(69 : 54 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(70 : 1 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(70 : 102 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(71 : 9 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(71 : 94 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(72 : 22 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(72 : 81 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(73 : 17 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(73 : 86 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(74 : 29 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(74 : 74 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(78 : 37 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(78 : 66 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(79 : 9 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(79 : 94 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(80 : 20 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(80 : 83 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(81 : 13 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(81 : 90 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(83 : 48 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(83 : 55 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(86 : 48 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(86 : 55 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(87 : 49 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(87 : 54 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(88 : 41 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(88 : 62 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(94 : 25 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(94 : 78 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(95 : 15 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(95 : 88 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(97 : 27 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(97 : 76 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(98 : 10 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(98 : 93 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(99 : 33 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(99 : 70 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(100 : 32 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(100 : 71 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(101 : 23 : 1)",
+        "regular": true
+      },
+      {
+        "phi_determinant_nonzero": true,
+        "phi_fibre_distinct_count": 9,
+        "phi_rank": 9,
+        "pi_control_rank": 1,
+        "pi_fibre_distinct_count": 1,
+        "q": "(101 : 80 : 1)",
+        "regular": true
+      }
+    ],
+    "separating_deck_image_order": 9,
+    "separating_map_degree": 11,
+    "tested_nonzero_base_points": 108
+  },
+  "schema": "ecdlp.h018.poincare-cover-separating-evaluation.n608j.v1",
+  "script_sha256": "6c842334472eb820d99bc229aaf685073f1203444b774c8fb26e69b7c228581d",
+  "strongest_valid_statement": "The degree-eleven cover-to-base map either supplies a full-rank evaluation map on every declared regular fibre or is rejected by its exact rank/pole controls. Even a full-rank result remains a fibrewise evaluator, not a regular H018-to-pushforward bundle morphism.",
+  "timestamp_utc": "2026-08-01T20:52:14.090802+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "map_controls_pass": true,
+    "minimum_matches_primary": true,
+    "modulo_nine_rejects_two": true,
+    "polynomial_matches_primary": true,
+    "positive_control_recomputes": true,
+    "primary_preflight_pass": true,
+    "wide_window_has_no_degree_two": true
+  },
+  "pass": true,
+  "primary_sha256": "43a49a6faea35e7157ceb0bfe39dfe33296fcb3b9c3cfc6891f1a2c387ca16f3",
+  "schema": "ecdlp.h018.poincare-correspondence-lattice.n608m.independent-verifier.v1",
+  "timestamp_utc": "2026-08-01T21:11:46.041949+00:00",
+  "verifier_sha256": "befcfb4c94980543ccdcf3710dbb27e77ffad82ff22a86263f8d928e0af7e2af"
+}
