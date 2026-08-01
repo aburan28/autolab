@@ -1,0 +1,20 @@
+{
+  "claim_status": "OBSERVATION / FINITE-P Q-ORIGIN FRAME TRANSITION FOR N609J DETERMINANT / MODEL-BOUND / TOY-EVIDENCE / GLOBAL CARTIER EXTENSION OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_324_finite_rows_used": true,
+    "corrected_boundary_matches_n609c_on_all_finite_rows": true,
+    "corrected_frame_is_regular_on_all_finite_rows": true,
+    "one_term_correction_mutation_changes_a_formal_expression": true,
+    "raw_and_corrected_frames_match_exactly": true
+  },
+  "next_requirement": "Extend this transition through P=O and compare it with the rational P-origin and true-pole frames in an explicit global Cech cocycle before global Cartier, smoothness, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "one_term_correction_mutation_changed_count": 324,
+    "row_count": 324
+  },
+  "schema": "ecdlp.h018.poincare-q-origin-transition.n609m.v1",
+  "script_sha256": "2ee7ce11dd4afb730e424c91774868bd5cd8e6174e4a6c855feb57792c48c569",
+  "strongest_valid_statement": "The N608R correction gives an exact raw-to-corrected determinant frame identity and a regular finite-P Q-origin boundary agreeing with N609C on the declared rational grid.",
+  "timestamp_utc": "2026-08-01T23:41:03.196256+00:00"
+}

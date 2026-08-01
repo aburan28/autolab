@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "all_transition_gates_retained": true,
+    "finite_grid_retained": true,
+    "global_boundary_retained": true,
+    "mutation_control_retained": true,
+    "primary_preflight_pass": true
+  },
+  "pass": true,
+  "primary_sha256": "b7a802f5eec2fb6cbd743f6d1b10e68f52b9b43b0a2d54d3b1798ccc29b0aee9",
+  "schema": "ecdlp.h018.poincare-q-origin-transition.n609m.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T23:41:14.762558+00:00",
+  "verifier_sha256": "0d3211e3a95e5ef00f64ce225022f3a049d092b5ecfff62eceb7b8716258c856"
+}
