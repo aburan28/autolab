@@ -1,0 +1,60 @@
+{
+  "claim_status": "RESTRICTED THEOREM / DEGREE-NINE RESIDUAL P-FIBRE ON DECLARED PUNCTURED BASE / MODEL-BOUND / TOY-EVIDENCE / GLOBAL CLASS OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_declared_fibres_have_exact_pole_order_ten": true,
+    "all_nonzero_base_points_used": true,
+    "all_residual_fibres_have_degree_nine": true,
+    "common_base_graph_is_zero_in_all_fibres": true,
+    "leading_c7_never_vanishes": true,
+    "leading_term_removal_lowers_pole_order": true
+  },
+  "next_requirement": "Determine the Q=O boundary and the second projection/global divisor class of the compact residual curve before using the degree-nine fibre as a genus or factor-base claim.",
+  "preflight_pass": true,
+  "records": {
+    "base_graph_removed": "P=4Q",
+    "curve_order": 109,
+    "leading_term_removed_pole_orders": [
+      9
+    ],
+    "pole_convention": "ord_O(x)=-2, ord_O(y)=-3; c7*x^5 is the unique order-ten term in A",
+    "rows": [
+      {
+        "base_point_count": 108,
+        "common_graph_zero_count": 108,
+        "level": 0,
+        "pole_order_at_p_origin_distribution": {
+          "10": 108
+        },
+        "residual_divisor_degree_distribution": {
+          "9": 108
+        }
+      },
+      {
+        "base_point_count": 108,
+        "common_graph_zero_count": 108,
+        "level": 1,
+        "pole_order_at_p_origin_distribution": {
+          "10": 108
+        },
+        "residual_divisor_degree_distribution": {
+          "9": 108
+        }
+      },
+      {
+        "base_point_count": 108,
+        "common_graph_zero_count": 108,
+        "level": 17,
+        "pole_order_at_p_origin_distribution": {
+          "10": 108
+        },
+        "residual_divisor_degree_distribution": {
+          "9": 108
+        }
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-residual-projection-degree.n609b.v1",
+  "script_sha256": "998f3cfb42d5a0bfb0011d3d8be925cae748ea5545023b7fa1bb7deecebee7bb",
+  "strongest_valid_statement": "For all declared Q and levels, the cleared P-fibre has an exact order-ten pole at P=O and a common graph zero P=4Q. Removing one copy of that graph leaves a degree-nine residual divisor, so no additional P=O zero is missing from the affine residual root recovery on this punctured base.",
+  "timestamp_utc": "2026-08-01T22:35:04.260719+00:00"
+}

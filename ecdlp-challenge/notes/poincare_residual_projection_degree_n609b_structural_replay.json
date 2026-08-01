@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "base_graph_retained": true,
+    "declared_levels_retained": true,
+    "global_class_boundary_retained": true,
+    "leading_term_control_retained": true,
+    "primary_preflight_pass": true,
+    "ten_pole_and_nine_residual_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "86730015ada02fe66939a5febb044c0ca224c25a7836c18a5c39c6a59b4a6078",
+  "schema": "ecdlp.h018.poincare-residual-projection-degree.n609b.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T22:35:04.844628+00:00",
+  "verifier_sha256": "31d546150ed947aa4008d6754863b3b0a038bea02e7ab592beaef59d42d9feb8"
+}
