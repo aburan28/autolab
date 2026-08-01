@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_control_boxes_match_candidate": true,
+    "candidate_box_retained": true,
+    "global_model_boundary_retained": true,
+    "only_diagonal_sign_closes": true,
+    "primary_preflight_pass": true,
+    "sixteen_matched_controls_retained": true,
+    "source_and_quotient_counts_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "344bcb8c4750dc49a7e2c08d128e73faeb5231f2749382ae6eb25961b94b4517",
+  "schema": "ecdlp.h018.poincare-kummer-descent.n608y.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T22:20:07.321885+00:00",
+  "verifier_sha256": "6a67108277ae93c3bd89e760dbc73315476ba5b6d09ba2202281058006677e93"
+}

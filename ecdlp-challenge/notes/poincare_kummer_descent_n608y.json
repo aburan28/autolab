@@ -1,0 +1,165 @@
+{
+  "claim_status": "NEGATIVE RESULT / DIAGONAL KUMMER DESCENT WITHOUT FINITE-INTERPOLATION ADVANTAGE / MODEL-BOUND / TOY-EVIDENCE / NORMALIZED GLOBAL MODEL OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "complete_t_zero_source_count_retained": true,
+    "diagonal_negation_closure_exact": true,
+    "diagonal_quotient_has_42_labels": true,
+    "finite_interpolation_has_no_control_advantage": true,
+    "left_negation_is_not_closure": true,
+    "matched_control_count_exact": true,
+    "right_negation_is_not_closure": true
+  },
+  "next_requirement": "Construct a normalized global product-Kummer or Poincare model from geometric transition data, not rational-point interpolation, before claiming a curve normalization or attempting factor-base relations.",
+  "preflight_pass": true,
+  "records": {
+    "candidate_first_kernel_box": {
+      "evaluation_rank": 42,
+      "kernel_dimension": 6,
+      "monomial_dimension": 48,
+      "total_degree": 8,
+      "u_degree": 3,
+      "x_degree": 5
+    },
+    "complete_source_count": 84,
+    "control_first_kernel_boxes": [
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      },
+      {
+        "evaluation_rank": 42,
+        "kernel_dimension": 6,
+        "monomial_dimension": 48,
+        "total_degree": 8,
+        "u_degree": 3,
+        "x_degree": 5
+      }
+    ],
+    "control_seed": 1544,
+    "diagonal_overlap_count": 84,
+    "left_overlap_count": 0,
+    "quotient_label_count": 42,
+    "rational_product_kummer_locus_count": 5832,
+    "right_overlap_count": 0
+  },
+  "schema": "ecdlp.h018.poincare-kummer-descent.n608y.v1",
+  "script_sha256": "8f1afbcb859d59313e23a724cb67737536588024920a42cf48496e04e97736d2",
+  "strongest_valid_statement": "The complete t=0 source set is exactly invariant under simultaneous negation and has 42 diagonal product-Kummer labels, but its first finite interpolation kernel is the same (3,5) 48-dimensional box of rank 42 and kernel dimension 6 as all 16 matched random controls. The symmetry alone does not yet produce a finite-model advantage.",
+  "timestamp_utc": "2026-08-01T22:20:01.254832+00:00"
+}
