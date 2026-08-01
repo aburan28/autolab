@@ -1,0 +1,67 @@
+{
+  "claim_status": "OBSERVATION / FRESH-SEED GENERIC COST MEASUREMENT / MODEL-BOUND / TOY-EVIDENCE / NO SUB-SQUARE-ROOT CLAIM / NO ECDLP BREAK CLAIM",
+  "gates": {
+    "aggregate_beats_rho_reference": false,
+    "all_rows_are_nondefault_order": true,
+    "all_rows_correct": true,
+    "all_rows_use_distinct_seed_pairs": true
+  },
+  "hypothesis_supported": false,
+  "next_requirement": "Only modify the solver after a candidate is compared on this fixed panel and a larger independent holdout panel with the same oracle accounting.",
+  "preflight_pass": true,
+  "records": {
+    "aggregate_group_ops": 4825449,
+    "aggregate_ratio_to_rho": 1.079144833255769,
+    "aggregate_rho_reference": 4471549,
+    "bits": 40,
+    "ratio_max": 1.57,
+    "ratio_median": 0.9675,
+    "ratio_min": 0.8078,
+    "row_count": 4,
+    "rows": [
+      {
+        "group_ops": 1712830,
+        "instance_seed": "0x12345679",
+        "oracle_status": "OK",
+        "order": 757695053959,
+        "ratio_to_rho": 1.57,
+        "result_commit": "c1c0b5625",
+        "rho_reference": 1090956,
+        "token_seed": "0xa6080001"
+      },
+      {
+        "group_ops": 888948,
+        "instance_seed": "0x1234567a",
+        "oracle_status": "OK",
+        "order": 770984495899,
+        "ratio_to_rho": 0.8078,
+        "result_commit": "c1c0b5625",
+        "rho_reference": 1100482,
+        "token_seed": "0xa6080002"
+      },
+      {
+        "group_ops": 910672,
+        "instance_seed": "0x1234567b",
+        "oracle_status": "OK",
+        "order": 709464680191,
+        "ratio_to_rho": 0.8627,
+        "result_commit": "c1c0b5625",
+        "rho_reference": 1055663,
+        "token_seed": "0xa6080003"
+      },
+      {
+        "group_ops": 1312999,
+        "instance_seed": "0x1234567c",
+        "oracle_status": "OK",
+        "order": 954467104793,
+        "ratio_to_rho": 1.0723,
+        "result_commit": "c1c0b5625",
+        "rho_reference": 1224448,
+        "token_seed": "0xa6080004"
+      }
+    ],
+    "solver_sha256": "a7c7e11cec6d0cdf82bde55e8e2c54ac90b4b07ccc2542010babeea9b1905100"
+  },
+  "schema": "ecdlp.generic-radding.fresh-seed-benchmark.n608h.v1",
+  "strongest_valid_statement": "This fixed fresh-seed panel measures only the current generic solver's finite cost distribution. Passing would not evade the generic-group square-root scale; failure preserves the current r-adding construction as a variance-sensitive baseline."
+}

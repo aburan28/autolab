@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "aggregate_counts": true,
+    "aggregate_ratio": true,
+    "all_rows_correct": true,
+    "distinct_seed_pairs": true,
+    "nondefault_orders": true,
+    "promotion_boundary": true,
+    "row_shape": true,
+    "schema": true
+  },
+  "primary_sha256": "d3fb46c5411176ac71cc6afe0dc13fd527286d1fd12214296e9db15b57ef6b39",
+  "strongest_valid_statement": "The registered nondefault panel is structurally consistent and fails its aggregate-below-rho promotion criterion; it is not evidence of an asymptotic generic improvement.",
+  "verified": true
+}
