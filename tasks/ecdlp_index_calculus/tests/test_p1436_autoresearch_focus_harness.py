@@ -7255,6 +7255,61 @@ class FocusHarnessTests(unittest.TestCase):
             ambiguity_ids,
         )
 
+    def test_lambda_zero_dedup_routes_to_slp_streaming_norm(self) -> None:
+        value = payload(
+            {
+                "random_hash_mask1": config(4, logs=True),
+                "mixed_balanced_stride_mask1": config(4, logs=True),
+            },
+            descents=[successful_descent()],
+        )
+        lane = "m6_lambda_zero_fitting_target_norm_dedup"
+        probe = {
+            "schema": FOCUS.FRONTIER_PREFLIGHT_SCHEMAS[lane],
+            "classification": "LAMBDA_ZERO_NORM_EQUIVALENT__SLP_STREAMING_OPEN",
+            "source_bindings": {
+                "r169": {"path": "r169.json", "sha256": "a" * 64},
+                "r167": {"path": "r167.json", "sha256": "b" * 64},
+            },
+            "admission": {
+                "lane_admitted": False,
+                "passed_obligation_count": 16,
+                "obligation_count": 24,
+            },
+            "next_action": (
+                "Build an SLP-streaming output-sensitive target norm modulo U "
+                "below B^(5/2) without nN or n^2 state."
+            ),
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = self.write_payload(root, value)
+            probe_path = root / "m6-lambda-zero-dedup.json"
+            probe_path.write_text(
+                json.dumps(probe, sort_keys=True) + "\n", encoding="utf-8"
+            )
+            report = FOCUS.build_report(
+                value,
+                source,
+                frontier_preflights={lane: (probe, probe_path)},
+            )
+
+        self.assertEqual(
+            report["next_action"]["focus_id"],
+            "s62_slp_streaming_output_sensitive_target_norm_mod_u",
+        )
+        self.assertEqual(report["summary"]["frontier_closed_lanes"], [lane])
+        ambiguity_ids = {
+            item["id"]
+            for item in report["autoresearch_steering"][
+                "ambiguity_resolutions"
+            ]
+        }
+        self.assertIn(
+            "m6_lambda_zero_fitting_target_norm_dedup_scope",
+            ambiguity_ids,
+        )
+
     def test_exposes_stored_but_unusable_and_routing_headroom(self) -> None:
         value = payload(
             {
@@ -7550,7 +7605,7 @@ class FocusHarnessTests(unittest.TestCase):
     def test_methodology_binds_the_source_post(self) -> None:
         self.assertEqual(
             FOCUS.SCHEMA,
-            "ecdlp.p1436_autoresearch_focus_report.v105",
+            "ecdlp.p1436_autoresearch_focus_report.v106",
         )
         self.assertEqual(
             FOCUS.METHODOLOGY["source_post_url"],

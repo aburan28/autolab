@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v105"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v106"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -534,6 +534,10 @@ DEFAULT_M6_REGULARIZED_LOG_TRACE_DISPLACEMENT_RANK_PROBE = Path(
     "p1553_m6_regularized_log_trace_displacement_rank_"
     "probe_report_r169.json"
 )
+DEFAULT_M6_LAMBDA_ZERO_FITTING_TARGET_NORM_DEDUP_PROBE = Path(
+    "p1553_m6_lambda_zero_fitting_target_norm_dedup_"
+    "probe_report_r170.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -848,6 +852,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_regularized_log_trace_displacement_rank": (
         "p1553.m6_regularized_log_trace_displacement_rank.r169.v1"
+    ),
+    "m6_lambda_zero_fitting_target_norm_dedup": (
+        "p1553.m6_lambda_zero_fitting_target_norm_dedup.r170.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -4046,6 +4053,39 @@ CRITICAL_EXPERIMENTS = {
             "regularized_trace_pencil_and_displacement_r169.json",
         ],
     },
+    "s62_slp_streaming_output_sensitive_target_norm_mod_u": {
+        "hypothesis": (
+            "The compact generalized Miller target-divisor SLP can stream the "
+            "corrected lambda-zero norm directly into F_p[X]/U in total work "
+            "below B^(5/2), preferably B^(9/4), without representing each "
+            "target factor in the quotient ring."
+        ),
+        "decisive_test": (
+            "Freeze U,V, the generalized Miller SLP for F_num/F_den, every "
+            "R167 correction unit, and the R170 target-norm identity. Specify "
+            "an arithmetic DAG that emits the aggregate element or gcd(U,C); "
+            "charge every line merge, quotient restriction, norm update, "
+            "pseudo-division, zero-divisor split, output factorization, and "
+            "signed verification. Require total work strictly below B^(5/2), "
+            "preferably B^(9/4), then replay all R170/R169/R167/R166 sources."
+        ),
+        "falsifier": (
+            "The route materializes N dense elements of F_p[X]/U, an nN "
+            "coefficient body, an n^2 Fitting matrix, or N independent modular "
+            "compositions; uses finite coefficient density as a circuit lower "
+            "bound; invokes complex sigma-function factorization without a "
+            "finite-field arithmetic DAG; inverts candidate nonunits; reaches "
+            "B^(5/2); consumes a DLP/norm/Fitting/subresultant/root/count/"
+            "marginal/rank/source oracle; or fails exact replay."
+        ),
+        "required_artifacts": [
+            "frozen_m6_lambda_zero_fitting_target_norm_dedup.json",
+            "m6_lambda_zero_fitting_target_norm_dedup_cost_ledger.json",
+            "m6_lambda_zero_fitting_target_norm_dedup_replay.json",
+            "m6_lambda_zero_fitting_target_norm_dedup_controls.json",
+            "lambda_zero_fitting_norm_and_density_r170.json",
+        ],
+    },
     "routing_intervention_generalization": {
         "hypothesis": "One fixed routing rule recovers natural-route rank on unseen curves.",
         "decisive_test": "Freeze the rule on development cells and replay it unchanged on every prospective cell.",
@@ -6401,7 +6441,39 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_regularized_log_trace_displacement_rank_lane.get(
+    m6_lambda_zero_fitting_target_norm_dedup_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_lambda_zero_fitting_target_norm_dedup"
+        )
+        or {}
+    )
+    if m6_lambda_zero_fitting_target_norm_dedup_lane.get(
+        "closed_by_current_evidence"
+    ):
+        admission = (
+            m6_lambda_zero_fitting_target_norm_dedup_lane.get("admission")
+            or {}
+        )
+        add_focus_candidate(
+            candidates,
+            "s62_slp_streaming_output_sensitive_target_norm_mod_u",
+            302,
+            str(
+                m6_lambda_zero_fitting_target_norm_dedup_lane.get("next_action")
+                or CRITICAL_EXPERIMENTS[
+                    "s62_slp_streaming_output_sensitive_target_norm_mod_u"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_lambda_zero_fitting_target_norm_dedup_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} lambda-zero norm "
+                "obligations pass. The Fitting specialization is the R167 "
+                "target norm up to units; represented factors are dense and "
+                "cost B^(7/2). Only an SLP-streaming constructor remains."
+            ),
+        )
+    elif m6_regularized_log_trace_displacement_rank_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -11143,6 +11215,27 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_lambda_zero_fitting_target_norm_dedup_scope",
+            "observed": (
+                "R170 proves that the corrected lambda-zero Fitting support is "
+                "the R167 aggregate Kummer target norm up to units. Six controls "
+                "recover all 140 candidate roots; every represented target "
+                "factor and aggregate is full degree and fully dense. Standard "
+                "coefficient-ring work is B^(7/2), while the swapped matrix is "
+                "B^(9/2)."
+            ),
+            "resolution": (
+                "Deduplicate fraction-free lambda-zero Fitting from the open "
+                "contract. Require only an SLP-streaming norm modulo U below "
+                "B^(5/2); reject N dense quotient-ring elements, nN coefficient "
+                "bodies, n^2 matrices, N modular compositions, candidate "
+                "inversions, or uninstantiated analytic theta identities."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -12331,6 +12424,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_REGULARIZED_LOG_TRACE_DISPLACEMENT_RANK_PROBE,
     )
+    parser.add_argument(
+        "--m6-lambda-zero-fitting-target-norm-dedup-probe",
+        dest="m6_lambda_zero_fitting_target_norm_dedup_probe",
+        type=Path,
+        default=DEFAULT_M6_LAMBDA_ZERO_FITTING_TARGET_NORM_DEDUP_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -12762,6 +12861,10 @@ def main() -> int:
         (
             "m6_regularized_log_trace_displacement_rank",
             args.m6_regularized_log_trace_displacement_rank_probe,
+        ),
+        (
+            "m6_lambda_zero_fitting_target_norm_dedup",
+            args.m6_lambda_zero_fitting_target_norm_dedup_probe,
         ),
     ):
         if path.exists():
