@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "global_compactification_requirement_retained": true,
+    "primary_preflight_pass": true,
+    "q_origin_boundary_counts_and_derivatives_retained": true,
+    "restored_graph_counts_and_derivatives_retained": true,
+    "true_pole_and_geometric_scope_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "09845ad03ae3d379128db5e7947fd42e6b7ff6df93462f29eab08c37f02607cd",
+  "schema": "ecdlp.h018.poincare-boundary-singularity-screen.n609g.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T23:06:15.930063+00:00",
+  "verifier_sha256": "2bc1d1a496592bef803e9781e9aa96e594d0014eca64481b771723b867004b98"
+}

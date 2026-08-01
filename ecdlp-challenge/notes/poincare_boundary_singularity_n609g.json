@@ -1,0 +1,78 @@
+{
+  "claim_status": "OBSERVATION / NO RATIONAL SINGULARITY CANDIDATE ON SCREENED H018 BOUNDARY LOCI / MODEL-BOUND / TOY-EVIDENCE / GLOBAL SMOOTHNESS OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_q_origin_members_have_simple_p_origin_zero": true,
+    "finite_q_origin_boundary_counts_and_value_reconstruction_exact": true,
+    "graph_counts_and_value_reconstruction_exact": true,
+    "no_finite_q_origin_boundary_singularity_candidate": true,
+    "no_restored_graph_singularity_candidate": true
+  },
+  "next_requirement": "Construct a global compact residual section and analyze the true pole and non-rational loci before promoting these local screens to a smooth curve, genus, Jacobian, relation, or ECDLP claim.",
+  "preflight_pass": true,
+  "records": {
+    "excluded_loci": [
+      "P=-4Q true Cauchy pole",
+      "non-rational geometric points",
+      "global gluing and normalization"
+    ],
+    "q_origin_boundary_rows": [
+      {
+        "both_direction_zero_candidate_count": 0,
+        "finite_boundary_source_count": 2,
+        "level": 0,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_direction_zero_derivative_count": 0,
+        "q_direction_zero_derivative_count": 0,
+        "value_reconstruction_mismatch_count": 0
+      },
+      {
+        "both_direction_zero_candidate_count": 0,
+        "finite_boundary_source_count": 0,
+        "level": 1,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_direction_zero_derivative_count": 0,
+        "q_direction_zero_derivative_count": 0,
+        "value_reconstruction_mismatch_count": 0
+      },
+      {
+        "both_direction_zero_candidate_count": 0,
+        "finite_boundary_source_count": 0,
+        "level": 17,
+        "origin_zero_multiplicity_as_l9_section": 1,
+        "p_direction_zero_derivative_count": 0,
+        "q_direction_zero_derivative_count": 0,
+        "value_reconstruction_mismatch_count": 0
+      }
+    ],
+    "restored_graph_rows": [
+      {
+        "both_direction_zero_candidate_count": 0,
+        "level": 0,
+        "p_direction_zero_derivative_count": 0,
+        "q_direction_zero_derivative_count": 0,
+        "restored_graph_source_count": 8,
+        "value_reconstruction_mismatch_count": 0
+      },
+      {
+        "both_direction_zero_candidate_count": 0,
+        "level": 1,
+        "p_direction_zero_derivative_count": 0,
+        "q_direction_zero_derivative_count": 0,
+        "restored_graph_source_count": 0,
+        "value_reconstruction_mismatch_count": 0
+      },
+      {
+        "both_direction_zero_candidate_count": 0,
+        "level": 17,
+        "p_direction_zero_derivative_count": 0,
+        "q_direction_zero_derivative_count": 0,
+        "restored_graph_source_count": 2,
+        "value_reconstruction_mismatch_count": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-boundary-singularity-screen.n609g.v1",
+  "script_sha256": "d83156c35069380e3ec03bd5bd5fea1cca1a0d6c35eb05c34746d57e93dae5b9",
+  "strongest_valid_statement": "The restored rational P=4Q points and finite rational Q=O boundary zeros have no simultaneous formal derivative zero at levels 0,1,17. Every Q=O pencil member has a simple P=O boundary zero in the L(9O) section model.",
+  "timestamp_utc": "2026-08-01T23:05:35.880600+00:00"
+}
