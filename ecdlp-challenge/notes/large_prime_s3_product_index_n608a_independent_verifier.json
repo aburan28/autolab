@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "all_exact_membership_controls": true,
+    "degrees_match_serialized_support": true,
+    "dense_serialized_polynomials": true,
+    "only_sign_scale_collapse": true,
+    "primary_pass": true
+  },
+  "strongest_valid_statement": "The serialized N608A data has exact product-index membership, degree equal to distinct image support, and only the expected x-sign collapse from raw signed entries.",
+  "verified": true
+}
