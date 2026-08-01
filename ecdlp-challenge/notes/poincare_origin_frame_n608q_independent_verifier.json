@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_coefficients_match_primary": true,
+    "held_out_count_retained": true,
+    "interpolation_rank_recomputes": true,
+    "l8_boundary_recomputes": true,
+    "leading_constant_recomputes": true,
+    "primary_preflight_pass": true,
+    "x3y_extension_recomputes": true
+  },
+  "pass": true,
+  "primary_sha256": "9030112e75b909bf9c7d113c3b41fa93ceebc35c4031074c16946e17cca78f32",
+  "schema": "ecdlp.h018.poincare-origin-frame.n608q.independent-verifier.v1",
+  "timestamp_utc": "2026-08-01T21:40:51.965988+00:00",
+  "verifier_sha256": "34f0b4f1f2222a8161035d55de0fa1f7f56c4f0282b3b461fc8ba751d0eb41ff"
+}

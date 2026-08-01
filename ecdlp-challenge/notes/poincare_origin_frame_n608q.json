@@ -1,0 +1,146 @@
+{
+  "claim_status": "RESTRICTED THEOREM / FORMAL SOURCE-ORIGIN FRAME / INDEPENDENTLY VERIFIED / MODEL-BOUND / TOY-EVIDENCE / TARGET ORIGIN QUOTIENT OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "coefficients_before_eight_stay_in_l8": true,
+    "held_out_replay_passes": true,
+    "leading_pole_is_constant": true,
+    "standard_l9_frame_has_rank_nine": true,
+    "u_eight_adds_x3y": true
+  },
+  "next_requirement": "Use this declared source origin frame with a formal target O(3Oprime) frame to compute the rank-eight origin evaluation and its quotient functional.",
+  "preflight_pass": true,
+  "records": {
+    "basis": [
+      "1",
+      "x",
+      "y",
+      "x^2",
+      "xy",
+      "x^3",
+      "x^2y",
+      "x^4",
+      "x^3y"
+    ],
+    "coefficient_vectors_u_minus_one_through_u_eight": {
+      "-1": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "0": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "1": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "2": [
+        0,
+        0,
+        102,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "3": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0,
+        0,
+        0,
+        102,
+        0,
+        0,
+        0,
+        0
+      ],
+      "5": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "6": [
+        0,
+        0,
+        102,
+        0,
+        0,
+        0,
+        102,
+        0,
+        0
+      ],
+      "7": [
+        0,
+        24,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "8": [
+        0,
+        0,
+        79,
+        0,
+        101,
+        0,
+        0,
+        0,
+        102
+      ]
+    },
+    "curve": "Elliptic Curve defined by y^2 = x^3 + x + 24 over Finite Field of size 103",
+    "formal_parameter": "u=-x(r)/y(r)",
+    "held_out_coefficient_replay_count": 6,
+    "held_out_point_count": 6,
+    "regularization": "u^(-8) * (k_r - sum_{e=-1}^7 u^e c_e) has limit c_8, whose x^3y coefficient is nonzero."
+  },
+  "schema": "ecdlp.h018.poincare-origin-frame.n608q.v1",
+  "script_sha256": "fffa26006fc294daed8f2cfab1ff6a7e41e250f73df239094a37fa9fcb6b26d0",
+  "strongest_valid_statement": "The moving Cauchy kernel has a formal order-eight regularization at the origin. Its coefficients through u^7 are in L(8O), while the u^8 coefficient has a nonzero x^3y component and completes the L(9O) frame.",
+  "timestamp_utc": "2026-08-01T21:40:49.765701+00:00"
+}
