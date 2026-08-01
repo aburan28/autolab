@@ -1,0 +1,41 @@
+{
+  "claim_status": "OBSERVATION / FULL CORRECTED-BASIS P-ORIGIN LEADING COEFFICIENT AUDIT / MODEL-BOUND / TOY-EVIDENCE / TWO_VARIABLE_CECH_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "corrected_cauchy_x4_term_cancels_reg7_correction": true,
+    "full_leading_is_nonzero_at_crossing": true,
+    "full_leading_is_q_regular": true,
+    "three_levels_used": true
+  },
+  "next_requirement": "Use the audited full coefficient, not the r7 shortcut, in any two-variable Cech construction; extend through remaining basis orders and non-rational charts before global Cartier, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "formula": "full x^4 coefficient is r7-r8/u=moving7",
+    "rows": [
+      {
+        "basis_x4_correction_identity": true,
+        "full_leading_constant": 31,
+        "full_leading_valuation": 0,
+        "level": 0,
+        "shortcut_leading_constant": 86
+      },
+      {
+        "basis_x4_correction_identity": true,
+        "full_leading_constant": 31,
+        "full_leading_valuation": 0,
+        "level": 1,
+        "shortcut_leading_constant": 86
+      },
+      {
+        "basis_x4_correction_identity": true,
+        "full_leading_constant": 31,
+        "full_leading_valuation": 0,
+        "level": 17,
+        "shortcut_leading_constant": 86
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-crossing-full-leading-audit.n609r.v1",
+  "script_sha256": "42df624c725d6b8afb30b7fcc35637a1c7f36d39004006cd30da6398ad23c9d9",
+  "strongest_valid_statement": "After including the corrected Cauchy basis, its x^4 contribution exactly cancels the r8 correction to r7. The full P-origin leading coefficient is -det(V_Q)*moving_7; its Q-regularity and crossing value are recorded directly.",
+  "timestamp_utc": "2026-08-01T23:54:07.039691+00:00"
+}
