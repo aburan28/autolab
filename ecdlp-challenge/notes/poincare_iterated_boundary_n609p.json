@@ -1,0 +1,44 @@
+{
+  "claim_status": "OBSERVATION / ITERATED Q-ORIGIN TO P-ORIGIN H018 BOUNDARY COMPATIBILITY / MODEL-BOUND / TOY-EVIDENCE / TWO_VARIABLE_CECH_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_members_have_simple_iterated_boundary_zero": true,
+    "iterated_boundary_has_uniform_nonzero_linear_term": true,
+    "q_origin_transition_removes_x3y_term": true,
+    "three_selected_levels_used": true
+  },
+  "next_requirement": "Construct a genuine two-variable overlap and non-rational chart transition; iterated boundary data alone does not prove a global Cech cocycle, Cartier divisor, smoothness, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claim.",
+  "preflight_pass": true,
+  "records": {
+    "frame_order": "N609M corrected Q-origin frame, then the L(9O) P-origin frame v^9",
+    "rows": [
+      {
+        "iterated_p_origin_constant": 0,
+        "iterated_p_origin_linear_coefficient": 45,
+        "level": 0,
+        "q_boundary_x3y_coefficient": 0,
+        "q_boundary_x4_coefficient": 45,
+        "simple_p_origin_zero": true
+      },
+      {
+        "iterated_p_origin_constant": 0,
+        "iterated_p_origin_linear_coefficient": 45,
+        "level": 1,
+        "q_boundary_x3y_coefficient": 0,
+        "q_boundary_x4_coefficient": 45,
+        "simple_p_origin_zero": true
+      },
+      {
+        "iterated_p_origin_constant": 0,
+        "iterated_p_origin_linear_coefficient": 45,
+        "level": 17,
+        "q_boundary_x3y_coefficient": 0,
+        "q_boundary_x4_coefficient": 45,
+        "simple_p_origin_zero": true
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-iterated-boundary.n609p.v1",
+  "script_sha256": "4ccce5d7e11f72e9578b415748f0fbd6aaced245dd9677674981f7a7a3cd029a",
+  "strongest_valid_statement": "After the corrected Q-origin boundary, every selected member has zero constant and uniform nonzero v-linear coefficient 45 in the P-origin L(9O) frame. Thus the iterated boundary has a simple rational crossing zero.",
+  "timestamp_utc": "2026-08-01T23:50:14.173893+00:00"
+}
