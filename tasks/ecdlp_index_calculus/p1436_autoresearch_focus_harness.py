@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v107"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v108"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -542,6 +542,10 @@ DEFAULT_M6_BALANCED_MILLER_TREE_NORM_STREAMING_PROBE = Path(
     "p1553_m6_balanced_miller_tree_norm_streaming_"
     "probe_report_r171.json"
 )
+DEFAULT_M6_TARGET_SIGN_CONJUGATE_S3_SELF_RESULTANT_PROBE = Path(
+    "p1553_m6_target_sign_conjugate_s3_self_resultant_"
+    "probe_report_r172.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -862,6 +866,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_balanced_miller_tree_norm_streaming": (
         "p1553.m6_balanced_miller_tree_norm_streaming.r171.v1"
+    ),
+    "m6_target_sign_conjugate_s3_self_resultant": (
+        "p1553.m6_target_sign_conjugate_s3_self_resultant.r172.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -4128,6 +4135,38 @@ CRITICAL_EXPERIMENTS = {
             "balanced_miller_tree_and_leaf_cancellation_r171.json",
         ],
     },
+    "s64_factored_self_s3_resultant_mod_u": {
+        "hypothesis": (
+            "The product of N quadratic Semaev S3 kernels admits a factored "
+            "self-resultant remainder modulo the degree-n selected divisor U "
+            "in softly O(n+N) work, without expanding its N^2 coefficient body."
+        ),
+        "decisive_test": (
+            "Freeze U, the compact target-x divisor W, the N explicit S3 "
+            "factors, and the exact R172 target-sign conjugate identity. Specify "
+            "an arithmetic DAG for Res_Z(U(Z),product_j S3(X,Z,u_j)) modulo "
+            "U(X). Charge factor ingestion, product or subproduct trees, all "
+            "polynomial-matrix or transposed inputs, quotient reduction, "
+            "zero-divisor branches, output factorization, candidate output, and "
+            "signed verification. Require softly O(n+N) work and total cost "
+            "strictly below B^(5/2), then replay all R172/R171/R167/R166 controls."
+        ),
+        "falsifier": (
+            "The route materializes the (2N+1)^2 reverse-resultant grid, visits "
+            "nN point/factor pairs, builds an nN or n^2 polynomial matrix, "
+            "performs N independent modular compositions, inverts candidate "
+            "nonunits, reaches B^(5/2), assumes a local x^k truncation is an "
+            "arbitrary squarefree-U remainder, consumes a DLP/norm/resultant/"
+            "root/count/marginal/rank/source oracle, or fails exact replay."
+        ),
+        "required_artifacts": [
+            "frozen_m6_target_sign_conjugate_s3_self_resultant.json",
+            "m6_target_sign_conjugate_s3_self_resultant_cost_ledger.json",
+            "m6_target_sign_conjugate_s3_self_resultant_replay.json",
+            "m6_target_sign_conjugate_s3_self_resultant_controls.json",
+            "target_conjugate_s3_factored_self_resultant_r172.json",
+        ],
+    },
     "routing_intervention_generalization": {
         "hypothesis": "One fixed routing rule recovers natural-route rank on unseen curves.",
         "decisive_test": "Freeze the rule on development cells and replay it unchanged on every prospective cell.",
@@ -6495,7 +6534,40 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_balanced_miller_tree_norm_streaming_lane.get(
+    m6_target_sign_conjugate_s3_self_resultant_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_target_sign_conjugate_s3_self_resultant"
+        )
+        or {}
+    )
+    if m6_target_sign_conjugate_s3_self_resultant_lane.get(
+        "closed_by_current_evidence"
+    ):
+        admission = (
+            m6_target_sign_conjugate_s3_self_resultant_lane.get("admission") or {}
+        )
+        add_focus_candidate(
+            candidates,
+            "s64_factored_self_s3_resultant_mod_u",
+            306,
+            str(
+                m6_target_sign_conjugate_s3_self_resultant_lane.get("next_action")
+                or CRITICAL_EXPERIMENTS[
+                    "s64_factored_self_s3_resultant_mod_u"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_target_sign_conjugate_s3_self_resultant_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} target-sign/S3 "
+                "obligations pass. The exact conjugate identity and single "
+                "denominator batch close the target-y formulation, but the "
+                "represented reverse resultant is B^(5/2) and the standard "
+                "local route is B^(7/2). Only the factored self-S3 resultant "
+                "modulo U remains."
+            ),
+        )
+    elif m6_balanced_miller_tree_norm_streaming_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -11332,6 +11404,29 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_target_sign_conjugate_s3_self_resultant_scope",
+            "observed": (
+                "R172 removes target-y dependence by multiplying the R171 "
+                "locator with its target-sign conjugate. Six controls verify "
+                "2,972 homogenized factors, 1,486 S3 conjugate identities, "
+                "8,922 iterated-resultant rows, all 140 R171 plus roots, and one "
+                "extra finite conjugate root. The represented reverse-resultant "
+                "body is fully dense and full coefficient rank in these controls."
+            ),
+            "resolution": (
+                "Remove target-sign elimination and denominator batching from "
+                "the open contract. Require only the factored self-S3 resultant "
+                "modulo arbitrary squarefree U below B^(5/2); reject the N^2 "
+                "represented body, nN point/factor visits, local-x truncation "
+                "substitution, candidate inversions, and uncharged resultant or "
+                "multipoint inputs. Give finite density and root counts no "
+                "asymptotic credit."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -12532,6 +12627,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_BALANCED_MILLER_TREE_NORM_STREAMING_PROBE,
     )
+    parser.add_argument(
+        "--m6-target-sign-conjugate-s3-self-resultant-probe",
+        dest="m6_target_sign_conjugate_s3_self_resultant_probe",
+        type=Path,
+        default=DEFAULT_M6_TARGET_SIGN_CONJUGATE_S3_SELF_RESULTANT_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -12971,6 +13072,10 @@ def main() -> int:
         (
             "m6_balanced_miller_tree_norm_streaming",
             args.m6_balanced_miller_tree_norm_streaming_probe,
+        ),
+        (
+            "m6_target_sign_conjugate_s3_self_resultant",
+            args.m6_target_sign_conjugate_s3_self_resultant_probe,
         ),
     ):
         if path.exists():
