@@ -1,6 +1,7 @@
 {
   "checks": {
     "invertible": true,
+    "nonscalar": true,
     "primary": true,
     "transitions": true,
     "untwisted": true

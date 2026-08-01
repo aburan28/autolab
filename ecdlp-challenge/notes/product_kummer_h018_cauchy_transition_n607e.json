@@ -1,12 +1,14 @@
 {
   "claim_status": "OBSERVATION / MOVING_FIBRE_TRANSITION_MONODROMY / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
   "global_h018_sections_constructed": false,
-  "next_requirement": "Incorporate the degree-eleven second-factor theta transition before interpreting monodromy fixed vectors as global sections.",
+  "next_requirement": "If monodromy is scalar, construct the degree-eleven theta scalar; if non-scalar, reject this Cauchy-frame transition convention before a global-section claim.",
   "preflight_pass": true,
   "records": {
     "field_degree": 2,
     "monodromy_is_identity": false,
+    "monodromy_is_scalar": false,
     "monodromy_rank": 9,
+    "monodromy_scalar": null,
     "transition_count": 109
   },
   "schema": "ecdlp.product-kummer.h018.cauchy-transition.n607e.v1",
