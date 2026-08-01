@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_108_base_points_retained": true,
+    "all_nine_coefficients_present": true,
+    "coordinate_controls_retained": true,
+    "low_pole_admission_rejected": true,
+    "near_full_degrees_retained": true,
+    "normalized_frame_boundary_retained": true,
+    "primary_preflight_pass": true
+  },
+  "pass": true,
+  "primary_sha256": "b54bf34d2dd0e696ac74c2aea6cf222f791bb3de017933b065f45fee4428eb0d",
+  "schema": "ecdlp.h018.poincare-raw-coefficient-interpolation.n608x.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T22:14:20.997663+00:00",
+  "verifier_sha256": "14145c6181358a4b46680406f5f3b2e69f4413fe5e27b7e7e10e055c3a7c8f30"
+}

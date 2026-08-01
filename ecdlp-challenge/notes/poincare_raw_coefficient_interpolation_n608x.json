@@ -1,0 +1,116 @@
+{
+  "claim_status": "NEGATIVE RESULT / RAW CAUCHY COEFFICIENTS HAVE NO LOW-POLE BASE MODEL / MODEL-BOUND / TOY-EVIDENCE / NORMALIZED POINCARE FRAME OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_108_nonzero_base_points_used": true,
+    "all_raw_coefficients_fail_low_pole_admission": true,
+    "all_raw_coefficients_have_near_full_sample_pole_order": true,
+    "all_raw_coefficients_interpolate_by_maximum": true,
+    "coordinate_positive_controls_exact": true
+  },
+  "next_requirement": "Construct a normalized Poincare/vector-bundle frame or another finite model before attempting normalization of C_0, and keep its source return and fixed-return boundary explicit.",
+  "preflight_pass": true,
+  "records": {
+    "base_point_count": 108,
+    "curve_order": 109,
+    "low_pole_admission_degree": 24,
+    "maximum_interpolation_degree": 109,
+    "positive_controls": {
+      "one": {
+        "basis_dimension": 1,
+        "evaluation_rank": 1,
+        "minimum_pole_degree": 1,
+        "residual_zero": true
+      },
+      "x": {
+        "basis_dimension": 2,
+        "evaluation_rank": 2,
+        "minimum_pole_degree": 2,
+        "residual_zero": true
+      },
+      "y": {
+        "basis_dimension": 3,
+        "evaluation_rank": 3,
+        "minimum_pole_degree": 3,
+        "residual_zero": true
+      }
+    },
+    "raw_coefficients": [
+      {
+        "basis_dimension": 106,
+        "coefficient_index": 0,
+        "evaluation_rank": 106,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 106,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 106,
+        "coefficient_index": 1,
+        "evaluation_rank": 106,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 106,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 109,
+        "coefficient_index": 2,
+        "evaluation_rank": 108,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 109,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 106,
+        "coefficient_index": 3,
+        "evaluation_rank": 106,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 106,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 109,
+        "coefficient_index": 4,
+        "evaluation_rank": 108,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 109,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 106,
+        "coefficient_index": 5,
+        "evaluation_rank": 106,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 106,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 109,
+        "coefficient_index": 6,
+        "evaluation_rank": 108,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 109,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 106,
+        "coefficient_index": 7,
+        "evaluation_rank": 106,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 106,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 109,
+        "coefficient_index": 8,
+        "evaluation_rank": 108,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 109,
+        "residual_zero": true
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-raw-coefficient-interpolation.n608x.v1",
+  "script_sha256": "de3b2ee4de61bd36ecb71f57ba919e02875c3603c00048d59c7270d4a8878a49",
+  "strongest_valid_statement": "On all 108 nonzero rational base points, no coefficient of the raw nine-term moving Cauchy frame restricts from L(dO) for d<=24; each first fits only at d=106 or d=109. The raw frame therefore does not itself give a low-pole scalar base model for a complete pencil level.",
+  "timestamp_utc": "2026-08-01T22:14:20.455694+00:00"
+}
