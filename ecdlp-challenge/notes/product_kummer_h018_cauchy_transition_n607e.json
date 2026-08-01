@@ -1,22 +1,24 @@
 {
-  "claim_status": "OBSERVATION / MOVING_FIBRE_TRANSITION_MONODROMY / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "claim_status": "OBSERVATION / FROBENIUS_STABLE_MOVING_FIBRE_MONODROMY / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
   "global_h018_sections_constructed": false,
-  "next_requirement": "Match a degree-eleven theta scalar to any two-dimensional monodromy eigenspace; a nonscalar monodromy alone is not a rejection.",
+  "next_requirement": "Construct a geometric theta transition and compare its algebraic global sections to this finite-rational-orbit spectrum; one-dimensional orbit eigenspaces alone do not determine H0.",
   "preflight_pass": true,
   "records": {
     "eigenspaces": [
       {
         "algebraic_multiplicity": 1,
-        "eigenvalue": "76*a + 80",
+        "eigenvalue": "55",
         "geometric_multiplicity": 1
       },
       {
         "algebraic_multiplicity": 1,
-        "eigenvalue": "60*a + 99",
+        "eigenvalue": "46",
         "geometric_multiplicity": 1
       }
     ],
     "field_degree": 2,
+    "linear_eigenvalues_are_frobenius_conjugate": false,
+    "monodromy_entries_in_base_field": true,
     "monodromy_is_identity": false,
     "monodromy_is_scalar": false,
     "monodromy_rank": 9,
