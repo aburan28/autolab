@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "all_103_levels_retained": true,
+    "declared_level_boundary_counts_retained": true,
+    "primary_preflight_pass": true,
+    "rational_zero_histogram_retained": true,
+    "uniform_boundary_and_compactification_boundary_retained": true,
+    "unit_and_x_boundary_vectors_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "3a1407d120216d491cf3cbe7f3df466c45279a04e16cb1c221447d89f1157871",
+  "schema": "ecdlp.h018.poincare-origin-pencil.n609d.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T22:44:02.667673+00:00",
+  "verifier_sha256": "ca2ac5d445f081897308ac450937acc0c3399c8bdc884823c8b5bd7bb8632e1e"
+}
