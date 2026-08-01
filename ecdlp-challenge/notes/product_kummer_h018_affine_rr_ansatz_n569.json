@@ -1,0 +1,63 @@
+{
+  "claim_status": "NEGATIVE RESULT / AFFINE_NODE_INTERPOLATION_UNDERDETERMINED / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "f3_mutation_rejected": true,
+    "h018_graph_control": true,
+    "identity_mutation_rejected": true,
+    "no_box_has_admissible_nullity_two": true
+  },
+  "next_requirement": "Use global divisor and exceptional-node valuation data; closed-node affine interpolation alone cannot construct the H018 two-section space.",
+  "preflight_pass": true,
+  "rows": [
+    {
+      "dimension": 3,
+      "du": 0,
+      "dx": 2,
+      "nullity": 0,
+      "rank": 3
+    },
+    {
+      "dimension": 4,
+      "du": 1,
+      "dx": 1,
+      "nullity": 1,
+      "rank": 3
+    },
+    {
+      "dimension": 6,
+      "du": 1,
+      "dx": 2,
+      "nullity": 3,
+      "rank": 3
+    },
+    {
+      "dimension": 9,
+      "du": 2,
+      "dx": 2,
+      "nullity": 6,
+      "rank": 3
+    },
+    {
+      "dimension": 12,
+      "du": 2,
+      "dx": 3,
+      "nullity": 9,
+      "rank": 3
+    },
+    {
+      "dimension": 16,
+      "du": 3,
+      "dx": 3,
+      "nullity": 13,
+      "rank": 3
+    },
+    {
+      "dimension": 25,
+      "du": 4,
+      "dx": 4,
+      "nullity": 22,
+      "rank": 3
+    }
+  ],
+  "schema": "ecdlp.product-kummer.h018.affine-rr-ansatz.n569.v1"
+}

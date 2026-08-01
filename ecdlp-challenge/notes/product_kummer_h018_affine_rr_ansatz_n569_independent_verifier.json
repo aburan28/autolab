@@ -1,0 +1,8 @@
+{
+  "checks": {
+    "mutations": true,
+    "nullities": true,
+    "primary": true
+  },
+  "verified": true
+}
