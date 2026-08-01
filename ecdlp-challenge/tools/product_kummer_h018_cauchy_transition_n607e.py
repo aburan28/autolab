@@ -6,12 +6,14 @@ from sage.all import EllipticCurve,GF,Matrix,identity_matrix
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 import product_kummer_h018_poincare_scalar_cocycle_n606z as z
 def basis(p,r):
+ if r.is_zero():
+  x,y=p[0],p[1];return [1,x,y,x*x,x*y,x**3,x*x*y,x**4,x**3*y]
  x,y=p[0],p[1];xr,yr=r[0],r[1];return [1,x,y,x*x,x*y,x**3,x*x*y,x**4,(y+yr)/(x-xr)]
 def main():
  p=argparse.ArgumentParser();p.add_argument("--output",type=Path,required=True);a=p.parse_args();E=EllipticCurve(GF(103),[0,0,0,1,24]);K=GF(103**2,name="a");EK=E.base_extend(K);g0=next(u for u in E.points() if not u.is_zero());g=EK(K(g0[0]),K(g0[1]));qs=[i*(84*g) for i in range(109)];points=[u for u in EK.points() if not u.is_zero()];M=identity_matrix(K,9);transitions=0
  def row_pair(q,r,rp,x):
   f=z.transport(q,g,x)
-  if f==0 or x in (r,-r,rp,-rp): raise ZeroDivisionError
+  if f==0 or (not r.is_zero() and x in (r,-r)) or (not rp.is_zero() and x in (rp,-rp)): raise ZeroDivisionError
   return basis(x,rp),[f*v for v in basis(x+g,r)]
  for i,q in enumerate(qs):
   qp=qs[(i+1)%109];r=(-4)*q;rp=(-4)*qp;chosen=[];old=[];new=[]

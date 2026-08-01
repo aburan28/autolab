@@ -1,9 +1,10 @@
 {
   "checks": {
+    "base_entries": true,
     "invertible": true,
+    "origin_chart_repaired": true,
     "primary": true,
     "transitions": true,
-    "two_linear_eigenspaces": true,
     "untwisted": true
   },
   "verified": true

@@ -7,12 +7,47 @@
     "eigenspaces": [
       {
         "algebraic_multiplicity": 1,
-        "eigenvalue": "55",
+        "eigenvalue": "41",
         "geometric_multiplicity": 1
       },
       {
         "algebraic_multiplicity": 1,
-        "eigenvalue": "46",
+        "eigenvalue": "81*a + 86",
+        "geometric_multiplicity": 1
+      },
+      {
+        "algebraic_multiplicity": 1,
+        "eigenvalue": "75*a + 94",
+        "geometric_multiplicity": 1
+      },
+      {
+        "algebraic_multiplicity": 1,
+        "eigenvalue": "70*a + 72",
+        "geometric_multiplicity": 1
+      },
+      {
+        "algebraic_multiplicity": 1,
+        "eigenvalue": "69*a + 44",
+        "geometric_multiplicity": 1
+      },
+      {
+        "algebraic_multiplicity": 1,
+        "eigenvalue": "34*a + 10",
+        "geometric_multiplicity": 1
+      },
+      {
+        "algebraic_multiplicity": 1,
+        "eigenvalue": "33*a + 39",
+        "geometric_multiplicity": 1
+      },
+      {
+        "algebraic_multiplicity": 1,
+        "eigenvalue": "28*a + 66",
+        "geometric_multiplicity": 1
+      },
+      {
+        "algebraic_multiplicity": 1,
+        "eigenvalue": "22*a + 64",
         "geometric_multiplicity": 1
       }
     ],
