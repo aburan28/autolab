@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "all_regular_q_pairs_replayed": true,
+    "declared_source_and_derivative_counts_retained": true,
+    "excluded_boundary_scope_retained": true,
+    "global_smoothness_boundary_retained": true,
+    "primary_preflight_pass": true,
+    "source_value_reconstruction_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "77014613968a3db93b232a8d6f32c63d8f9ae1ea582b63fa770ee39937e63b98",
+  "schema": "ecdlp.h018.poincare-local-singularity-screen.n609f.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T22:59:30.126679+00:00",
+  "verifier_sha256": "2e2ba592ad944716a476e98f7a59637b5a5e51d8e12b4232e8e1737abdbf47af"
+}

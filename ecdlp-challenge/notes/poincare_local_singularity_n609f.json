@@ -1,0 +1,53 @@
+{
+  "claim_status": "OBSERVATION / NO RATIONAL SINGULARITY CANDIDATE ON DECLARED OPEN H018 CHART / MODEL-BOUND / TOY-EVIDENCE / GLOBAL SMOOTHNESS OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_nonzero_base_fibres_used": true,
+    "declared_open_source_counts_retained": true,
+    "formal_p_and_q_values_reconstruct_every_screened_source": true,
+    "no_open_rational_singularity_candidates": true,
+    "q_formal_evaluator_replays_all_regular_rational_pairs": true
+  },
+  "next_requirement": "Extend the derivative analysis across the removable graph and Q=O boundary, then construct an actual global compact residual equation or line-bundle section before asserting smoothness, genus, a Jacobian, or an ECDLP relation mechanism.",
+  "preflight_pass": true,
+  "records": {
+    "curve_order": 109,
+    "excluded_loci": [
+      "P=O",
+      "P=-4Q (true Cauchy pole)",
+      "P=4Q (handled separately by N609E regularization)",
+      "Q=O (formal boundary N609C/N609D)"
+    ],
+    "q_direction_raw_evaluator_mismatch_count": 0,
+    "q_direction_regular_pair_count": 11448,
+    "rows": [
+      {
+        "both_direction_zero_candidate_count": 0,
+        "level": 0,
+        "open_source_count": 84,
+        "p_direction_zero_derivative_count": 0,
+        "q_direction_zero_derivative_count": 0,
+        "source_value_reconstruction_mismatch_count": 0
+      },
+      {
+        "both_direction_zero_candidate_count": 0,
+        "level": 1,
+        "open_source_count": 108,
+        "p_direction_zero_derivative_count": 0,
+        "q_direction_zero_derivative_count": 0,
+        "source_value_reconstruction_mismatch_count": 0
+      },
+      {
+        "both_direction_zero_candidate_count": 0,
+        "level": 17,
+        "open_source_count": 144,
+        "p_direction_zero_derivative_count": 2,
+        "q_direction_zero_derivative_count": 4,
+        "source_value_reconstruction_mismatch_count": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-local-singularity-screen.n609f.v1",
+  "script_sha256": "4053eaf7c8158843942a7e6fa34ba180072ebfce012a49e878c3e3a18e790b1d",
+  "strongest_valid_statement": "Exact formal derivatives in the P and Q directions reproduce the raw evaluator on every regular rational chart pair. Among the declared open level sources at t=0,1,17, none has both derivatives zero. This excludes only rational singularity candidates on the stated open chart.",
+  "timestamp_utc": "2026-08-01T22:58:14.490981+00:00"
+}
