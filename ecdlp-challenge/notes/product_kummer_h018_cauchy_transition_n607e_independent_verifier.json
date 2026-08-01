@@ -1,9 +1,9 @@
 {
   "checks": {
     "invertible": true,
-    "nonscalar": true,
     "primary": true,
     "transitions": true,
+    "two_linear_eigenspaces": true,
     "untwisted": true
   },
   "verified": true
