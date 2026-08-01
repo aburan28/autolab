@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "frame_nonvanishing": true,
+    "primary_pass": true,
+    "raw_nonscalar_boundary": true,
+    "scalar_cycle": true
+  },
+  "strongest_valid_statement": "Independent replay confirms the Theta^11 frame contributes only a scalar cycle of one and cannot discharge the raw nonscalar-monodromy boundary.",
+  "verified": true
+}

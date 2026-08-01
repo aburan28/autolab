@@ -1,0 +1,28 @@
+{
+  "claim_status": "RESTRICTED THEOREM / THETA11_SCALAR_TRANSPORT_INSUFFICIENT / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "raw_cauchy_receipt_passes": true,
+    "raw_monodromy_is_nonscalar": true,
+    "scalar_theta11_cannot_make_nonscalar_monodromy_scalar": true,
+    "theta11_cycle_scalar_is_one": true,
+    "theta11_factor_explicitly_absent_from_raw_frame": true,
+    "theta11_frame_nonzero_on_full_rational_orbit": true,
+    "theta11_transport_is_scalar": true
+  },
+  "preflight_pass": true,
+  "records": {
+    "coefficient_c": 0,
+    "cycle_scalar": 1,
+    "orbit_length": 109,
+    "raw_monodromy_is_scalar": false,
+    "raw_monodromy_rank": 9,
+    "theta11_local_frame": "y*x^4+c*x^5 in H0(E,O(11O))"
+  },
+  "schema": "ecdlp.product-kummer.h018.theta11-scalar-gate.n607g.v1",
+  "still_open": [
+    "normalized Poincare/pushforward transition",
+    "explicit bundle isomorphism in the N606U model",
+    "global H018 sections and all relation-level gates"
+  ],
+  "strongest_valid_statement": "On the rational orbit, an explicit nonvanishing Theta^11 frame contributes only scalar transition ratios with cycle product one. It cannot turn N607E's nonscalar raw Cauchy monodromy into a scalar monodromy."
+}
