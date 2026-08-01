@@ -1,0 +1,107 @@
+{
+  "assumptions": [
+    "N608I stability and degree of F.",
+    "N608O universal graph-evaluation model.",
+    "N608Q formal source regularization."
+  ],
+  "claim_status": "RESTRICTED THEOREM / TWO GLOBAL H018 SECTION SUBSPACE SELECTED / INDEPENDENTLY VERIFIED / MODEL-BOUND / TOY-EVIDENCE / PENCIL GEOMETRY OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "constant_section_is_regular": true,
+    "formal_graph_matrix_is_invertible": true,
+    "selected_subspace_has_dimension_two": true,
+    "x_section_is_regular": true,
+    "y_section_has_origin_pole": true
+  },
+  "next_requirement": "Use the selected sections to evaluate the H018 pencil on E x E, determine its base locus and smooth members, and only then test a factor-base/source-return relation mechanism.",
+  "preflight_pass": true,
+  "records": {
+    "evaluation_determinant_valuation": 0,
+    "excluded_cover_direction": "y has a simple pole in the regularized source frame",
+    "formal_parameter_cover": "t=-x(R)/y(R)",
+    "formal_parameter_support": "u=-x(-4*pi(R))/y(-4*pi(R))",
+    "h0_argument": "N608I stable rank-nine degree-two F has h^0(F)=2 by Riemann-Roch and positive-slope H^1 vanishing.",
+    "section_origin_data": {
+      "1": {
+        "moving_frame_valuations": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "regular_at_origin": true,
+        "regular_frame_valuations": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "x": {
+        "moving_frame_valuations": [
+          -8,
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0,
+          -7
+        ],
+        "regular_at_origin": true,
+        "regular_frame_valuations": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "y": {
+        "moving_frame_valuations": [
+          -9,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          -8
+        ],
+        "regular_at_origin": false,
+        "regular_frame_valuations": [
+          -1,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    "selected_cover_subspace": "span{1,x}",
+    "source_regularization": "b_9=k_r is replaced by u^(-8)(k_r-sum_{e=-1}^7 u^e c_e)"
+  },
+  "schema": "ecdlp.h018.poincare-global-sections.n608r.v1",
+  "script_sha256": "160b13266da6a5a81e3475877cd94e9504a4a312d5d998754bb061a7e39cd583",
+  "strongest_valid_statement": "The inverse graph-evaluation images of cover sections 1 and x are regular in the declared source-origin frame, while y has a simple pole. Since h^0(F)=2 under the stated N608I hypotheses, H^0(F) is represented by span{1,x} in the degree-three cover target.",
+  "timestamp_utc": "2026-08-01T21:46:42.155761+00:00"
+}

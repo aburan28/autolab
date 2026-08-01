@@ -1,0 +1,37 @@
+{
+  "assumptions": [
+    "N608R selected cover subspace span{1,x}."
+  ],
+  "claim_status": "OBSERVATION / EXPLICIT H018 PENCIL EVALUATOR ON DECLARED OPEN SURFACE / INDEPENDENTLY VERIFIED / MODEL-BOUND / TOY-EVIDENCE / RELATION MECHANISM OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_nonzero_q_coefficients_descend": true,
+    "exclusions_are_declared": true,
+    "graph_identity_holds": true,
+    "open_domain_count_is_exact": true,
+    "pencil_reaches_every_base_field_value": true
+  },
+  "next_requirement": "Derive the complete projective pencil, inspect base locus and smooth members, then formulate a factor-base source-return experiment with relation rank, descent, and fully charged cost.",
+  "preflight_pass": true,
+  "records": {
+    "coefficient_base_field_count": 108,
+    "cover_degree": 9,
+    "curve_order": 109,
+    "domain": "Q != O; P not in {O, [-4]Q, -[-4]Q}",
+    "excluded_pair_count": 324,
+    "graph_identity": "lambda(phi(R),pi(R))=x(R) on nonzero rational cover points",
+    "graph_identity_checks": 108,
+    "maximum_value_fibre_size": 156,
+    "minimum_value_fibre_size": 82,
+    "open_pair_count": 11448,
+    "pencil_value_coverage": 103,
+    "selected_sections": [
+      "1",
+      "x"
+    ],
+    "zero_value_fibre_size": 84
+  },
+  "schema": "ecdlp.h018.poincare-pencil-evaluator.n608s.v1",
+  "script_sha256": "3bf3669c4b4c7b1cb30b7a47df894164b8a2870c4b2422f9ca9e13472f836953",
+  "strongest_valid_statement": "The N608R selected cover section x yields an explicit base-field H018 pencil coordinate lambda(P,Q) on the declared open surface. It satisfies lambda(phi(R),pi(R))=x(R) on every nonzero rational cover point and reaches all F_103 values in the measured open panel.",
+  "timestamp_utc": "2026-08-01T21:49:14.919783+00:00"
+}

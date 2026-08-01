@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "all_coefficients_descend": true,
+    "coverage_matches": true,
+    "fibre_extrema_match": true,
+    "graph_identity_recomputes": true,
+    "open_and_excluded_counts_match": true,
+    "primary_preflight_pass": true
+  },
+  "pass": true,
+  "primary_sha256": "e412ac7a50df23544349f242e7f8ac057a57a1a3b0872789f28116116f27f5b1",
+  "schema": "ecdlp.h018.poincare-pencil-evaluator.n608s.independent-verifier.v1",
+  "timestamp_utc": "2026-08-01T21:49:38.089277+00:00",
+  "verifier_sha256": "6c57354fa0719c5c93207fe78255e7580fd3bac099cff214369eeb6552232455"
+}

@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "determinant_is_nonzero": true,
+    "one_and_x_regular": true,
+    "primary_preflight_pass": true,
+    "regular_valuations_match": true,
+    "selected_subspace_retained": true,
+    "y_has_simple_pole": true
+  },
+  "pass": true,
+  "primary_sha256": "f215779f824827ce2eaf47bf561f6f38e51270b6a759d92eb3b59e52145a57e0",
+  "schema": "ecdlp.h018.poincare-global-sections.n608r.independent-verifier.v1",
+  "timestamp_utc": "2026-08-01T21:46:51.794007+00:00",
+  "verifier_sha256": "54fc27445f6f62743c4271aede0670ee072f212035023e7a44abd9653d4f9a13"
+}
