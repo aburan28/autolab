@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "boundary": true,
+    "constant": true,
+    "primary": true,
+    "samples": true
+  },
+  "verified": true
+}

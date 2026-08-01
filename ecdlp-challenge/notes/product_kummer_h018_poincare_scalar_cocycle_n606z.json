@@ -1,0 +1,17 @@
+{
+  "claim_status": "OBSERVATION / EXPLICIT_MILLER_SCALAR_TRANSPORT / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "explicit_bundle_isomorphism_constructed": false,
+  "gates": {
+    "base_shift": true,
+    "cocycle_ratio_constant": true,
+    "regular_samples": true
+  },
+  "next_requirement": "Fix the remaining scalar normalization against a Poincare rigidification and compare the resulting frame with N606U.",
+  "normalized_cocycle_fixed": false,
+  "preflight_pass": true,
+  "records": {
+    "cocycle_constant": "92",
+    "common_regular_samples": 87
+  },
+  "schema": "ecdlp.product-kummer.h018.poincare-scalar-cocycle.n606z.v1"
+}
