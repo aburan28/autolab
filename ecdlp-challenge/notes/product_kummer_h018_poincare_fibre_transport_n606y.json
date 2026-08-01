@@ -1,0 +1,34 @@
+{
+  "claim_status": "RESTRICTED THEOREM / DISCRETE_POINCARE_DIVISOR_TRANSPORT / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "explicit_bundle_isomorphism_constructed": false,
+  "gates": {
+    "all_fibre_dimensions_nine": true,
+    "base_shift_cocycle": true,
+    "translation_class_law": true,
+    "z_is_minus_four_on_rational_points": true
+  },
+  "next_requirement": "Construct rational trivializing functions for these degree-zero transport divisors and verify their normalized scalar cocycle.",
+  "preflight_pass": true,
+  "records": {
+    "base_shift": "[84]",
+    "curve": "Elliptic Curve defined by y^2 = x^3 + x + 24 over Finite Field of size 103",
+    "group_order": 109,
+    "sample_tests": [
+      {
+        "class_equal": true,
+        "h0": 9
+      },
+      {
+        "class_equal": true,
+        "h0": 9
+      },
+      {
+        "class_equal": true,
+        "h0": 9
+      }
+    ],
+    "z_on_base_field": "[-4]"
+  },
+  "scalar_rigidification_constructed": false,
+  "schema": "ecdlp.product-kummer.h018.poincare-fibre-transport.n606y.v1"
+}

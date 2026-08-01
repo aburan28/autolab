@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "boundary": true,
+    "dimension": true,
+    "primary_pass": true,
+    "shift_identity": true
+  },
+  "strongest_valid_statement": "Independent replay confirms only the discrete Poincare divisor-class transport, not a scalar cocycle or surface evaluator.",
+  "verified": true
+}
