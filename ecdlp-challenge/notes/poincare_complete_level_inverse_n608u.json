@@ -1,0 +1,54 @@
+{
+  "claim_status": "OBSERVATION / COMPLETE OPEN-LEVEL SOURCE GENERATOR / MODEL-BOUND / TOY-EVIDENCE / RELATION MECHANISM OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_levels_complete_match": true,
+    "elimination_degree_at_most_ten": true,
+    "levels_have_nonempty_complete_sources": true,
+    "negative_control_rejected": true,
+    "root_factor_calls_equal_base_scan": true
+  },
+  "next_requirement": "Define a target-bearing relation law on complete level sources, then measure relation rank, individual-log descent, and fully charged cost against rho.",
+  "preflight_pass": true,
+  "records": {
+    "curve_order": 109,
+    "levels": [
+      {
+        "complete_match": true,
+        "elimination_degree_max": 10,
+        "elimination_degree_min": 10,
+        "exceptional_a_and_b_zero_branches": 0,
+        "exhaustive_point_count": 84,
+        "inverse_point_count": 84,
+        "level": 0,
+        "root_factor_calls": 108
+      },
+      {
+        "complete_match": true,
+        "elimination_degree_max": 10,
+        "elimination_degree_min": 10,
+        "exceptional_a_and_b_zero_branches": 0,
+        "exhaustive_point_count": 108,
+        "inverse_point_count": 108,
+        "level": 1,
+        "root_factor_calls": 108
+      },
+      {
+        "complete_match": true,
+        "elimination_degree_max": 10,
+        "elimination_degree_min": 10,
+        "exceptional_a_and_b_zero_branches": 0,
+        "exhaustive_point_count": 144,
+        "inverse_point_count": 144,
+        "level": 17,
+        "root_factor_calls": 108
+      }
+    ],
+    "negative_control_mutated_b_matches_correct": false,
+    "negative_control_q": "(2 : 31 : 1)",
+    "source_generator_cost_model": "For a fixed t, scan 108 base Q values and factor one degree-at-most-ten polynomial per Q; no scan over all P is used by the inverse."
+  },
+  "schema": "ecdlp.h018.poincare-complete-level-inverse.n608u.v1",
+  "script_sha256": "b834c7575d834a363f23d743930a4c9f9b7494eadb4589328dbc024d3639ed96",
+  "strongest_valid_statement": "For the three declared toy levels, a 108-Q scan plus degree-at-most-ten root factorizations recovers every enumerated open pencil-level point and avoids the N608T graph-density loss. This is a complete source generator only.",
+  "timestamp_utc": "2026-08-01T22:01:13.444366+00:00"
+}

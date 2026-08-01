@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_complete_matches": true,
+    "degree_bound_retained": true,
+    "negative_control_rejected": true,
+    "one_factor_per_q": true,
+    "primary_preflight_pass": true,
+    "relation_boundary_retained": true,
+    "three_declared_levels": true
+  },
+  "pass": true,
+  "primary_sha256": "dd537ab44284363fad2fba0216a6c5749131118b6b34d58f578384ea3d8ca987",
+  "schema": "ecdlp.h018.poincare-complete-level-inverse.n608u.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T22:01:13.935830+00:00",
+  "verifier_sha256": "5106b0cbc41cb8d1a94c5d89d6190b60bd45b2c2ba105212d9c905f394660b45"
+}
