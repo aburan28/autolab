@@ -1,0 +1,114 @@
+{
+  "claim_status": "NEGATIVE RESULT / NAIVE PRODUCT-CHART H018 CROSSING EXTENSION OBSTRUCTED BY WEIGHTED POLE PROFILE / MODEL-BOUND / TOY-EVIDENCE / WEIGHTED_BLOWUP_CHART_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_levels_have_exact_weighted_crossing_profile": true,
+    "three_levels_used": true,
+    "x4_full_coefficient_retains_n609r_constant": true
+  },
+  "next_requirement": "Construct the weighted blow-up chart at P=Q=O, substitute v=s*u (and its reciprocal chart), and test whether the determinant has a regular nonzero strict-transform equation before global Cartier, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "cauchy_index": 8,
+    "expected_weighted_valuation_profile": [
+      -8,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      -7
+    ],
+    "polynomial_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "rows": [
+      {
+        "level": 0,
+        "weighted_constants": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          31,
+          null
+        ],
+        "weighted_valuations": [
+          -8,
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0,
+          -7
+        ]
+      },
+      {
+        "level": 1,
+        "weighted_constants": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          31,
+          null
+        ],
+        "weighted_valuations": [
+          -8,
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0,
+          -7
+        ]
+      },
+      {
+        "level": 17,
+        "weighted_constants": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          31,
+          null
+        ],
+        "weighted_valuations": [
+          -8,
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0,
+          -7
+        ]
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-p-origin-coefficient-vector.n609s.v1",
+  "script_sha256": "a693b2c92f321d80dc759c78ccec1441ea518537347b4f42041127f5a935a02b",
+  "strongest_valid_statement": "The exact coefficient profile has Q-poles matching the P-pole weights, so a naive product-chart extension is obstructed. The profile instead supplies a concrete weighted-blow-up candidate with slope coordinate v/u.",
+  "timestamp_utc": "2026-08-01T23:56:07.996857+00:00"
+}
