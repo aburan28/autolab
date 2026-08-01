@@ -1,0 +1,62 @@
+{
+  "assumptions": [
+    "N608O's normalized H018 global pushforward model.",
+    "N608R's selected global cover section model.",
+    "The local N609H evaluator is the restriction of that selected section."
+  ],
+  "claim_status": "RESTRICTED THEOREM / CONDITIONAL GLOBAL H018 CLASS OF COMPACT RESIDUAL / STANDARD-FACT-BOUND / MODEL-BOUND / TOY-EVIDENCE / EXPLICIT GLOBAL EQUATION OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "base_field_poincare_action_matches_compact_p_fibres": true,
+    "bound_section_and_compactification_receipts_pass": true,
+    "determinant_and_intersection_exact": true,
+    "h018_orientation_exact": true,
+    "q_projection_degree_obligation_exact": true,
+    "swapped_orientation_rejected": true
+  },
+  "next_requirement": "Construct an explicit global section or product-surface equation realizing this class, then prove Cartier/smoothness and analyze normalization before using the degree/genus target for a Jacobian, factor-base, relation, rank, descent, cost, or ECDLP claim.",
+  "preflight_pass": true,
+  "records": {
+    "base_field_z_action": "[-4]",
+    "cm_relation": "F^2+5F+103=0",
+    "conditional_arithmetic_genus": 3,
+    "determinant": 2,
+    "h018_matrix": [
+      [
+        9,
+        [
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          -3,
+          -1
+        ],
+        11
+      ]
+    ],
+    "n608r_preflight_pass": true,
+    "n608r_selected_cover_subspace": "span{1,x}",
+    "n609h_nonzero_q_fibre_count": 108,
+    "n609h_pole_divisor": "8[O]+[-4Q]",
+    "n609h_preflight_pass": true,
+    "n609h_replay_pass": true,
+    "p_fibre_degree": 9,
+    "p_fibre_restriction": "O(9O) tensor O([-4Q]-O) = O(8O+[-4Q])",
+    "q_fibre_degree": 11,
+    "self_intersection": 4,
+    "z": [
+      -3,
+      -1
+    ],
+    "zbar": [
+      2,
+      1
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-global-class.n609i.v1",
+  "script_sha256": "44b96c7307ff0230a29fc62707a71003d400dd51db668ea298b864ee1fd648ca",
+  "strongest_valid_statement": "Under the declared normalized H018 global-section model, the N609H compact P fibres are the restrictions of an H018 divisor class. The class has P-fibre degree 9, required Q-fibre degree 11, self-intersection 4, and conditional arithmetic genus 3 for an effective Cartier representative.",
+  "timestamp_utc": "2026-08-01T23:14:19.114594+00:00"
+}

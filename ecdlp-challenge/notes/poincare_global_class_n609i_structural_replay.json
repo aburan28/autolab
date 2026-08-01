@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "both_projection_degrees_retained": true,
+    "bound_receipts_retained": true,
+    "explicit_equation_boundary_retained": true,
+    "orientation_and_intersection_retained": true,
+    "primary_preflight_pass": true
+  },
+  "pass": true,
+  "primary_sha256": "59b42feb5265ec1ffd18ded770af2a0c5d5068d1261db7ba33c66a5c9e1eafe4",
+  "schema": "ecdlp.h018.poincare-global-class.n609i.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T23:14:20.315810+00:00",
+  "verifier_sha256": "c0e40db92db8c4fa3641dbf87e71a6063a4acef50fe206ba3a44dd55888b922c"
+}
