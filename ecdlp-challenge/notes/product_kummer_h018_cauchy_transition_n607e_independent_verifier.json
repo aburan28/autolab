@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "invertible": true,
+    "primary": true,
+    "transitions": true,
+    "untwisted": true
+  },
+  "verified": true
+}
