@@ -1,0 +1,75 @@
+{
+  "claim_status": "OBSERVATION / COMMON BASE GRAPH EXTRACTED FROM CLEARED H018 LEVELS / MODEL-BOUND / TOY-EVIDENCE / GLOBAL DIVISOR MODEL OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_declared_levels_present": true,
+    "all_eliminants_are_degree_ten": true,
+    "all_graph_factors_divide_exactly": true,
+    "all_graph_points_satisfy_unsquared_equation": true,
+    "all_residual_quotients_are_degree_nine": true,
+    "cauchy_sign_mutation_rejected": true,
+    "opposite_graph_never_satisfies_unsquared_equation": true
+  },
+  "next_requirement": "Construct the compact residual divisor after removing the base graph and verify its global class, boundary points, smoothness, normalization, source return, and fixed-return behavior before any factor-base experiment.",
+  "preflight_pass": true,
+  "records": {
+    "base_graph": "P=4Q on Q != O",
+    "curve_order": 109,
+    "mutated_cauchy_sign_graph_equation_pass_count_at_t_zero": 0,
+    "rows": [
+      {
+        "base_point_count": 108,
+        "eliminant_degree_distribution": {
+          "10": 108
+        },
+        "exact_linear_factor_count": 108,
+        "graph_equation_pass_count": 108,
+        "graph_x_root_multiplicity_distribution": {
+          "1": 100,
+          "2": 8
+        },
+        "level": 0,
+        "opposite_equation_pass_count": 0,
+        "quotient_degree_distribution": {
+          "9": 108
+        }
+      },
+      {
+        "base_point_count": 108,
+        "eliminant_degree_distribution": {
+          "10": 108
+        },
+        "exact_linear_factor_count": 108,
+        "graph_equation_pass_count": 108,
+        "graph_x_root_multiplicity_distribution": {
+          "1": 108
+        },
+        "level": 1,
+        "opposite_equation_pass_count": 0,
+        "quotient_degree_distribution": {
+          "9": 108
+        }
+      },
+      {
+        "base_point_count": 108,
+        "eliminant_degree_distribution": {
+          "10": 108
+        },
+        "exact_linear_factor_count": 108,
+        "graph_equation_pass_count": 108,
+        "graph_x_root_multiplicity_distribution": {
+          "1": 106,
+          "2": 2
+        },
+        "level": 17,
+        "opposite_equation_pass_count": 0,
+        "quotient_degree_distribution": {
+          "9": 108
+        }
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-cleared-base-graph.n608z.v1",
+  "script_sha256": "eec432bf9ae5bd70d224da07859c526f90e396bfcdfb9c1ac5977e1b77119615",
+  "strongest_valid_statement": "For every declared Q and level, P=4Q satisfies the unsquared denominator-cleared equation and supplies an exact factor x-x(4Q) of the degree-ten eliminant; after its removal the quotient has degree nine. The opposite point P=-4Q is rejected by the unsquared equation despite sharing the same x-coordinate.",
+  "timestamp_utc": "2026-08-01T22:25:07.210601+00:00"
+}

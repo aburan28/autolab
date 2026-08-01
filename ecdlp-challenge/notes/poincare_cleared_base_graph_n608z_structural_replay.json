@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "base_graph_retained": true,
+    "cauchy_mutation_rejected": true,
+    "degree_ten_to_nine_factorization_retained": true,
+    "global_divisor_boundary_retained": true,
+    "opposite_graph_rejected": true,
+    "primary_preflight_pass": true,
+    "three_declared_levels_retained": true,
+    "unsquared_graph_identity_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "ac2f23296ae1f8b22edaba2e30d0ceb3e13834bbee3c4d600de4bed4536d7a33",
+  "schema": "ecdlp.h018.poincare-cleared-base-graph.n608z.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T22:25:08.701958+00:00",
+  "verifier_sha256": "6f4297dec1af2cf0a812daa49e0e06384b983e42127299ea4cd2833a20e2fa78"
+}
