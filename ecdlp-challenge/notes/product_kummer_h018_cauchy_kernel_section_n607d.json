@@ -1,0 +1,29 @@
+{
+  "claim_status": "OBSERVATION / MOVING_CAUCHY_KERNEL_FIBRE_BASIS / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_fibre_ranks_nine": true,
+    "minus_r_regular_limit": true,
+    "sign_flipped_has_wrong_pole": true
+  },
+  "global_h018_sections_constructed": false,
+  "next_requirement": "Impose N606Y/N606Z transport compatibility on coefficient functions to determine whether two global H018 sections exist in this basis.",
+  "preflight_pass": true,
+  "rows": [
+    {
+      "minus_r_limit": "65",
+      "r_y_nonzero": true,
+      "rank": 9
+    },
+    {
+      "minus_r_limit": "38",
+      "r_y_nonzero": true,
+      "rank": 9
+    },
+    {
+      "minus_r_limit": "75",
+      "r_y_nonzero": true,
+      "rank": 9
+    }
+  ],
+  "schema": "ecdlp.product-kummer.h018.cauchy-kernel-section.n607d.v1"
+}
