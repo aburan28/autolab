@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_directions_present": true,
+    "declared_levels_retained": true,
+    "minimums_match_scanned_images": true,
+    "nonlinear_boundary_retained": true,
+    "primary_preflight_pass": true,
+    "quarter_order_gate_rejected": true,
+    "source_counts_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "8e2ea1713378534b556d646479eb25d5341958cab43f9609f37009696f177898",
+  "schema": "ecdlp.h018.poincare-linear-projection.n608v.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T22:03:15.046597+00:00",
+  "verifier_sha256": "2649292ec1da627ccaf789b8b204e53423f41820f71118c1b90f25e64b126312"
+}

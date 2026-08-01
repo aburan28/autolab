@@ -1,0 +1,1298 @@
+{
+  "claim_status": "NEGATIVE RESULT / LINEAR-PROJECTION FACTOR BASE REMAINS BASE-FIELD SCALE / MODEL-BOUND / TOY-EVIDENCE / NONLINEAR REPRESENTATIONS OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_projective_directions_scanned": true,
+    "n608u_source_counts_retained": true,
+    "quarter_order_compression_found_all_levels": false
+  },
+  "next_requirement": "Test a nonlinear target-bearing correspondence or a Jacobian/Prym/cover representation with complete source return, then charge relations, rank, descent, and cost against rho.",
+  "preflight_pass": true,
+  "records": {
+    "curve_order": 109,
+    "levels": [
+      {
+        "complete_source_count": 84,
+        "direction_count": 104,
+        "image_sizes": [
+          {
+            "direction": "(1,0)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,1)",
+            "image_size": 55
+          },
+          {
+            "direction": "(1,2)",
+            "image_size": 59
+          },
+          {
+            "direction": "(1,3)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,4)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,5)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,6)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,7)",
+            "image_size": 67
+          },
+          {
+            "direction": "(1,8)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,9)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,10)",
+            "image_size": 57
+          },
+          {
+            "direction": "(1,11)",
+            "image_size": 59
+          },
+          {
+            "direction": "(1,12)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,13)",
+            "image_size": 49
+          },
+          {
+            "direction": "(1,14)",
+            "image_size": 66
+          },
+          {
+            "direction": "(1,15)",
+            "image_size": 61
+          },
+          {
+            "direction": "(1,16)",
+            "image_size": 58
+          },
+          {
+            "direction": "(1,17)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,18)",
+            "image_size": 57
+          },
+          {
+            "direction": "(1,19)",
+            "image_size": 58
+          },
+          {
+            "direction": "(1,20)",
+            "image_size": 59
+          },
+          {
+            "direction": "(1,21)",
+            "image_size": 59
+          },
+          {
+            "direction": "(1,22)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,23)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,24)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,25)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,26)",
+            "image_size": 58
+          },
+          {
+            "direction": "(1,27)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,28)",
+            "image_size": 58
+          },
+          {
+            "direction": "(1,29)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,30)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,31)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,32)",
+            "image_size": 52
+          },
+          {
+            "direction": "(1,33)",
+            "image_size": 67
+          },
+          {
+            "direction": "(1,34)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,35)",
+            "image_size": 57
+          },
+          {
+            "direction": "(1,36)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,37)",
+            "image_size": 57
+          },
+          {
+            "direction": "(1,38)",
+            "image_size": 54
+          },
+          {
+            "direction": "(1,39)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,40)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,41)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,42)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,43)",
+            "image_size": 55
+          },
+          {
+            "direction": "(1,44)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,45)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,46)",
+            "image_size": 61
+          },
+          {
+            "direction": "(1,47)",
+            "image_size": 57
+          },
+          {
+            "direction": "(1,48)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,49)",
+            "image_size": 61
+          },
+          {
+            "direction": "(1,50)",
+            "image_size": 61
+          },
+          {
+            "direction": "(1,51)",
+            "image_size": 61
+          },
+          {
+            "direction": "(1,52)",
+            "image_size": 59
+          },
+          {
+            "direction": "(1,53)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,54)",
+            "image_size": 57
+          },
+          {
+            "direction": "(1,55)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,56)",
+            "image_size": 53
+          },
+          {
+            "direction": "(1,57)",
+            "image_size": 57
+          },
+          {
+            "direction": "(1,58)",
+            "image_size": 58
+          },
+          {
+            "direction": "(1,59)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,60)",
+            "image_size": 61
+          },
+          {
+            "direction": "(1,61)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,62)",
+            "image_size": 54
+          },
+          {
+            "direction": "(1,63)",
+            "image_size": 55
+          },
+          {
+            "direction": "(1,64)",
+            "image_size": 58
+          },
+          {
+            "direction": "(1,65)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,66)",
+            "image_size": 57
+          },
+          {
+            "direction": "(1,67)",
+            "image_size": 66
+          },
+          {
+            "direction": "(1,68)",
+            "image_size": 58
+          },
+          {
+            "direction": "(1,69)",
+            "image_size": 52
+          },
+          {
+            "direction": "(1,70)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,71)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,72)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,73)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,74)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,75)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,76)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,77)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,78)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,79)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,80)",
+            "image_size": 65
+          },
+          {
+            "direction": "(1,81)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,82)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,83)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,84)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,85)",
+            "image_size": 59
+          },
+          {
+            "direction": "(1,86)",
+            "image_size": 58
+          },
+          {
+            "direction": "(1,87)",
+            "image_size": 55
+          },
+          {
+            "direction": "(1,88)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,89)",
+            "image_size": 54
+          },
+          {
+            "direction": "(1,90)",
+            "image_size": 58
+          },
+          {
+            "direction": "(1,91)",
+            "image_size": 59
+          },
+          {
+            "direction": "(1,92)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,93)",
+            "image_size": 63
+          },
+          {
+            "direction": "(1,94)",
+            "image_size": 58
+          },
+          {
+            "direction": "(1,95)",
+            "image_size": 54
+          },
+          {
+            "direction": "(1,96)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,97)",
+            "image_size": 69
+          },
+          {
+            "direction": "(1,98)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,99)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,100)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,101)",
+            "image_size": 66
+          },
+          {
+            "direction": "(1,102)",
+            "image_size": 51
+          },
+          {
+            "direction": "(0,1)",
+            "image_size": 60
+          }
+        ],
+        "level": 0,
+        "minimum_base_order_fraction": "49/109",
+        "minimum_direction": "(1,13)",
+        "minimum_image_size": 49
+      },
+      {
+        "complete_source_count": 108,
+        "direction_count": 104,
+        "image_sizes": [
+          {
+            "direction": "(1,0)",
+            "image_size": 74
+          },
+          {
+            "direction": "(1,1)",
+            "image_size": 67
+          },
+          {
+            "direction": "(1,2)",
+            "image_size": 65
+          },
+          {
+            "direction": "(1,3)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,4)",
+            "image_size": 74
+          },
+          {
+            "direction": "(1,5)",
+            "image_size": 65
+          },
+          {
+            "direction": "(1,6)",
+            "image_size": 72
+          },
+          {
+            "direction": "(1,7)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,8)",
+            "image_size": 69
+          },
+          {
+            "direction": "(1,9)",
+            "image_size": 73
+          },
+          {
+            "direction": "(1,10)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,11)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,12)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,13)",
+            "image_size": 76
+          },
+          {
+            "direction": "(1,14)",
+            "image_size": 67
+          },
+          {
+            "direction": "(1,15)",
+            "image_size": 66
+          },
+          {
+            "direction": "(1,16)",
+            "image_size": 63
+          },
+          {
+            "direction": "(1,17)",
+            "image_size": 71
+          },
+          {
+            "direction": "(1,18)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,19)",
+            "image_size": 63
+          },
+          {
+            "direction": "(1,20)",
+            "image_size": 72
+          },
+          {
+            "direction": "(1,21)",
+            "image_size": 76
+          },
+          {
+            "direction": "(1,22)",
+            "image_size": 75
+          },
+          {
+            "direction": "(1,23)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,24)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,25)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,26)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,27)",
+            "image_size": 79
+          },
+          {
+            "direction": "(1,28)",
+            "image_size": 72
+          },
+          {
+            "direction": "(1,29)",
+            "image_size": 72
+          },
+          {
+            "direction": "(1,30)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,31)",
+            "image_size": 61
+          },
+          {
+            "direction": "(1,32)",
+            "image_size": 74
+          },
+          {
+            "direction": "(1,33)",
+            "image_size": 73
+          },
+          {
+            "direction": "(1,34)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,35)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,36)",
+            "image_size": 73
+          },
+          {
+            "direction": "(1,37)",
+            "image_size": 72
+          },
+          {
+            "direction": "(1,38)",
+            "image_size": 67
+          },
+          {
+            "direction": "(1,39)",
+            "image_size": 66
+          },
+          {
+            "direction": "(1,40)",
+            "image_size": 72
+          },
+          {
+            "direction": "(1,41)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,42)",
+            "image_size": 69
+          },
+          {
+            "direction": "(1,43)",
+            "image_size": 73
+          },
+          {
+            "direction": "(1,44)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,45)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,46)",
+            "image_size": 75
+          },
+          {
+            "direction": "(1,47)",
+            "image_size": 73
+          },
+          {
+            "direction": "(1,48)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,49)",
+            "image_size": 65
+          },
+          {
+            "direction": "(1,50)",
+            "image_size": 69
+          },
+          {
+            "direction": "(1,51)",
+            "image_size": 73
+          },
+          {
+            "direction": "(1,52)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,53)",
+            "image_size": 67
+          },
+          {
+            "direction": "(1,54)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,55)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,56)",
+            "image_size": 64
+          },
+          {
+            "direction": "(1,57)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,58)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,59)",
+            "image_size": 71
+          },
+          {
+            "direction": "(1,60)",
+            "image_size": 72
+          },
+          {
+            "direction": "(1,61)",
+            "image_size": 66
+          },
+          {
+            "direction": "(1,62)",
+            "image_size": 71
+          },
+          {
+            "direction": "(1,63)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,64)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,65)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,66)",
+            "image_size": 61
+          },
+          {
+            "direction": "(1,67)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,68)",
+            "image_size": 67
+          },
+          {
+            "direction": "(1,69)",
+            "image_size": 72
+          },
+          {
+            "direction": "(1,70)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,71)",
+            "image_size": 66
+          },
+          {
+            "direction": "(1,72)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,73)",
+            "image_size": 66
+          },
+          {
+            "direction": "(1,74)",
+            "image_size": 65
+          },
+          {
+            "direction": "(1,75)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,76)",
+            "image_size": 73
+          },
+          {
+            "direction": "(1,77)",
+            "image_size": 74
+          },
+          {
+            "direction": "(1,78)",
+            "image_size": 63
+          },
+          {
+            "direction": "(1,79)",
+            "image_size": 67
+          },
+          {
+            "direction": "(1,80)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,81)",
+            "image_size": 75
+          },
+          {
+            "direction": "(1,82)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,83)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,84)",
+            "image_size": 65
+          },
+          {
+            "direction": "(1,85)",
+            "image_size": 56
+          },
+          {
+            "direction": "(1,86)",
+            "image_size": 61
+          },
+          {
+            "direction": "(1,87)",
+            "image_size": 60
+          },
+          {
+            "direction": "(1,88)",
+            "image_size": 69
+          },
+          {
+            "direction": "(1,89)",
+            "image_size": 66
+          },
+          {
+            "direction": "(1,90)",
+            "image_size": 62
+          },
+          {
+            "direction": "(1,91)",
+            "image_size": 73
+          },
+          {
+            "direction": "(1,92)",
+            "image_size": 72
+          },
+          {
+            "direction": "(1,93)",
+            "image_size": 65
+          },
+          {
+            "direction": "(1,94)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,95)",
+            "image_size": 71
+          },
+          {
+            "direction": "(1,96)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,97)",
+            "image_size": 69
+          },
+          {
+            "direction": "(1,98)",
+            "image_size": 75
+          },
+          {
+            "direction": "(1,99)",
+            "image_size": 70
+          },
+          {
+            "direction": "(1,100)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,101)",
+            "image_size": 71
+          },
+          {
+            "direction": "(1,102)",
+            "image_size": 74
+          },
+          {
+            "direction": "(0,1)",
+            "image_size": 68
+          }
+        ],
+        "level": 1,
+        "minimum_base_order_fraction": "56/109",
+        "minimum_direction": "(1,7)",
+        "minimum_image_size": 56
+      },
+      {
+        "complete_source_count": 144,
+        "direction_count": 104,
+        "image_sizes": [
+          {
+            "direction": "(1,0)",
+            "image_size": 76
+          },
+          {
+            "direction": "(1,1)",
+            "image_size": 78
+          },
+          {
+            "direction": "(1,2)",
+            "image_size": 84
+          },
+          {
+            "direction": "(1,3)",
+            "image_size": 81
+          },
+          {
+            "direction": "(1,4)",
+            "image_size": 88
+          },
+          {
+            "direction": "(1,5)",
+            "image_size": 85
+          },
+          {
+            "direction": "(1,6)",
+            "image_size": 84
+          },
+          {
+            "direction": "(1,7)",
+            "image_size": 74
+          },
+          {
+            "direction": "(1,8)",
+            "image_size": 78
+          },
+          {
+            "direction": "(1,9)",
+            "image_size": 85
+          },
+          {
+            "direction": "(1,10)",
+            "image_size": 91
+          },
+          {
+            "direction": "(1,11)",
+            "image_size": 81
+          },
+          {
+            "direction": "(1,12)",
+            "image_size": 76
+          },
+          {
+            "direction": "(1,13)",
+            "image_size": 89
+          },
+          {
+            "direction": "(1,14)",
+            "image_size": 86
+          },
+          {
+            "direction": "(1,15)",
+            "image_size": 79
+          },
+          {
+            "direction": "(1,16)",
+            "image_size": 81
+          },
+          {
+            "direction": "(1,17)",
+            "image_size": 74
+          },
+          {
+            "direction": "(1,18)",
+            "image_size": 77
+          },
+          {
+            "direction": "(1,19)",
+            "image_size": 78
+          },
+          {
+            "direction": "(1,20)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,21)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,22)",
+            "image_size": 75
+          },
+          {
+            "direction": "(1,23)",
+            "image_size": 83
+          },
+          {
+            "direction": "(1,24)",
+            "image_size": 86
+          },
+          {
+            "direction": "(1,25)",
+            "image_size": 77
+          },
+          {
+            "direction": "(1,26)",
+            "image_size": 83
+          },
+          {
+            "direction": "(1,27)",
+            "image_size": 81
+          },
+          {
+            "direction": "(1,28)",
+            "image_size": 85
+          },
+          {
+            "direction": "(1,29)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,30)",
+            "image_size": 85
+          },
+          {
+            "direction": "(1,31)",
+            "image_size": 75
+          },
+          {
+            "direction": "(1,32)",
+            "image_size": 85
+          },
+          {
+            "direction": "(1,33)",
+            "image_size": 78
+          },
+          {
+            "direction": "(1,34)",
+            "image_size": 75
+          },
+          {
+            "direction": "(1,35)",
+            "image_size": 81
+          },
+          {
+            "direction": "(1,36)",
+            "image_size": 76
+          },
+          {
+            "direction": "(1,37)",
+            "image_size": 88
+          },
+          {
+            "direction": "(1,38)",
+            "image_size": 78
+          },
+          {
+            "direction": "(1,39)",
+            "image_size": 78
+          },
+          {
+            "direction": "(1,40)",
+            "image_size": 82
+          },
+          {
+            "direction": "(1,41)",
+            "image_size": 89
+          },
+          {
+            "direction": "(1,42)",
+            "image_size": 82
+          },
+          {
+            "direction": "(1,43)",
+            "image_size": 76
+          },
+          {
+            "direction": "(1,44)",
+            "image_size": 84
+          },
+          {
+            "direction": "(1,45)",
+            "image_size": 79
+          },
+          {
+            "direction": "(1,46)",
+            "image_size": 79
+          },
+          {
+            "direction": "(1,47)",
+            "image_size": 81
+          },
+          {
+            "direction": "(1,48)",
+            "image_size": 86
+          },
+          {
+            "direction": "(1,49)",
+            "image_size": 79
+          },
+          {
+            "direction": "(1,50)",
+            "image_size": 82
+          },
+          {
+            "direction": "(1,51)",
+            "image_size": 81
+          },
+          {
+            "direction": "(1,52)",
+            "image_size": 86
+          },
+          {
+            "direction": "(1,53)",
+            "image_size": 85
+          },
+          {
+            "direction": "(1,54)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,55)",
+            "image_size": 79
+          },
+          {
+            "direction": "(1,56)",
+            "image_size": 81
+          },
+          {
+            "direction": "(1,57)",
+            "image_size": 74
+          },
+          {
+            "direction": "(1,58)",
+            "image_size": 78
+          },
+          {
+            "direction": "(1,59)",
+            "image_size": 88
+          },
+          {
+            "direction": "(1,60)",
+            "image_size": 82
+          },
+          {
+            "direction": "(1,61)",
+            "image_size": 79
+          },
+          {
+            "direction": "(1,62)",
+            "image_size": 85
+          },
+          {
+            "direction": "(1,63)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,64)",
+            "image_size": 85
+          },
+          {
+            "direction": "(1,65)",
+            "image_size": 79
+          },
+          {
+            "direction": "(1,66)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,67)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,68)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,69)",
+            "image_size": 78
+          },
+          {
+            "direction": "(1,70)",
+            "image_size": 75
+          },
+          {
+            "direction": "(1,71)",
+            "image_size": 82
+          },
+          {
+            "direction": "(1,72)",
+            "image_size": 73
+          },
+          {
+            "direction": "(1,73)",
+            "image_size": 81
+          },
+          {
+            "direction": "(1,74)",
+            "image_size": 78
+          },
+          {
+            "direction": "(1,75)",
+            "image_size": 82
+          },
+          {
+            "direction": "(1,76)",
+            "image_size": 76
+          },
+          {
+            "direction": "(1,77)",
+            "image_size": 77
+          },
+          {
+            "direction": "(1,78)",
+            "image_size": 82
+          },
+          {
+            "direction": "(1,79)",
+            "image_size": 82
+          },
+          {
+            "direction": "(1,80)",
+            "image_size": 72
+          },
+          {
+            "direction": "(1,81)",
+            "image_size": 77
+          },
+          {
+            "direction": "(1,82)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,83)",
+            "image_size": 74
+          },
+          {
+            "direction": "(1,84)",
+            "image_size": 73
+          },
+          {
+            "direction": "(1,85)",
+            "image_size": 77
+          },
+          {
+            "direction": "(1,86)",
+            "image_size": 78
+          },
+          {
+            "direction": "(1,87)",
+            "image_size": 84
+          },
+          {
+            "direction": "(1,88)",
+            "image_size": 84
+          },
+          {
+            "direction": "(1,89)",
+            "image_size": 76
+          },
+          {
+            "direction": "(1,90)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,91)",
+            "image_size": 68
+          },
+          {
+            "direction": "(1,92)",
+            "image_size": 80
+          },
+          {
+            "direction": "(1,93)",
+            "image_size": 76
+          },
+          {
+            "direction": "(1,94)",
+            "image_size": 85
+          },
+          {
+            "direction": "(1,95)",
+            "image_size": 84
+          },
+          {
+            "direction": "(1,96)",
+            "image_size": 85
+          },
+          {
+            "direction": "(1,97)",
+            "image_size": 82
+          },
+          {
+            "direction": "(1,98)",
+            "image_size": 71
+          },
+          {
+            "direction": "(1,99)",
+            "image_size": 88
+          },
+          {
+            "direction": "(1,100)",
+            "image_size": 81
+          },
+          {
+            "direction": "(1,101)",
+            "image_size": 86
+          },
+          {
+            "direction": "(1,102)",
+            "image_size": 79
+          },
+          {
+            "direction": "(0,1)",
+            "image_size": 76
+          }
+        ],
+        "level": 17,
+        "minimum_base_order_fraction": "68/109",
+        "minimum_direction": "(1,91)",
+        "minimum_image_size": 68
+      }
+    ],
+    "quarter_order_threshold": 27
+  },
+  "schema": "ecdlp.h018.poincare-linear-projection.n608v.v1",
+  "script_sha256": "8f175054e5ab33a2cc8f91088b8c0524a0738c3283c3cd29e3a4659dd7782bc4",
+  "strongest_valid_statement": "Across every projective linear map from the declared complete source pairs to E(F_103), the smallest image support at each tested level remains a positive constant fraction of the 109-point base group. This rejects these linear maps as a sub-base-field factor-base source.",
+  "timestamp_utc": "2026-08-01T22:03:14.510488+00:00"
+}
