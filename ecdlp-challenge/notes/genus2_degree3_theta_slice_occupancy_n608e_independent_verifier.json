@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "control_count": true,
+    "control_shapes": true,
+    "coverage_and_rank_match_failure": true,
+    "exact_source_replay": true,
+    "primary_preflight": true,
+    "recorded_admission_failure": true,
+    "schema": true,
+    "three_scale_sweep": true
+  },
+  "primary_sha256": "2206f5e1d43039a7f9b694d8ae1b184ac35e6cd45a6c62fe2c52c51eae904d88",
+  "strongest_valid_statement": "N608E's serialized multi-scale theta-slice sweep passes its exact source replay but fails both occupancy and full-rank admission gates. This is a narrow toy negative result.",
+  "verified": true
+}

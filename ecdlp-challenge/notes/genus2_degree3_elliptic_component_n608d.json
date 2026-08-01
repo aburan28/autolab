@@ -1,0 +1,86 @@
+{
+  "checks": {
+    "all_raw_fibres_reduce_to_mumford_degree_at_most_two": true,
+    "all_raw_fibres_satisfy_curve_congruence": true,
+    "prime_order_quotient": true,
+    "pullback_homomorphism_exact": true,
+    "pullback_image_has_full_quotient_size": true,
+    "smooth_genus_two_model": true
+  },
+  "claim_status": "HYPOTHESIS / EXPLICIT-COVER-MATERIALIZATION / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "fixture": {
+    "field_order": 101,
+    "jacobian_order": 11536,
+    "normal_form_a": 0,
+    "normal_form_b": 4,
+    "odd_degree_curve": "y^2 = 55*t^5 + 25*t^4 + 60*t^3 + 2*t^2 + 60*t + 4",
+    "original_curve": "Y^2 = (X^3 + 4*X + 1) * (4*X^3 + 16*X^2 + 8*X + 1)",
+    "quotient_curve": "Elliptic Curve defined by y^2 = x^3 + 57*x^2 + 21*x + 81 over Finite Field of size 101",
+    "quotient_order": 103,
+    "weierstrass_root": 86
+  },
+  "git_head": "1b586078d3d753fad2e45ba209a333b04a50b85e",
+  "literature": {
+    "normal_form_equations": [
+      "(2)",
+      "(5)",
+      "(7)"
+    ],
+    "source": "Tony Shaska, Genus 2 fields with degree 3 elliptic subfields, arXiv:math/0109155"
+  },
+  "map_audit": {
+    "all_fibres_have_degree_at_most_three": true,
+    "all_nonzero_regular_fibres_have_raw_degree_three": true,
+    "curve_rational_point_count": 113,
+    "examples": [
+      {
+        "quotient_point": "(0 : 1 : 0)",
+        "raw_u": "73*t^2 + 56*t + 1",
+        "raw_v": "0",
+        "reduced_u": "t^2 + 99*t + 18",
+        "reduced_v": "0",
+        "reductions": 0
+      },
+      {
+        "quotient_point": "(0 : 9 : 1)",
+        "raw_u": "23*t^3 + 71*t^2 + t",
+        "raw_v": "2*t^2 + 99*t + 99",
+        "reduced_u": "t^2 + 25*t + 75",
+        "reduced_v": "52*t + 51",
+        "reductions": 1
+      },
+      {
+        "quotient_point": "(0 : 92 : 1)",
+        "raw_u": "23*t^3 + 71*t^2 + t",
+        "raw_v": "99*t^2 + 2*t + 2",
+        "reduced_u": "t^2 + 25*t + 75",
+        "reduced_v": "49*t + 50",
+        "reductions": 1
+      },
+      {
+        "quotient_point": "(2 : 37 : 1)",
+        "raw_u": "23*t^3 + 26*t^2 + 91*t + 99",
+        "raw_v": "58*t^2 + 74*t + 96",
+        "reduced_u": "t^2 + 100*t + 20",
+        "reduced_v": "70*t + 54",
+        "reductions": 1
+      }
+    ],
+    "exceptional_chart_source_count": 3,
+    "pullback_homomorphism_failures": 0,
+    "pullback_homomorphism_pairs": 10609,
+    "pullback_image_size": 103,
+    "regular_chart_image_fibre_sizes": [
+      1,
+      2,
+      3
+    ],
+    "regular_chart_rational_source_count": 110
+  },
+  "next_requirement": "Define a target-independent reduced-divisor theta slice, compare triple-sum occupancy against matched random Jacobian subsets, and charge source recovery and same-form target descent before any promotion.",
+  "preflight_pass": true,
+  "schema": "ecdlp.genus2.degree3-elliptic-component.n608d.v1",
+  "script_sha256": "d92eb81c66745c5c935c7315fbc01c80efd5eff4e1159e74603be6826e3b9444",
+  "strongest_valid_statement": "N608D materializes a degree-three elliptic quotient and exact Jacobian pullback on a public toy curve. The pullback is a verified homomorphism on the 103-point quotient, not a relation-density, source-inverse, target-descent, or ECDLP speedup result.",
+  "timestamp_utc": "2026-08-01T20:08:25.849551+00:00"
+}

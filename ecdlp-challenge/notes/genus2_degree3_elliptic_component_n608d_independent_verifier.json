@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "all_primary_arithmetic_checks": true,
+    "degree_three_source_shape": true,
+    "full_pullback_replay": true,
+    "primary_pass": true,
+    "prime_quotient_and_cofactor": true,
+    "published_normal_form_fixture": true,
+    "regular_and_exceptional_chart_accounting": true,
+    "schema": true
+  },
+  "primary_sha256": "31f764a36e592b7518ccc052c07e205ac835a8d2492ff5ce3f2f71b4773bfd49",
+  "strongest_valid_statement": "The serialized N608D receipt contains a fully replayed 103-point elliptic component in a 11536-point genus-two Jacobian, with degree-three fibres and no recorded pullback homomorphism failure. It remains a toy isogeny-component fixture, not an ECDLP algorithm.",
+  "verified": true
+}
