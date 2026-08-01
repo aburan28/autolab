@@ -1,0 +1,42 @@
+{
+  "claim_status": "OBSERVATION / DETERMINANT P-ORIGIN LEADING COEFFICIENT EXTENDS THROUGH Q-ORIGIN / MODEL-BOUND / TOY-EVIDENCE / FULL_TWO_VARIABLE_CECH_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "determinant_is_q_origin_unit": true,
+    "p_origin_leading_coefficient_is_nonzero_at_crossing": true,
+    "p_origin_leading_coefficient_is_q_regular": true,
+    "regular7_boundary_is_uniform_45": true,
+    "three_levels_used": true
+  },
+  "next_requirement": "Construct the full two-variable overlap, including the corrected Cauchy basis and non-rational charts, before any global Cartier, smoothness, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claim.",
+  "preflight_pass": true,
+  "records": {
+    "formula": "coefficient of v^8 D_t in corrected Q frame is -det(V_Q)*r_7(Q)",
+    "rows": [
+      {
+        "coefficient_constant": 86,
+        "coefficient_valuation": 0,
+        "level": 0,
+        "regular7_constant": 45,
+        "regular7_valuation": 0
+      },
+      {
+        "coefficient_constant": 86,
+        "coefficient_valuation": 0,
+        "level": 1,
+        "regular7_constant": 45,
+        "regular7_valuation": 0
+      },
+      {
+        "coefficient_constant": 86,
+        "coefficient_valuation": 0,
+        "level": 17,
+        "regular7_constant": 45,
+        "regular7_valuation": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-crossing-coefficient.n609q.v1",
+  "script_sha256": "e5f8621c139a399cc8c39e7cbf334cf413d233864f560a9ba870b5c1472b6524",
+  "strongest_valid_statement": "The determinant P-origin leading coefficient is Q-origin regular and nonzero for t=0,1,17; its corrected section coefficient has uniform Q-boundary value 45. This gives formal compatibility of the determinant P-origin trivialization with the Q-origin frame at the rational crossing.",
+  "timestamp_utc": "2026-08-01T23:52:21.902490+00:00"
+}
