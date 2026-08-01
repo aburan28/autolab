@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "coset": true,
+    "degree": true,
+    "fourier_identity": true,
+    "interpolation_rank": true,
+    "order": true,
+    "primary_control_boundary": true,
+    "primary_pass": true,
+    "zeta_order": true
+  },
+  "strongest_valid_statement": "Independent replay confirms the toy level-nine kernel-coset interpolation frame and Fourier row-cycle identity, not a Poincare cocycle or H018 surface-section evaluator.",
+  "verified": true
+}

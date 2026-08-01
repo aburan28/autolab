@@ -1,0 +1,46 @@
+{
+  "claim_status": "OBSERVATION / LEVEL_NINE_INTERPOLATION_FRAME / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "explicit_bundle_isomorphism_constructed": false,
+  "gates": {
+    "cyclic_kernel_generator": true,
+    "cyclic_shift_identity": true,
+    "degree_nine_isogeny": true,
+    "finite_distinct_kernel_coset": true,
+    "fourier_diagonalization": true,
+    "kernel_interpolation_isomorphism": true,
+    "nonkernel_control_full_rank": true,
+    "primitive_ninth_root": true
+  },
+  "interpretation": "The registered kernel coset supplies an exact finite interpolation frame and a Fourier diagonalization of its row cycle. The equally full-rank non-kernel control means rank alone supplies no normalized-Poincare cocycle or bundle identification.",
+  "next_requirement": "Compute a normalized Poincare translation cocycle for this frame as Q varies, then compare it with the cyclic-cover pushforward frame from N606U.",
+  "preflight_pass": true,
+  "records": {
+    "curve": "Elliptic Curve defined by y^2 = x^3 + x + 24 over Finite Field of size 103",
+    "cyclic_row_shift_exact": true,
+    "field_degree": 6,
+    "fourier_diagonalizes_shift": true,
+    "fourier_rank": 9,
+    "isogeny_degree": 9,
+    "kernel_coset_contains_origin": false,
+    "kernel_coset_size": 9,
+    "kernel_generator_order": 9,
+    "kernel_interpolation_determinant_nonzero": true,
+    "kernel_interpolation_rank": 9,
+    "nonkernel_control_generator_order": 109,
+    "nonkernel_control_rank": 9,
+    "origin_kernel_coset_rejected": true,
+    "zeta_order": 9
+  },
+  "schema": "ecdlp.product-kummer.h018.level9-theta-interpolation.n606v.v1",
+  "still_false_gates": {
+    "algorithmic_success": false,
+    "base_locus": false,
+    "factor_base": false,
+    "poincare_cocycle": false,
+    "relation_rank": false,
+    "subrho_cost": false,
+    "surface_evaluator": false,
+    "target_descent": false
+  },
+  "surface_sections_evaluated": false
+}

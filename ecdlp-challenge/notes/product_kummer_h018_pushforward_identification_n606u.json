@@ -1,0 +1,57 @@
+{
+  "claim_status": "CONDITIONAL RESTRICTED THEOREM / ABSTRACT_CYCLIC_ISOGENY_PUSHFORWARD_MODEL / EXPLICIT_BUNDLE_ISOMORPHISM_OPEN / MODEL-BOUND / TOY-EVIDENCE / LITERATURE_BOUND / NO_ECDLP_CLAIM",
+  "explicit_bundle_isomorphism_constructed": false,
+  "gates": {
+    "cm_norm_z_is_97": true,
+    "cover_degree_two_section_space_has_dimension_2": true,
+    "cover_origin_normalization_exact": true,
+    "dual_cover_degree_is_9": true,
+    "dual_cover_kernel_is_cyclic_order_9": true,
+    "pushforward_numerical_degree_is_2": true,
+    "pushforward_numerical_rank_is_9": true
+  },
+  "next_requirement": "Construct an explicit normalized-Poincare-to-isogeny-pushforward bundle isomorphism and evaluate the two transported cover sections on E x E.",
+  "pushforward_identification_preflight_pass": true,
+  "records": {
+    "composite_degree": 9,
+    "conditional_identification": "p2_*L_H018 ~= pi_*O_Eprime(2Oprime)",
+    "cover": "Elliptic Curve defined by y^2 = x^3 + 42*x + 28 over Finite Field of size 103",
+    "cover_degree_two_basis": [
+      "1",
+      "(11*y^2 - 50*x*z + z^2)/x^2"
+    ],
+    "cover_origin_maps_to_origin": true,
+    "curve": "Elliptic Curve defined by y^2 = x^3 + x + 24 over Finite Field of size 103",
+    "dual_degree": 9,
+    "fourier_mukai_numerics": {
+      "theta11_tensor_degree": 2,
+      "w9_degree": -1,
+      "w9_rank": 9,
+      "z_pullback_degree": -97
+    },
+    "kernel_polynomial": "x^4 + 94*x^3 + 47*x^2 + 21*x + 7",
+    "kernel_x_coordinate_orders_over_f103_squared": [
+      3,
+      9,
+      9,
+      9
+    ],
+    "literature_assumptions": [
+      "normalized Fourier--Mukai determinant of O(9O) is O(-O)",
+      "Atiyah coprime rank-degree determinant classification",
+      "odd cyclic isogeny determinant/norm formula"
+    ],
+    "norm_z": 97
+  },
+  "schema": "ecdlp.product-kummer.h018.pushforward-identification.n606u.v1",
+  "still_false_gates": {
+    "algorithmic_success": false,
+    "base_locus": false,
+    "factor_base": false,
+    "relation_rank": false,
+    "subrho_cost": false,
+    "surface_evaluator": false,
+    "target_descent": false
+  },
+  "surface_sections_evaluated": false
+}

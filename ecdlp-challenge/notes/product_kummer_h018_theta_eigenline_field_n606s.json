@@ -1,0 +1,66 @@
+{
+  "claim_status": "RESTRICTED THEOREM / CUBIC_QUOTIENT_INSUFFICIENT_FOR_SCALAR_THETA_EIGENLINES / DEGREE_SIX_THETA_COMPOSITUM_REQUIRED / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "field_requirement": {
+    "combined_field": "F_103^6",
+    "kernel_quotient_field": "F_103^3",
+    "phase_eigenline_field": "F_103^2"
+  },
+  "gates": {
+    "all_charpolys_t2_plus_1": true,
+    "conjugacy_cycle": true,
+    "d_cubed_identity": true,
+    "no_base_roots": true,
+    "plus_i_transport": true
+  },
+  "next_requirement": "Construct the quotient and theta divisor with F_103^6 coefficient data, then solve a genuine semilinear descent to F_103 scalar sections.",
+  "records": {
+    "I": {
+      "base_roots": [],
+      "charpoly": "x^2 + 1",
+      "minus_i_line": [
+        "1",
+        "i"
+      ],
+      "plus_i_line": [
+        "1",
+        "102*i"
+      ]
+    },
+    "J": {
+      "base_roots": [],
+      "charpoly": "x^2 + 1",
+      "minus_i_line": [
+        "1",
+        "91*i + 79"
+      ],
+      "plus_i_line": [
+        "1",
+        "12*i + 79"
+      ]
+    },
+    "K": {
+      "base_roots": [],
+      "charpoly": "x^2 + 1",
+      "minus_i_line": [
+        "1",
+        "51*i + 73"
+      ],
+      "plus_i_line": [
+        "1",
+        "52*i + 73"
+      ]
+    }
+  },
+  "schema": "ecdlp.product-kummer.h018.theta-eigenline-field.n606s.v1",
+  "still_false_gates": {
+    "algorithmic_success": false,
+    "evaluator": false,
+    "quotient_equations": false,
+    "relation_rank": false,
+    "scalar_sections_s0_s1": false,
+    "subrho_cost": false,
+    "target_descent": false,
+    "theta_divisors": false
+  },
+  "theta_eigenline_field_gate_pass": true
+}

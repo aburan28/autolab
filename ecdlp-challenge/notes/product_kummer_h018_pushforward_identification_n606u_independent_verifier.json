@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "cover_basis_dimension": true,
+    "cyclic_kernel_orders": true,
+    "dual_degree": true,
+    "numerical_degree": true,
+    "primary_pass": true
+  },
+  "strongest_valid_statement": "Independent replay confirms the cyclic degree-nine cover and two-dimensional degree-two cover-side section space.",
+  "verified": true
+}
