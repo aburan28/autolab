@@ -1,0 +1,47 @@
+{
+  "claim_status": "OBSERVATION / H018 WEIGHTED-BLOWUP EXCEPTIONAL SLOPE FORM MATERIALIZED / MODEL-BOUND / TOY-EVIDENCE / STRICT_TRANSFORM_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_forms_have_one_genuine_cauchy_slope_pole": true,
+    "all_slope_forms_nonzero": true,
+    "three_levels_used": true
+  },
+  "next_requirement": "Compute strict-transform local equations and derivatives in both blow-up charts, then determine whether the weighted blow-up resolves the crossing before global Cartier, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "cauchy_slope_term": "-A8*s^8*(s^-3+c^-3)/(s^-2-c^-2)",
+    "rows": [
+      {
+        "denominator_degree": 1,
+        "denominator_root_count": 1,
+        "exceptional_slope_root_count": 5,
+        "level": 0,
+        "numerator_degree": 9,
+        "numerator_nonzero": true,
+        "support_slope_constant": 1
+      },
+      {
+        "denominator_degree": 1,
+        "denominator_root_count": 1,
+        "exceptional_slope_root_count": 5,
+        "level": 1,
+        "numerator_degree": 9,
+        "numerator_nonzero": true,
+        "support_slope_constant": 1
+      },
+      {
+        "denominator_degree": 1,
+        "denominator_root_count": 1,
+        "exceptional_slope_root_count": 5,
+        "level": 17,
+        "numerator_degree": 9,
+        "numerator_nonzero": true,
+        "support_slope_constant": 1
+      }
+    ],
+    "substitution": "v=s*u, analyze v^8*D_t"
+  },
+  "schema": "ecdlp.h018.poincare-weighted-blowup-slope.n609t.v1",
+  "script_sha256": "09d7d1501a4e78a46b5dd003cdf8038f7f2411e20a4c2bde38678e540c61609b",
+  "strongest_valid_statement": "The weighted pole profile produces an explicit nonzero rational slope form on the exceptional divisor, with the two Cauchy directions retained as denominator points.",
+  "timestamp_utc": "2026-08-01T23:58:27.884628+00:00"
+}
