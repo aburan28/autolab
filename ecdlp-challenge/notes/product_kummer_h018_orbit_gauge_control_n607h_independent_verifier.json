@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "closing_edge_invertible": true,
+    "cycle_shape": true,
+    "gauge_eliminates_prefix": true,
+    "primary_pass": true,
+    "scope": true
+  },
+  "strongest_valid_statement": "The primary receipt correctly separates a finite chosen-transport holonomy from an explicit geometric bundle isomorphism.",
+  "verified": true
+}

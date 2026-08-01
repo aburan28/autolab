@@ -1,0 +1,20 @@
+{
+  "claim_status": "RESTRICTED THEOREM / FINITE_ORBIT_MONODROMY_NOT_BUNDLE_IDENTIFICATION / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_edges_invertible": true,
+    "all_nonclosing_edges_gauge_to_identity": true,
+    "closing_matrix_remains_full_rank": true
+  },
+  "next_requirement": "Construct a geometric Poincare rigidification or an explicit bundle morphism on a genuine cover; finite-orbit matrix spectra alone are not an admissible substitute.",
+  "preflight_pass": true,
+  "records": {
+    "all_edges_invertible": true,
+    "closing_monodromy_is_scalar": false,
+    "closing_monodromy_rank": 9,
+    "edge_count": 109,
+    "orbit_length": 109,
+    "prefix_gauge_identity_count": 108
+  },
+  "schema": "ecdlp.product-kummer.h018.orbit-gauge-control.n607h.v1",
+  "strongest_valid_statement": "The 108 nonclosing N607E edge matrices can be gauged to identity exactly. The remaining closing matrix is a holonomy of the chosen edge transport, not an explicit normalized-Poincare or pushforward-bundle identification."
+}
