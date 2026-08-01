@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "cardinality": true,
+    "embedding_guard": true,
+    "nonanomalous": true,
+    "nonexceptional_j": true,
+    "order_prime": true,
+    "ordinary": true,
+    "primary_parameters": true,
+    "primary_reports_absence": true,
+    "same_j_near_miss_absent": true,
+    "self_isogeny_absent": true
+  },
+  "strongest_valid_statement": "Independent direct-parameter replay rejects only rational prime-degree self-isogenies and same-j base-field near misses through degree 43 on the public 40-bit fixture.",
+  "tested_prime_degrees": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43
+  ],
+  "verified": true
+}

@@ -1,0 +1,47 @@
+{
+  "claim_status": "NEGATIVE RESULT / BOUNDED_LOW_DEGREE_BASE_FIELD_SELF_ISOGENY_FAMILY / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "endomorphism": {
+    "order_discriminant": -1499123621163,
+    "ring_is_commutative": true,
+    "same_j_nonisomorphic_codomain_maps": [],
+    "self_isogenies": [],
+    "small_prime_degrees_tested": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ]
+  },
+  "genericity_checks": {
+    "cardinality_matches_n": true,
+    "embedding_degree_guard_through_200": true,
+    "is_supersingular": false,
+    "j": 36966562981,
+    "j_not_0_or_1728": true,
+    "n_is_prime": true,
+    "n_not_p": true,
+    "order_computation_seconds": 0.025599667002097704,
+    "sage_cardinality": 616882790773
+  },
+  "instance": {
+    "a": 24569641080,
+    "b": 109798974509,
+    "bits": 40,
+    "n": 616882790773,
+    "p": 616883774851,
+    "seed": 305419896
+  },
+  "next_requirement": "Any higher-degree or non-rational endomorphism proposal must materialize a public subgroup action and fully charged scalar-decomposition cost before comparison with rho.",
+  "preflight_pass": true,
+  "schema": "ecdlp.challenge-curve.endomorphism-audit-40bit.n606x.v1"
+}
