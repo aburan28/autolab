@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "boundary": true,
+    "coprime": true,
+    "field": true,
+    "primary": true
+  },
+  "verified": true
+}
