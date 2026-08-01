@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "declared_levels_and_counts_retained": true,
+    "extended_completeness_and_global_boundary_retained": true,
+    "primary_preflight_pass": true,
+    "raw_chart_failure_control_retained": true,
+    "residual_and_regularized_graph_sets_retained": true,
+    "unsquared_reconstruction_retained": true
+  },
+  "pass": true,
+  "primary_sha256": "db87754605a4ea15bd86cfac7237b1deb9fcff7989991f657c010f7fdc0b8c04",
+  "schema": "ecdlp.h018.poincare-removable-graph.n609e.structural-replay.v1",
+  "timestamp_utc": "2026-08-01T22:52:06.381292+00:00",
+  "verifier_sha256": "d64f3631c01a2927592cd8f354f7704c6a5db174f5a7eee3df4bb5c6579b7e5a"
+}

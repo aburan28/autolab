@@ -1,0 +1,60 @@
+{
+  "claim_status": "OBSERVATION / REMOVABLE P=4Q CHART EXTENSION OF DEGREE-NINE RESIDUAL INVERSE / MODEL-BOUND / TOY-EVIDENCE / GLOBAL COMPACTIFICATION OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_nonzero_base_points_used": true,
+    "declared_graph_counts_exact": true,
+    "extended_counts_exact": true,
+    "extended_inverse_matches_exhaustive_regularized_chart": true,
+    "raw_cauchy_chart_fails_at_every_graph_point": true,
+    "regularized_and_residual_graph_sets_match": true,
+    "unsquared_residual_reconstructs_each_retained_graph_point": true
+  },
+  "next_requirement": "Use this removable-chart extension only as local evidence while constructing a global compact residual divisor, then determine its second projection, class, normalization, and relation mechanism before any rank, descent, cost, or ECDLP claim.",
+  "preflight_pass": true,
+  "records": {
+    "base_graph": "P=4Q",
+    "curve_order": 109,
+    "rows": [
+      {
+        "exhaustive_extended_source_count": 92,
+        "extended_complete_match": true,
+        "extended_source_count": 92,
+        "level": 0,
+        "open_residual_source_count": 84,
+        "raw_chart_failure_count": 108,
+        "regularized_graph_matches_residual_intersection": true,
+        "regularized_graph_source_count": 8,
+        "residual_graph_intersection_count": 8,
+        "unsquared_graph_reconstruction_count": 8
+      },
+      {
+        "exhaustive_extended_source_count": 108,
+        "extended_complete_match": true,
+        "extended_source_count": 108,
+        "level": 1,
+        "open_residual_source_count": 108,
+        "raw_chart_failure_count": 108,
+        "regularized_graph_matches_residual_intersection": true,
+        "regularized_graph_source_count": 0,
+        "residual_graph_intersection_count": 0,
+        "unsquared_graph_reconstruction_count": 0
+      },
+      {
+        "exhaustive_extended_source_count": 146,
+        "extended_complete_match": true,
+        "extended_source_count": 146,
+        "level": 17,
+        "open_residual_source_count": 144,
+        "raw_chart_failure_count": 108,
+        "regularized_graph_matches_residual_intersection": true,
+        "regularized_graph_source_count": 2,
+        "residual_graph_intersection_count": 2,
+        "unsquared_graph_reconstruction_count": 2
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-removable-graph.n609e.v1",
+  "script_sha256": "19b86ea261e2d34472c6443fb1020dc6502b191d696f21ae3eefd89d4849a8d9",
+  "strongest_valid_statement": "At P=4Q the raw Cauchy coordinate is a removable 0/0. Its tangent regularization agrees exactly with the retained degree-nine residual graph intersections and extends complete chart source recovery from 84,108,144 to 92,108,146 at levels 0,1,17.",
+  "timestamp_utc": "2026-08-01T22:52:05.645999+00:00"
+}
