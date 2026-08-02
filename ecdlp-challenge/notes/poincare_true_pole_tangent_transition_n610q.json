@@ -1,0 +1,40 @@
+{
+  "claim_status": "OBSERVATION / H018 TRUE-POLE TANGENT-DIRECTION WEIGHTED TRANSITION / MODEL-BOUND / TOY-EVIDENCE / NONRATIONAL_AND_GLOBAL_CARTIER_EXTENSION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_tangent_crossing_representatives_have_expected_positive_weight": true,
+    "all_tangent_transition_identities_are_exact": true,
+    "all_tangent_transition_units_are_regular_units": true,
+    "all_tangent_weighted_true_rows_are_regular": true
+  },
+  "next_requirement": "Unify the tangent and nontangent directions in a geometric formal chart, then extend from rational to nonrational directions and join the P-origin frame before global Cartier, normalization, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "crossing_valuation": 1,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-true-pole-tangent-transition.n610q.v1",
+  "script_sha256": "3bb24ad1eb535d241b293af7622e51afc947ebe386ac4dfb02ec0961c0fbd3f0",
+  "strongest_valid_statement": "The elliptic-curve doubling branch completes the r=1 tangent direction of N610P: the weighted true-pole representative is regular, the transition factor is a unit, and the transition identity is exact at every selected level.",
+  "timestamp_utc": "2026-08-02T01:18:05.574077+00:00"
+}
