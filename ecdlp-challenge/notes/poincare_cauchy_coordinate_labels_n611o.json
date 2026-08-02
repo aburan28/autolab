@@ -1,0 +1,226 @@
+{
+  "assumptions": [
+    "N608U complete open sources are the declared source universe.",
+    "A low-support label needs an independently derived target-bearing relation before use in an ECDLP algorithm.",
+    "This is a bounded rational-map family and not a novelty claim."
+  ],
+  "claim_status": "HYPOTHESIS / NONLINEAR_CAUCHY_COORDINATE_FACTOR_LABELS / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_candidate_labels_are_not_q_only": true,
+    "all_candidate_labels_complete": true,
+    "cauchy_label_compression_found": false,
+    "complete_source_counts": true,
+    "degree_ten_no_exceptional_branch": true
+  },
+  "hypothesis_supported": false,
+  "next_requirement": "A passing label needs a target-bearing relation and fully charged rank/descent/cost audit; a failing panel leaves other rational maps and normalization functions open.",
+  "preflight_pass": true,
+  "records": {
+    "candidate_passes": {
+      "delta_x": false,
+      "slope": false,
+      "slope_square": false,
+      "weighted_slope": false
+    },
+    "curve_order": 109,
+    "levels": [
+      {
+        "candidates": {
+          "delta_x": {
+            "defined_count": 84,
+            "maximum_collision_multiplicity": 6,
+            "q_fibres_with_multiple_labels": 16,
+            "support": 30,
+            "support_to_uniform_ratio": 0.5555555555555556
+          },
+          "slope": {
+            "defined_count": 84,
+            "maximum_collision_multiplicity": 3,
+            "q_fibres_with_multiple_labels": 16,
+            "support": 55,
+            "support_to_uniform_ratio": 1.0185185185185186
+          },
+          "slope_square": {
+            "defined_count": 84,
+            "maximum_collision_multiplicity": 6,
+            "q_fibres_with_multiple_labels": 14,
+            "support": 28,
+            "support_to_uniform_ratio": 0.5185185185185185
+          },
+          "weighted_slope": {
+            "defined_count": 84,
+            "maximum_collision_multiplicity": 8,
+            "q_fibres_with_multiple_labels": 16,
+            "support": 31,
+            "support_to_uniform_ratio": 0.5740740740740741
+          }
+        },
+        "complete_source_count": 84,
+        "elimination_degree_max": 10,
+        "elimination_degree_min": 10,
+        "exceptional_branch_count": 0,
+        "level": 0,
+        "linear_kummer_control": {
+          "defined_count": 84,
+          "excluded_at_origin": 0,
+          "support": 29
+        },
+        "uniform_controls": [
+          {
+            "candidate": "delta_x",
+            "defined_count": 84,
+            "support": 54
+          },
+          {
+            "candidate": "slope",
+            "defined_count": 84,
+            "support": 54
+          },
+          {
+            "candidate": "slope_square",
+            "defined_count": 84,
+            "support": 54
+          },
+          {
+            "candidate": "weighted_slope",
+            "defined_count": 84,
+            "support": 54
+          }
+        ]
+      },
+      {
+        "candidates": {
+          "delta_x": {
+            "defined_count": 108,
+            "maximum_collision_multiplicity": 6,
+            "q_fibres_with_multiple_labels": 28,
+            "support": 44,
+            "support_to_uniform_ratio": 0.6197183098591549
+          },
+          "slope": {
+            "defined_count": 108,
+            "maximum_collision_multiplicity": 4,
+            "q_fibres_with_multiple_labels": 26,
+            "support": 72,
+            "support_to_uniform_ratio": 1.0140845070422535
+          },
+          "slope_square": {
+            "defined_count": 108,
+            "maximum_collision_multiplicity": 8,
+            "q_fibres_with_multiple_labels": 26,
+            "support": 36,
+            "support_to_uniform_ratio": 0.5070422535211268
+          },
+          "weighted_slope": {
+            "defined_count": 108,
+            "maximum_collision_multiplicity": 4,
+            "q_fibres_with_multiple_labels": 26,
+            "support": 46,
+            "support_to_uniform_ratio": 0.647887323943662
+          }
+        },
+        "complete_source_count": 108,
+        "elimination_degree_max": 10,
+        "elimination_degree_min": 10,
+        "exceptional_branch_count": 0,
+        "level": 1,
+        "linear_kummer_control": {
+          "defined_count": 108,
+          "excluded_at_origin": 0,
+          "support": 37
+        },
+        "uniform_controls": [
+          {
+            "candidate": "delta_x",
+            "defined_count": 108,
+            "support": 71
+          },
+          {
+            "candidate": "slope",
+            "defined_count": 108,
+            "support": 71
+          },
+          {
+            "candidate": "slope_square",
+            "defined_count": 108,
+            "support": 71
+          },
+          {
+            "candidate": "weighted_slope",
+            "defined_count": 108,
+            "support": 71
+          }
+        ]
+      },
+      {
+        "candidates": {
+          "delta_x": {
+            "defined_count": 144,
+            "maximum_collision_multiplicity": 6,
+            "q_fibres_with_multiple_labels": 42,
+            "support": 56,
+            "support_to_uniform_ratio": 0.7368421052631579
+          },
+          "slope": {
+            "defined_count": 144,
+            "maximum_collision_multiplicity": 4,
+            "q_fibres_with_multiple_labels": 42,
+            "support": 80,
+            "support_to_uniform_ratio": 1.0526315789473684
+          },
+          "slope_square": {
+            "defined_count": 144,
+            "maximum_collision_multiplicity": 8,
+            "q_fibres_with_multiple_labels": 42,
+            "support": 40,
+            "support_to_uniform_ratio": 0.5263157894736842
+          },
+          "weighted_slope": {
+            "defined_count": 144,
+            "maximum_collision_multiplicity": 6,
+            "q_fibres_with_multiple_labels": 42,
+            "support": 53,
+            "support_to_uniform_ratio": 0.6973684210526315
+          }
+        },
+        "complete_source_count": 144,
+        "elimination_degree_max": 10,
+        "elimination_degree_min": 10,
+        "exceptional_branch_count": 0,
+        "level": 17,
+        "linear_kummer_control": {
+          "defined_count": 144,
+          "excluded_at_origin": 0,
+          "support": 44
+        },
+        "uniform_controls": [
+          {
+            "candidate": "delta_x",
+            "defined_count": 144,
+            "support": 76
+          },
+          {
+            "candidate": "slope",
+            "defined_count": 144,
+            "support": 76
+          },
+          {
+            "candidate": "slope_square",
+            "defined_count": 144,
+            "support": 76
+          },
+          {
+            "candidate": "weighted_slope",
+            "defined_count": 144,
+            "support": 76
+          }
+        ]
+      }
+    ],
+    "quarter_order_threshold": 27
+  },
+  "schema": "ecdlp.h018.poincare-cauchy-coordinate-labels.n611o.v1",
+  "script_sha256": "2c05df24c53898746958bbe4db324fe8dfca00a6b0f16df0bdb0ad2c19e03c08",
+  "strongest_valid_statement": "This is an exact complete-source support screen for four fixed nonlinear Cauchy-coordinate labels. It does not supply a target relation, matrix rank, descent, cost model, or ECDLP speedup.",
+  "timestamp_utc": "2026-08-02T03:54:41.807068+00:00"
+}

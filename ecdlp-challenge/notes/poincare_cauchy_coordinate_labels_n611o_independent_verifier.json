@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "candidates": true,
+    "elimination": true,
+    "schema": true,
+    "sources": true,
+    "uniform_controls": true
+  },
+  "primary_sha256": "26dc494ec976d9dbf5114e8908b07a3ccd2c647cbb72cfae26947750c754e990",
+  "strongest_valid_statement": "The replay reconstructs every complete source and independently evaluates all four Cauchy labels and deterministic uniform controls.",
+  "verified": true
+}
