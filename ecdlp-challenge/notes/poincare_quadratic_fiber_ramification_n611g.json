@@ -1,0 +1,661 @@
+{
+  "claim_status": "HYPOTHESIS / H018_QUADRATIC_SUBFIELD_RESIDUAL_AUDIT / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_coefficients_descend_to_quadratic_subfield": true,
+    "all_cover_lift_controls_pass": true,
+    "all_residuals_are_degree_nine_after_graph_removal": true,
+    "all_samples_are_nonbase_quadratic_points": true
+  },
+  "next_requirement": "Extend coefficient construction to a complete geometric base or derive a symbolic branch section before applying Riemann-Hurwitz or attempting a Jacobian-based relation mechanism.",
+  "parameters": {
+    "ambient_field_degree": 6,
+    "field_degree": 2,
+    "levels": [
+      0,
+      1,
+      17
+    ],
+    "sample_count": 16
+  },
+  "preflight_pass": true,
+  "records": {
+    "multiplicity_gcd_degree_totals": {
+      "0": 1,
+      "1": 0,
+      "17": 2
+    },
+    "samples": [
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(1 : 78*z^5 + 93*z^4 + 85*z^3 + 63*z^2 + 42*z + 99 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(3 : 53*z^5 + 83*z^4 + 67*z^3 + 23*z^2 + 84*z + 95 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(4 : 33*z^5 + 75*z^4 + 32*z^3 + 94*z^2 + 97*z + 30 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 1,
+            "discriminant_zero": true,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [
+              {
+                "count": 1,
+                "degree": 1,
+                "multiplicity": 2
+              }
+            ],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(5 : 33*z^5 + 75*z^4 + 32*z^3 + 94*z^2 + 97*z + 30 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(6 : 47*z^5 + 60*z^4 + 5*z^3 + 34*z^2 + 57*z + 24 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(11 : 2*z^5 + 42*z^4 + 55*z^3 + 65*z^2 + 9*z + 58 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(18 : 22*z^5 + 50*z^4 + 90*z^3 + 97*z^2 + 99*z + 20 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(20 : 37*z^5 + 56*z^4 + 39*z^3 + 18*z^2 + 12*z + 43 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(23 : 31*z^5 + 33*z^4 + 80*z^3 + 29*z^2 + 88*z + 75 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(26 : 46*z^5 + 39*z^4 + 29*z^3 + 53*z^2 + z + 98 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(27 : 80*z^5 + 32*z^4 + 37*z^3 + 25*z^2 + 51*z + 54 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 1,
+            "discriminant_zero": true,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [
+              {
+                "count": 1,
+                "degree": 1,
+                "multiplicity": 2
+              }
+            ],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(34 : 88*z^5 + 97*z^4 + 51*z^3 + 79*z^2 + 87*z + 80 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(43 : 4*z^5 + 84*z^4 + 7*z^3 + 27*z^2 + 18*z + 13 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 1,
+            "discriminant_zero": true,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [
+              {
+                "count": 1,
+                "degree": 1,
+                "multiplicity": 2
+              }
+            ],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(52 : 86*z^5 + 55*z^4 + 99*z^3 + 14*z^2 + 78*z + 22 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(58 : 90*z^5 + 36*z^4 + 3*z^3 + 41*z^2 + 96*z + 35 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      },
+      {
+        "coefficient_quadratic_fixed": true,
+        "levels": [
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 0,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 1,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          },
+          {
+            "derivative_gcd_degree": 0,
+            "discriminant_zero": false,
+            "graph_factor_remainder_zero": true,
+            "level": 17,
+            "repeated_factor_histogram": [],
+            "residual_degree": 9
+          }
+        ],
+        "lift": "(59 : 89*z^5 + 15*z^4 + 27*z^3 + 60*z^2 + 40*z + 6 : 1)",
+        "lift_checks": {
+          "deck_orbit_maps_to_q": true,
+          "evaluation_rank_nine": true,
+          "interpolation_replays": true,
+          "mutation_changes_coefficient": true
+        },
+        "q_is_not_base_fixed": true,
+        "q_is_quadratic_fixed": true
+      }
+    ],
+    "skipped_phi_pole_samples": 4
+  },
+  "schema": "ecdlp.h018.quadratic-fiber-ramification.n611g.v1",
+  "script_sha256": "a53d18efc22c5e7f31f9388aea0de9b2c4f73ff53ceddb8c27ec85b1d2689033",
+  "strongest_valid_statement": "This is a finite deterministic quadratic-subfield sample constructed from actual cover lifts and coefficient interpolation. It neither enumerates the geometric branch divisor nor proves a compact Cartier curve, normalization genus, Jacobian, or ECDLP route.",
+  "timestamp_utc": "2026-08-02T03:03:41.321216+00:00"
+}

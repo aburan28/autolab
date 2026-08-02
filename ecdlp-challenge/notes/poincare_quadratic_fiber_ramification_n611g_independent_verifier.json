@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "all_primary_gates_pass": true,
+    "multiplicity_totals_match": true,
+    "primary_schema": true,
+    "primary_script_hash_matches": true,
+    "sample_count_matches": true,
+    "skipped_phi_poles_matches": true
+  },
+  "primary_sha256": "24b974e19282e5d7fd5c836a107a5a1b87fbdd43aa584996e3eeae2153b30476",
+  "schema": "ecdlp.h018.quadratic-fiber-ramification.n611g.independent-verifier.v1",
+  "verification_pass": true,
+  "verifier_sha256": "e8f6ee7260c5ce0eda706e040ebdbb0cae86f43b6d12c952f27872438165fdf0"
+}
