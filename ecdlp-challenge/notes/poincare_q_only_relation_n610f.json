@@ -1,0 +1,89 @@
+{
+  "claim_status": "RESTRICTED THEOREM / H018 Q-ONLY TARGET-CORRECTION RELATIONS REJECTED ON CERTIFIED LEVELS / MODEL-BOUND / TOY-EVIDENCE / GENUINELY_TWO_VARIABLE_OR_NORMALIZATION_RELATIONS_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "complete_source_counts_match_known_controls": true,
+    "every_certified_level_has_a_repeated_q_distinct_p_witness": true
+  },
+  "next_requirement": "A viable target relation must retain genuinely two-variable state, use an auxiliary normalization/Jacobian coordinate, or change the correspondence. It must then supply a computable factor base, relation-generation law, rank, individual descent, and charged sub-rho comparison.",
+  "preflight_pass": true,
+  "records": {
+    "curve_order": 109,
+    "rows": [
+      {
+        "distinct_q_count": 60,
+        "level": 0,
+        "max_p_fibre_size": 5,
+        "repeated_q_distinct_p_fibre_count": 16,
+        "source_count": 84,
+        "witness_p_values": [
+          [
+            63,
+            16
+          ],
+          [
+            78,
+            66
+          ]
+        ],
+        "witness_q": [
+          73,
+          86
+        ]
+      },
+      {
+        "distinct_q_count": 68,
+        "level": 1,
+        "max_p_fibre_size": 5,
+        "repeated_q_distinct_p_fibre_count": 28,
+        "source_count": 108,
+        "witness_p_values": [
+          [
+            31,
+            64
+          ],
+          [
+            70,
+            102
+          ],
+          [
+            73,
+            17
+          ],
+          [
+            86,
+            55
+          ]
+        ],
+        "witness_q": [
+          43,
+          26
+        ]
+      },
+      {
+        "distinct_q_count": 76,
+        "level": 17,
+        "max_p_fibre_size": 5,
+        "repeated_q_distinct_p_fibre_count": 42,
+        "source_count": 144,
+        "witness_p_values": [
+          [
+            78,
+            66
+          ],
+          [
+            97,
+            76
+          ]
+        ],
+        "witness_q": [
+          14,
+          102
+        ]
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-q-only-relation-preflight.n610f.v1",
+  "script_sha256": "c8a29970017a8de2708d2a3d5e664cd73dadd1c6f6de6d4afcc1ee9f011d4f28",
+  "strongest_valid_statement": "For each certified complete level, a fixed Q occurs with at least two distinct P values. Therefore no function G(Q), including an arbitrary group-valued correction, can make P+G(Q) depend only on the level: translating both distinct P values by the same G(Q) preserves their inequality.",
+  "timestamp_utc": "2026-08-02T00:36:42.683569+00:00"
+}
