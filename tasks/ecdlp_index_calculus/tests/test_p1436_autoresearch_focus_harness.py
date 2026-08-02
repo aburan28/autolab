@@ -7420,6 +7420,64 @@ class FocusHarnessTests(unittest.TestCase):
             ambiguity_ids,
         )
 
+    def test_s3_determinantal_transfer_routes_to_commutative_pushforward(self) -> None:
+        value = payload(
+            {
+                "random_hash_mask1": config(4, logs=True),
+                "mixed_balanced_stride_mask1": config(4, logs=True),
+            },
+            descents=[successful_descent()],
+        )
+        lane = "m6_s3_determinantal_transfer_noncommutativity"
+        probe = {
+            "schema": FOCUS.FRONTIER_PREFLIGHT_SCHEMAS[lane],
+            "classification": (
+                "S3_DETERMINANT_EXACT__NAIVE_2X2_TRANSFER_CLOSED__"
+                "COMMUTATIVE_PUSHFORWARD_OPEN"
+            ),
+            "source_bindings": {
+                "r172": {"path": "r172.json", "sha256": "a" * 64},
+                "semaev": {"path": "semaev.ps", "sha256": "b" * 64},
+            },
+            "admission": {
+                "lane_admitted": False,
+                "passed_obligation_count": 14,
+                "obligation_count": 23,
+            },
+            "next_action": (
+                "Use 4*V(X)*V_T(u) for a commutative divisor pushforward "
+                "modulo arbitrary squarefree U below B^(5/2)."
+            ),
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = self.write_payload(root, value)
+            probe_path = root / "m6-s3-determinantal-transfer.json"
+            probe_path.write_text(
+                json.dumps(probe, sort_keys=True) + "\n", encoding="utf-8"
+            )
+            report = FOCUS.build_report(
+                value,
+                source,
+                frontier_preflights={lane: (probe, probe_path)},
+            )
+
+        self.assertEqual(
+            report["next_action"]["focus_id"],
+            "s65_commutative_target_sign_divisor_pushforward_mod_u",
+        )
+        self.assertEqual(report["summary"]["frontier_closed_lanes"], [lane])
+        ambiguity_ids = {
+            item["id"]
+            for item in report["autoresearch_steering"][
+                "ambiguity_resolutions"
+            ]
+        }
+        self.assertIn(
+            "m6_s3_determinantal_transfer_noncommutativity_scope",
+            ambiguity_ids,
+        )
+
     def test_exposes_stored_but_unusable_and_routing_headroom(self) -> None:
         value = payload(
             {
@@ -7715,7 +7773,7 @@ class FocusHarnessTests(unittest.TestCase):
     def test_methodology_binds_the_source_post(self) -> None:
         self.assertEqual(
             FOCUS.SCHEMA,
-            "ecdlp.p1436_autoresearch_focus_report.v108",
+            "ecdlp.p1436_autoresearch_focus_report.v109",
         )
         self.assertEqual(
             FOCUS.METHODOLOGY["source_post_url"],

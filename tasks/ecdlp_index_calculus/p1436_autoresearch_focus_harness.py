@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v108"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v109"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -546,6 +546,10 @@ DEFAULT_M6_TARGET_SIGN_CONJUGATE_S3_SELF_RESULTANT_PROBE = Path(
     "p1553_m6_target_sign_conjugate_s3_self_resultant_"
     "probe_report_r172.json"
 )
+DEFAULT_M6_S3_DETERMINANTAL_TRANSFER_NONCOMMUTATIVITY_PROBE = Path(
+    "p1553_m6_s3_determinantal_transfer_noncommutativity_"
+    "probe_report_r173.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -869,6 +873,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_target_sign_conjugate_s3_self_resultant": (
         "p1553.m6_target_sign_conjugate_s3_self_resultant.r172.v1"
+    ),
+    "m6_s3_determinantal_transfer_noncommutativity": (
+        "p1553.m6_s3_determinantal_transfer_noncommutativity.r173.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -4167,6 +4174,40 @@ CRITICAL_EXPERIMENTS = {
             "target_conjugate_s3_factored_self_resultant_r172.json",
         ],
     },
+    "s65_commutative_target_sign_divisor_pushforward_mod_u": {
+        "hypothesis": (
+            "The separable S3 discriminant square root 4*V(X)*V_T(u) lets the "
+            "two target-sign branches be compiled as compact commutative "
+            "divisor pushforwards modulo arbitrary squarefree U in total work "
+            "strictly below B^(5/2)."
+        ),
+        "decisive_test": (
+            "Freeze U,V, the compact target divisor W,V_T, the exact R172 sign "
+            "branches, and the R173 determinant/discriminant identities. "
+            "Specify a transposed modular-composition, multipoint, or equivalent "
+            "commutative arithmetic DAG that emits both aggregate branches or "
+            "their product modulo U. Charge all target-dependent preprocessing, "
+            "squarefree-modulus transforms, divisor pushforwards, quotient "
+            "reductions, zero-divisor branches, factorization, candidate output, "
+            "and signed verification. Require total work strictly below B^(5/2), "
+            "preferably B^(9/4), then replay all R173/R172/R171/R167/R166 controls."
+        ),
+        "falsifier": (
+            "The route materializes either ordered 2 by 2 matrix product or an "
+            "N^2 coefficient body, visits nN point/factor pairs, performs N "
+            "target-specific modular compositions, uses target-dependent setup "
+            "without charging it, merely restates the R172 sign split, reaches "
+            "B^(5/2), inverts candidate nonunits, assumes a unit-cost norm, "
+            "resultant, root, or multipoint oracle, or fails exact replay."
+        ),
+        "required_artifacts": [
+            "frozen_m6_s3_determinantal_transfer_noncommutativity.json",
+            "m6_s3_determinantal_transfer_noncommutativity_cost_ledger.json",
+            "m6_s3_determinantal_transfer_noncommutativity_replay.json",
+            "m6_s3_determinantal_transfer_noncommutativity_controls.json",
+            "s3_determinantal_transfer_noncommutativity_r173.json",
+        ],
+    },
     "routing_intervention_generalization": {
         "hypothesis": "One fixed routing rule recovers natural-route rank on unseen curves.",
         "decisive_test": "Freeze the rule on development cells and replay it unchanged on every prospective cell.",
@@ -6540,7 +6581,42 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_target_sign_conjugate_s3_self_resultant_lane.get(
+    m6_s3_determinantal_transfer_noncommutativity_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_s3_determinantal_transfer_noncommutativity"
+        )
+        or {}
+    )
+    if m6_s3_determinantal_transfer_noncommutativity_lane.get(
+        "closed_by_current_evidence"
+    ):
+        admission = (
+            m6_s3_determinantal_transfer_noncommutativity_lane.get("admission")
+            or {}
+        )
+        add_focus_candidate(
+            candidates,
+            "s65_commutative_target_sign_divisor_pushforward_mod_u",
+            308,
+            str(
+                m6_s3_determinantal_transfer_noncommutativity_lane.get(
+                    "next_action"
+                )
+                or CRITICAL_EXPERIMENTS[
+                    "s65_commutative_target_sign_divisor_pushforward_mod_u"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_s3_determinantal_transfer_noncommutativity_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} determinantal-transfer "
+                "obligations pass. The exact 2 by 2 determinant replays R172, "
+                "but the pencil and target factors are noncommutative and its "
+                "represented product is B^(5/2). Only a custom commutative or "
+                "transposed target-sign pushforward modulo squarefree U remains."
+            ),
+        )
+    elif m6_target_sign_conjugate_s3_self_resultant_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -11427,6 +11503,29 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_s3_determinantal_transfer_noncommutativity_scope",
+            "observed": (
+                "R173 rewrites S3 as an exact 2 by 2 affine determinant pencil. "
+                "Six controls verify 68,326 determinant rows, 1,486 separable "
+                "discriminants, 1,675,890 noncommuting distinct-root pairs, all "
+                "118 noncommuting target-factor pairs, and exact R172 determinant "
+                "replay in both target orders. The represented matrix transfer "
+                "uses 1,418 of 1,448 charged coefficient slots."
+            ),
+            "resolution": (
+                "Close only the naive order-independent 2 by 2 transfer and its "
+                "represented B^(5/2) product. Preserve a custom commutative or "
+                "transposed pushforward using 4*V(X)*V_T(u) modulo arbitrary "
+                "squarefree U; reject N^2 bodies, nN pair visits, target-dependent "
+                "uncharged setup, and oracle-cost norms or resultants. Give finite "
+                "noncommutativity and coefficient density no general lower-bound "
+                "credit."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -12633,6 +12732,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_TARGET_SIGN_CONJUGATE_S3_SELF_RESULTANT_PROBE,
     )
+    parser.add_argument(
+        "--m6-s3-determinantal-transfer-noncommutativity-probe",
+        dest="m6_s3_determinantal_transfer_noncommutativity_probe",
+        type=Path,
+        default=DEFAULT_M6_S3_DETERMINANTAL_TRANSFER_NONCOMMUTATIVITY_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -13076,6 +13181,10 @@ def main() -> int:
         (
             "m6_target_sign_conjugate_s3_self_resultant",
             args.m6_target_sign_conjugate_s3_self_resultant_probe,
+        ),
+        (
+            "m6_s3_determinantal_transfer_noncommutativity",
+            args.m6_s3_determinantal_transfer_noncommutativity_probe,
         ),
     ):
         if path.exists():
