@@ -1,0 +1,36 @@
+{
+  "claim_status": "OBSERVATION / RECIPROCAL EXCEPTIONAL DIRECTION SCREEN FROM DIRECT H018 SLOPE FORM / MODEL-BOUND / TOY-EVIDENCE / GEOMETRIC_ROOTS_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_direct_numerators_degree_one": true,
+    "reciprocal_infinity_direction_is_nonzero": true,
+    "three_levels_used": true
+  },
+  "next_requirement": "Extend the direct slope reconstruction to geometric coefficients and prove chart transitions before global Cartier, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "infinity_numerator_leading_coefficient": "86",
+        "infinity_value_nonzero": true,
+        "level": 0,
+        "numerator_degree": 1
+      },
+      {
+        "infinity_numerator_leading_coefficient": "86",
+        "infinity_value_nonzero": true,
+        "level": 1,
+        "numerator_degree": 1
+      },
+      {
+        "infinity_numerator_leading_coefficient": "86",
+        "infinity_value_nonzero": true,
+        "level": 17,
+        "numerator_degree": 1
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-direct-slope-infinity.n609y.v1",
+  "script_sha256": "91813fb57380eaca8630892eb18bb57f8e9cce7edeabfd9ebf48cc2e301b02d9",
+  "strongest_valid_statement": "The directly reconstructed slope form has degree-one numerator and a nonzero value at slope infinity, so the reciprocal exceptional direction is not a strict-transform root on the tested chart.",
+  "timestamp_utc": "2026-08-02T00:13:14.073161+00:00"
+}
