@@ -1,0 +1,184 @@
+{
+  "claim_status": "OBSERVATION / BOUNDED H018 COEFFICIENT-WISE FORMAL BRANCH / MODEL-BOUND / TOY-EVIDENCE / EXACT_TWO_VARIABLE_CHART_AND_GLOBAL_RESOLUTION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "both_differences_remain_order_eight_units_on_bounded_branch": true,
+    "bounded_branch_residual_reaches_order_twenty_four": true,
+    "constant_term_has_expected_simple_root": true,
+    "level_zero_slope_derivative_is_a_unit": true
+  },
+  "next_requirement": "Derive an exact rational two-variable chart or extend the coefficient-wise validation with an explicit degree law. This bounded jet does not itself prove local colength, a global Cartier divisor, normalization, Jacobian, relations, rank, descent, cost, or an ECDLP advantage.",
+  "parameters": {
+    "max_slope_degree": 26,
+    "max_u_order": 24,
+    "sample_slopes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  "preflight_pass": true,
+  "records": {
+    "boundary_root": "83",
+    "boundary_root_multiplicity": 1,
+    "branch_correction_leading_coefficient": "69",
+    "branch_correction_valuation": 4,
+    "cauchy_slope": "1",
+    "differences": [
+      {
+        "leading_coefficient": "42",
+        "level": 1,
+        "order_eight_unit": true,
+        "valuation": 8
+      },
+      {
+        "leading_coefficient": "96",
+        "level": 17,
+        "order_eight_unit": true,
+        "valuation": 8
+      }
+    ],
+    "elapsed_seconds": 19.257114874999388,
+    "newton_iterations": [
+      {
+        "iteration": 0,
+        "residual_valuation": 4
+      },
+      {
+        "iteration": 1,
+        "residual_valuation": 10
+      },
+      {
+        "iteration": 2,
+        "residual_valuation": 22
+      },
+      {
+        "iteration": 3,
+        "residual_valuation": 46
+      }
+    ],
+    "reconstruction_rows": [
+      {
+        "level": 0,
+        "minimal_replayed_degrees": [
+          1,
+          0,
+          3,
+          0,
+          5,
+          0,
+          7,
+          0,
+          9,
+          0,
+          11,
+          0,
+          13,
+          0,
+          14,
+          0,
+          17,
+          0,
+          19,
+          0,
+          21,
+          0,
+          23,
+          0,
+          25
+        ]
+      },
+      {
+        "level": 1,
+        "minimal_replayed_degrees": [
+          1,
+          0,
+          3,
+          0,
+          5,
+          0,
+          7,
+          0,
+          9,
+          0,
+          11,
+          0,
+          13,
+          0,
+          14,
+          0,
+          17,
+          0,
+          19,
+          0,
+          21,
+          0,
+          23,
+          0,
+          25
+        ]
+      },
+      {
+        "level": 17,
+        "minimal_replayed_degrees": [
+          1,
+          0,
+          3,
+          0,
+          5,
+          0,
+          7,
+          0,
+          8,
+          0,
+          11,
+          0,
+          13,
+          0,
+          14,
+          0,
+          17,
+          0,
+          19,
+          0,
+          21,
+          0,
+          23,
+          0,
+          25
+        ]
+      }
+    ],
+    "residual_valuation": 46
+  },
+  "schema": "ecdlp.h018.poincare-coefficientwise-branch.n610e.v1",
+  "script_sha256": "2add95bdf2de35abd3f1c0430f85f97785c0cc79b5d6713c028c0f1d836ba293",
+  "strongest_valid_statement": "Each coefficient through the declared jet bound replays independently on held-out slopes. In that bounded reconstructed model, the level-zero branch through slope 83 has a unit slope derivative and the two independent differences remain order-eight units after the branch correction.",
+  "timestamp_utc": "2026-08-02T00:31:31.064037+00:00"
+}
