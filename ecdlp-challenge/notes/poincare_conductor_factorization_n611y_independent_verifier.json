@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "cm_norm": true,
+    "isogeny_data": true,
+    "primary_gates": true,
+    "sample_identity": true,
+    "schema": true,
+    "unique_control": true
+  },
+  "primary_sha256": "e05c49ace8d2d5a6cfe040b3ea380c8e1cd44c39d5c25f6723195efe519aca0e",
+  "strongest_valid_statement": "The independent replay verifies the CM arithmetic, selected 3-173-3 path, all 112 recorded point checks, and uniqueness among the tested target/scaling controls; an algebraic morphism-equality proof and theta curve remain open.",
+  "verified": true
+}

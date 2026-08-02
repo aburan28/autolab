@@ -1,0 +1,520 @@
+{
+  "assumptions": [
+    "The recognized j=10 target realizes the maximal CM order of discriminant -43 in this ordinary isogeny class.",
+    "Pointwise agreement on the recorded rational and cubic-torsion samples is a computational witness; a symbolic morphism-equality proof remains open."
+  ],
+  "bound_inputs": {
+    "notes/poincare_degree3_elliptic_class_n611x.json": "a04635537e12281f1d12fa050ed8888c4fa4c92c1f9aee4faf9c525df016cdf1",
+    "notes/poincare_degree3_elliptic_class_n611x_independent_verifier.json": "13f1a56263c788021ff0e576666eb127b56d9e50bda2965201428d362b135ba6"
+  },
+  "claim_status": "OBSERVATION / EXPLICIT_CONDUCTOR_LOWERING_FACTORIZATION_OF_DEGREE_THREE_CLASS / MODEL-BOUND / TOY-EVIDENCE / ELLIPTIC_QUOTIENT_AND_THETA_CURVE_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_other_target_scaling_controls_fail": true,
+    "cm_factorization_norm_identity": true,
+    "composed_factorization_matches_cm_map_on_samples": true,
+    "degree_product_matches_cm_norm": true,
+    "n611x_degree_three_class_receipt_binds": true,
+    "selected_norm_173_target_and_scaling_materialized": true,
+    "unique_ascending_cubic_target_has_maximal_order_j": true
+  },
+  "next_requirement": "Use this factorization to construct the actual elliptic quotient represented by D and prove effectivity/irreducibility of M's theta divisor before deriving a genus-two cover or evaluator.",
+  "preflight_pass": true,
+  "records": {
+    "alternative_controls": [
+      {
+        "matches_all_samples": false,
+        "rho_index": 0,
+        "scaling": 29
+      },
+      {
+        "matches_all_samples": false,
+        "rho_index": 0,
+        "scaling": 74
+      },
+      {
+        "matches_all_samples": true,
+        "rho_index": 1,
+        "scaling": 24
+      },
+      {
+        "matches_all_samples": false,
+        "rho_index": 1,
+        "scaling": 79
+      }
+    ],
+    "cm_identity": "13+4*pi=3*(-1+4*omega), pi=-4+3*omega, omega^2-omega+11=0",
+    "point_check_count": 112,
+    "point_checks": [
+      {
+        "input": "O",
+        "passes": true
+      },
+      {
+        "input": "(1, 51)",
+        "passes": true
+      },
+      {
+        "input": "(1, 52)",
+        "passes": true
+      },
+      {
+        "input": "(2, 31)",
+        "passes": true
+      },
+      {
+        "input": "(2, 72)",
+        "passes": true
+      },
+      {
+        "input": "(4, 35)",
+        "passes": true
+      },
+      {
+        "input": "(4, 68)",
+        "passes": true
+      },
+      {
+        "input": "(8, 21)",
+        "passes": true
+      },
+      {
+        "input": "(8, 82)",
+        "passes": true
+      },
+      {
+        "input": "(9, 12)",
+        "passes": true
+      },
+      {
+        "input": "(9, 91)",
+        "passes": true
+      },
+      {
+        "input": "(10, 2)",
+        "passes": true
+      },
+      {
+        "input": "(10, 101)",
+        "passes": true
+      },
+      {
+        "input": "(12, 42)",
+        "passes": true
+      },
+      {
+        "input": "(12, 61)",
+        "passes": true
+      },
+      {
+        "input": "(14, 1)",
+        "passes": true
+      },
+      {
+        "input": "(14, 102)",
+        "passes": true
+      },
+      {
+        "input": "(15, 18)",
+        "passes": true
+      },
+      {
+        "input": "(15, 85)",
+        "passes": true
+      },
+      {
+        "input": "(16, 4)",
+        "passes": true
+      },
+      {
+        "input": "(16, 99)",
+        "passes": true
+      },
+      {
+        "input": "(19, 1)",
+        "passes": true
+      },
+      {
+        "input": "(19, 102)",
+        "passes": true
+      },
+      {
+        "input": "(21, 6)",
+        "passes": true
+      },
+      {
+        "input": "(21, 97)",
+        "passes": true
+      },
+      {
+        "input": "(23, 36)",
+        "passes": true
+      },
+      {
+        "input": "(23, 67)",
+        "passes": true
+      },
+      {
+        "input": "(25, 11)",
+        "passes": true
+      },
+      {
+        "input": "(25, 92)",
+        "passes": true
+      },
+      {
+        "input": "(26, 42)",
+        "passes": true
+      },
+      {
+        "input": "(26, 61)",
+        "passes": true
+      },
+      {
+        "input": "(27, 24)",
+        "passes": true
+      },
+      {
+        "input": "(27, 79)",
+        "passes": true
+      },
+      {
+        "input": "(30, 45)",
+        "passes": true
+      },
+      {
+        "input": "(30, 58)",
+        "passes": true
+      },
+      {
+        "input": "(31, 39)",
+        "passes": true
+      },
+      {
+        "input": "(31, 64)",
+        "passes": true
+      },
+      {
+        "input": "(34, 4)",
+        "passes": true
+      },
+      {
+        "input": "(34, 99)",
+        "passes": true
+      },
+      {
+        "input": "(37, 48)",
+        "passes": true
+      },
+      {
+        "input": "(37, 55)",
+        "passes": true
+      },
+      {
+        "input": "(41, 39)",
+        "passes": true
+      },
+      {
+        "input": "(41, 64)",
+        "passes": true
+      },
+      {
+        "input": "(42, 32)",
+        "passes": true
+      },
+      {
+        "input": "(42, 71)",
+        "passes": true
+      },
+      {
+        "input": "(43, 26)",
+        "passes": true
+      },
+      {
+        "input": "(43, 77)",
+        "passes": true
+      },
+      {
+        "input": "(50, 49)",
+        "passes": true
+      },
+      {
+        "input": "(50, 54)",
+        "passes": true
+      },
+      {
+        "input": "(53, 4)",
+        "passes": true
+      },
+      {
+        "input": "(53, 99)",
+        "passes": true
+      },
+      {
+        "input": "(54, 40)",
+        "passes": true
+      },
+      {
+        "input": "(54, 63)",
+        "passes": true
+      },
+      {
+        "input": "(56, 9)",
+        "passes": true
+      },
+      {
+        "input": "(56, 94)",
+        "passes": true
+      },
+      {
+        "input": "(58, 3)",
+        "passes": true
+      },
+      {
+        "input": "(58, 100)",
+        "passes": true
+      },
+      {
+        "input": "(60, 14)",
+        "passes": true
+      },
+      {
+        "input": "(60, 89)",
+        "passes": true
+      },
+      {
+        "input": "(62, 22)",
+        "passes": true
+      },
+      {
+        "input": "(62, 81)",
+        "passes": true
+      },
+      {
+        "input": "(63, 16)",
+        "passes": true
+      },
+      {
+        "input": "(63, 87)",
+        "passes": true
+      },
+      {
+        "input": "(64, 32)",
+        "passes": true
+      },
+      {
+        "input": "(64, 71)",
+        "passes": true
+      },
+      {
+        "input": "(65, 42)",
+        "passes": true
+      },
+      {
+        "input": "(65, 61)",
+        "passes": true
+      },
+      {
+        "input": "(69, 49)",
+        "passes": true
+      },
+      {
+        "input": "(69, 54)",
+        "passes": true
+      },
+      {
+        "input": "(70, 1)",
+        "passes": true
+      },
+      {
+        "input": "(70, 102)",
+        "passes": true
+      },
+      {
+        "input": "(71, 9)",
+        "passes": true
+      },
+      {
+        "input": "(71, 94)",
+        "passes": true
+      },
+      {
+        "input": "(72, 22)",
+        "passes": true
+      },
+      {
+        "input": "(72, 81)",
+        "passes": true
+      },
+      {
+        "input": "(73, 17)",
+        "passes": true
+      },
+      {
+        "input": "(73, 86)",
+        "passes": true
+      },
+      {
+        "input": "(74, 29)",
+        "passes": true
+      },
+      {
+        "input": "(74, 74)",
+        "passes": true
+      },
+      {
+        "input": "(78, 37)",
+        "passes": true
+      },
+      {
+        "input": "(78, 66)",
+        "passes": true
+      },
+      {
+        "input": "(79, 9)",
+        "passes": true
+      },
+      {
+        "input": "(79, 94)",
+        "passes": true
+      },
+      {
+        "input": "(80, 20)",
+        "passes": true
+      },
+      {
+        "input": "(80, 83)",
+        "passes": true
+      },
+      {
+        "input": "(81, 13)",
+        "passes": true
+      },
+      {
+        "input": "(81, 90)",
+        "passes": true
+      },
+      {
+        "input": "(83, 48)",
+        "passes": true
+      },
+      {
+        "input": "(83, 55)",
+        "passes": true
+      },
+      {
+        "input": "(86, 48)",
+        "passes": true
+      },
+      {
+        "input": "(86, 55)",
+        "passes": true
+      },
+      {
+        "input": "(87, 49)",
+        "passes": true
+      },
+      {
+        "input": "(87, 54)",
+        "passes": true
+      },
+      {
+        "input": "(88, 41)",
+        "passes": true
+      },
+      {
+        "input": "(88, 62)",
+        "passes": true
+      },
+      {
+        "input": "(94, 25)",
+        "passes": true
+      },
+      {
+        "input": "(94, 78)",
+        "passes": true
+      },
+      {
+        "input": "(95, 15)",
+        "passes": true
+      },
+      {
+        "input": "(95, 88)",
+        "passes": true
+      },
+      {
+        "input": "(97, 27)",
+        "passes": true
+      },
+      {
+        "input": "(97, 76)",
+        "passes": true
+      },
+      {
+        "input": "(98, 10)",
+        "passes": true
+      },
+      {
+        "input": "(98, 93)",
+        "passes": true
+      },
+      {
+        "input": "(99, 33)",
+        "passes": true
+      },
+      {
+        "input": "(99, 70)",
+        "passes": true
+      },
+      {
+        "input": "(100, 32)",
+        "passes": true
+      },
+      {
+        "input": "(100, 71)",
+        "passes": true
+      },
+      {
+        "input": "(101, 23)",
+        "passes": true
+      },
+      {
+        "input": "(101, 80)",
+        "passes": true
+      },
+      {
+        "input": "(61*a^2 + 99*a + 47, 0)",
+        "passes": true
+      },
+      {
+        "input": "(70*a^2 + 49*a + 59, 0)",
+        "passes": true
+      },
+      {
+        "input": "(75*a^2 + 58*a + 100, 0)",
+        "passes": true
+      }
+    ],
+    "psi": {
+      "degree": 3,
+      "target": {
+        "a4": "45",
+        "a6": "7",
+        "j": "10"
+      }
+    },
+    "psi_dual_degree": 3,
+    "rho": {
+      "degree": 173,
+      "iota_scaling": 24,
+      "target": {
+        "a4": "51",
+        "a6": "33"
+      }
+    },
+    "u_degree": 1557
+  },
+  "schema": "ecdlp.h018.conductor-factorization.n611y.v1",
+  "script_sha256": "6e41966aec6c9ff764fd9599e46622421471f51e7215c716f8505da80bf3c303",
+  "strongest_valid_statement": "The N611X element 13+4*pi is materialized through the conductor-lowering path psi^dagger o iota o rho o psi, with degrees 3,173,3 and a unique tested target/scaling. The composition agrees with [13]+[4]Frob on all 109 base-field points and all three cubic two-torsion points.",
+  "timestamp_utc": "2026-08-02T04:59:51.316136+00:00"
+}
