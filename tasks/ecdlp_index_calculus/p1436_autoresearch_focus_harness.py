@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v116"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v117"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -575,6 +575,9 @@ DEFAULT_M6_SQUAREFREE_TRUNCATED_RESULTANT_APPLICABILITY_PROBE = Path(
 DEFAULT_M6_D5_DIRECTED_EVALUATION_SURVIVOR_PROBE = Path(
     "p1553_m6_d5_directed_evaluation_survivor_probe_report_r180.json"
 )
+DEFAULT_M6_MONOGENIC_KERNEL_BIDEGREE_PROBE = Path(
+    "p1553_m6_monogenic_kernel_bidegree_probe_report_r181.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -922,6 +925,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_d5_directed_evaluation_survivor": (
         "p1553.m6_d5_directed_evaluation_survivor.r180.v1"
+    ),
+    "m6_monogenic_kernel_bidegree": (
+        "p1553.m6_monogenic_kernel_bidegree.r181.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -4256,35 +4262,33 @@ CRITICAL_EXPERIMENTS = {
     },
     "s66_fused_factored_dual_chow_outer_norm_mod_u": {
         "hypothesis": (
-            "The degree-N target Miller SLP and two-chart confluent outer norm "
-            "admit a one-shot monogenic or bounded-bidegree representation over "
-            "F[X]/(U), allowing charged finite-field modular composition in "
-            "softly O(n+N) work without an N-step residue stream."
+            "The O(n)-size signed line-product SLP and O(N)-size target divisor "
+            "admit a gcd-equivalent output-sensitive elliptic composed resultant "
+            "modulo U in softly O(n+N) work, after discarding target-dependent "
+            "units and without constructing the exact aggregate."
         ),
         "decisive_test": (
-            "Freeze U,V, the degree-N target Miller SLP, both R174 secant and "
-            "geometric-tangent charts, and the R180 target-factor decomposition. "
-            "Construct H,a with C_h=H(a) mod U, or a bounded-bidegree "
-            "G(X,a(X)) mod U, before product-algebra evaluation. Charge compiler "
-            "preprocessing, relation matrices, modular composition, exceptional "
-            "charts, gcd output, and signed replay. Require softly O(n+N) total "
-            "work, then replay all R180/R179/R178/R174 controls and one held-out "
-            "divisor family."
+            "Freeze U,V, the R181 normal-form hashes, the tangent-corrected "
+            "signed line-product SLP, and the target divisor. Apply direct "
+            "transposed power projection, subresultant traces, or another exact "
+            "resultant-mod-U algorithm to emit G_1 without C_h. Charge every "
+            "represented algebra element, trace, unit branch, gcd, and candidate "
+            "verification. Require softly O(n+N) total work and replay seed "
+            "18104 plus one new divisor family."
         ),
         "falsifier": (
-            "The compiler emits N quotient-ring elements, retains an N-step "
-            "D5 or directed-evaluation tree, represents nN, N^2, or n^2 state, "
-            "uses the cited generic algebraic modular-composition exponent above "
-            "rho, drops the tangent chart, inverts candidate nonunits, or assumes "
-            "a unit-cost composition, norm, resultant, root, count, marginal, "
-            "rank, source, or generic locator oracle."
+            "The route constructs the canonical 3n^2 coefficient body, an nN "
+            "tensor element, the full degree-nN composed resultant, N quotient "
+            "elements, or C_h before its gcd; drops the tangent chart; loses "
+            "candidate zeros when discarding units; or assumes unit-cost power "
+            "projection, norm, resultant, root, count, rank, or source oracles."
         ),
         "required_artifacts": [
-            "frozen_m6_d5_directed_evaluation_survivor.json",
-            "m6_d5_directed_evaluation_survivor_cost_ledger.json",
-            "m6_d5_directed_evaluation_survivor_replay.json",
-            "m6_d5_directed_evaluation_survivor_controls.json",
-            "d5_directed_evaluation_survivor_applicability_r180.json",
+            "frozen_m6_monogenic_kernel_bidegree.json",
+            "m6_monogenic_kernel_bidegree_cost_ledger.json",
+            "m6_monogenic_kernel_bidegree_replay.json",
+            "m6_monogenic_kernel_bidegree_controls.json",
+            "monogenic_kernel_bidegree_applicability_r181.json",
         ],
     },
     "s67_reusable_scalar_subset_incidence_oracle": {
@@ -6808,7 +6812,36 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_d5_directed_evaluation_survivor_lane.get(
+    m6_monogenic_kernel_bidegree_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_monogenic_kernel_bidegree"
+        )
+        or {}
+    )
+    if m6_monogenic_kernel_bidegree_lane.get("closed_by_current_evidence"):
+        admission = m6_monogenic_kernel_bidegree_lane.get("admission") or {}
+        add_focus_candidate(
+            candidates,
+            "s66_fused_factored_dual_chow_outer_norm_mod_u",
+            324,
+            str(
+                m6_monogenic_kernel_bidegree_lane.get("next_action")
+                or CRITICAL_EXPERIMENTS[
+                    "s66_fused_factored_dual_chow_outer_norm_mod_u"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_monogenic_kernel_bidegree_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} monogenic-kernel "
+                "obligations pass. The exact canonical kernel has a fully "
+                "dense 3n^2 body and full finite source rank, while flattened "
+                "norms and complete composed resultants retain B^(7/2). A "
+                "gcd-equivalent output-sensitive elliptic resultant modulo U "
+                "that discards target-dependent units remains open."
+            ),
+        )
+    elif m6_d5_directed_evaluation_survivor_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -12091,6 +12124,29 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_monogenic_kernel_bidegree_scope",
+            "observed": (
+                "R181 constructs the canonical A_P(u)+vB_P(u) signed target "
+                "kernel on nine controls, including seed 18104. Every body has "
+                "3n dense slots per source point and pole order 3n; both its "
+                "coefficient matrix and a fixed public n-target evaluation "
+                "matrix have full source rank n. Flattened norms and complete "
+                "composed resultants retain represented scale nN."
+            ),
+            "resolution": (
+                "Close tautological post-construction H(a), explicit exact "
+                "bounded-source-degree scalar kernels on the controls, the "
+                "canonical 3n^2 body, flattened tensor norms, and full degree-nN "
+                "composed output. Preserve compact high-degree SLPs and a "
+                "gcd-equivalent output-sensitive elliptic composed resultant "
+                "modulo U that may discard target-dependent units. Infer no "
+                "asymptotic rank, circuit, RAM, or cell-probe lower bound."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -13345,6 +13401,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_D5_DIRECTED_EVALUATION_SURVIVOR_PROBE,
     )
+    parser.add_argument(
+        "--m6-monogenic-kernel-bidegree-probe",
+        dest="m6_monogenic_kernel_bidegree_probe",
+        type=Path,
+        default=DEFAULT_M6_MONOGENIC_KERNEL_BIDEGREE_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -13820,6 +13882,10 @@ def main() -> int:
         (
             "m6_d5_directed_evaluation_survivor",
             args.m6_d5_directed_evaluation_survivor_probe,
+        ),
+        (
+            "m6_monogenic_kernel_bidegree",
+            args.m6_monogenic_kernel_bidegree_probe,
         ),
     ):
         if path.exists():
