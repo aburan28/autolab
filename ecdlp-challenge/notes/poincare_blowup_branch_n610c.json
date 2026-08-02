@@ -1,0 +1,45 @@
+{
+  "claim_status": "NEGATIVE RESULT / H018 DEGREE-NINE BIVARIATE SLOPE RECONSTRUCTION REJECTED / MODEL-BOUND / TOY-EVIDENCE / HIGHER-SERIES-STRUCTURE_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_three_bivariate_reconstructions_reject_the_degree_nine_model": true,
+    "boundary_constant_term_still_has_the_expected_simple_slope": true
+  },
+  "next_requirement": "Characterize the slope-degree growth coefficient by coefficient, or derive an exact rational two-variable chart. Keep the constant-term slope result separate from the rejected full-series reconstruction; global Cartier, normalization, Jacobian, relation law, rank, descent, cost, and ECDLP claims remain open.",
+  "preflight_pass": true,
+  "records": {
+    "boundary_roots": [
+      {
+        "multiplicity": 1,
+        "root": "83"
+      }
+    ],
+    "cauchy_slope": "1",
+    "reconstruction_rows": [
+      {
+        "heldout_count": 20,
+        "heldout_series_reconstruction_match": false,
+        "level": 0,
+        "sample_count": 30,
+        "train_count": 10
+      },
+      {
+        "heldout_count": 20,
+        "heldout_series_reconstruction_match": false,
+        "level": 1,
+        "sample_count": 30,
+        "train_count": 10
+      },
+      {
+        "heldout_count": 20,
+        "heldout_series_reconstruction_match": false,
+        "level": 17,
+        "sample_count": 30,
+        "train_count": 10
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-blowup-branch.n610c.v1",
+  "script_sha256": "deff8b1d0a5cc3eb41ba1fa97b62dff16debdd8cb4721ff8f5afec8246206123",
+  "strongest_valid_statement": "The degree-nine slope interpolation that succeeds for the exceptional constant term fails to replay the full formal series at every tested pencil level. Therefore it cannot be used to construct a formal branch or to infer a local base-scheme length.",
+  "timestamp_utc": "2026-08-02T00:26:27.692606+00:00"
+}
