@@ -1,0 +1,31 @@
+{
+  "claim_status": "OBSERVATION / LOCAL H018 EXCEPTIONAL PENCIL BASE-IDEAL LEADING TERMS / MODEL-BOUND / TOY-EVIDENCE / MULTIPLICITY_SEQUENCE_AND_GLOBAL_RESOLUTION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "base_member_retains_order_four_contact": true,
+    "both_nonzero_level_differences_are_order_eight_units": true
+  },
+  "next_requirement": "Compute the slope derivative and successive blow-up transforms of this local ideal, then subtract only a proven base scheme before using genus, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "base_member_valuation": 4,
+    "rows": [
+      {
+        "difference_leading_coefficient": "37",
+        "difference_valuation": 8,
+        "level": 1,
+        "order_eight_unit": true
+      },
+      {
+        "difference_leading_coefficient": "11",
+        "difference_valuation": 8,
+        "level": 17,
+        "order_eight_unit": true
+      }
+    ],
+    "slope": "83"
+  },
+  "schema": "ecdlp.h018.poincare-blowup-baseideal.n610a.v1",
+  "script_sha256": "d137e98db97b5d529715b8a267cdfd849de26bbbfbd20ee50c27921f535d95e8",
+  "strongest_valid_statement": "At the exceptional point, the selected pencil has one member with order-four normal contact and both independent level differences are order-eight units. This supports the local base-ideal candidate (x+O(u^4),u^8 unit) once the slope coordinate derivative is included.",
+  "timestamp_utc": "2026-08-02T00:19:17.369598+00:00"
+}
