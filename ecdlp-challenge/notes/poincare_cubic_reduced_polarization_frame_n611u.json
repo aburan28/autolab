@@ -1,0 +1,76 @@
+{
+  "assumptions": [
+    "The standard dual-isogeny and CM-polarization identities used in N611S apply.",
+    "The reduction minimum is only over triangular source changes T_d with d=pi mod 2."
+  ],
+  "bound_inputs": {
+    "notes/poincare_cubic_explicit_principal_polarization_n611s.json": "fb11006fa647c191320b92bb54aa350211d0aed6b918313028af567bb51185b0",
+    "notes/poincare_cubic_explicit_principal_polarization_n611s_independent_verifier.json": "252e78226a0c8a4ebe805b9600fe61f921a18ddabc5aee9e4bb14991034c0de7",
+    "notes/poincare_cubic_product_quotient_n611q.json": "a53492e8d1d2ceee44ca8cc47937a6ad2ca0c27056e5bc27e4990003930f9a47",
+    "notes/poincare_cubic_product_quotient_n611q_independent_verifier.json": "87a8faf586414a8baf2758a4699101e2efa02362e98f6d35502ce33404713e77",
+    "notes/poincare_cubic_theta_kernel_n611p.json": "23b6a825d60378b5924d59e94f67eac5b6ac22cb18bf74460a832187407b568a",
+    "notes/poincare_cubic_theta_kernel_n611p_independent_verifier.json": "e778add236c798a12ca0e0e62b96048b6b7d7f4dc6f56e5c243b7922a0d09035"
+  },
+  "claim_status": "RESTRICTED THEOREM / KERNEL_PRESERVING_TRIANGULAR_CUBIC_POLARIZATION_REDUCTION / MODEL-BOUND / TOY-EVIDENCE / THETA_EQUATIONS_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "d_congruent_pi_mod_two_preserves_kernel_generator": true,
+    "dual_map_offdiagonal_identity_replays": true,
+    "exact_reduced_cm_transport": true,
+    "n611p_and_n611q_kernel_receipts_bind": true,
+    "n611s_baseline_receipt_binds": true,
+    "noncongruent_zero_control_fails_kernel": true,
+    "reduced_form_is_principal_positive": true,
+    "triangular_kernel_preserving_minimum_is_690": true
+  },
+  "next_requirement": "Use this reduced line-bundle frame to compute an evaluable theta generator, or leave the triangular family for a full quotient-lattice reduction before attempting Riemann-Roch.",
+  "preflight_pass": true,
+  "records": {
+    "beta": "phi_g o ([12]+[4]Frob)",
+    "beta_degree": 3104,
+    "d": "2+pi",
+    "lower_coefficient_formula": "9*A^2-45*A*B+927*B^2+A-196*B+11",
+    "minimum_proof_controls": {
+      "B_minus_one_exact_minimum": 1078,
+      "B_plus_one_exact_minimum": 690,
+      "continuous_lower_bound_B_minus_three": 8428.222222222223,
+      "continuous_lower_bound_B_plus_three": 7267.222222222223,
+      "continuous_lower_bound_abs_B_ge_3": 7267.222222222223
+    },
+    "new_beta_degree": 3104,
+    "new_second_diagonal": 345,
+    "old_beta_degree": 3338,
+    "old_second_diagonal": 371,
+    "target_determinant": 1,
+    "target_form": [
+      [
+        "9",
+        "beta^dagger"
+      ],
+      [
+        "beta",
+        "345"
+      ]
+    ],
+    "transported_form": [
+      [
+        "9",
+        "-16-8*pi"
+      ],
+      [
+        "24+8*pi",
+        "690"
+      ]
+    ],
+    "triangular_minimizer": {
+      "A": 2,
+      "B": 1,
+      "lower_coefficient": 690
+    },
+    "u": "12+4*pi",
+    "u_dual": "-8-4*pi"
+  },
+  "schema": "ecdlp.h018.cubic-reduced-principal-polarization-frame.n611u.v1",
+  "script_sha256": "2fa7ccb7398252cb26190d8c67dd819b32f9f9e06c08a270e104ec0bed87f121",
+  "strongest_valid_statement": "Within all triangular source changes T_d with d=pi modulo 2, d=2+pi is the exact minimizer of the transported lower coefficient. It realizes the same cubic H018 quotient kernel with principal target form [[9,beta^dagger],[beta,345]] and beta=phi_g o ([12]+[4]Frob), reducing the cross-map degree from 3338 to 3104.",
+  "timestamp_utc": "2026-08-02T04:31:58.129190+00:00"
+}

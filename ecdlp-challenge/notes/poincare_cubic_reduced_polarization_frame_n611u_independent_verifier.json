@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "explicit_map_and_determinant": true,
+    "independent_complete_minimum_replay": true,
+    "primary_gates": true,
+    "schema": true,
+    "strict_reduction": true,
+    "transported_matrix": true
+  },
+  "primary_sha256": "9b20cdc502a19f19588f99cddbb5df28daf98bbf2052858f078cb002cca23632",
+  "strongest_valid_statement": "The independent replay verifies the reduced CM form, map invariants, strict numerical reduction, and the declared triangular-family minimum; it does not construct a theta equation or ECDLP algorithm.",
+  "verified": true
+}
