@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v112"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v113"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -562,6 +562,9 @@ DEFAULT_M6_PRINCIPAL_TARGET_PONTRYAGIN_RESULTANT_PROBE = Path(
     "p1553_m6_principal_target_pontryagin_resultant_"
     "probe_report_r176.json"
 )
+DEFAULT_M6_GLOBAL_MARKED_FITTING_LOCATOR_PROBE = Path(
+    "p1553_m6_global_marked_fitting_locator_probe_report_r177.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -897,6 +900,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_principal_target_pontryagin_resultant": (
         "p1553.m6_principal_target_pontryagin_resultant.r176.v1"
+    ),
+    "m6_global_marked_fitting_locator": (
+        "p1553.m6_global_marked_fitting_locator.r177.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -4330,6 +4336,39 @@ CRITICAL_EXPERIMENTS = {
             "principal_target_pontryagin_resultant_r176.json",
         ],
     },
+    "s69_output_sensitive_marked_fitting_locator": {
+        "hypothesis": (
+            "The first nonzero lambda coefficient of the global marked norm "
+            "can be emitted from compact U,V,h in time proportional to the "
+            "input and signed-incidence output, without constructing the pair "
+            "algebra or adaptive subset queries."
+        ),
+        "decisive_test": (
+            "Freeze compact U,V, the R176 principal target witness h, the R177 "
+            "kernel dimension M, restricted X1 characteristic polynomial, and "
+            "candidate gcd. Specify a fraction-free marked Fitting or "
+            "subresultant arithmetic DAG that computes M and "
+            "det(AI-X_1|ker K) in softly O(n+N+M) total work. Charge divisor "
+            "and target ingestion, all transformed state, coefficient "
+            "extraction, candidate output, R163 labels/backpointers, and signed "
+            "verification. Replay all R177/R176 controls and require total work "
+            "strictly below B^(5/2)."
+        ),
+        "falsifier": (
+            "The route enumerates n^2 pairs, represents an n^2 tensor or "
+            "generic matrix pencil, computes the full lambda/A determinant body, "
+            "uses M^2 marker interpolation, inverts candidate nonunits, reaches "
+            "B^(5/2), or assumes a unit-cost Fitting, kernel, resultant, root, "
+            "count, marginal, rank, source, or generic locator oracle."
+        ),
+        "required_artifacts": [
+            "frozen_m6_global_marked_fitting_locator.json",
+            "m6_global_marked_fitting_locator_cost_ledger.json",
+            "m6_global_marked_fitting_locator_replay.json",
+            "m6_global_marked_fitting_locator_controls.json",
+            "global_marked_fitting_locator_r177.json",
+        ],
+    },
     "routing_intervention_generalization": {
         "hypothesis": "One fixed routing rule recovers natural-route rank on unseen curves.",
         "decisive_test": "Freeze the rule on development cells and replay it unchanged on every prospective cell.",
@@ -6727,7 +6766,36 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_principal_target_pontryagin_resultant_lane.get(
+    m6_global_marked_fitting_locator_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_global_marked_fitting_locator"
+        )
+        or {}
+    )
+    if m6_global_marked_fitting_locator_lane.get("closed_by_current_evidence"):
+        admission = m6_global_marked_fitting_locator_lane.get("admission") or {}
+        add_focus_candidate(
+            candidates,
+            "s69_output_sensitive_marked_fitting_locator",
+            316,
+            str(
+                m6_global_marked_fitting_locator_lane.get("next_action")
+                or CRITICAL_EXPERIMENTS[
+                    "s69_output_sensitive_marked_fitting_locator"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_global_marked_fitting_locator_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} global marked-locator "
+                "obligations pass. The first nonzero lambda coefficient exactly "
+                "emits all 140 R176 roots without subset queries, but the standard "
+                "pair algebra is B^(9/2), the full body is B^9, and explicit "
+                "interpolation is B^6. Only an output-sensitive marked Fitting "
+                "constructor remains."
+            ),
+        )
+    elif m6_principal_target_pontryagin_resultant_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -11812,6 +11880,30 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_global_marked_fitting_locator_scope",
+            "observed": (
+                "R177 replaces R175 subset queries by one global marked "
+                "lambda-adic norm. Six controls verify kernel dimension 241, "
+                "exact vanishing below lambda degree M, the restricted-X1 "
+                "characteristic polynomial of degree 241, and all 140 distinct "
+                "R176 roots after gcd with U. Standard pair-algebra, full-body, "
+                "and explicit interpolation costs are B^(9/2), B^9, and B^6."
+            ),
+            "resolution": (
+                "Remove subset-query scheduling and locator extraction from the "
+                "open contract. Require only a fraction-free output-sensitive "
+                "marked Fitting or subresultant constructor on compact U,V,h "
+                "that emits M and det(AI-X_1|ker K). Reject n^2 pair or tensor "
+                "state, generic n^2 matrix pencils, the full lambda/A body, M^2 "
+                "marker interpolation, and candidate inversions. Treat the "
+                "represented costs as standard-route negatives, not circuit "
+                "lower bounds."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -13042,6 +13134,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_PRINCIPAL_TARGET_PONTRYAGIN_RESULTANT_PROBE,
     )
+    parser.add_argument(
+        "--m6-global-marked-fitting-locator-probe",
+        dest="m6_global_marked_fitting_locator_probe",
+        type=Path,
+        default=DEFAULT_M6_GLOBAL_MARKED_FITTING_LOCATOR_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -13501,6 +13599,10 @@ def main() -> int:
         (
             "m6_principal_target_pontryagin_resultant",
             args.m6_principal_target_pontryagin_resultant_probe,
+        ),
+        (
+            "m6_global_marked_fitting_locator",
+            args.m6_global_marked_fitting_locator_probe,
         ),
     ):
         if path.exists():

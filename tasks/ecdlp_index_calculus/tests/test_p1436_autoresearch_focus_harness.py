@@ -7652,6 +7652,61 @@ class FocusHarnessTests(unittest.TestCase):
             ambiguity_ids,
         )
 
+    def test_global_marked_locator_routes_to_output_sensitive_fitting(self) -> None:
+        value = payload(
+            {
+                "random_hash_mask1": config(4, logs=True),
+                "mixed_balanced_stride_mask1": config(4, logs=True),
+            },
+            descents=[successful_descent()],
+        )
+        lane = "m6_global_marked_fitting_locator"
+        probe = {
+            "schema": FOCUS.FRONTIER_PREFLIGHT_SCHEMAS[lane],
+            "classification": (
+                "GLOBAL_MARKED_LOCATOR_EXACT__"
+                "OUTPUT_SENSITIVE_MARKED_FITTING_OPEN"
+            ),
+            "source_bindings": {
+                "r176": {"path": "r176.json", "sha256": "a" * 64},
+                "shoup": {"path": "shoup.pdf", "sha256": "b" * 64},
+            },
+            "admission": {
+                "lane_admitted": False,
+                "passed_obligation_count": 15,
+                "obligation_count": 22,
+            },
+            "next_action": (
+                "Build a fraction-free output-sensitive marked Fitting operator "
+                "that emits det(AI-X_1|ker K) from compact U,V,h."
+            ),
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = self.write_payload(root, value)
+            probe_path = root / "m6-global-marked-fitting.json"
+            probe_path.write_text(
+                json.dumps(probe, sort_keys=True) + "\n", encoding="utf-8"
+            )
+            report = FOCUS.build_report(
+                value,
+                source,
+                frontier_preflights={lane: (probe, probe_path)},
+            )
+
+        self.assertEqual(
+            report["next_action"]["focus_id"],
+            "s69_output_sensitive_marked_fitting_locator",
+        )
+        self.assertEqual(report["summary"]["frontier_closed_lanes"], [lane])
+        ambiguity_ids = {
+            item["id"]
+            for item in report["autoresearch_steering"][
+                "ambiguity_resolutions"
+            ]
+        }
+        self.assertIn("m6_global_marked_fitting_locator_scope", ambiguity_ids)
+
     def test_exposes_stored_but_unusable_and_routing_headroom(self) -> None:
         value = payload(
             {
@@ -7947,7 +8002,7 @@ class FocusHarnessTests(unittest.TestCase):
     def test_methodology_binds_the_source_post(self) -> None:
         self.assertEqual(
             FOCUS.SCHEMA,
-            "ecdlp.p1436_autoresearch_focus_report.v112",
+            "ecdlp.p1436_autoresearch_focus_report.v113",
         )
         self.assertEqual(
             FOCUS.METHODOLOGY["source_post_url"],
