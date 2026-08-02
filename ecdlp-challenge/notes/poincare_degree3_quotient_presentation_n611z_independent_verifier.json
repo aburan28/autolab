@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "degree_presentation": true,
+    "kernel_and_control": true,
+    "primary_gates": true,
+    "replayed_path_table": true,
+    "schema": true,
+    "selected_explicit_models": true,
+    "unique_selected_path": true
+  },
+  "primary_sha256": "7134b2f70dd0d36ce59ede5d1464f2291512757ced4b9e5cce93448953b12fa1",
+  "strongest_valid_statement": "The independent replay reconstructs all seven cubic paths, the unique kernel inclusion for beta_D, the beta_M negative control, and the degree-9-by-346 quotient presentation. Effectivity, theta irreducibility, a genus-two equation, and all ECDLP algorithmic gates remain open.",
+  "verified": true
+}
