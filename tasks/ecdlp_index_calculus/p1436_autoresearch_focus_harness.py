@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v114"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v115"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -568,6 +568,10 @@ DEFAULT_M6_GLOBAL_MARKED_FITTING_LOCATOR_PROBE = Path(
 DEFAULT_M6_MARKED_FITTING_SIGNED_NORM_DEDUP_PROBE = Path(
     "p1553_m6_marked_fitting_signed_norm_dedup_probe_report_r178.json"
 )
+DEFAULT_M6_SQUAREFREE_TRUNCATED_RESULTANT_APPLICABILITY_PROBE = Path(
+    "p1553_m6_squarefree_truncated_resultant_applicability_"
+    "probe_report_r179.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -909,6 +913,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_marked_fitting_signed_norm_dedup": (
         "p1553.m6_marked_fitting_signed_norm_dedup.r178.v1"
+    ),
+    "m6_squarefree_truncated_resultant_applicability": (
+        "p1553.m6_squarefree_truncated_resultant_applicability.r179.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -6784,7 +6791,43 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_marked_fitting_signed_norm_dedup_lane.get(
+    m6_squarefree_truncated_resultant_applicability_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_squarefree_truncated_resultant_applicability"
+        )
+        or {}
+    )
+    if m6_squarefree_truncated_resultant_applicability_lane.get(
+        "closed_by_current_evidence"
+    ):
+        admission = (
+            m6_squarefree_truncated_resultant_applicability_lane.get("admission")
+            or {}
+        )
+        add_focus_candidate(
+            candidates,
+            "s66_fused_factored_dual_chow_outer_norm_mod_u",
+            320,
+            str(
+                m6_squarefree_truncated_resultant_applicability_lane.get(
+                    "next_action"
+                )
+                or CRITICAL_EXPERIMENTS[
+                    "s66_fused_factored_dual_chow_outer_norm_mod_u"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_squarefree_truncated_resultant_applicability_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} truncated-resultant "
+                "applicability obligations pass. One order-n x-adic expansion "
+                "does not determine reduction modulo squarefree U, while n "
+                "order-one CRT calls and the single expansion both charge "
+                "B^(9/2). The factored arbitrary-squarefree dynamic-evaluation "
+                "operator remains open."
+            ),
+        )
+    elif m6_marked_fitting_signed_norm_dedup_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -11964,6 +12007,29 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_squarefree_truncated_resultant_applicability_scope",
+            "observed": (
+                "R179 replays all six R178 signed aggregates, verifies every "
+                "selected U is squarefree, reconstructs all 202 aggregate slots "
+                "from order-one CRT residues, and supplies exact local-power "
+                "alias witnesses. The published x-adic algorithm specializes "
+                "to B^(9/2) for either one order-n expansion or n local calls; "
+                "represented target Chow reaches B^(5/2)."
+            ),
+            "resolution": (
+                "Close only direct x-adic, per-component CRT, and represented-"
+                "coefficient resultant applications. Preserve a factored "
+                "arbitrary-squarefree dynamic-evaluation or transposed operator "
+                "that shares work across CRT components and emits C_h mod U or "
+                "G_1 in softly O(n+N). Reject n local resultants, N quotient "
+                "elements, N^2 expansion, nN or n^2 grids, and candidate "
+                "inversions. Infer no general resultant or circuit lower bound."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -13206,6 +13272,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_MARKED_FITTING_SIGNED_NORM_DEDUP_PROBE,
     )
+    parser.add_argument(
+        "--m6-squarefree-truncated-resultant-applicability-probe",
+        dest="m6_squarefree_truncated_resultant_applicability_probe",
+        type=Path,
+        default=DEFAULT_M6_SQUAREFREE_TRUNCATED_RESULTANT_APPLICABILITY_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -13673,6 +13745,10 @@ def main() -> int:
         (
             "m6_marked_fitting_signed_norm_dedup",
             args.m6_marked_fitting_signed_norm_dedup_probe,
+        ),
+        (
+            "m6_squarefree_truncated_resultant_applicability",
+            args.m6_squarefree_truncated_resultant_applicability_probe,
         ),
     ):
         if path.exists():

@@ -7769,6 +7769,69 @@ class FocusHarnessTests(unittest.TestCase):
         }
         self.assertIn("m6_marked_fitting_signed_norm_dedup_scope", ambiguity_ids)
 
+    def test_squarefree_truncated_resultant_routes_factored_dynamic_evaluation(self) -> None:
+        value = payload(
+            {
+                "random_hash_mask1": config(4, logs=True),
+                "mixed_balanced_stride_mask1": config(4, logs=True),
+            },
+            descents=[successful_descent()],
+        )
+        lane = "m6_squarefree_truncated_resultant_applicability"
+        probe = {
+            "schema": FOCUS.FRONTIER_PREFLIGHT_SCHEMAS[lane],
+            "classification": (
+                "DIRECT_TRUNCATED_RESULTANT_ROUTE_CLOSED__"
+                "FACTORED_SQUAREFREE_DYNAMIC_EVALUATION_OPEN"
+            ),
+            "source_bindings": {
+                "r178": {"path": "r178.json", "sha256": "a" * 64},
+                "moroz_schost": {"path": "paper.pdf", "sha256": "b" * 64},
+            },
+            "admission": {
+                "lane_admitted": False,
+                "passed_obligation_count": 11,
+                "obligation_count": 20,
+            },
+            "next_action": (
+                "Build a factored arbitrary-squarefree dynamic-evaluation "
+                "operator in softly O(n+N) work."
+            ),
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = self.write_payload(root, value)
+            probe_path = root / "m6-squarefree-truncated-resultant.json"
+            probe_path.write_text(
+                json.dumps(probe, sort_keys=True) + "\n", encoding="utf-8"
+            )
+            report = FOCUS.build_report(
+                value,
+                source,
+                frontier_preflights={lane: (probe, probe_path)},
+            )
+
+        self.assertEqual(
+            report["next_action"]["focus_id"],
+            "s66_fused_factored_dual_chow_outer_norm_mod_u",
+        )
+        selected = [
+            row
+            for row in report["focus_queue"]
+            if row["id"] == "s66_fused_factored_dual_chow_outer_norm_mod_u"
+        ]
+        self.assertEqual(len(selected), 1)
+        self.assertEqual(selected[0]["priority_score"], 320)
+        self.assertEqual(report["summary"]["frontier_closed_lanes"], [lane])
+        ambiguity_ids = {
+            item["id"]
+            for item in report["autoresearch_steering"]["ambiguity_resolutions"]
+        }
+        self.assertIn(
+            "m6_squarefree_truncated_resultant_applicability_scope",
+            ambiguity_ids,
+        )
+
     def test_exposes_stored_but_unusable_and_routing_headroom(self) -> None:
         value = payload(
             {
@@ -8064,7 +8127,7 @@ class FocusHarnessTests(unittest.TestCase):
     def test_methodology_binds_the_source_post(self) -> None:
         self.assertEqual(
             FOCUS.SCHEMA,
-            "ecdlp.p1436_autoresearch_focus_report.v114",
+            "ecdlp.p1436_autoresearch_focus_report.v115",
         )
         self.assertEqual(
             FOCUS.METHODOLOGY["source_post_url"],
