@@ -1,0 +1,179 @@
+{
+  "claim_status": "OBSERVATION / H018 TRUE-POLE MOVING-CROSSING SCREEN / MODEL-BOUND / TOY-EVIDENCE / U_WEIGHT_AND_GLOBAL_CECH_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_inspected_u_valuations_are_finite": true,
+    "all_true_pole_numerators_have_nonnegative_z_valuation": true
+  },
+  "next_requirement": "Determine the exact u weight/transition unit and compare this moving true-pole chart to the N610N crossing frame before claiming a global Cartier extension, normalization, relation, rank, descent, cost, or ECDLP result.",
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "coefficients": [
+          {
+            "u_valuation": -7,
+            "z_exponent": 0
+          },
+          {
+            "u_valuation": -8,
+            "z_exponent": 1
+          },
+          {
+            "u_valuation": -9,
+            "z_exponent": 2
+          },
+          {
+            "u_valuation": -10,
+            "z_exponent": 3
+          },
+          {
+            "u_valuation": -11,
+            "z_exponent": 4
+          },
+          {
+            "u_valuation": -12,
+            "z_exponent": 5
+          },
+          {
+            "u_valuation": -13,
+            "z_exponent": 6
+          },
+          {
+            "u_valuation": -14,
+            "z_exponent": 7
+          },
+          {
+            "u_valuation": -15,
+            "z_exponent": 8
+          },
+          {
+            "u_valuation": -16,
+            "z_exponent": 9
+          },
+          {
+            "u_valuation": -17,
+            "z_exponent": 10
+          },
+          {
+            "u_valuation": -18,
+            "z_exponent": 11
+          }
+        ],
+        "level": 0,
+        "z_valuation": 0
+      },
+      {
+        "coefficients": [
+          {
+            "u_valuation": -7,
+            "z_exponent": 0
+          },
+          {
+            "u_valuation": -8,
+            "z_exponent": 1
+          },
+          {
+            "u_valuation": -9,
+            "z_exponent": 2
+          },
+          {
+            "u_valuation": -10,
+            "z_exponent": 3
+          },
+          {
+            "u_valuation": -11,
+            "z_exponent": 4
+          },
+          {
+            "u_valuation": -12,
+            "z_exponent": 5
+          },
+          {
+            "u_valuation": -13,
+            "z_exponent": 6
+          },
+          {
+            "u_valuation": -14,
+            "z_exponent": 7
+          },
+          {
+            "u_valuation": -15,
+            "z_exponent": 8
+          },
+          {
+            "u_valuation": -16,
+            "z_exponent": 9
+          },
+          {
+            "u_valuation": -17,
+            "z_exponent": 10
+          },
+          {
+            "u_valuation": -18,
+            "z_exponent": 11
+          }
+        ],
+        "level": 1,
+        "z_valuation": 0
+      },
+      {
+        "coefficients": [
+          {
+            "u_valuation": -7,
+            "z_exponent": 0
+          },
+          {
+            "u_valuation": -8,
+            "z_exponent": 1
+          },
+          {
+            "u_valuation": -9,
+            "z_exponent": 2
+          },
+          {
+            "u_valuation": -10,
+            "z_exponent": 3
+          },
+          {
+            "u_valuation": -11,
+            "z_exponent": 4
+          },
+          {
+            "u_valuation": -12,
+            "z_exponent": 5
+          },
+          {
+            "u_valuation": -13,
+            "z_exponent": 6
+          },
+          {
+            "u_valuation": -14,
+            "z_exponent": 7
+          },
+          {
+            "u_valuation": -15,
+            "z_exponent": 8
+          },
+          {
+            "u_valuation": -16,
+            "z_exponent": 9
+          },
+          {
+            "u_valuation": -17,
+            "z_exponent": 10
+          },
+          {
+            "u_valuation": -18,
+            "z_exponent": 11
+          }
+        ],
+        "level": 17,
+        "z_valuation": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-true-pole-crossing.n610o.v1",
+  "script_sha256": "4e42a614e763ad7f6d1f7e2347268466388e5698c45930163eba535e4daccb92",
+  "strongest_valid_statement": "Using the exact chord chart P=-4Q+R, multiplication by the formal increment parameter z removes the true-pole z singularity in the declared ordered expansion. The residual u valuations identify the remaining weight needed to compare this chart to the Q-origin chart.",
+  "timestamp_utc": "2026-08-02T01:14:05.747815+00:00"
+}

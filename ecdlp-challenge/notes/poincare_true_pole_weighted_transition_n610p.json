@@ -1,0 +1,500 @@
+{
+  "claim_status": "OBSERVATION / EXACT H018 TRUE-POLE-TO-CROSSING WEIGHTED TRANSITION / MODEL-BOUND / TOY-EVIDENCE / GLOBAL_CARTIER_AND_NONRATIONAL_EXTENSION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_60_crossing_representatives_have_expected_positive_weight": true,
+    "all_60_transition_units_are_regular_units": true,
+    "all_60_weighted_transition_identities_are_exact": true,
+    "all_60_weighted_true_pole_rows_are_regular": true
+  },
+  "next_requirement": "Extend the weighted transition from rational directions to a formal/all-geometric chart and join it with the P-origin and nonrational frames before a global Cartier, normalization, relation, rank, descent, cost, or ECDLP claim.",
+  "preflight_pass": true,
+  "records": {
+    "row_count": 60,
+    "rows": [
+      {
+        "crossing_valuation": 1,
+        "direction": 2,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 3,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 4,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 5,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 6,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 7,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 8,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 9,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 10,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 11,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 12,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 13,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 14,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 15,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 16,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 17,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 18,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 19,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 20,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 21,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 2,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 3,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 4,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 5,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 6,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 7,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 8,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 9,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 10,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 11,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 12,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 13,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 14,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 15,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 16,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 17,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 18,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 19,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 20,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 21,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 2,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 3,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 4,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 5,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 6,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 7,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 8,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 9,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 10,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 11,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 12,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 13,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 14,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 15,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 16,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 17,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 18,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 19,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 20,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 21,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-true-pole-weighted-transition.n610p.v1",
+  "script_sha256": "10378f24ff15edabd1b254161106c2f37848af09de30dac24b488844ce1cc6b2",
+  "strongest_valid_statement": "On twenty rational weighted directions at each selected level, u^7 zD is regular, the formal group transition unit is a unit, and the exact identity D_cross = u*unit*(p/u)^8*(u^7 zD_true) holds. This joins the rational true-pole frame to the exact crossing chart on the declared weighted overlap.",
+  "timestamp_utc": "2026-08-02T01:16:07.600053+00:00"
+}
