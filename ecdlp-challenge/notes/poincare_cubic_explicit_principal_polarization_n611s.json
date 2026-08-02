@@ -1,0 +1,172 @@
+{
+  "assumptions": [
+    "The standard dual-isogeny identity phi_g^dagger phi_g=[2] holds for the separable degree-two Velu quotient.",
+    "The standard Hermitian-matrix description of polarizations on this CM product applies to the displayed maps.",
+    "This receipt constructs a polarization homomorphism; it does not choose its associated line bundle or theta divisor."
+  ],
+  "bound_inputs": {
+    "notes/poincare_cubic_product_quotient_n611q.json": "a53492e8d1d2ceee44ca8cc47937a6ad2ca0c27056e5bc27e4990003930f9a47",
+    "notes/poincare_cubic_product_quotient_n611q_independent_verifier.json": "87a8faf586414a8baf2758a4699101e2efa02362e98f6d35502ce33404713e77",
+    "notes/poincare_cubic_quotient_polarization_n611r.json": "3d4e2be2d52c262d49375f34d41f690d60b001f2006221d6e62efe797ce0d28b",
+    "notes/poincare_cubic_quotient_polarization_n611r_independent_verifier.json": "097b729289236ce99b77b1e4f821bc87c9bc80fb8648e7c99aee9d3af1ef92ff",
+    "notes/poincare_global_class_n609i.json": "59b42feb5265ec1ffd18ded770af2a0c5d5068d1261db7ba33c66a5c9e1eafe4"
+  },
+  "claim_status": "RESTRICTED THEOREM / EXPLICIT_CUBIC_PRINCIPAL_POLARIZATION_HOMOMORPHISM / STANDARD_DUAL_ISOGENY_IDENTITY_BOUND / MODEL-BOUND / TOY-EVIDENCE / THETA_DIVISOR_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "cm_transport_is_exact": true,
+    "explicit_dual_isogeny_map_identity_replays": true,
+    "explicit_target_form_is_principal_positive": true,
+    "h018_source_form_binds": true,
+    "identity_negative_control_rejects_wrong_offdiagonal": true,
+    "n611q_explicit_g_quotient_receipt_binds": true,
+    "n611r_numerical_principal_receipt_binds": true,
+    "u_dual_and_offdiagonal_match": true
+  },
+  "next_requirement": "Construct an associated ample line bundle or theta divisor for M, then pull it back through Psi_g and compute the Frobenius-conjugate divisor data before any scalar H018 section or cryptanalytic relation claim.",
+  "preflight_pass": true,
+  "records": {
+    "beta": "phi_g o ([21]+[4]Frob)",
+    "beta_degree": 3338,
+    "beta_dual_phi": "2-8*pi",
+    "curve": "y^2=x^3+x+24 over F_(103^3)",
+    "point_checks": {
+      "base_multiple_1": {
+        "input": "(1, 51)",
+        "passes": true
+      },
+      "base_multiple_10": {
+        "input": "(43, 26)",
+        "passes": true
+      },
+      "base_multiple_11": {
+        "input": "(12, 61)",
+        "passes": true
+      },
+      "base_multiple_12": {
+        "input": "(4, 68)",
+        "passes": true
+      },
+      "base_multiple_13": {
+        "input": "(50, 49)",
+        "passes": true
+      },
+      "base_multiple_14": {
+        "input": "(65, 42)",
+        "passes": true
+      },
+      "base_multiple_15": {
+        "input": "(98, 93)",
+        "passes": true
+      },
+      "base_multiple_16": {
+        "input": "(53, 4)",
+        "passes": true
+      },
+      "base_multiple_17": {
+        "input": "(27, 24)",
+        "passes": true
+      },
+      "base_multiple_18": {
+        "input": "(100, 32)",
+        "passes": true
+      },
+      "base_multiple_2": {
+        "input": "(14, 1)",
+        "passes": true
+      },
+      "base_multiple_3": {
+        "input": "(26, 61)",
+        "passes": true
+      },
+      "base_multiple_4": {
+        "input": "(2, 31)",
+        "passes": true
+      },
+      "base_multiple_5": {
+        "input": "(88, 41)",
+        "passes": true
+      },
+      "base_multiple_6": {
+        "input": "(16, 4)",
+        "passes": true
+      },
+      "base_multiple_7": {
+        "input": "(83, 48)",
+        "passes": true
+      },
+      "base_multiple_8": {
+        "input": "(101, 23)",
+        "passes": true
+      },
+      "base_multiple_9": {
+        "input": "(8, 21)",
+        "passes": true
+      },
+      "origin": {
+        "input": "O",
+        "passes": true
+      },
+      "r": {
+        "input": "(61*a^2 + 99*a + 47, 0)",
+        "passes": true
+      },
+      "r1": {
+        "input": "(70*a^2 + 49*a + 59, 0)",
+        "passes": true
+      },
+      "r2": {
+        "input": "(75*a^2 + 58*a + 100, 0)",
+        "passes": true
+      }
+    },
+    "quotient_factor": "phi_g:E -> E_g with kernel <R>",
+    "source_form_H": [
+      [
+        "9",
+        "2+pi"
+      ],
+      [
+        "-3-pi",
+        "11"
+      ]
+    ],
+    "target_determinant": 1,
+    "target_polarization_M": [
+      [
+        "9",
+        "beta^dagger"
+      ],
+      [
+        "beta",
+        "371"
+      ]
+    ],
+    "transport_inverse_T": [
+      [
+        "1",
+        "-pi"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "transported_form_K": [
+      [
+        "9",
+        "2-8*pi"
+      ],
+      [
+        "42+8*pi",
+        "742"
+      ]
+    ],
+    "u": "21+4*pi",
+    "u_dual": "1-4*pi",
+    "u_norm": 1669
+  },
+  "schema": "ecdlp.h018.cubic-explicit-principal-polarization.n611s.v1",
+  "script_sha256": "a08d6f3233b90d537ffdcca44b1c8bd98be6e2eb5ef54e76c4a510b50e0c8552",
+  "strongest_valid_statement": "In the cubic F_(103^3) fixture, the N611Q quotient factor phi_g and beta=phi_g o ([21]+[4]Frob) explicitly realize the descended Hermitian principal polarization M=[[9,beta^dagger],[beta,371]]: its pullback transport is H018 and its determinant is one, conditional on the stated standard dual-isogeny and CM-polarization identities.",
+  "timestamp_utc": "2026-08-02T04:19:35.546780+00:00"
+}

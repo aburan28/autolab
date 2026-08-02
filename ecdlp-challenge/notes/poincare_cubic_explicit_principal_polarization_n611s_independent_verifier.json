@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "cm_witness_values": true,
+    "independent_dual_map_replay": true,
+    "point_receipts_all_pass": true,
+    "polarization_invariants": true,
+    "primary_gates": true,
+    "schema": true,
+    "wrong_identity_control": true
+  },
+  "primary_sha256": "fb11006fa647c191320b92bb54aa350211d0aed6b918313028af567bb51185b0",
+  "strongest_valid_statement": "The independent replay recomputes the cubic dual-isogeny composition on 22 deterministic points and verifies the primary's CM transport and principal-form invariants; theta-divisor construction remains outside this receipt.",
+  "verified": true
+}
