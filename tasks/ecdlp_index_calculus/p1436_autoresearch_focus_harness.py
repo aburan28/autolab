@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v110"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v111"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -554,6 +554,10 @@ DEFAULT_M6_CONFLUENT_SIGNED_DUAL_CHOW_PUSHFORWARD_PROBE = Path(
     "p1553_m6_confluent_signed_dual_chow_pushforward_"
     "probe_report_r174.json"
 )
+DEFAULT_M6_SCALAR_SUBSET_INCIDENCE_GROUP_TESTING_PROBE = Path(
+    "p1553_m6_scalar_subset_incidence_group_testing_"
+    "probe_report_r175.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -883,6 +887,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_confluent_signed_dual_chow_pushforward": (
         "p1553.m6_confluent_signed_dual_chow_pushforward.r174.v1"
+    ),
+    "m6_scalar_subset_incidence_group_testing": (
+        "p1553.m6_scalar_subset_incidence_group_testing.r175.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -4249,6 +4256,40 @@ CRITICAL_EXPERIMENTS = {
             "confluent_signed_dual_chow_pushforward_r174.json",
         ],
     },
+    "s67_reusable_scalar_subset_incidence_oracle": {
+        "hypothesis": (
+            "After one softly O(n+N) coordinate-specific preprocessing, the "
+            "exact R174 signed product over any balanced selected subset S can "
+            "be returned in softly O(|S|+N) work, making R175 balanced group "
+            "testing output-sensitive and strictly below B^(5/2)."
+        ),
+        "decisive_test": (
+            "Freeze U,V, the N target points, all R174 secant and geometric-"
+            "tangent charts, and the R175 balanced-node U_S,V mod U_S "
+            "descriptors. Specify one reusable arithmetic DAG with softly "
+            "O(n+N) preprocessing and softly O(|S|+N) exact scalar-query work. "
+            "Charge subproduct and remainder trees, target-factor ingestion, "
+            "all transformed state, quotient reductions, zero-divisor branches, "
+            "candidate output, R163 label/backpointer recovery, and signed "
+            "verification. Replay all R175/R174/R166 controls and require total "
+            "cost strictly below B^(5/2)."
+        ),
+        "falsifier": (
+            "The route enumerates leaves, expands N targets for every selected "
+            "pair or tree node, represents Theta(N^2) target-Chow or Theta(n^2) "
+            "selected-Chow coefficients, performs target-dependent preprocessing "
+            "per query, drops the tangent chart, inverts candidate nonunits, "
+            "reaches B^(5/2), or assumes a unit-cost multipoint, norm, resultant, "
+            "root, count, marginal, rank, source, or generic locator oracle."
+        ),
+        "required_artifacts": [
+            "frozen_m6_scalar_subset_incidence_group_testing.json",
+            "m6_scalar_subset_incidence_group_testing_cost_ledger.json",
+            "m6_scalar_subset_incidence_group_testing_replay.json",
+            "m6_scalar_subset_incidence_group_testing_controls.json",
+            "scalar_subset_incidence_group_testing_r175.json",
+        ],
+    },
     "routing_intervention_generalization": {
         "hypothesis": "One fixed routing rule recovers natural-route rank on unseen curves.",
         "decisive_test": "Freeze the rule on development cells and replay it unchanged on every prospective cell.",
@@ -6634,7 +6675,38 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_confluent_signed_dual_chow_pushforward_lane.get(
+    m6_scalar_subset_incidence_group_testing_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_scalar_subset_incidence_group_testing"
+        )
+        or {}
+    )
+    if m6_scalar_subset_incidence_group_testing_lane.get(
+        "closed_by_current_evidence"
+    ):
+        admission = (
+            m6_scalar_subset_incidence_group_testing_lane.get("admission") or {}
+        )
+        add_focus_candidate(
+            candidates,
+            "s67_reusable_scalar_subset_incidence_oracle",
+            312,
+            str(
+                m6_scalar_subset_incidence_group_testing_lane.get("next_action")
+                or CRITICAL_EXPERIMENTS[
+                    "s67_reusable_scalar_subset_incidence_oracle"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_scalar_subset_incidence_group_testing_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} scalar subset obligations "
+                "pass. Balanced zero-product queries exactly replay all R174 roots "
+                "and conditionally cost B^(9/4), but the reusable coordinate-"
+                "specific scalar oracle is unsupplied; direct expansion is B^(23/4)."
+            ),
+        )
+    elif m6_confluent_signed_dual_chow_pushforward_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -11622,6 +11694,29 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_scalar_subset_incidence_group_testing_scope",
+            "observed": (
+                "R175 reduces the exact R174 signed locator to scalar subset "
+                "products and balanced zero-product group testing. Six controls "
+                "make 358 exact queries, recover all 140 R174 roots, and query "
+                "subset volume 1,238 under the proved finite bound 1,374. The "
+                "conditional reusable-oracle envelope is B^(9/4), while direct "
+                "factor expansion is B^(23/4)."
+            ),
+            "resolution": (
+                "Remove scalar recovery, output-sensitive query scheduling, and "
+                "compact subset descriptors from the open contract. Require only "
+                "the reusable coordinate-specific scalar incidence oracle with "
+                "softly O(n+N) preprocessing and O(|S|+N) query work. Reject leaf "
+                "enumeration, represented Chow triangles, per-query target setup, "
+                "candidate inversions, and generic locator oracles. Give finite "
+                "tree counts no asymptotic credit."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -12840,6 +12935,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_CONFLUENT_SIGNED_DUAL_CHOW_PUSHFORWARD_PROBE,
     )
+    parser.add_argument(
+        "--m6-scalar-subset-incidence-group-testing-probe",
+        dest="m6_scalar_subset_incidence_group_testing_probe",
+        type=Path,
+        default=DEFAULT_M6_SCALAR_SUBSET_INCIDENCE_GROUP_TESTING_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -13291,6 +13392,10 @@ def main() -> int:
         (
             "m6_confluent_signed_dual_chow_pushforward",
             args.m6_confluent_signed_dual_chow_pushforward_probe,
+        ),
+        (
+            "m6_scalar_subset_incidence_group_testing",
+            args.m6_scalar_subset_incidence_group_testing_probe,
         ),
     ):
         if path.exists():

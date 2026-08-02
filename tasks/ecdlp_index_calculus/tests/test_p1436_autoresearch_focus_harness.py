@@ -7536,6 +7536,64 @@ class FocusHarnessTests(unittest.TestCase):
             ambiguity_ids,
         )
 
+    def test_scalar_subset_tree_routes_to_reusable_incidence_oracle(self) -> None:
+        value = payload(
+            {
+                "random_hash_mask1": config(4, logs=True),
+                "mixed_balanced_stride_mask1": config(4, logs=True),
+            },
+            descents=[successful_descent()],
+        )
+        lane = "m6_scalar_subset_incidence_group_testing"
+        probe = {
+            "schema": FOCUS.FRONTIER_PREFLIGHT_SCHEMAS[lane],
+            "classification": (
+                "SCALAR_SUBSET_GROUP_TESTING_EXACT__"
+                "REUSABLE_INCIDENCE_ORACLE_OPEN"
+            ),
+            "source_bindings": {
+                "r174": {"path": "r174.json", "sha256": "a" * 64},
+                "shoup": {"path": "shoup.pdf", "sha256": "b" * 64},
+            },
+            "admission": {
+                "lane_admitted": False,
+                "passed_obligation_count": 15,
+                "obligation_count": 22,
+            },
+            "next_action": (
+                "Build a reusable tangent-aware scalar subset-incidence oracle "
+                "with softly O(n+N) preprocessing and O(|S|+N) query work."
+            ),
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = self.write_payload(root, value)
+            probe_path = root / "m6-scalar-subset-incidence.json"
+            probe_path.write_text(
+                json.dumps(probe, sort_keys=True) + "\n", encoding="utf-8"
+            )
+            report = FOCUS.build_report(
+                value,
+                source,
+                frontier_preflights={lane: (probe, probe_path)},
+            )
+
+        self.assertEqual(
+            report["next_action"]["focus_id"],
+            "s67_reusable_scalar_subset_incidence_oracle",
+        )
+        self.assertEqual(report["summary"]["frontier_closed_lanes"], [lane])
+        ambiguity_ids = {
+            item["id"]
+            for item in report["autoresearch_steering"][
+                "ambiguity_resolutions"
+            ]
+        }
+        self.assertIn(
+            "m6_scalar_subset_incidence_group_testing_scope",
+            ambiguity_ids,
+        )
+
     def test_exposes_stored_but_unusable_and_routing_headroom(self) -> None:
         value = payload(
             {
@@ -7831,7 +7889,7 @@ class FocusHarnessTests(unittest.TestCase):
     def test_methodology_binds_the_source_post(self) -> None:
         self.assertEqual(
             FOCUS.SCHEMA,
-            "ecdlp.p1436_autoresearch_focus_report.v110",
+            "ecdlp.p1436_autoresearch_focus_report.v111",
         )
         self.assertEqual(
             FOCUS.METHODOLOGY["source_post_url"],
