@@ -88,5 +88,5 @@
   "schema": "ecdlp.h018.poincare-slope-aligned-graph-lattice.n611j.v1",
   "script_sha256": "3853248872866ba106395f5f54f1f85a5ed5988c950c65a00449f1b24bdc2afc",
   "strongest_valid_statement": "The direct integral graph family has a transport-aligned rank-nine member, but its least aligned deck-separating pullback degree is 885 rather than the compact degree three of N608O.",
-  "timestamp_utc": "2026-08-02T03:26:05.912844+00:00"
+  "timestamp_utc": "2026-08-02T03:26:58.607437+00:00"
 }

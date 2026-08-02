@@ -51,5 +51,5 @@
   "schema": "ecdlp.h018.poincare-graph-transport-compatibility.n611i.v1",
   "script_sha256": "68eeadc88ae3af3a367745083c0191237a4e8f56896a002cbdce8b90f2aa3e17",
   "strongest_valid_statement": "A direct graph/Poincare/deck intertwiner requires the graph translation slope to equal the N606Y multiplier 84. The aligned control proves this condition is meaningful but, because it factors through pi, cannot separate deck sheets.",
-  "timestamp_utc": "2026-08-02T03:19:10.733853+00:00"
+  "timestamp_utc": "2026-08-02T03:26:46.568256+00:00"
 }
