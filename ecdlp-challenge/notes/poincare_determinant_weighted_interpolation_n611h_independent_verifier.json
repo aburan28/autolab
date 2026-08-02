@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "all_determinant_controls_match": true,
+    "all_orders_remain_raw_scale": true,
+    "primary_schema": true,
+    "primary_script_hash_matches": true,
+    "route_remains_unadmitted": true,
+    "weighted_rows_match": true
+  },
+  "primary_sha256": "a74f962a103143837645bf591d44258e94e3694043027c1bca9f784d079cb2b1",
+  "schema": "ecdlp.h018.determinant-weighted-interpolation.n611h.independent-verifier.v1",
+  "verification_pass": true,
+  "verifier_sha256": "8dace7c3c9836f335bb6fcc5d704762e5d2f6e99ccd11528586858eac40c0580"
+}

@@ -1,0 +1,101 @@
+{
+  "admission": {
+    "advance_to_global_coefficient_model": false,
+    "all_weighted_coefficients_fit_through_low_pole_threshold": false,
+    "some_weighted_coefficient_beats_raw_106_pole_barrier": false
+  },
+  "claim_status": "HYPOTHESIS / H018_DETERMINANT_WEIGHTED_COEFFICIENT_INTERPOLATION / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_108_determinants_nonzero": true,
+    "all_deck_shifts_invariant": true,
+    "all_determinants_base_fixed": true,
+    "all_weighted_coefficients_fit": true
+  },
+  "next_requirement": "If admitted, reconstruct the resulting bivariate equation and test overlap transitions, branch behavior, normalization, target return, rank, descent, and charged cost.",
+  "preflight_pass": true,
+  "records": {
+    "determinant_controls": {
+      "base_fixed": 108,
+      "deck_invariant": 108,
+      "nonzero": 108
+    },
+    "weighted_coefficients": [
+      {
+        "basis_dimension": 106,
+        "coefficient_index": 0,
+        "evaluation_rank": 106,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 106,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 106,
+        "coefficient_index": 1,
+        "evaluation_rank": 106,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 106,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 109,
+        "coefficient_index": 2,
+        "evaluation_rank": 108,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 109,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 106,
+        "coefficient_index": 3,
+        "evaluation_rank": 106,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 106,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 109,
+        "coefficient_index": 4,
+        "evaluation_rank": 108,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 109,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 106,
+        "coefficient_index": 5,
+        "evaluation_rank": 106,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 106,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 109,
+        "coefficient_index": 6,
+        "evaluation_rank": 108,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 109,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 106,
+        "coefficient_index": 7,
+        "evaluation_rank": 106,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 106,
+        "residual_zero": true
+      },
+      {
+        "basis_dimension": 109,
+        "coefficient_index": 8,
+        "evaluation_rank": 108,
+        "fits_through_low_pole_threshold": false,
+        "minimum_pole_degree": 109,
+        "residual_zero": true
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.determinant-weighted-interpolation.n611h.v1",
+  "script_sha256": "3b8aec77e5689f28f9da2a8272f978ec45544a1064814dde078e54f1b8171a5e",
+  "strongest_valid_statement": "This tests only determinant scalar weighting of the existing moving frame. A low-pole fit would be a normalized chart model, not a global Cartier proof or an ECDLP mechanism.",
+  "timestamp_utc": "2026-08-02T03:08:03.762300+00:00"
+}
