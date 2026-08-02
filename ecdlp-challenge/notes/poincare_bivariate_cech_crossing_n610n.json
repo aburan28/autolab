@@ -1,0 +1,78 @@
+{
+  "claim_status": "OBSERVATION / H018 RAW-CORRECTED FRAME CECH IDENTITY AT FORMAL P/Q CROSSING / MODEL-BOUND / TOY-EVIDENCE / GLOBAL_CARTIER_AND_NONRATIONAL_EXTENSION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_factored_frames_are_ordered_regular": true,
+    "all_factored_frames_match_exactly": true,
+    "all_raw_and_corrected_frames_match_exactly": true
+  },
+  "next_requirement": "Extend this Cech identity through the remaining true-pole/P-origin charts and nonrational loci, then prove a global Cartier section before normalization, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "factored_exact_match": true,
+        "factored_v_valuation": 0,
+        "inspected_u_valuations": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "level": 0,
+        "raw_corrected_exact_match": true
+      },
+      {
+        "factored_exact_match": true,
+        "factored_v_valuation": 0,
+        "inspected_u_valuations": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "level": 1,
+        "raw_corrected_exact_match": true
+      },
+      {
+        "factored_exact_match": true,
+        "factored_v_valuation": 0,
+        "inspected_u_valuations": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "level": 17,
+        "raw_corrected_exact_match": true
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-bivariate-cech-crossing.n610n.v1",
+  "script_sha256": "6f19bb552f3db13f5cd69b2e743f1bbfe08da39c09d8d4b895bf19ad6715a740",
+  "strongest_valid_statement": "At the simultaneous formal P/Q crossing, the N608R corrected frame equals the raw determinant frame exactly before and after the literal Cauchy transition factor. The factored representative is ordered-regular on the inspected terms.",
+  "timestamp_utc": "2026-08-02T01:10:57.235812+00:00"
+}
