@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "designated_kernels": true,
+    "factor_degrees": true,
+    "frobenius_targets": true,
+    "schema": true
+  },
+  "primary_sha256": "a53492e8d1d2ceee44ca8cc47937a6ad2ca0c27056e5bc27e4990003930f9a47",
+  "strongest_valid_statement": "The replay independently constructs the three Velu factor quotients, checks their designated product kernels, and verifies the target Frobenius orbit.",
+  "verified": true
+}

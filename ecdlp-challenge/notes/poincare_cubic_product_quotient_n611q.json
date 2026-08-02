@@ -1,0 +1,87 @@
+{
+  "assumptions": [
+    "The N606R maximal isotropic line is the designated kernel for a possible principal-polarization descent.",
+    "This construction materializes only the abelian-variety quotient map, not the descended polarization."
+  ],
+  "claim_status": "OBSERVATION / EXPLICIT_CUBIC_H018_PRODUCT_QUOTIENT_MODELS / MODEL-BOUND / TOY-EVIDENCE / PRINCIPAL_POLARIZATION_AND_THETA_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "each_product_map_kills_only_designated_h018_line": true,
+    "factor_kernels_match_frobenius_orbit": true,
+    "no_quotient_target_is_base_field_defined": true,
+    "quotient_target_curves_are_frobenius_conjugate": true,
+    "three_degree_two_factor_isogenies": true
+  },
+  "next_requirement": "Transport the H018 polarization through one explicit quotient, prove its principal type, and materialize a theta divisor before attempting semilinear descent or scalar sections.",
+  "preflight_pass": true,
+  "records": {
+    "curve": "y^2=x^3+x+24 over F_(103^3)",
+    "rows": [
+      {
+        "factor_degree": 2,
+        "factor_kernel_points": [
+          "O",
+          "(61*a^2 + 99*a + 47, 0)"
+        ],
+        "kernel_generator": "(61*a^2 + 99*a + 47, 0)",
+        "line": "G_g",
+        "line_images_are_origin": {
+          "G_g": true,
+          "G_gh": false,
+          "G_h": false
+        },
+        "target_curve": {
+          "a4": "42*a^2 + 16*a + 62",
+          "a6": "30*a^2 + 47*a + 53"
+        },
+        "target_is_base_field": false
+      },
+      {
+        "factor_degree": 2,
+        "factor_kernel_points": [
+          "O",
+          "(70*a^2 + 49*a + 59, 0)"
+        ],
+        "kernel_generator": "(70*a^2 + 49*a + 59, 0)",
+        "line": "G_h",
+        "line_images_are_origin": {
+          "G_g": false,
+          "G_gh": false,
+          "G_h": true
+        },
+        "target_curve": {
+          "a4": "63*a^2 + 6*a + 90",
+          "a6": "53*a^2 + 68*a + 15"
+        },
+        "target_is_base_field": false
+      },
+      {
+        "factor_degree": 2,
+        "factor_kernel_points": [
+          "O",
+          "(75*a^2 + 58*a + 100, 0)"
+        ],
+        "kernel_generator": "(75*a^2 + 58*a + 100, 0)",
+        "line": "G_gh",
+        "line_images_are_origin": {
+          "G_g": false,
+          "G_gh": true,
+          "G_h": false
+        },
+        "target_curve": {
+          "a4": "101*a^2 + 81*a + 72",
+          "a6": "20*a^2 + 91*a + 74"
+        },
+        "target_is_base_field": false
+      }
+    ],
+    "target_frobenius_cycle": [
+      true,
+      true,
+      true
+    ]
+  },
+  "schema": "ecdlp.h018.cubic-product-quotient.n611q.v1",
+  "script_sha256": "25b4d5e549dbf194e9a39ca4569a399418357fea45929d4dbab68f6d76ca909f",
+  "strongest_valid_statement": "Each cubic H018 order-two line is the exact kernel of an explicit separable degree-two product quotient Psi_i:E^2 -> E x E_i, and the three quotient targets form a non-base-field Frobenius orbit.",
+  "timestamp_utc": "2026-08-02T04:10:04.357787+00:00"
+}
