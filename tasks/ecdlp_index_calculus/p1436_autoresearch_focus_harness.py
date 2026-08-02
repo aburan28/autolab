@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v111"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v112"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -558,6 +558,10 @@ DEFAULT_M6_SCALAR_SUBSET_INCIDENCE_GROUP_TESTING_PROBE = Path(
     "p1553_m6_scalar_subset_incidence_group_testing_"
     "probe_report_r175.json"
 )
+DEFAULT_M6_PRINCIPAL_TARGET_PONTRYAGIN_RESULTANT_PROBE = Path(
+    "p1553_m6_principal_target_pontryagin_resultant_"
+    "probe_report_r176.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -890,6 +894,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_scalar_subset_incidence_group_testing": (
         "p1553.m6_scalar_subset_incidence_group_testing.r175.v1"
+    ),
+    "m6_principal_target_pontryagin_resultant": (
+        "p1553.m6_principal_target_pontryagin_resultant.r176.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -4290,6 +4297,39 @@ CRITICAL_EXPERIMENTS = {
             "scalar_subset_incidence_group_testing_r175.json",
         ],
     },
+    "s68_factored_trilinear_elliptic_resultant": {
+        "hypothesis": (
+            "The principal target scalar h(A*D) can be evaluated directly from "
+            "compact signed-divisor descriptors for A and D and the degree-N "
+            "target witness h, without representing the degree-mn Pontryagin cycle."
+        ),
+        "decisive_test": (
+            "Freeze U_A,V_A, fixed U_D,V_D, the R167 principal target witness h, "
+            "the R176 completion and reciprocity identities, and the R175 query "
+            "tree. Specify a factored trilinear elliptic-resultant arithmetic DAG "
+            "with one softly O(n+N) reusable setup and softly O(m+N) work per "
+            "balanced node. Charge divisor ingestion, group-law charts, target "
+            "witness construction, all transformed state, zero specializations, "
+            "candidate output, R163 labels/backpointers, and signed verification. "
+            "Replay all R176/R175/R167 controls and require total work strictly "
+            "below B^(5/2)."
+        ),
+        "falsifier": (
+            "The route emits mn pair sums, builds a degree-mn principal function "
+            "or Miller program, represents an n^2 tensor or displacement kernel, "
+            "uses target-dependent per-node setup, drops candidate-zero Fitting "
+            "information, inverts candidate nonunits, reaches B^(5/2), or assumes "
+            "a unit-cost resultant, norm, root, count, marginal, rank, source, or "
+            "generic locator oracle."
+        ),
+        "required_artifacts": [
+            "frozen_m6_principal_target_pontryagin_resultant.json",
+            "m6_principal_target_pontryagin_resultant_cost_ledger.json",
+            "m6_principal_target_pontryagin_resultant_replay.json",
+            "m6_principal_target_pontryagin_resultant_controls.json",
+            "principal_target_pontryagin_resultant_r176.json",
+        ],
+    },
     "routing_intervention_generalization": {
         "hypothesis": "One fixed routing rule recovers natural-route rank on unseen curves.",
         "decisive_test": "Freeze the rule on development cells and replay it unchanged on every prospective cell.",
@@ -6681,7 +6721,39 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_scalar_subset_incidence_group_testing_lane.get(
+    m6_principal_target_pontryagin_resultant_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_principal_target_pontryagin_resultant"
+        )
+        or {}
+    )
+    if m6_principal_target_pontryagin_resultant_lane.get(
+        "closed_by_current_evidence"
+    ):
+        admission = (
+            m6_principal_target_pontryagin_resultant_lane.get("admission") or {}
+        )
+        add_focus_candidate(
+            candidates,
+            "s68_factored_trilinear_elliptic_resultant",
+            314,
+            str(
+                m6_principal_target_pontryagin_resultant_lane.get("next_action")
+                or CRITICAL_EXPERIMENTS[
+                    "s68_factored_trilinear_elliptic_resultant"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_principal_target_pontryagin_resultant_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} principal Pontryagin "
+                "obligations pass. The signed principal function and all completed "
+                "Weil identities exactly replay R175, but represented pair cycles "
+                "and Miller state are B^(9/2). Only the factored trilinear "
+                "elliptic resultant remains."
+            ),
+        )
+    elif m6_scalar_subset_incidence_group_testing_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -11717,6 +11789,29 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_principal_target_pontryagin_resultant_scope",
+            "observed": (
+                "R176 rewrites the signed subset scalar as h(A*D) for the R167 "
+                "principal target witness and the positive selected Pontryagin "
+                "cycle. Six controls verify 8,922 pole-free pair evaluations, "
+                "241 signed incidences, all 140 R175 roots, and 358 completed "
+                "Weil-reciprocity identities. Standard represented pair cycles "
+                "and Miller programs retain B^(9/2) state."
+            ),
+            "resolution": (
+                "Remove principal-function signed incidence, tangent handling, "
+                "tree scheduling, and ordinary represented reciprocity from the "
+                "open contract. Require only a factored trilinear elliptic "
+                "resultant on compact A,D,h inputs with reusable setup. Reject "
+                "mn pair sums, degree-mn functions, n^2 kernels, per-node target "
+                "setup, and candidate inversions. Treat the represented-degree "
+                "barrier as a standard-route cost, not a circuit lower bound."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -12941,6 +13036,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_SCALAR_SUBSET_INCIDENCE_GROUP_TESTING_PROBE,
     )
+    parser.add_argument(
+        "--m6-principal-target-pontryagin-resultant-probe",
+        dest="m6_principal_target_pontryagin_resultant_probe",
+        type=Path,
+        default=DEFAULT_M6_PRINCIPAL_TARGET_PONTRYAGIN_RESULTANT_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -13396,6 +13497,10 @@ def main() -> int:
         (
             "m6_scalar_subset_incidence_group_testing",
             args.m6_scalar_subset_incidence_group_testing_probe,
+        ),
+        (
+            "m6_principal_target_pontryagin_resultant",
+            args.m6_principal_target_pontryagin_resultant_probe,
         ),
     ):
         if path.exists():
