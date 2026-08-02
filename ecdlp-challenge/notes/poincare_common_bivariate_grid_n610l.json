@@ -1,0 +1,42 @@
+{
+  "claim_status": "OBSERVATION / COMMON H018 FINITE BIVARIATE LOCAL CHART GRID / MODEL-BOUND / TOY-EVIDENCE / LITERAL_TRANSITION_AND_GLOBAL_NORMALIZATION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_common_grid_coefficients_match": true,
+    "all_levels_have_nonzero_common_grid_data": true
+  },
+  "next_requirement": "Extend the grid with a precision sweep and derive the literal chart transition from the determinant expression. Then construct a global normalization before target-bearing relation, factor-base, rank, descent, cost, or ECDLP claims.",
+  "parameters": {
+    "grid": 16,
+    "precision": 64
+  },
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "grid_size": 16,
+        "level": 0,
+        "mismatch_count": 0,
+        "mismatches": [],
+        "nonzero_grid_coefficients": 125
+      },
+      {
+        "grid_size": 16,
+        "level": 1,
+        "mismatch_count": 0,
+        "mismatches": [],
+        "nonzero_grid_coefficients": 124
+      },
+      {
+        "grid_size": 16,
+        "level": 17,
+        "mismatch_count": 0,
+        "mismatches": [],
+        "nonzero_grid_coefficients": 124
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-common-bivariate-grid.n610k.v1",
+  "script_sha256": "f00b6511086841864f61ee79f191cfb657d80eb02b4d4eaed00d0caf181b8896",
+  "strongest_valid_statement": "The two exact-Cauchy iterated expansions are compared coefficient by coefficient on a common finite v,u grid. Agreement supplies a genuine finite local chart datum rather than separate ordered valuation screens.",
+  "timestamp_utc": "2026-08-02T01:04:15.709909+00:00"
+}
