@@ -1,0 +1,2424 @@
+{
+  "claim_status": "OBSERVATION / EXACT H018 TRUE-POLE-TO-CROSSING WEIGHTED TRANSITION / MODEL-BOUND / TOY-EVIDENCE / GLOBAL_CARTIER_AND_NONRATIONAL_EXTENSION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_crossing_representatives_have_expected_positive_weight": true,
+    "all_transition_units_are_regular_units": true,
+    "all_weighted_transition_identities_are_exact": true,
+    "all_weighted_true_pole_rows_are_regular": true
+  },
+  "next_requirement": "Extend the weighted transition from rational directions to a formal/all-geometric chart and join it with the P-origin and nonrational frames before a global Cartier, normalization, relation, rank, descent, cost, or ECDLP claim.",
+  "parameters": {
+    "direction_end": 101,
+    "direction_start": 2
+  },
+  "preflight_pass": true,
+  "records": {
+    "row_count": 300,
+    "rows": [
+      {
+        "crossing_valuation": 1,
+        "direction": 2,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 3,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 4,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 5,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 6,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 7,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 8,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 9,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 10,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 11,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 12,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 13,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 14,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 15,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 16,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 17,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 18,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 19,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 20,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 21,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 22,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 23,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 24,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 25,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 26,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 27,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 28,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 29,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 30,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 31,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 32,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 33,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 34,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 35,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 36,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 37,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 38,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 39,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 40,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 41,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 42,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 43,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 44,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 45,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 46,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 47,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 48,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 49,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 50,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 51,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 52,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 53,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 54,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 55,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 56,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 57,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 58,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 59,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 60,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 61,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 62,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 63,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 64,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 65,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 66,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 67,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 68,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 69,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 70,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 71,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 72,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 73,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 74,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 75,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 76,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 77,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 78,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 79,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 80,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 81,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 5,
+        "direction": 82,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 4
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 83,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 84,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 85,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 86,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 87,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 88,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 89,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 90,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 91,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 92,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 93,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 94,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 95,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 96,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 97,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 98,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 99,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 100,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 101,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 2,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 3,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 4,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 5,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 6,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 7,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 8,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 9,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 10,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 11,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 12,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 13,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 14,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 15,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 16,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 17,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 18,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 19,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 20,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 21,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 22,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 23,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 24,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 25,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 26,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 27,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 28,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 29,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 30,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 31,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 32,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 33,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 34,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 35,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 36,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 37,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 38,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 39,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 40,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 41,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 42,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 43,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 44,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 45,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 46,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 47,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 48,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 49,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 50,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 51,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 52,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 53,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 54,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 55,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 56,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 57,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 58,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 59,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 60,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 61,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 62,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 63,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 64,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 65,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 66,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 67,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 68,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 69,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 70,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 71,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 72,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 73,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 74,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 75,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 76,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 77,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 78,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 79,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 80,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 81,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 5,
+        "direction": 82,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 4
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 83,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 84,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 85,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 86,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 87,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 88,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 89,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 90,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 91,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 92,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 93,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 94,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 95,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 96,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 97,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 98,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 99,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 100,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 101,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 2,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 3,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 4,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 5,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 6,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 7,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 8,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 9,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 10,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 11,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 12,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 13,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 14,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 15,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 16,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 17,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 18,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 19,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 20,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 21,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 22,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 23,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 24,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 25,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 26,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 27,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 28,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 29,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 30,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 31,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 32,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 33,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 34,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 35,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 36,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 37,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 38,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 39,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 40,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 41,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 42,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 43,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 44,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 45,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 46,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 47,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 48,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 49,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 50,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 51,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 52,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 53,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 54,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 55,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 56,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 57,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 58,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 59,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 60,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 61,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 62,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 63,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 64,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 65,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 66,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 67,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 68,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 69,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 70,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 71,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 72,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 73,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 74,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 75,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 76,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 77,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 78,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 79,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 80,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 81,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 5,
+        "direction": 82,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 4
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 83,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 84,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 85,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 86,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 87,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 88,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 89,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 90,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 91,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 92,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 93,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 94,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 95,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 96,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 97,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 98,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 99,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 100,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "direction": 101,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-true-pole-weighted-transition.n610p.v1",
+  "script_sha256": "4561ff4540f4550ba961042478abb4a527951fefc94cec695651f74d8cd2f00e",
+  "strongest_valid_statement": "On the declared rational weighted directions at each selected level, u^7 zD is regular, the formal group transition unit is a unit, and the exact identity D_cross = u*unit*(p/u)^8*(u^7 zD_true) holds. This joins the rational true-pole frame to the exact crossing chart on the declared weighted overlap.",
+  "timestamp_utc": "2026-08-02T01:20:36.592629+00:00"
+}
