@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "degree_not_compact": true,
+    "minimum_replays": true,
+    "primary_minimum": true,
+    "rank_replays": true,
+    "schema": true,
+    "transport_replays": true
+  },
+  "primary_sha256": "3742200d77a39924689df153fff1228dbfe1ab023dcc576edfaa22252abcb602",
+  "strongest_valid_statement": "The independent replay finds the same unique bounded minimizer (-2,0), its degree 885, and its full-rank slope-aligned fibre panel.",
+  "verified": true
+}
