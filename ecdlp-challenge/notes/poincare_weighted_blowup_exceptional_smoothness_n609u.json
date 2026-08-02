@@ -1,0 +1,44 @@
+{
+  "claim_status": "OBSERVATION / RATIONAL EXCEPTIONAL-DIVISOR SMOOTHNESS SCREEN FOR H018 WEIGHTED BLOWUP / MODEL-BOUND / TOY-EVIDENCE / FULL_STRICT_TRANSFORM_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_exceptional_numerators_squarefree": true,
+    "all_rational_exceptional_roots_simple": true,
+    "no_exceptional_root_hits_cauchy_pole": true,
+    "three_levels_used": true
+  },
+  "next_requirement": "Derive the first strict-transform coefficient off the exceptional divisor and test both affine blow-up charts, then extend to non-rational points before global Cartier, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "level": 0,
+        "numerator_degree": 9,
+        "numerator_denominator_coprime": true,
+        "rational_multiple_root_count": 0,
+        "rational_root_count": 5,
+        "squarefree": true
+      },
+      {
+        "level": 1,
+        "numerator_degree": 9,
+        "numerator_denominator_coprime": true,
+        "rational_multiple_root_count": 0,
+        "rational_root_count": 5,
+        "squarefree": true
+      },
+      {
+        "level": 17,
+        "numerator_degree": 9,
+        "numerator_denominator_coprime": true,
+        "rational_multiple_root_count": 0,
+        "rational_root_count": 5,
+        "squarefree": true
+      }
+    ],
+    "support_slope_constant": 1
+  },
+  "schema": "ecdlp.h018.poincare-weighted-blowup-exceptional-smoothness.n609u.v1",
+  "script_sha256": "6982e6d63d6c36e0b821cadcc08bdba227b096210db2176adc958eb171759ff4",
+  "strongest_valid_statement": "The exceptional slope numerators are tested for repeated roots and collision with the genuine Cauchy slope pole. This screens the exceptional divisor only, not the full blow-up charts.",
+  "timestamp_utc": "2026-08-02T00:00:11.808583+00:00"
+}
