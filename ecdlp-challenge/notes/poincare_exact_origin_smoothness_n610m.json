@@ -1,0 +1,38 @@
+{
+  "claim_status": "OBSERVATION / NO H018 SINGULARITY CANDIDATE AT SIMULTANEOUS ORIGIN IN EXACT CAUCHY CHART / MODEL-BOUND / TOY-EVIDENCE / GLOBAL_SMOOTHNESS_AND_NORMALIZATION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_members_have_nonzero_local_gradient": true,
+    "all_members_vanish_at_the_origin": true
+  },
+  "next_requirement": "Combine this local screen with all other boundary charts and a global Cartier transition before asserting smoothness or constructing a normalization/Jacobian/relation mechanism.",
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "constant_coefficient": "0",
+        "gradient_is_nonzero": true,
+        "level": 0,
+        "u_linear_coefficient": "86",
+        "v_linear_coefficient": "86"
+      },
+      {
+        "constant_coefficient": "0",
+        "gradient_is_nonzero": true,
+        "level": 1,
+        "u_linear_coefficient": "86",
+        "v_linear_coefficient": "86"
+      },
+      {
+        "constant_coefficient": "0",
+        "gradient_is_nonzero": true,
+        "level": 17,
+        "u_linear_coefficient": "86",
+        "v_linear_coefficient": "86"
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-exact-origin-smoothness.n610m.v1",
+  "script_sha256": "634822892c3bf6eb4bba8ea4de73cd28862c0baa9a385be32cb47074a69daeba",
+  "strongest_valid_statement": "At the simultaneous P/Q origin, each tested exact-Cauchy local numerator vanishes with nonzero linear gradient. Thus this local chart contains no singularity candidate for the selected members.",
+  "timestamp_utc": "2026-08-02T01:08:41.977936+00:00"
+}
