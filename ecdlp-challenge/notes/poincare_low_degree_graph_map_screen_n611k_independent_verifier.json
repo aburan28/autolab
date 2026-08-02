@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "degree_panel_replays": true,
+    "full_rank_panels_replay": true,
+    "negative_boundary": true,
+    "norm_identifiers_valid": true,
+    "schema": true,
+    "transport_counts_replay": true
+  },
+  "primary_sha256": "afcf33b6aad9f3270e9dbde557d5808391eb9b1416c28cc006e603909eeb1da6",
+  "strongest_valid_statement": "The replay independently re-enumerates the prime-degree-below-100 map panel and recomputes every transport count and full-fibre rank panel.",
+  "verified": true
+}

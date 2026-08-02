@@ -1,0 +1,194 @@
+{
+  "assumptions": [
+    "The N608M pair (phi,pi) identifies the observed rational low-degree maps through the recorded norm form.",
+    "Transport compatibility is tested on Eprime(F_103), not asserted over every geometric point."
+  ],
+  "claim_status": "HYPOTHESIS / LOW_DEGREE_GRAPH_MAP_TRANSPORT_SCREEN / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_maps_identified_in_integral_basis": true,
+    "all_maps_preserve_deck_separation": true,
+    "complete_discovered_degree_panel": true,
+    "known_n608m_controls_replay": true,
+    "no_low_degree_map_matches_transport": true
+  },
+  "hypothesis_supported": false,
+  "next_requirement": "If no map aligns, leave the bounded low-degree graph-isogeny family for an explicit matrix-valued correction, non-isogeny correspondence, or a different representation with a complete source-to-target cost path.",
+  "preflight_pass": true,
+  "records": {
+    "map_rows": [
+      {
+        "a": 1,
+        "b": 0,
+        "codomain_sign": 1,
+        "deck_kernel_unit": true,
+        "h018_pullback_degree": 3,
+        "prime_degree": 11,
+        "rank_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 108
+        },
+        "transport_match_count": 0
+      },
+      {
+        "a": 1,
+        "b": -1,
+        "codomain_sign": 1,
+        "deck_kernel_unit": true,
+        "h018_pullback_degree": 66,
+        "prime_degree": 17,
+        "rank_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 108
+        },
+        "transport_match_count": 0
+      },
+      {
+        "a": -1,
+        "b": -1,
+        "codomain_sign": 1,
+        "deck_kernel_unit": true,
+        "h018_pullback_degree": 510,
+        "prime_degree": 23,
+        "rank_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 108
+        },
+        "transport_match_count": 0
+      },
+      {
+        "a": 1,
+        "b": -2,
+        "codomain_sign": 1,
+        "deck_kernel_unit": true,
+        "h018_pullback_degree": 291,
+        "prime_degree": 41,
+        "rank_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 108
+        },
+        "transport_match_count": 0
+      },
+      {
+        "a": 2,
+        "b": -1,
+        "codomain_sign": 1,
+        "deck_kernel_unit": true,
+        "h018_pullback_degree": 141,
+        "prime_degree": 47,
+        "rank_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 108
+        },
+        "transport_match_count": 0
+      },
+      {
+        "a": -1,
+        "b": -2,
+        "codomain_sign": 1,
+        "deck_kernel_unit": true,
+        "h018_pullback_degree": 789,
+        "prime_degree": 53,
+        "rank_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 108
+        },
+        "transport_match_count": 0
+      },
+      {
+        "a": -2,
+        "b": -1,
+        "codomain_sign": 1,
+        "deck_kernel_unit": true,
+        "h018_pullback_degree": 1029,
+        "prime_degree": 59,
+        "rank_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 108
+        },
+        "transport_match_count": 0
+      },
+      {
+        "a": 1,
+        "b": -3,
+        "codomain_sign": 1,
+        "deck_kernel_unit": true,
+        "h018_pullback_degree": 678,
+        "prime_degree": 83,
+        "rank_distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 108
+        },
+        "transport_match_count": 0
+      }
+    ],
+    "max_prime_degree_exclusive": 100
+  },
+  "schema": "ecdlp.h018.poincare-low-degree-graph-map-screen.n611k.v1",
+  "script_sha256": "8b94e5fc371f92e2c84620466353d04c4c9fdb2d242666863a97b663ffb7436d",
+  "strongest_valid_statement": "This exhausts the discovered prime-degree-below-100 isogenies from the registered cover to the target and checks their rational-orbit transport slope and full regular-fibre ranks. It is not a classification of all correspondences.",
+  "timestamp_utc": "2026-08-02T03:33:51.350006+00:00"
+}
