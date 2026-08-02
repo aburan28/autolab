@@ -2,10 +2,12 @@
 
 The Q-dependent determinant was solved in its exact one-variable origin ring,
 then the P basis was evaluated in an independent Laurent variable `v`.  After
-clearing `v-u`, all three selected levels have nonnegative v valuation, and
-every inspected v coefficient has nonnegative u valuation.
+clearing the base-coordinate tangent proxy `v-t`, all three selected levels
+have nonnegative v valuation, and every inspected v coefficient has
+nonnegative t valuation.
 
 This is direct ordered-local evidence and removes N610C's fixed-degree
-interpolation assumption.  It does not establish reverse-order regularity,
-symmetric chart transitions, a global normalization, a relation law, or any
-ECDLP advantage.
+interpolation assumption.  N610J supersedes it for literal Cauchy transition
+work by using `v-w(t)` with the exact support parameter `w(t)=67t+...`.
+The proxy has no standalone global-normalization, relation-law, or ECDLP
+implication.
