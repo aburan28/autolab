@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "degree_two": true,
+    "primary_gates": true,
+    "principal_numerical_type": true,
+    "pullback_intersection": true,
+    "schema": true
+  },
+  "primary_sha256": "3d4e2be2d52c262d49375f34d41f690d60b001f2006221d6e62efe797ce0d28b",
+  "strongest_valid_statement": "The replay independently verifies the degree-two pullback intersection arithmetic and the numerical principal type, conditional on the primary's stated descent assumption.",
+  "verified": true
+}
