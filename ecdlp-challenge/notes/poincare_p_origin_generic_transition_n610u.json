@@ -1,0 +1,45 @@
+{
+  "claim_status": "OBSERVATION / GENERIC H018 P-ORIGIN-TO-CROSSING TRANSITION SCREEN / MODEL-BOUND / TOY-EVIDENCE / EXACT_P_ORIGIN_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_generic_crossing_rows_have_expected_weight": true,
+    "all_generic_p_origin_rows_are_regular": true,
+    "all_generic_p_origin_transition_identities_hold": true,
+    "all_generic_raw_rows_retain_p_origin_poles": true
+  },
+  "next_requirement": "Analyze c=0 (equivalently the inverse-support/P-origin exceptional chart) without substituting it into a generic chord formula, then derive all-orders Cech data before global Cartier, normalization, relation, rank, descent, cost, or ECDLP claims.",
+  "parameters": {
+    "coefficient_field": "F_(103^6)(c)",
+    "formal_precision": 32,
+    "point_parameter": "p=c*u"
+  },
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "crossing_valuation": 1,
+        "exact_transition_match": true,
+        "level": 0,
+        "p_origin_valuation": 0,
+        "raw_valuation": -8
+      },
+      {
+        "crossing_valuation": 1,
+        "exact_transition_match": true,
+        "level": 1,
+        "p_origin_valuation": 0,
+        "raw_valuation": -8
+      },
+      {
+        "crossing_valuation": 1,
+        "exact_transition_match": true,
+        "level": 17,
+        "p_origin_valuation": 0,
+        "raw_valuation": -8
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-p-origin-generic-transition.n610u.v1",
+  "script_sha256": "7d455f9b404465113a9f1c96e3c5b5cb7a355c45d4404f18e4b31e284b9b0c03",
+  "strongest_valid_statement": "After removing the direction-independent Q-origin determinant unit, p^8 times the evaluator is regular in the declared generic P/Q-origin direction and joins the crossing frame through p-u at the stated precision. The exact P-origin direction c=0 still needs a separate local chart argument.",
+  "timestamp_utc": "2026-08-02T01:37:31.792642+00:00"
+}
