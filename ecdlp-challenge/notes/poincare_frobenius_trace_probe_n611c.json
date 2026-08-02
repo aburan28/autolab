@@ -1,0 +1,58 @@
+{
+  "admission": {
+    "rank_lower_bound_fibers_below_rho_estimate": false,
+    "route_promotable": false,
+    "trace_support_below_quarter_group": false
+  },
+  "claim_status": "HYPOTHESIS / H018_FROBENIUS_TRACE_FACTOR_RELATIONS / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_324_residual_fibers_processed": true,
+    "all_factor_traces_descend_and_replay": true,
+    "full_trace_factor_rank": true,
+    "held_out_descent_recovers": true,
+    "held_out_rows_excluded_from_collection": true
+  },
+  "next_requirement": "A positive result needs a scalable trace-packet compression or sublinear factor collection. A negative result leaves normalization/Jacobian correspondences and other factor families open.",
+  "parameters": {
+    "curve_order": 109,
+    "held_out_scalar": 37,
+    "levels": [
+      0,
+      1,
+      17
+    ]
+  },
+  "preflight_pass": true,
+  "records": {
+    "collection_fiber_count": 321,
+    "descent": {
+      "held_out_scalar": 37,
+      "level": 0,
+      "recovered": true,
+      "recovered_scalar": 37
+    },
+    "extension_root_evaluations": 2914,
+    "factor_degree_histogram": {
+      "1": 348,
+      "2": 166,
+      "3": 104,
+      "4": 86,
+      "5": 64,
+      "6": 62,
+      "7": 52,
+      "8": 34,
+      "9": 28
+    },
+    "fiber_count": 324,
+    "log_solution_present": true,
+    "matrix_state_field_elements": 34668,
+    "minimum_independent_relation_rows": 108,
+    "relation_rank": 108,
+    "rho_group_addition_estimate": 13.084983745524628,
+    "trace_factor_base_size": 108
+  },
+  "schema": "ecdlp.h018.poincare-frobenius-trace.n611c.v1",
+  "script_sha256": "4a527ee75d9703d49ee8bfcacd3375226496123eaaa6f577b28cd4812d2488d7",
+  "strongest_valid_statement": "This constructs exact Frobenius-trace relations from the declared H018 residual divisors. A toy solve remains a representation result unless compressed support and fully charged collection beat rho.",
+  "timestamp_utc": "2026-08-02T02:31:23.387208+00:00"
+}

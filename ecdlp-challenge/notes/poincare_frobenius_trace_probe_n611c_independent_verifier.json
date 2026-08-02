@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "all_fiber_traces_match_pole_divisor": true,
+    "degree_histogram_matches": true,
+    "fiber_count_matches": true,
+    "held_out_descent_matches": true,
+    "primary_schema": true,
+    "primary_script_hash_matches": true,
+    "rank_matches": true,
+    "root_evaluations_match": true,
+    "route_remains_unpromotable": true,
+    "trace_support_matches": true
+  },
+  "primary_sha256": "51c4ff14624c30ef1e2b1f3cad6744fcfdbe471b211afba94c9678a747829721",
+  "schema": "ecdlp.h018.poincare-frobenius-trace.n611c.independent-verifier.v1",
+  "verification_pass": true,
+  "verifier_sha256": "1a752cbd79cb06d400e8815e08d30e6cd9ca9cb66891d26e74311512c33fd5fd"
+}
