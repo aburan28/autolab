@@ -1,0 +1,33 @@
+{
+  "claim_status": "OBSERVATION / H018 DIRECT EXCEPTIONAL ROOT IS A COMMON INFINITELY-NEAR PENCIL BASEPOINT CANDIDATE / MODEL-BOUND / TOY-EVIDENCE / BASEPOINT_RESOLUTION_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_levels_have_order_four_contact": true,
+    "all_nonzero_level_differences_vanish_beyond_contact_order": true
+  },
+  "next_requirement": "Compute the complete local ideal and blow-up multiplicity sequence, then remove any proven common base contribution before genus, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "level": 0,
+        "level_difference_valuation": null,
+        "normalized_valuation": 4
+      },
+      {
+        "level": 1,
+        "level_difference_valuation": 8,
+        "normalized_valuation": 4
+      },
+      {
+        "level": 17,
+        "level_difference_valuation": 8,
+        "normalized_valuation": 4
+      }
+    ],
+    "slope": "83"
+  },
+  "schema": "ecdlp.h018.poincare-blowup-basepoint.n609z.v1",
+  "script_sha256": "5ff3d719b2c1632128697ffa46c762ec6ddda4d4f49a79d8e50942e052ec7540",
+  "strongest_valid_statement": "The direct exceptional root has common order-four contact across the selected pencil, and the first level differences have the recorded higher order. This is local evidence for an infinitely-near common base point, not yet a resolved global base locus.",
+  "timestamp_utc": "2026-08-02T00:15:33.742899+00:00"
+}
