@@ -1,0 +1,907 @@
+{
+  "claim_status": "HYPOTHESIS / HIGHER-ARITY INTERNAL THETA OCCUPANCY PREFLIGHT / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "next_requirement": "If no arity clears the density/rank screen, reject this split higher-arity realization and move to the non-split Mumford factor-base track.",
+  "parameters": {
+    "arities": [
+      3,
+      4,
+      5
+    ],
+    "factor_base_size": 8
+  },
+  "promotion_gate": "Require >=8x relation and descent lifts across rows, growing rank, valid controls, and a separately charged complete below-rho collector.",
+  "rows": [
+    {
+      "c": 1,
+      "curve_order": 67,
+      "factor_base_size": 8,
+      "p": 59,
+      "profiles": {
+        "3": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 0,
+            "distinct_relation_row_count": 0,
+            "factor_log_rank": 0,
+            "materialized_factor_sign_assignments": 32,
+            "mean_descent_witness_count": 0.0,
+            "relation_witness_count": 0,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 0.0,
+            "relation_witness_lift": 0.0
+          },
+          "control_means": {
+            "descent_targets_with_witness": 1.0,
+            "relation_witness_count": 1.0
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 4,
+            "factor_log_rank": 4,
+            "materialized_factor_sign_assignments": 32,
+            "mean_descent_witness_count": 22.0,
+            "relation_witness_count": 32,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "4": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 2,
+            "distinct_relation_row_count": 2,
+            "factor_log_rank": 2,
+            "materialized_factor_sign_assignments": 304,
+            "mean_descent_witness_count": 1.75,
+            "relation_witness_count": 3,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.3333333333333333,
+            "relation_witness_lift": 0.75
+          },
+          "control_means": {
+            "descent_targets_with_witness": 1.5,
+            "relation_witness_count": 4.0
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 19,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 304,
+            "mean_descent_witness_count": 76.0,
+            "relation_witness_count": 304,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "5": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 16,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1568,
+            "mean_descent_witness_count": 7.0,
+            "relation_witness_count": 30,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.0,
+            "relation_witness_lift": 0.7792207792207793
+          },
+          "control_means": {
+            "descent_targets_with_witness": 4.0,
+            "relation_witness_count": 38.5
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 49,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1568,
+            "mean_descent_witness_count": 352.0,
+            "relation_witness_count": 1568,
+            "wrong_target_geometry_passes": 0
+          }
+        }
+      },
+      "selector_domain_count": 34
+    },
+    {
+      "c": 2,
+      "curve_order": 67,
+      "factor_base_size": 8,
+      "p": 59,
+      "profiles": {
+        "3": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 2,
+            "distinct_relation_row_count": 1,
+            "factor_log_rank": 1,
+            "materialized_factor_sign_assignments": 64,
+            "mean_descent_witness_count": 1.25,
+            "relation_witness_count": 2,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 0.8888888888888888,
+            "relation_witness_lift": 0.4444444444444444
+          },
+          "control_means": {
+            "descent_targets_with_witness": 2.25,
+            "relation_witness_count": 4.5
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 8,
+            "factor_log_rank": 7,
+            "materialized_factor_sign_assignments": 64,
+            "mean_descent_witness_count": 10.0,
+            "relation_witness_count": 64,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "4": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 3,
+            "distinct_relation_row_count": 5,
+            "factor_log_rank": 5,
+            "materialized_factor_sign_assignments": 320,
+            "mean_descent_witness_count": 1.25,
+            "relation_witness_count": 7,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.0909090909090908,
+            "relation_witness_lift": 1.3333333333333333
+          },
+          "control_means": {
+            "descent_targets_with_witness": 2.75,
+            "relation_witness_count": 5.25
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 20,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 320,
+            "mean_descent_witness_count": 88.0,
+            "relation_witness_count": 320,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "5": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 11,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1408,
+            "mean_descent_witness_count": 10.0,
+            "relation_witness_count": 24,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.0,
+            "relation_witness_lift": 0.9696969696969697
+          },
+          "control_means": {
+            "descent_targets_with_witness": 4.0,
+            "relation_witness_count": 24.75
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 44,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1408,
+            "mean_descent_witness_count": 392.0,
+            "relation_witness_count": 1408,
+            "wrong_target_geometry_passes": 0
+          }
+        }
+      },
+      "selector_domain_count": 34
+    },
+    {
+      "c": 3,
+      "curve_order": 67,
+      "factor_base_size": 8,
+      "p": 59,
+      "profiles": {
+        "3": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 2,
+            "distinct_relation_row_count": 0,
+            "factor_log_rank": 0,
+            "materialized_factor_sign_assignments": 40,
+            "mean_descent_witness_count": 1.25,
+            "relation_witness_count": 0,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 0.7272727272727273,
+            "relation_witness_lift": 0.0
+          },
+          "control_means": {
+            "descent_targets_with_witness": 2.75,
+            "relation_witness_count": 0.5
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 5,
+            "factor_log_rank": 5,
+            "materialized_factor_sign_assignments": 40,
+            "mean_descent_witness_count": 16.0,
+            "relation_witness_count": 40,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "4": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 2,
+            "distinct_relation_row_count": 4,
+            "factor_log_rank": 4,
+            "materialized_factor_sign_assignments": 320,
+            "mean_descent_witness_count": 0.75,
+            "relation_witness_count": 5,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 0.6666666666666666,
+            "relation_witness_lift": 1.0
+          },
+          "control_means": {
+            "descent_targets_with_witness": 3.0,
+            "relation_witness_count": 5.0
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 20,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 320,
+            "mean_descent_witness_count": 80.0,
+            "relation_witness_count": 320,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "5": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 10,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1504,
+            "mean_descent_witness_count": 9.75,
+            "relation_witness_count": 21,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.0,
+            "relation_witness_lift": 0.865979381443299
+          },
+          "control_means": {
+            "descent_targets_with_witness": 4.0,
+            "relation_witness_count": 24.25
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 47,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1504,
+            "mean_descent_witness_count": 376.0,
+            "relation_witness_count": 1504,
+            "wrong_target_geometry_passes": 0
+          }
+        }
+      },
+      "selector_domain_count": 38
+    },
+    {
+      "c": 1,
+      "curve_order": 79,
+      "factor_base_size": 8,
+      "p": 83,
+      "profiles": {
+        "3": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 1,
+            "distinct_relation_row_count": 0,
+            "factor_log_rank": 0,
+            "materialized_factor_sign_assignments": 72,
+            "mean_descent_witness_count": 1.25,
+            "relation_witness_count": 0,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.0,
+            "relation_witness_lift": 0.0
+          },
+          "control_means": {
+            "descent_targets_with_witness": 1.0,
+            "relation_witness_count": 0.75
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 9,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 72,
+            "mean_descent_witness_count": 18.0,
+            "relation_witness_count": 72,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "4": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 2,
+            "distinct_relation_row_count": 2,
+            "factor_log_rank": 2,
+            "materialized_factor_sign_assignments": 384,
+            "mean_descent_witness_count": 0.75,
+            "relation_witness_count": 3,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 2.0,
+            "relation_witness_lift": 0.5714285714285714
+          },
+          "control_means": {
+            "descent_targets_with_witness": 1.0,
+            "relation_witness_count": 5.25
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 24,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 384,
+            "mean_descent_witness_count": 64.0,
+            "relation_witness_count": 384,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "5": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 11,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1568,
+            "mean_descent_witness_count": 10.0,
+            "relation_witness_count": 22,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.1428571428571428,
+            "relation_witness_lift": 1.1139240506329113
+          },
+          "control_means": {
+            "descent_targets_with_witness": 3.5,
+            "relation_witness_count": 19.75
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 49,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1568,
+            "mean_descent_witness_count": 336.0,
+            "relation_witness_count": 1568,
+            "wrong_target_geometry_passes": 0
+          }
+        }
+      },
+      "selector_domain_count": 36
+    },
+    {
+      "c": 2,
+      "curve_order": 79,
+      "factor_base_size": 8,
+      "p": 83,
+      "profiles": {
+        "3": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 0,
+            "distinct_relation_row_count": 0,
+            "factor_log_rank": 0,
+            "materialized_factor_sign_assignments": 56,
+            "mean_descent_witness_count": 0.0,
+            "relation_witness_count": 0,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 0.0,
+            "relation_witness_lift": 0.0
+          },
+          "control_means": {
+            "descent_targets_with_witness": 0.75,
+            "relation_witness_count": 1.25
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 3,
+            "distinct_relation_row_count": 7,
+            "factor_log_rank": 7,
+            "materialized_factor_sign_assignments": 56,
+            "mean_descent_witness_count": 18.0,
+            "relation_witness_count": 56,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "4": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 1,
+            "distinct_relation_row_count": 0,
+            "factor_log_rank": 0,
+            "materialized_factor_sign_assignments": 320,
+            "mean_descent_witness_count": 0.25,
+            "relation_witness_count": 0,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.3333333333333333,
+            "relation_witness_lift": 0.0
+          },
+          "control_means": {
+            "descent_targets_with_witness": 0.75,
+            "relation_witness_count": 4.0
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 20,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 320,
+            "mean_descent_witness_count": 68.0,
+            "relation_witness_count": 320,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "5": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 9,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1568,
+            "mean_descent_witness_count": 5.25,
+            "relation_witness_count": 13,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.0666666666666667,
+            "relation_witness_lift": 0.5977011494252874
+          },
+          "control_means": {
+            "descent_targets_with_witness": 3.75,
+            "relation_witness_count": 21.75
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 49,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1568,
+            "mean_descent_witness_count": 432.0,
+            "relation_witness_count": 1568,
+            "wrong_target_geometry_passes": 0
+          }
+        }
+      },
+      "selector_domain_count": 36
+    },
+    {
+      "c": 3,
+      "curve_order": 79,
+      "factor_base_size": 8,
+      "p": 83,
+      "profiles": {
+        "3": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 1,
+            "distinct_relation_row_count": 2,
+            "factor_log_rank": 2,
+            "materialized_factor_sign_assignments": 48,
+            "mean_descent_witness_count": 1.0,
+            "relation_witness_count": 4,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.0,
+            "relation_witness_lift": 0.9411764705882353
+          },
+          "control_means": {
+            "descent_targets_with_witness": 1.0,
+            "relation_witness_count": 4.25
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 6,
+            "factor_log_rank": 6,
+            "materialized_factor_sign_assignments": 48,
+            "mean_descent_witness_count": 14.0,
+            "relation_witness_count": 48,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "4": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 1,
+            "distinct_relation_row_count": 1,
+            "factor_log_rank": 1,
+            "materialized_factor_sign_assignments": 304,
+            "mean_descent_witness_count": 0.5,
+            "relation_witness_count": 1,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 0.5714285714285714,
+            "relation_witness_lift": 0.3333333333333333
+          },
+          "control_means": {
+            "descent_targets_with_witness": 1.75,
+            "relation_witness_count": 3.0
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 19,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 304,
+            "mean_descent_witness_count": 72.0,
+            "relation_witness_count": 304,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "5": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 13,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1376,
+            "mean_descent_witness_count": 7.0,
+            "relation_witness_count": 35,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.3333333333333333,
+            "relation_witness_lift": 1.044776119402985
+          },
+          "control_means": {
+            "descent_targets_with_witness": 3.0,
+            "relation_witness_count": 33.5
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 43,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1376,
+            "mean_descent_witness_count": 328.0,
+            "relation_witness_count": 1376,
+            "wrong_target_geometry_passes": 0
+          }
+        }
+      },
+      "selector_domain_count": 42
+    },
+    {
+      "c": 1,
+      "curve_order": 97,
+      "factor_base_size": 8,
+      "p": 103,
+      "profiles": {
+        "3": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 0,
+            "distinct_relation_row_count": 0,
+            "factor_log_rank": 0,
+            "materialized_factor_sign_assignments": 8,
+            "mean_descent_witness_count": 0.0,
+            "relation_witness_count": 0,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 0.0,
+            "relation_witness_lift": 0.0
+          },
+          "control_means": {
+            "descent_targets_with_witness": 0.5,
+            "relation_witness_count": 0.0
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 3,
+            "distinct_relation_row_count": 1,
+            "factor_log_rank": 1,
+            "materialized_factor_sign_assignments": 8,
+            "mean_descent_witness_count": 8.0,
+            "relation_witness_count": 8,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "4": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 3,
+            "distinct_relation_row_count": 0,
+            "factor_log_rank": 0,
+            "materialized_factor_sign_assignments": 160,
+            "mean_descent_witness_count": 1.25,
+            "relation_witness_count": 0,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.2,
+            "relation_witness_lift": 0.0
+          },
+          "control_means": {
+            "descent_targets_with_witness": 2.5,
+            "relation_witness_count": 3.5
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 10,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 160,
+            "mean_descent_witness_count": 72.0,
+            "relation_witness_count": 160,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "5": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 7,
+            "factor_log_rank": 7,
+            "materialized_factor_sign_assignments": 1408,
+            "mean_descent_witness_count": 2.75,
+            "relation_witness_count": 12,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.1428571428571428,
+            "relation_witness_lift": 0.6153846153846154
+          },
+          "control_means": {
+            "descent_targets_with_witness": 3.5,
+            "relation_witness_count": 19.5
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 44,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1408,
+            "mean_descent_witness_count": 240.0,
+            "relation_witness_count": 1408,
+            "wrong_target_geometry_passes": 0
+          }
+        }
+      },
+      "selector_domain_count": 48
+    },
+    {
+      "c": 2,
+      "curve_order": 97,
+      "factor_base_size": 8,
+      "p": 103,
+      "profiles": {
+        "3": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 0,
+            "distinct_relation_row_count": 0,
+            "factor_log_rank": 0,
+            "materialized_factor_sign_assignments": 48,
+            "mean_descent_witness_count": 0.0,
+            "relation_witness_count": 0,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 0.0,
+            "relation_witness_lift": 0.0
+          },
+          "control_means": {
+            "descent_targets_with_witness": 0.0,
+            "relation_witness_count": 0.5
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 3,
+            "distinct_relation_row_count": 6,
+            "factor_log_rank": 6,
+            "materialized_factor_sign_assignments": 48,
+            "mean_descent_witness_count": 8.0,
+            "relation_witness_count": 48,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "4": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 1,
+            "distinct_relation_row_count": 3,
+            "factor_log_rank": 3,
+            "materialized_factor_sign_assignments": 224,
+            "mean_descent_witness_count": 0.75,
+            "relation_witness_count": 4,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.0,
+            "relation_witness_lift": 2.6666666666666665
+          },
+          "control_means": {
+            "descent_targets_with_witness": 1.0,
+            "relation_witness_count": 1.5
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 14,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 224,
+            "mean_descent_witness_count": 72.0,
+            "relation_witness_count": 224,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "5": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 3,
+            "distinct_relation_row_count": 3,
+            "factor_log_rank": 3,
+            "materialized_factor_sign_assignments": 1088,
+            "mean_descent_witness_count": 3.0,
+            "relation_witness_count": 4,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 0.9230769230769231,
+            "relation_witness_lift": 0.5333333333333333
+          },
+          "control_means": {
+            "descent_targets_with_witness": 3.25,
+            "relation_witness_count": 7.5
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 34,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1088,
+            "mean_descent_witness_count": 304.0,
+            "relation_witness_count": 1088,
+            "wrong_target_geometry_passes": 0
+          }
+        }
+      },
+      "selector_domain_count": 52
+    },
+    {
+      "c": 3,
+      "curve_order": 97,
+      "factor_base_size": 8,
+      "p": 103,
+      "profiles": {
+        "3": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 0,
+            "distinct_relation_row_count": 0,
+            "factor_log_rank": 0,
+            "materialized_factor_sign_assignments": 40,
+            "mean_descent_witness_count": 0.0,
+            "relation_witness_count": 0,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 0.0,
+            "relation_witness_lift": 0.0
+          },
+          "control_means": {
+            "descent_targets_with_witness": 0.25,
+            "relation_witness_count": 0.0
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 3,
+            "distinct_relation_row_count": 5,
+            "factor_log_rank": 5,
+            "materialized_factor_sign_assignments": 40,
+            "mean_descent_witness_count": 12.0,
+            "relation_witness_count": 40,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "4": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 3,
+            "distinct_relation_row_count": 5,
+            "factor_log_rank": 5,
+            "materialized_factor_sign_assignments": 208,
+            "mean_descent_witness_count": 1.5,
+            "relation_witness_count": 7,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.3333333333333333,
+            "relation_witness_lift": 2.3333333333333335
+          },
+          "control_means": {
+            "descent_targets_with_witness": 2.25,
+            "relation_witness_count": 3.0
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 13,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 208,
+            "mean_descent_witness_count": 88.0,
+            "relation_witness_count": 208,
+            "wrong_target_geometry_passes": 0
+          }
+        },
+        "5": {
+          "candidate": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 3,
+            "distinct_relation_row_count": 5,
+            "factor_log_rank": 5,
+            "materialized_factor_sign_assignments": 1120,
+            "mean_descent_witness_count": 3.0,
+            "relation_witness_count": 10,
+            "wrong_target_geometry_passes": 0
+          },
+          "candidate_to_control": {
+            "descent_target_lift": 1.0,
+            "relation_witness_lift": 0.8333333333333334
+          },
+          "control_means": {
+            "descent_targets_with_witness": 3.0,
+            "relation_witness_count": 12.0
+          },
+          "zero_prym_positive_control": {
+            "all_relation_rows_match_true_base_logs": true,
+            "descent_targets_with_witness": 4,
+            "distinct_relation_row_count": 35,
+            "factor_log_rank": 8,
+            "materialized_factor_sign_assignments": 1120,
+            "mean_descent_witness_count": 288.0,
+            "relation_witness_count": 1120,
+            "wrong_target_geometry_passes": 0
+          }
+        }
+      },
+      "selector_domain_count": 44
+    }
+  ],
+  "schema": "ecdlp.internal-jacobian-theta-arity.n501.v1"
+}
