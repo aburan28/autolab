@@ -1,0 +1,208 @@
+{
+  "claim_status": "HYPOTHESIS / DICKSON_FIBER_TRIPLE_PREFLIGHT / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "exact_membership": "D_d(T,a)-c == 0 mod (T^3-e1*T^2+e2*T-e3)",
+  "gates": {
+    "all_admitted_memberships_replay": true,
+    "has_admitted_complete_fiber": true,
+    "prime_order_toy_curve": true
+  },
+  "next_requirement": "A promoted fiber needs an endpoint-producing source solver. A negative result requires a factor family with a different bounded-support triple algebra, not another monomial-like recurrence.",
+  "parameters": {
+    "controls": 16,
+    "curve": "y^2=x^3+x+32",
+    "curve_order": 101,
+    "field_order": 101
+  },
+  "preflight_pass": true,
+  "promotion": {
+    "admit_source_solver": false,
+    "some_fourfold_density_lift_beats_controls": false,
+    "some_support_beats_x_pair_state": false
+  },
+  "rows": [
+    {
+      "admitted_fiber": false,
+      "constant": 0,
+      "degree": 10,
+      "factor_base_size": 0,
+      "parameter": 1
+    },
+    {
+      "admitted_fiber": false,
+      "constant": 1,
+      "degree": 10,
+      "factor_base_size": 0,
+      "parameter": 1
+    },
+    {
+      "admitted_fiber": true,
+      "candidate_triples_enumerated": 120,
+      "constant": 0,
+      "degree": 10,
+      "density_lift_over_mean": 4.571428571428571,
+      "factor_base_size": 10,
+      "generic_remainder_profile": {
+        "coefficient_rows": [
+          {
+            "monomials": 18,
+            "t_degree": 0,
+            "total_degree": 8
+          },
+          {
+            "monomials": 24,
+            "t_degree": 1,
+            "total_degree": 8
+          },
+          {
+            "monomials": 24,
+            "t_degree": 2,
+            "total_degree": 8
+          }
+        ],
+        "maximum_total_degree": 8,
+        "total_monomials": 66
+      },
+      "membership_replay": true,
+      "parameter": 2,
+      "random_control_counts": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        4,
+        2,
+        0,
+        0,
+        2,
+        2
+      ],
+      "random_control_maximum": 4,
+      "random_control_mean": 0.875,
+      "support_to_pair_state": 4.4,
+      "unordered_x_pair_state": 15,
+      "x_pair_count": 5,
+      "zero_sum_distinct_triples": 4
+    },
+    {
+      "admitted_fiber": false,
+      "constant": 1,
+      "degree": 10,
+      "factor_base_size": 4,
+      "parameter": 2
+    },
+    {
+      "admitted_fiber": false,
+      "constant": 0,
+      "degree": 20,
+      "factor_base_size": 0,
+      "parameter": 1
+    },
+    {
+      "admitted_fiber": false,
+      "constant": 1,
+      "degree": 20,
+      "factor_base_size": 0,
+      "parameter": 1
+    },
+    {
+      "admitted_fiber": false,
+      "constant": 0,
+      "degree": 20,
+      "factor_base_size": 0,
+      "parameter": 2
+    },
+    {
+      "admitted_fiber": false,
+      "constant": 1,
+      "degree": 20,
+      "factor_base_size": 0,
+      "parameter": 2
+    },
+    {
+      "admitted_fiber": true,
+      "candidate_triples_enumerated": 1140,
+      "constant": 0,
+      "degree": 25,
+      "density_lift_over_mean": 0.7901234567901234,
+      "factor_base_size": 20,
+      "generic_remainder_profile": {
+        "coefficient_rows": [
+          {
+            "monomials": 244,
+            "t_degree": 0,
+            "total_degree": 23
+          },
+          {
+            "monomials": 293,
+            "t_degree": 1,
+            "total_degree": 23
+          },
+          {
+            "monomials": 270,
+            "t_degree": 2,
+            "total_degree": 23
+          }
+        ],
+        "maximum_total_degree": 23,
+        "total_monomials": 807
+      },
+      "membership_replay": true,
+      "parameter": 1,
+      "random_control_counts": [
+        18,
+        10,
+        12,
+        10,
+        10,
+        6,
+        10,
+        14,
+        4,
+        14,
+        8,
+        12,
+        4,
+        10,
+        12,
+        8
+      ],
+      "random_control_maximum": 18,
+      "random_control_mean": 10.125,
+      "support_to_pair_state": 14.672727272727272,
+      "unordered_x_pair_state": 55,
+      "x_pair_count": 10,
+      "zero_sum_distinct_triples": 8
+    },
+    {
+      "admitted_fiber": false,
+      "constant": 1,
+      "degree": 25,
+      "factor_base_size": 0,
+      "parameter": 1
+    },
+    {
+      "admitted_fiber": false,
+      "constant": 0,
+      "degree": 25,
+      "factor_base_size": 0,
+      "parameter": 2
+    },
+    {
+      "admitted_fiber": false,
+      "constant": 1,
+      "degree": 25,
+      "factor_base_size": 0,
+      "parameter": 2
+    }
+  ],
+  "schema": "ecdlp.dickson-fiber-triple.n611b.v1",
+  "script_sha256": "dd620767c73bcd2258c4f9630802d991bdb1131a2e4e23a64eb2e52a86d5d904",
+  "strongest_valid_statement": "This screen measures exact finite toy Dickson-fiber membership support and triple density only. A passing source admission would still require an explicit source inverse, factor-log rank, independent target descent, and charged comparison to rho.",
+  "timestamp_utc": "2026-08-02T02:22:24.595145+00:00"
+}

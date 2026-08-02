@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "all_admitted_rows_replay": true,
+    "primary_schema": true,
+    "primary_script_hash_matches": true,
+    "source_solver_remains_rejected": true
+  },
+  "primary_sha256": "24eb706102ff77742e38b5eb4461789b049f80bf7596fa2d63ccdc4f8bf39052",
+  "rows": [
+    {
+      "constant": 0,
+      "control_counts_match": true,
+      "degree": 10,
+      "density_does_not_exceed_control_maximum": true,
+      "factor_base_size_matches": true,
+      "membership_replays": true,
+      "parameter": 2,
+      "support_exceeds_pair_state": true,
+      "triple_count_matches": true
+    },
+    {
+      "constant": 0,
+      "control_counts_match": true,
+      "degree": 25,
+      "density_does_not_exceed_control_maximum": true,
+      "factor_base_size_matches": true,
+      "membership_replays": true,
+      "parameter": 1,
+      "support_exceeds_pair_state": true,
+      "triple_count_matches": true
+    }
+  ],
+  "schema": "ecdlp.dickson-fiber-triple.n611b.independent-verifier.v1",
+  "verification_pass": true,
+  "verifier_sha256": "a7479f94a5c5fb5232e92af462d1a3ad5911b156d0274deb5aea0e4227194074"
+}
