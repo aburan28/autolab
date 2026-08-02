@@ -1,0 +1,49 @@
+{
+  "claim_status": "OBSERVATION / FINITE-ORDER EXCEPTIONAL H018 P-ORIGIN SPECIALIZATION / MODEL-BOUND / TOY-EVIDENCE / ALL_ORDERS_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_inspected_coefficients_extend_to_c_zero": true,
+    "all_p_origin_frames_are_regular_before_specialization": true,
+    "all_specialized_crossing_transitions_match_through_inspected_orders": true,
+    "all_specialized_p_origin_frames_are_regular_and_nonzero": true
+  },
+  "next_requirement": "Prove coefficientwise extension to all orders or derive a literal local P-origin chart, then combine it with the true-pole center before global Cartier, normalization, relation, rank, descent, cost, or ECDLP claims.",
+  "parameters": {
+    "coefficient_field": "F_(103^6)(c)",
+    "formal_precision": 32,
+    "inspected_orders": "0..11",
+    "specialization": "c=0"
+  },
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "all_inspected_coefficients_defined_at_c_zero": true,
+        "level": 0,
+        "p_origin_valuation": 0,
+        "specialized_crossing_match_through_inspected_orders": true,
+        "specialized_p_origin_leading_coefficient_nonzero": true,
+        "specialized_p_origin_valuation": 0
+      },
+      {
+        "all_inspected_coefficients_defined_at_c_zero": true,
+        "level": 1,
+        "p_origin_valuation": 0,
+        "specialized_crossing_match_through_inspected_orders": true,
+        "specialized_p_origin_leading_coefficient_nonzero": true,
+        "specialized_p_origin_valuation": 0
+      },
+      {
+        "all_inspected_coefficients_defined_at_c_zero": true,
+        "level": 17,
+        "p_origin_valuation": 0,
+        "specialized_crossing_match_through_inspected_orders": true,
+        "specialized_p_origin_leading_coefficient_nonzero": true,
+        "specialized_p_origin_valuation": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-p-origin-c-zero-specialization.n610v.v1",
+  "script_sha256": "ba6b504e176e7e435496bf637efb1bfe7bbba957df08b63de15ea01af4963473",
+  "strongest_valid_statement": "After the P-origin cancellation, the first twelve coefficients extend to c=0, retain a nonzero regular leading term, and obey the specialized crossing factor -u on all selected levels. This is finite-order exceptional-chart evidence only.",
+  "timestamp_utc": "2026-08-02T01:41:57.722463+00:00"
+}
