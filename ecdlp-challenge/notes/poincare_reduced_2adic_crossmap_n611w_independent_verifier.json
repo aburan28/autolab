@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "exact_image_sizes": true,
+    "factorization_and_unit": true,
+    "frobenius_orders": true,
+    "nonisomorphism": true,
+    "primary_gates": true,
+    "schema": true
+  },
+  "primary_sha256": "b9e8b74a486fa73df18778542b043a1f71a15cb932508fc287f7e39c123d4ed4",
+  "strongest_valid_statement": "The independent replay verifies the predicted image growth and nonisomorphism at the three explicit torsion levels; no theta curve or ECDLP claim follows.",
+  "verified": true
+}

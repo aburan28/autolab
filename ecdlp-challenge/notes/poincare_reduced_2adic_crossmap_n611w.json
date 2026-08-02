@@ -1,0 +1,59 @@
+{
+  "assumptions": [
+    "The degree-two separable isogeny phi_g has two-adic Smith factors (1,2).",
+    "The odd-norm CM map 3+pi is a two-adic unit."
+  ],
+  "bound_inputs": {
+    "notes/poincare_reduced_level2_gluing_n611v.json": "8ae77dbb084ea43ad3a4269816d610a78eafdd50227a8fcb6e6857de0318fe30",
+    "notes/poincare_reduced_level2_gluing_n611v_independent_verifier.json": "d529de6631cac01fb2e5cdba78c740fb311931099e9b9d473babe90e9d6b8c5c"
+  },
+  "claim_status": "RESTRICTED THEOREM / NEGATIVE_DIRECT_POWER_OF_TWO_FREY_KANI_GRAPH_BY_REDUCED_CROSS_MAP / MODEL-BOUND / TOY-EVIDENCE / QUOTIENT_LATTICE_AND_HIGHER_THETA_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "cross_map_is_not_direct_graph_isomorphism": true,
+    "frobenius_extension_degrees_are_exact": true,
+    "full_torsion_sizes_replay": true,
+    "n611v_level_two_receipt_binds": true,
+    "smith_factor_image_sizes_replay": true,
+    "unit_factor_has_odd_norm": true
+  },
+  "next_requirement": "Use the nontrivial 2-adic residue only through an explicit quotient-lattice or theta-group construction; direct cross-map graph gluing is closed before relation work.",
+  "preflight_pass": true,
+  "records": {
+    "cross_map_factorization": "beta=phi_g o [4] o ([3]+Frob)",
+    "predicted_smith_factors": [
+      4,
+      8
+    ],
+    "rows": [
+      {
+        "expected_image_size": 1,
+        "extension_degree": 6,
+        "frobenius_order": 6,
+        "image_size": 1,
+        "level": 4,
+        "torsion_size": 16
+      },
+      {
+        "expected_image_size": 2,
+        "extension_degree": 12,
+        "frobenius_order": 12,
+        "image_size": 2,
+        "level": 8,
+        "torsion_size": 64
+      },
+      {
+        "expected_image_size": 8,
+        "extension_degree": 24,
+        "frobenius_order": 24,
+        "image_size": 8,
+        "level": 16,
+        "torsion_size": 256
+      }
+    ],
+    "unit_norm": 97
+  },
+  "schema": "ecdlp.h018.reduced-2adic-crossmap.n611w.v1",
+  "script_sha256": "88ca7b7e5d76372cb26312a2950213d1cb115e7e9a9b4668a623f49b7b9ab704",
+  "strongest_valid_statement": "The reduced cross map has the predicted 2-adic factors (4,8): exact full-torsion image sizes are 1, 2, and 8 at levels 4, 8, and 16. It supplies nonzero rank-one residue at level 8 and higher residue at level 16, but is never a direct power-of-two torsion isomorphism and cannot itself define a Frey-Kani graph.",
+  "timestamp_utc": "2026-08-02T04:43:14.761878+00:00"
+}
