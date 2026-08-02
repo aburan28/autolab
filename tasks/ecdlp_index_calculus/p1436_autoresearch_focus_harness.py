@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v115"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v116"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -572,6 +572,9 @@ DEFAULT_M6_SQUAREFREE_TRUNCATED_RESULTANT_APPLICABILITY_PROBE = Path(
     "p1553_m6_squarefree_truncated_resultant_applicability_"
     "probe_report_r179.json"
 )
+DEFAULT_M6_D5_DIRECTED_EVALUATION_SURVIVOR_PROBE = Path(
+    "p1553_m6_d5_directed_evaluation_survivor_probe_report_r180.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -916,6 +919,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_squarefree_truncated_resultant_applicability": (
         "p1553.m6_squarefree_truncated_resultant_applicability.r179.v1"
+    ),
+    "m6_d5_directed_evaluation_survivor": (
+        "p1553.m6_d5_directed_evaluation_survivor.r180.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -4250,36 +4256,35 @@ CRITICAL_EXPERIMENTS = {
     },
     "s66_fused_factored_dual_chow_outer_norm_mod_u": {
         "hypothesis": (
-            "The N target linear factors can be fused with the two-chart "
-            "confluent outer norm over the degree-n divisor U in softly O(n+N) "
-            "work, without representing either dual-Chow coefficient triangle "
-            "or either selected-target query grid."
+            "The degree-N target Miller SLP and two-chart confluent outer norm "
+            "admit a one-shot monogenic or bounded-bidegree representation over "
+            "F[X]/(U), allowing charged finite-field modular composition in "
+            "softly O(n+N) work without an N-step residue stream."
         ),
         "decisive_test": (
-            "Freeze U,V, W,V_T, the off-diagonal Delta_V chart, the geometric "
-            "tangent chart, and the exact R174 target-first/target-last identity. "
-            "Specify an arithmetic DAG that ingests the N linear target factors "
-            "and emits the signed aggregate or gcd modulo U. Charge all subproduct "
-            "or transposed state, divided-difference transforms, diagonal "
-            "corrections, quotient reductions, zero-divisor branches, "
-            "factorization, candidate output, and signed replay. Require softly "
-            "O(n+N) work and total cost strictly below B^(5/2), then replay all "
-            "R174/R173/R172/R166 controls."
+            "Freeze U,V, the degree-N target Miller SLP, both R174 secant and "
+            "geometric-tangent charts, and the R180 target-factor decomposition. "
+            "Construct H,a with C_h=H(a) mod U, or a bounded-bidegree "
+            "G(X,a(X)) mod U, before product-algebra evaluation. Charge compiler "
+            "preprocessing, relation matrices, modular composition, exceptional "
+            "charts, gcd output, and signed replay. Require softly O(n+N) total "
+            "work, then replay all R180/R179/R178/R174 controls and one held-out "
+            "divisor family."
         ),
         "falsifier": (
-            "The route represents Theta(N^2) target-Chow or Theta(n^2) selected-"
-            "Chow coefficients, emits nN or n^2 query points, applies N "
-            "independent quotient-ring transforms, differentiates interpolated "
-            "V as the curve tangent, drops the Q=P chart, reaches B^(5/2), "
-            "inverts candidate nonunits, or assumes a unit-cost multipoint, norm, "
-            "derivative, resultant, root, count, marginal, rank, or source oracle."
+            "The compiler emits N quotient-ring elements, retains an N-step "
+            "D5 or directed-evaluation tree, represents nN, N^2, or n^2 state, "
+            "uses the cited generic algebraic modular-composition exponent above "
+            "rho, drops the tangent chart, inverts candidate nonunits, or assumes "
+            "a unit-cost composition, norm, resultant, root, count, marginal, "
+            "rank, source, or generic locator oracle."
         ),
         "required_artifacts": [
-            "frozen_m6_confluent_signed_dual_chow_pushforward.json",
-            "m6_confluent_signed_dual_chow_pushforward_cost_ledger.json",
-            "m6_confluent_signed_dual_chow_pushforward_replay.json",
-            "m6_confluent_signed_dual_chow_pushforward_controls.json",
-            "confluent_signed_dual_chow_pushforward_r174.json",
+            "frozen_m6_d5_directed_evaluation_survivor.json",
+            "m6_d5_directed_evaluation_survivor_cost_ledger.json",
+            "m6_d5_directed_evaluation_survivor_replay.json",
+            "m6_d5_directed_evaluation_survivor_controls.json",
+            "d5_directed_evaluation_survivor_applicability_r180.json",
         ],
     },
     "s67_reusable_scalar_subset_incidence_oracle": {
@@ -6797,7 +6802,40 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_squarefree_truncated_resultant_applicability_lane.get(
+    m6_d5_directed_evaluation_survivor_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_d5_directed_evaluation_survivor"
+        )
+        or {}
+    )
+    if m6_d5_directed_evaluation_survivor_lane.get(
+        "closed_by_current_evidence"
+    ):
+        admission = (
+            m6_d5_directed_evaluation_survivor_lane.get("admission") or {}
+        )
+        add_focus_candidate(
+            candidates,
+            "s66_fused_factored_dual_chow_outer_norm_mod_u",
+            322,
+            str(
+                m6_d5_directed_evaluation_survivor_lane.get("next_action")
+                or CRITICAL_EXPERIMENTS[
+                    "s66_fused_factored_dual_chow_outer_norm_mod_u"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_d5_directed_evaluation_survivor_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} D5/directed-evaluation "
+                "obligations pass. Every noncandidate CRT component survives "
+                "all N target factors, so literal factor streaming and directed "
+                "evaluation remain B^(7/2), while standard D5 half-GCD is "
+                "B^(9/2). A one-shot monogenic finite-field modular-composition "
+                "compiler remains open."
+            ),
+        )
+    elif m6_squarefree_truncated_resultant_applicability_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -12030,6 +12068,29 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_d5_directed_evaluation_survivor_scope",
+            "observed": (
+                "R180 replays all six R174/R178 candidate factors from 40 "
+                "individual target norms and exhaustively optimizes every finite "
+                "early-split order. The 62 noncandidate components survive all "
+                "target factors, forcing the literal D5 and directed-evaluation "
+                "tree to B^(7/2); standard D5 half-GCD is B^(9/2), and the cited "
+                "generic algebraic modular-composition exponent becomes B^3.02175."
+            ),
+            "resolution": (
+                "Close literal target-factor streaming, successive D5 zero tests, "
+                "directed panoramic evaluation of that same tree, and standard "
+                "D5 half-GCD. Require a one-shot monogenic or bounded-bidegree "
+                "compiler from compact U,V and the target Miller SLP, followed "
+                "by charged finite-field modular composition. Reject N residue "
+                "elements, nN coefficients, n^2 pair state, candidate inversions, "
+                "and unit-cost composition. Infer no general circuit lower bound."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -13278,6 +13339,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_SQUAREFREE_TRUNCATED_RESULTANT_APPLICABILITY_PROBE,
     )
+    parser.add_argument(
+        "--m6-d5-directed-evaluation-survivor-probe",
+        dest="m6_d5_directed_evaluation_survivor_probe",
+        type=Path,
+        default=DEFAULT_M6_D5_DIRECTED_EVALUATION_SURVIVOR_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -13749,6 +13816,10 @@ def main() -> int:
         (
             "m6_squarefree_truncated_resultant_applicability",
             args.m6_squarefree_truncated_resultant_applicability_probe,
+        ),
+        (
+            "m6_d5_directed_evaluation_survivor",
+            args.m6_d5_directed_evaluation_survivor_probe,
         ),
     ):
         if path.exists():
