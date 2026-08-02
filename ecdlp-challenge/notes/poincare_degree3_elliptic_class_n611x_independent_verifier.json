@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "bounded_diagnostic": true,
+    "cm_norms": true,
+    "degree_three_intersection": true,
+    "determinants": true,
+    "primary_gates": true,
+    "primitive_witness": true,
+    "schema": true
+  },
+  "primary_sha256": "a04635537e12281f1d12fa050ed8888c4fa4c92c1f9aee4faf9c525df016cdf1",
+  "strongest_valid_statement": "The independent replay verifies the exact determinant-zero primitive witness and its degree-three intersection with M; geometric effectivity and a theta-curve equation remain unproved.",
+  "verified": true
+}

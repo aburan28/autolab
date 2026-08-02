@@ -1,0 +1,56 @@
+{
+  "assumptions": [
+    "The standard Hermitian Neron-Severi description for E x E_g identifies the displayed primitive rank-one positive semidefinite matrix with an elliptic divisor class.",
+    "A degree-three elliptic cover of a theta curve additionally requires effectivity and irreducibility, neither of which is proved here."
+  ],
+  "bound_inputs": {
+    "notes/poincare_cubic_reduced_polarization_frame_n611u.json": "9b20cdc502a19f19588f99cddbb5df28daf98bbf2052858f078cb002cca23632",
+    "notes/poincare_cubic_reduced_polarization_frame_n611u_independent_verifier.json": "16d8703dcc031e48e6f7931666c82b798c7e2ae744b58e511b4f738264fdfdd7"
+  },
+  "claim_status": "OBSERVATION / PRIMITIVE_RANK_ONE_DEGREE_THREE_ELLIPTIC_DIVISOR_CLASS / STANDARD_HERMITIAN_NS_CORRESPONDENCE_BOUND / MODEL-BOUND / TOY-EVIDENCE / EFFECTIVITY_AND_THETA_CURVE_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "bounded_lower_intersection_diagnostic": true,
+    "candidate_has_degree_three_against_m": true,
+    "candidate_is_primitive_rank_one": true,
+    "coordinate_divisor_positive_control": true,
+    "cross_map_pointwise_arithmetic_replays": true,
+    "m_is_principal": true,
+    "n611u_reduced_polarization_receipt_binds": true
+  },
+  "next_requirement": "Construct the elliptic quotient associated with D and prove or disprove effectivity/irreducibility of the unique M theta divisor. A positive result should then materialize a degree-three genus-two cover and its evaluator.",
+  "preflight_pass": true,
+  "records": {
+    "D": {
+      "beta": "phi_g o ([13]+[4]Frob)",
+      "determinant": 0,
+      "diagonal": [
+        9,
+        346
+      ],
+      "primitive_gcd": 1,
+      "u": "13+4*pi"
+    },
+    "M": {
+      "determinant": 1,
+      "diagonal": [
+        9,
+        345
+      ],
+      "u": "12+4*pi"
+    },
+    "bounded_rank_one_search": {
+      "a_and_b_upper_bound": 400,
+      "cm_coefficient_box": {
+        "a": 400,
+        "b": 30
+      },
+      "minimum_positive_intersection": 3
+    },
+    "coordinate_elliptic_degree": 9,
+    "intersection_M_D": 3
+  },
+  "schema": "ecdlp.h018.degree3-elliptic-class.n611x.v1",
+  "script_sha256": "c0f5305fe5dde1ddc69f47790c2f40e95f12a344192827469bdf1dda44471f2b",
+  "strongest_valid_statement": "The reduced principal form M has an explicit primitive rank-one Hermitian class D of M-degree three. Under the stated standard Neron-Severi correspondence, this is a concrete degree-three elliptic-divisor candidate for the theta surface; effectivity, irreducibility, quotient equation, and genus-two curve construction remain open.",
+  "timestamp_utc": "2026-08-02T04:48:37.657106+00:00"
+}
