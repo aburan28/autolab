@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v118"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v119"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -581,6 +581,9 @@ DEFAULT_M6_MONOGENIC_KERNEL_BIDEGREE_PROBE = Path(
 DEFAULT_M6_GCD_EQUIVALENT_TARGET_SUBRESULTANT_PROBE = Path(
     "p1553_m6_gcd_equivalent_target_subresultant_probe_report_r182.json"
 )
+DEFAULT_M6_SPARSE_PROJECTOR_PRONY_LOCATOR_PROBE = Path(
+    "p1553_m6_sparse_projector_prony_locator_probe_report_r183.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -934,6 +937,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_gcd_equivalent_target_subresultant": (
         "p1553.m6_gcd_equivalent_target_subresultant.r182.v1"
+    ),
+    "m6_sparse_projector_prony_locator": (
+        "p1553.m6_sparse_projector_prony_locator.r183.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -4268,30 +4274,31 @@ CRITICAL_EXPERIMENTS = {
     },
     "s66_fused_factored_dual_chow_outer_norm_mod_u": {
         "hypothesis": (
-            "The compact signed line-product SLP and two-chart target divisor "
-            "admit a determinant-zero or resultant-mod-U algorithm that emits "
-            "only G_1 in softly O(n+N) work without represented nN state."
+            "The compact signed line-product SLP and target charts admit a "
+            "nested Fermat-projector moment operator that emits the 2c weighted "
+            "source moments in softly O(n+N+c) work without represented nN state."
         ),
         "decisive_test": (
-            "Freeze U,V, the R181 kernel hashes, and the R182 deduplicated target "
-            "charts. Apply one SLP-direct transposed single-functional minimal-"
-            "polynomial, determinant-zero, or subresultant certificate that emits "
-            "G_1 without the remainder matrix, N degree-n traces, inverse "
-            "certificates, or represented norm. Charge every operation, require "
-            "softly O(n+N), and replay seed 18206 plus one new divisor family."
+            "Freeze U,V, the R181 kernel hashes, the R182 target charts, and the "
+            "R183 weighted-moment/Prony output contract. Apply one SLP-direct "
+            "nested projector-moment operator that emits 2c scalar moments without "
+            "representing R, the Fermat projector, an A-valued target Krylov "
+            "sequence, or any nN tensor body. Charge every operation, require "
+            "softly O(n+N+c), and test seed 18308 plus a second strided family."
         ),
         "falsifier": (
-            "The route emits or visits the nN remainder or trace body, represents "
-            "noncandidate inverses or a triangular norm, constructs the canonical "
-            "3n^2 kernel, drops either opposite-point chart, loses candidate zeros, "
-            "or assumes a unit-cost determinant, resultant, norm, or source oracle."
+            "The route emits or visits an nN remainder, projector, or trace body; "
+            "uses a source-blind target trace that loses source labels; represents "
+            "noncandidate inverses or a triangular norm; drops either elliptic "
+            "target chart; or assumes a candidate, determinant, resultant, norm, "
+            "root, count, rank, or power-projection oracle."
         ),
         "required_artifacts": [
-            "frozen_m6_gcd_equivalent_target_subresultant.json",
-            "m6_gcd_equivalent_target_subresultant_cost_ledger.json",
-            "m6_gcd_equivalent_target_subresultant_replay.json",
-            "m6_gcd_equivalent_target_subresultant_controls.json",
-            "gcd_equivalent_target_subresultant_applicability_r182.json",
+            "frozen_m6_sparse_projector_prony_locator.json",
+            "m6_sparse_projector_prony_locator_cost_ledger.json",
+            "m6_sparse_projector_prony_locator_replay.json",
+            "m6_sparse_projector_prony_locator_controls.json",
+            "sparse_projector_prony_locator_applicability_r183.json",
         ],
     },
     "s67_reusable_scalar_subset_incidence_oracle": {
@@ -6827,7 +6834,36 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_gcd_equivalent_target_subresultant_lane.get(
+    m6_sparse_projector_prony_locator_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_sparse_projector_prony_locator"
+        )
+        or {}
+    )
+    if m6_sparse_projector_prony_locator_lane.get("closed_by_current_evidence"):
+        admission = m6_sparse_projector_prony_locator_lane.get("admission") or {}
+        add_focus_candidate(
+            candidates,
+            "s66_fused_factored_dual_chow_outer_norm_mod_u",
+            327,
+            str(
+                m6_sparse_projector_prony_locator_lane.get("next_action")
+                or CRITICAL_EXPERIMENTS[
+                    "s66_fused_factored_dual_chow_outer_norm_mod_u"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_sparse_projector_prony_locator_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} sparse-projector "
+                "obligations pass. Exact target-gcd multiplicities and 2c "
+                "weighted source moments recover G_1 by Prony, while a source-"
+                "blind trace loses labels. Represented projectors and A-linear "
+                "target Krylov output retain B^(7/2); an SLP-direct nested-moment "
+                "operator without represented nN state remains open."
+            ),
+        )
+    elif m6_gcd_equivalent_target_subresultant_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -12204,6 +12240,27 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_sparse_projector_prony_locator_scope",
+            "observed": (
+                "R183 replays all twelve R182 controls and one new strided "
+                "divisor family. Target-chart Fermat-projector traces equal gcd "
+                "multiplicities, and 2c weighted source moments recover each exact "
+                "candidate locator by Berlekamp-Massey. A source-row swap preserves "
+                "global target power sums but changes the candidate locator."
+            ),
+            "resolution": (
+                "Admit the nested projector identity and weighted Prony output "
+                "stage. Close source-blind traces as label-incomplete and charge "
+                "represented projectors and A-linear target Krylov output at nN. "
+                "Preserve only an SLP-direct nested-moment operator emitting 2c "
+                "scalars in softly O(n+N+c). Infer no general nonlinear trace, "
+                "circuit, RAM, or cell-probe lower bound."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -13470,6 +13527,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_GCD_EQUIVALENT_TARGET_SUBRESULTANT_PROBE,
     )
+    parser.add_argument(
+        "--m6-sparse-projector-prony-locator-probe",
+        dest="m6_sparse_projector_prony_locator_probe",
+        type=Path,
+        default=DEFAULT_M6_SPARSE_PROJECTOR_PRONY_LOCATOR_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -13953,6 +14016,10 @@ def main() -> int:
         (
             "m6_gcd_equivalent_target_subresultant",
             args.m6_gcd_equivalent_target_subresultant_probe,
+        ),
+        (
+            "m6_sparse_projector_prony_locator",
+            args.m6_sparse_projector_prony_locator_probe,
         ),
     ):
         if path.exists():
