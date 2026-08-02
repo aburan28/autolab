@@ -1,0 +1,258 @@
+{
+  "checks": {
+    "all_control_sources_replay": true,
+    "all_coordinate_sources_replay": true,
+    "coordinate_bases_are_negation_stable": true,
+    "positive_control_replays": true,
+    "target_embedding_has_prime_order_size": true
+  },
+  "claim_status": "HYPOTHESIS / NONSPLIT_MUMFORD_FACTOR_BASE_PREFLIGHT / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "next_requirement": "A positive signal needs an explicit same-form factor-log projection back to E and a non-enumerative source inverse. A negative result calls for a different Mumford surface or packet representation.",
+  "parameters": {
+    "control_count": 8,
+    "exclude_embedded_target_factors": true,
+    "field_order": 101,
+    "jacobian_order": 11536,
+    "target_order": 103
+  },
+  "preflight_pass": true,
+  "promotion": {
+    "occupancy_admission": false,
+    "some_coordinate_slice_beats_control_coverage": false,
+    "some_coordinate_slice_beats_control_rank": false
+  },
+  "rows": [
+    {
+      "control_max_coverage": 102,
+      "control_max_embedded_target_factor_count": 0,
+      "control_max_hits": 1712,
+      "control_max_rank": 52,
+      "control_mean_embedded_target_factor_count": 0.0,
+      "control_mean_hits": 1619.0,
+      "controls": [
+        {
+          "coefficient_rank": 52,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 192920,
+          "pair_index_entries": 5460,
+          "seconds": 0.6008519589959178,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 1460,
+          "target_coverage": 102,
+          "target_minus_third_queries": 10608
+        },
+        {
+          "coefficient_rank": 52,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 192920,
+          "pair_index_entries": 5460,
+          "seconds": 0.6315385000052629,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 1644,
+          "target_coverage": 102,
+          "target_minus_third_queries": 10608
+        },
+        {
+          "coefficient_rank": 52,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 192920,
+          "pair_index_entries": 5460,
+          "seconds": 0.6559032910008682,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 1648,
+          "target_coverage": 102,
+          "target_minus_third_queries": 10608
+        },
+        {
+          "coefficient_rank": 52,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 192920,
+          "pair_index_entries": 5460,
+          "seconds": 0.6283111250086222,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 1594,
+          "target_coverage": 102,
+          "target_minus_third_queries": 10608
+        },
+        {
+          "coefficient_rank": 52,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 192920,
+          "pair_index_entries": 5460,
+          "seconds": 0.6307448329898762,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 1676,
+          "target_coverage": 102,
+          "target_minus_third_queries": 10608
+        },
+        {
+          "coefficient_rank": 52,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 192920,
+          "pair_index_entries": 5460,
+          "seconds": 0.6377808339893818,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 1512,
+          "target_coverage": 102,
+          "target_minus_third_queries": 10608
+        },
+        {
+          "coefficient_rank": 52,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 192920,
+          "pair_index_entries": 5460,
+          "seconds": 0.6339881250023609,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 1706,
+          "target_coverage": 102,
+          "target_minus_third_queries": 10608
+        },
+        {
+          "coefficient_rank": 52,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 192920,
+          "pair_index_entries": 5460,
+          "seconds": 0.6746546250069514,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 1712,
+          "target_coverage": 102,
+          "target_minus_third_queries": 10608
+        }
+      ],
+      "coordinate": {
+        "coefficient_rank": 52,
+        "logical_candidate_triples": 192920,
+        "pair_index_entries": 5460,
+        "seconds": 0.6410197919904022,
+        "source_replay_failures": 0,
+        "subgroup_hit_count": 1510,
+        "target_coverage": 102,
+        "target_minus_third_queries": 10608
+      },
+      "embedded_target_factor_count": 0,
+      "factor_base_size": 52,
+      "u_linear_coefficients": [
+        0
+      ]
+    },
+    {
+      "control_max_coverage": 102,
+      "control_max_embedded_target_factor_count": 0,
+      "control_max_hits": 12696,
+      "control_max_rank": 102,
+      "control_mean_embedded_target_factor_count": 0.0,
+      "control_mean_hits": 12387.5,
+      "controls": [
+        {
+          "coefficient_rank": 102,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 1435820,
+          "pair_index_entries": 20910,
+          "seconds": 3.2295437080028933,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 12076,
+          "target_coverage": 102,
+          "target_minus_third_queries": 20808
+        },
+        {
+          "coefficient_rank": 102,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 1435820,
+          "pair_index_entries": 20910,
+          "seconds": 3.4578465829981724,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 12160,
+          "target_coverage": 102,
+          "target_minus_third_queries": 20808
+        },
+        {
+          "coefficient_rank": 102,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 1435820,
+          "pair_index_entries": 20910,
+          "seconds": 3.220592083001975,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 12298,
+          "target_coverage": 102,
+          "target_minus_third_queries": 20808
+        },
+        {
+          "coefficient_rank": 102,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 1435820,
+          "pair_index_entries": 20910,
+          "seconds": 3.1982314589986345,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 12536,
+          "target_coverage": 102,
+          "target_minus_third_queries": 20808
+        },
+        {
+          "coefficient_rank": 102,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 1435820,
+          "pair_index_entries": 20910,
+          "seconds": 3.416284250008175,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 12406,
+          "target_coverage": 102,
+          "target_minus_third_queries": 20808
+        },
+        {
+          "coefficient_rank": 102,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 1435820,
+          "pair_index_entries": 20910,
+          "seconds": 3.256259207992116,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 12594,
+          "target_coverage": 102,
+          "target_minus_third_queries": 20808
+        },
+        {
+          "coefficient_rank": 102,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 1435820,
+          "pair_index_entries": 20910,
+          "seconds": 3.375343374995282,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 12696,
+          "target_coverage": 102,
+          "target_minus_third_queries": 20808
+        },
+        {
+          "coefficient_rank": 102,
+          "embedded_target_factor_count": 0,
+          "logical_candidate_triples": 1435820,
+          "pair_index_entries": 20910,
+          "seconds": 3.26014679200307,
+          "source_replay_failures": 0,
+          "subgroup_hit_count": 12334,
+          "target_coverage": 102,
+          "target_minus_third_queries": 20808
+        }
+      ],
+      "coordinate": {
+        "coefficient_rank": 102,
+        "logical_candidate_triples": 1435820,
+        "pair_index_entries": 20910,
+        "seconds": 3.1419452499976614,
+        "source_replay_failures": 0,
+        "subgroup_hit_count": 12288,
+        "target_coverage": 102,
+        "target_minus_third_queries": 20808
+      },
+      "embedded_target_factor_count": 0,
+      "factor_base_size": 102,
+      "u_linear_coefficients": [
+        0,
+        1
+      ]
+    }
+  ],
+  "schema": "ecdlp.genus2.mumford-coordinate-slice.n611a.v1",
+  "script_sha256": "96fd6ca317d28055b9189fbb1ca6dd4ebd61b6d505c72d81ffc680ea2b66f898",
+  "strongest_valid_statement": "This measures only finite toy occupancy and row rank of declared target-independent Mumford-coordinate bases. It neither constructs a projection/return for factor logs nor supplies blind descent, charged collection, linear algebra, or an ECDLP speedup.",
+  "target_label_audit": "Target membership is exact Jacobian equality to the public embedded target point. Scalar labels are recorded only after equality for coverage metrics and never select factors or relations.",
+  "timestamp_utc": "2026-08-02T02:14:43.938372+00:00"
+}
