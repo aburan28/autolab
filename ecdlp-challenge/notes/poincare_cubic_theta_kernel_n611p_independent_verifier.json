@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "cubic_orbit": true,
+    "frobenius_cycle": true,
+    "generators": true,
+    "kernel_equation": true,
+    "schema": true
+  },
+  "primary_sha256": "23b6a825d60378b5924d59e94f67eac5b6ac22cb18bf74460a832187407b568a",
+  "strongest_valid_statement": "The replay reconstructs the cubic E[2] orbit, the three quotient generators, and the H018 mod-two kernel action without importing the producer.",
+  "verified": true
+}

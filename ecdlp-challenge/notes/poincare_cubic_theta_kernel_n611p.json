@@ -1,0 +1,86 @@
+{
+  "assumptions": [
+    "N606R's polarization-descent route is used only as a construction hypothesis.",
+    "Frobenius on E[2] realizes multiplication by pi in the N606R F4 model."
+  ],
+  "claim_status": "OBSERVATION / CUBIC_H018_PRINCIPAL_THETA_KERNEL_COORDINATES / MODEL-BOUND / TOY-EVIDENCE / QUOTIENT_EQUATIONS_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "frobenius_cubed_fixes_each_line": true,
+    "frobenius_cycles_quotient_lines": true,
+    "frobenius_orbit_is_exact": true,
+    "h018_mod_two_annihilates_full_kernel": true,
+    "identity_and_f3_graph_controls_differ_from_h018_generator": true,
+    "three_generators_are_distinct_nonzero_order_two": true,
+    "two_torsion_cubic_splits_only_over_cubic": true
+  },
+  "next_requirement": "Construct the quotient A/G_g over F_(103^3), its principal polarization and theta divisor, then compute the Frobenius-semilinear action on all three pullbacks before claiming scalar H018 sections.",
+  "preflight_pass": true,
+  "records": {
+    "curve": "y^2=x^3+x+24 over F_(103^3)",
+    "frobenius_line_permutation": {
+      "G_g": "G_h",
+      "G_gh": "G_g",
+      "G_h": "G_gh"
+    },
+    "frobenius_orbit": [
+      "(61*a^2 + 99*a + 47, 0)",
+      "(70*a^2 + 49*a + 59, 0)",
+      "(75*a^2 + 58*a + 100, 0)"
+    ],
+    "generators": {
+      "g": [
+        "(70*a^2 + 49*a + 59, 0)",
+        "(61*a^2 + 99*a + 47, 0)"
+      ],
+      "g_plus_h": [
+        "(61*a^2 + 99*a + 47, 0)",
+        "(75*a^2 + 58*a + 100, 0)"
+      ],
+      "h": [
+        "(75*a^2 + 58*a + 100, 0)",
+        "(70*a^2 + 49*a + 59, 0)"
+      ]
+    },
+    "lines": {
+      "G_g": [
+        [
+          "O",
+          "O"
+        ],
+        [
+          "(70*a^2 + 49*a + 59, 0)",
+          "(61*a^2 + 99*a + 47, 0)"
+        ]
+      ],
+      "G_gh": [
+        [
+          "O",
+          "O"
+        ],
+        [
+          "(61*a^2 + 99*a + 47, 0)",
+          "(75*a^2 + 58*a + 100, 0)"
+        ]
+      ],
+      "G_h": [
+        [
+          "O",
+          "O"
+        ],
+        [
+          "(75*a^2 + 58*a + 100, 0)",
+          "(70*a^2 + 49*a + 59, 0)"
+        ]
+      ]
+    },
+    "two_torsion_roots": [
+      "61*a^2 + 99*a + 47",
+      "70*a^2 + 49*a + 59",
+      "75*a^2 + 58*a + 100"
+    ]
+  },
+  "schema": "ecdlp.h018.cubic-principal-theta-kernel.n611p.v1",
+  "script_sha256": "1b976d38afebd1a0ea8151319eb7594595b3750a11355dee706fdc9dc00f8e28",
+  "strongest_valid_statement": "The three N606R maximal isotropic candidate lines are now exact cyclic order-two subgroups of E[2]^2 over F_(103^3), with the declared Frobenius orbit and H018 mod-two kernel equation verified directly on coordinates.",
+  "timestamp_utc": "2026-08-02T04:06:47.671299+00:00"
+}
