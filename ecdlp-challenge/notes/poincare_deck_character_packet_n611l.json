@@ -1,0 +1,78 @@
+{
+  "assumptions": [
+    "The N608U complete open-level source sets are the declared source universe.",
+    "A label compression signal must survive the sourcewise random-order control before relation work.",
+    "This packet has no target-bearing additive relation until one is explicitly derived."
+  ],
+  "claim_status": "HYPOTHESIS / DECK_CHARACTER_PACKET_COMPRESSION / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_packets_lift_invariant": true,
+    "all_packets_valid": false,
+    "candidate_beats_random_order_control": false,
+    "complete_sources_retained": true,
+    "packet_not_q_only": true
+  },
+  "hypothesis_supported": false,
+  "next_requirement": "If the fixed packet does not beat random orderings, retain only the explicit deck/Frobenius mechanics and move to a different character, a normalization/Jacobian packet, or a non-character representation.",
+  "preflight_pass": false,
+  "records": {
+    "levels": [
+      {
+        "candidate": {
+          "maximum_collision_multiplicity": 8,
+          "support": 22
+        },
+        "candidate_to_control_support_ratio": 0.7333333333333333,
+        "complete_source_count": 84,
+        "deck_lift_invariance_failures": 0,
+        "invalid_packet_count": 0,
+        "level": 0,
+        "q_fibres_with_multiple_labels": 14,
+        "random_order_control": {
+          "maximum_collision_multiplicity": 5,
+          "support": 30
+        },
+        "valid_packet_count": 84
+      },
+      {
+        "candidate": {
+          "maximum_collision_multiplicity": 16,
+          "support": 18
+        },
+        "candidate_to_control_support_ratio": 0.5454545454545454,
+        "complete_source_count": 108,
+        "deck_lift_invariance_failures": 0,
+        "invalid_packet_count": 2,
+        "level": 1,
+        "q_fibres_with_multiple_labels": 26,
+        "random_order_control": {
+          "maximum_collision_multiplicity": 6,
+          "support": 33
+        },
+        "valid_packet_count": 106
+      },
+      {
+        "candidate": {
+          "maximum_collision_multiplicity": 14,
+          "support": 21
+        },
+        "candidate_to_control_support_ratio": 0.6176470588235294,
+        "complete_source_count": 144,
+        "deck_lift_invariance_failures": 0,
+        "invalid_packet_count": 0,
+        "level": 17,
+        "q_fibres_with_multiple_labels": 40,
+        "random_order_control": {
+          "maximum_collision_multiplicity": 8,
+          "support": 34
+        },
+        "valid_packet_count": 144
+      }
+    ],
+    "probe": "f(S)=1/(x(S)-1), f(O)=0"
+  },
+  "schema": "ecdlp.h018.poincare-deck-character-packet.n611l.v1",
+  "script_sha256": "fc3d11312e020af6430a132981e0c1027cd2797eab27e1d78cc8604e78caff39",
+  "strongest_valid_statement": "This is an exact, lift-invariant, Frobenius-descended deck-character label screen on complete sources. A passing compression signal would still require an independent target relation, rank, descent, and charged cost analysis.",
+  "timestamp_utc": "2026-08-02T03:40:29.140853+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "lift_invariance": true,
+    "packet_counts": true,
+    "q_dependence": true,
+    "schema": true,
+    "source_counts": true,
+    "support": true,
+    "validity": true
+  },
+  "primary_sha256": "2ecd7d897fff5a1feb68eea9929b44ee65968bd6760b415eca22e71c6b229520",
+  "strongest_valid_statement": "The replay reconstructs every complete source, packet, lift-invariance check, and matched random-order control independently.",
+  "verified": true
+}
