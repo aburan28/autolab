@@ -1,0 +1,49 @@
+{
+  "claim_status": "OBSERVATION / GENERIC-DIRECTION H018 TRUE-POLE TRANSITION SCREEN / MODEL-BOUND / TOY-EVIDENCE / EXCEPTIONAL_CHARTS_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_generic_crossing_representatives_have_expected_positive_weight": true,
+    "all_generic_transition_identities_hold_in_declared_precision": true,
+    "all_generic_transition_units_are_regular_units": true,
+    "all_generic_weighted_true_rows_are_regular": true
+  },
+  "next_requirement": "Check the r=0 and r=-1 charts with their own local parameters, then prove an all-orders chart transition before global Cartier, normalization, relation, rank, descent, cost, or ECDLP claims.",
+  "parameters": {
+    "coefficient_field": "F_(103^6)(r)",
+    "exceptional_direction_charts": [
+      "r=0",
+      "r=1",
+      "r=-1"
+    ],
+    "formal_precision": 32
+  },
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "crossing_valuation": 1,
+        "exact_transition_match": true,
+        "level": 0,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "exact_transition_match": true,
+        "level": 1,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      },
+      {
+        "crossing_valuation": 1,
+        "exact_transition_match": true,
+        "level": 17,
+        "transition_unit_valuation": 0,
+        "weighted_true_valuation": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-true-pole-generic-direction.n610t.v1",
+  "script_sha256": "55daa9b5396daca7bc3808128bf7a44fe99f7a01b6506de67494be0ce731f8e3",
+  "strongest_valid_statement": "After removing the direction-independent Q-origin determinant unit, the declared truncated formal ring over F_(103^6)(r) gives a regular generic weighted representative, a unit transition factor, and the exact algebraic transition identity. This is a generic-chart screen, not an all-orders or exceptional-chart proof.",
+  "timestamp_utc": "2026-08-02T01:34:45.244046+00:00"
+}
