@@ -1,0 +1,107 @@
+{
+  "claim_status": "NEGATIVE RESULT / DERIVED H018 WEIGHTED-SLOPE FORM DOES NOT MATCH DIRECT NORMAL SUBSTITUTION / MODEL-BOUND / TOY-EVIDENCE / TWO_PARAMETER_ASYMPTOTICS_REDERIVATION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_expected_rational_exceptional_roots_tested": true,
+    "purported_slope_roots_do_not_zero_direct_normal_substitution": true
+  },
+  "next_requirement": "Recompute the two-parameter Cauchy/support asymptotics directly, with a verified normalization convention, before attempting another blow-up chart, global Cartier, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claim.",
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "level": 0,
+        "normal_leading_coefficient": "37",
+        "normal_valuation": 0,
+        "slope": "23"
+      },
+      {
+        "level": 0,
+        "normal_leading_coefficient": "40*a^5 + 16*a^4 + 70*a^3 + 64*a^2 + 77*a + 96",
+        "normal_valuation": 0,
+        "slope": "35*a^5 + 14*a^4 + 87*a^3 + 56*a^2 + 3*a + 91"
+      },
+      {
+        "level": 0,
+        "normal_leading_coefficient": "59*a^5 + 3*a^4 + 26*a^3 + 12*a^2 + 8*a + 86",
+        "normal_valuation": 0,
+        "slope": "49*a^5 + 102*a^4 + 60*a^3 + 99*a^2 + 66*a + 62"
+      },
+      {
+        "level": 0,
+        "normal_leading_coefficient": "63*a^5 + 87*a^4 + 33*a^3 + 39*a^2 + 26*a + 42",
+        "normal_valuation": 0,
+        "slope": "68*a^5 + 89*a^4 + 16*a^3 + 47*a^2 + 100*a + 18"
+      },
+      {
+        "level": 0,
+        "normal_leading_coefficient": "44*a^5 + 100*a^4 + 77*a^3 + 91*a^2 + 95*a + 63",
+        "normal_valuation": 0,
+        "slope": "54*a^5 + a^4 + 43*a^3 + 4*a^2 + 37*a + 1"
+      },
+      {
+        "level": 1,
+        "normal_leading_coefficient": "37",
+        "normal_valuation": 0,
+        "slope": "23"
+      },
+      {
+        "level": 1,
+        "normal_leading_coefficient": "40*a^5 + 16*a^4 + 70*a^3 + 64*a^2 + 77*a + 96",
+        "normal_valuation": 0,
+        "slope": "35*a^5 + 14*a^4 + 87*a^3 + 56*a^2 + 3*a + 91"
+      },
+      {
+        "level": 1,
+        "normal_leading_coefficient": "59*a^5 + 3*a^4 + 26*a^3 + 12*a^2 + 8*a + 86",
+        "normal_valuation": 0,
+        "slope": "49*a^5 + 102*a^4 + 60*a^3 + 99*a^2 + 66*a + 62"
+      },
+      {
+        "level": 1,
+        "normal_leading_coefficient": "63*a^5 + 87*a^4 + 33*a^3 + 39*a^2 + 26*a + 42",
+        "normal_valuation": 0,
+        "slope": "68*a^5 + 89*a^4 + 16*a^3 + 47*a^2 + 100*a + 18"
+      },
+      {
+        "level": 1,
+        "normal_leading_coefficient": "44*a^5 + 100*a^4 + 77*a^3 + 91*a^2 + 95*a + 63",
+        "normal_valuation": 0,
+        "slope": "54*a^5 + a^4 + 43*a^3 + 4*a^2 + 37*a + 1"
+      },
+      {
+        "level": 17,
+        "normal_leading_coefficient": "37",
+        "normal_valuation": 0,
+        "slope": "23"
+      },
+      {
+        "level": 17,
+        "normal_leading_coefficient": "40*a^5 + 16*a^4 + 70*a^3 + 64*a^2 + 77*a + 96",
+        "normal_valuation": 0,
+        "slope": "35*a^5 + 14*a^4 + 87*a^3 + 56*a^2 + 3*a + 91"
+      },
+      {
+        "level": 17,
+        "normal_leading_coefficient": "59*a^5 + 3*a^4 + 26*a^3 + 12*a^2 + 8*a + 86",
+        "normal_valuation": 0,
+        "slope": "49*a^5 + 102*a^4 + 60*a^3 + 99*a^2 + 66*a + 62"
+      },
+      {
+        "level": 17,
+        "normal_leading_coefficient": "63*a^5 + 87*a^4 + 33*a^3 + 39*a^2 + 26*a + 42",
+        "normal_valuation": 0,
+        "slope": "68*a^5 + 89*a^4 + 16*a^3 + 47*a^2 + 100*a + 18"
+      },
+      {
+        "level": 17,
+        "normal_leading_coefficient": "44*a^5 + 100*a^4 + 77*a^3 + 91*a^2 + 95*a + 63",
+        "normal_valuation": 0,
+        "slope": "54*a^5 + a^4 + 43*a^3 + 4*a^2 + 37*a + 1"
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-weighted-blowup-normal-probe.n609v.v1",
+  "script_sha256": "eeb7644f6958a290005837ae2e1a5bbe979d0812f658ed06fa789e01c37f6201",
+  "strongest_valid_statement": "At all fifteen purported exceptional roots of the derived slope form, direct formal substitution gives a nonzero normalized constant term. Therefore the slope formula is not yet a valid strict-transform equation and must not support a blow-up smoothness or global-Cartier claim.",
+  "timestamp_utc": "2026-08-02T00:03:44.107261+00:00"
+}
