@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "canonical": true,
+    "counts": true,
+    "elimination": true,
+    "minimum": true,
+    "schema": true,
+    "threshold": true
+  },
+  "primary_sha256": "ca8bb37a388cab05e03ac81ad8ee523dab4e44d67ce9ff78852181dc12687819",
+  "strongest_valid_statement": "The replay independently reconstructs the complete source levels and every canonical projection-span support statistic.",
+  "verified": true
+}

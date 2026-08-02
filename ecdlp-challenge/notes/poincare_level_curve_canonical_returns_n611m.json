@@ -1,0 +1,79 @@
+{
+  "assumptions": [
+    "N608U complete open-level sources model the rational open correspondence C_t^open.",
+    "A future target recovery through the fixed canonical elliptic projection span has label [a]P+[b]Q.",
+    "This finite panel does not enumerate all maps from a normalization or Jacobian."
+  ],
+  "claim_status": "HYPOTHESIS / CANONICAL_LEVEL_CURVE_JACOBIAN_RETURN_SCREEN / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_projective_return_directions_scanned": true,
+    "canonical_projections_replay_panel": true,
+    "complete_source_counts": true,
+    "degree_ten_no_exceptional_branch": true,
+    "quarter_order_canonical_return_found": false
+  },
+  "hypothesis_supported": false,
+  "next_requirement": "If every fixed canonical return is base-field scale, construct a normalization packet with an explicit noncanonical target return and audit its relation, rank, descent, and charged cost before any ECDLP claim.",
+  "preflight_pass": true,
+  "records": {
+    "curve_order": 109,
+    "levels": [
+      {
+        "canonical_projection_supports": {
+          "p1": 62,
+          "p2": 60
+        },
+        "complete_source_count": 84,
+        "directions_at_or_below_quarter_order": 0,
+        "elimination_degree_max": 10,
+        "elimination_degree_min": 10,
+        "exceptional_branch_count": 0,
+        "level": 0,
+        "minimum_span_direction": "(1:13)",
+        "minimum_span_support": 49,
+        "p1_panel_match": true,
+        "p2_panel_match": true,
+        "span_direction_count": 104
+      },
+      {
+        "canonical_projection_supports": {
+          "p1": 74,
+          "p2": 68
+        },
+        "complete_source_count": 108,
+        "directions_at_or_below_quarter_order": 0,
+        "elimination_degree_max": 10,
+        "elimination_degree_min": 10,
+        "exceptional_branch_count": 0,
+        "level": 1,
+        "minimum_span_direction": "(1:7)",
+        "minimum_span_support": 56,
+        "p1_panel_match": true,
+        "p2_panel_match": true,
+        "span_direction_count": 104
+      },
+      {
+        "canonical_projection_supports": {
+          "p1": 76,
+          "p2": 76
+        },
+        "complete_source_count": 144,
+        "directions_at_or_below_quarter_order": 0,
+        "elimination_degree_max": 10,
+        "elimination_degree_min": 10,
+        "exceptional_branch_count": 0,
+        "level": 17,
+        "minimum_span_direction": "(1:91)",
+        "minimum_span_support": 68,
+        "p1_panel_match": true,
+        "p2_panel_match": true,
+        "span_direction_count": 104
+      }
+    ],
+    "quarter_order_threshold": 27
+  },
+  "schema": "ecdlp.h018.level-curve-canonical-returns.n611m.v1",
+  "script_sha256": "af7ed022e01463b305a6c39048641411d12b70513bc8e92d3be6a905f16a48ee",
+  "strongest_valid_statement": "This is an exhaustive finite-field screen of the two canonical level-curve projections and their fixed projective elliptic span. It does not construct a normalization, Jacobian packet, target relation, rank, descent, or cost model.",
+  "timestamp_utc": "2026-08-02T03:47:50.641872+00:00"
+}
