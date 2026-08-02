@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "frobenius_cycle": true,
+    "negative_product_control": true,
+    "poincare_formula_records": true,
+    "primary_gates": true,
+    "principal_theta_dimension": true,
+    "schema": true,
+    "three_conjugate_bundle_records": true
+  },
+  "primary_sha256": "b8cdfaf0c7efe5d262673a155b3ccdad8773a7dec288b68284b8f508106a5c52",
+  "strongest_valid_statement": "The independent replay verifies the three named normalized-Poincare bundle formulas, Frobenius cycle, determinant-one theta-space budget, and non-product cross-term control; it does not evaluate a theta section.",
+  "verified": true
+}

@@ -1,0 +1,117 @@
+{
+  "assumptions": [
+    "The standard normalized-Poincare matrix formula on E x E_i applies to the displayed cross term (id_E,beta_i^dagger)^*P_E.",
+    "The standard Riemann-Roch theorem for an ample principal polarization gives h0(L_i)=1.",
+    "This receipt names line bundles and their one-dimensional section spaces, not an evaluated generator or its effective divisor equation."
+  ],
+  "bound_inputs": {
+    "notes/poincare_cubic_explicit_principal_polarization_n611s.json": "fb11006fa647c191320b92bb54aa350211d0aed6b918313028af567bb51185b0",
+    "notes/poincare_cubic_explicit_principal_polarization_n611s_independent_verifier.json": "252e78226a0c8a4ebe805b9600fe61f921a18ddabc5aee9e4bb14991034c0de7",
+    "notes/poincare_cubic_product_quotient_n611q.json": "a53492e8d1d2ceee44ca8cc47937a6ad2ca0c27056e5bc27e4990003930f9a47",
+    "notes/poincare_cubic_product_quotient_n611q_independent_verifier.json": "87a8faf586414a8baf2758a4699101e2efa02362e98f6d35502ce33404713e77"
+  },
+  "claim_status": "RESTRICTED THEOREM / EXPLICIT_CUBIC_NORMALIZED_POINCARE_LINE_BUNDLE_ORBIT / RIEMANN_ROCH_DIMENSION_BOUND / MODEL-BOUND / TOY-EVIDENCE / THETA_EQUATIONS_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_conjugate_bundles_have_principal_theta_budget": true,
+    "frobenius_line_orbit_replays": true,
+    "n611q_explicit_cubic_quotient_receipt_binds": true,
+    "n611s_explicit_principal_polarization_receipt_binds": true,
+    "poincare_cross_term_matches_n611s_g_matrix": true,
+    "product_bundle_negative_control_misses_cross_term": true,
+    "three_degree_two_quotient_factors_replay": true
+  },
+  "next_requirement": "Compute an explicit nonzero Riemann-Roch generator for L_g, represent its divisor, then transport the two conjugate generators and solve the semilinear descent equations for scalar H018 sections.",
+  "preflight_pass": true,
+  "records": {
+    "bundle_records": [
+      {
+        "beta": "phi_g o ([21]+[4]Frob)",
+        "conditional_theta_dimension": 1,
+        "determinant": 1,
+        "factor": "phi_g: E -> E_g",
+        "line": "G_g",
+        "line_bundle": "p1^*Theta_E^9 tensor p2^*Theta_E_g^371 tensor (id_E,beta_g^dagger)^*P_E",
+        "poincare_matrix": [
+          [
+            "9",
+            "beta_g^dagger"
+          ],
+          [
+            "beta_g",
+            "371"
+          ]
+        ],
+        "target_curve": {
+          "a4": "42*a^2 + 16*a + 62",
+          "a6": "30*a^2 + 47*a + 53"
+        },
+        "u": "[21]+[4]Frob"
+      },
+      {
+        "beta": "phi_h o ([21]+[4]Frob)",
+        "conditional_theta_dimension": 1,
+        "determinant": 1,
+        "factor": "phi_h: E -> E_h",
+        "line": "G_h",
+        "line_bundle": "p1^*Theta_E^9 tensor p2^*Theta_E_h^371 tensor (id_E,beta_h^dagger)^*P_E",
+        "poincare_matrix": [
+          [
+            "9",
+            "beta_h^dagger"
+          ],
+          [
+            "beta_h",
+            "371"
+          ]
+        ],
+        "target_curve": {
+          "a4": "63*a^2 + 6*a + 90",
+          "a6": "53*a^2 + 68*a + 15"
+        },
+        "u": "[21]+[4]Frob"
+      },
+      {
+        "beta": "phi_gh o ([21]+[4]Frob)",
+        "conditional_theta_dimension": 1,
+        "determinant": 1,
+        "factor": "phi_gh: E -> E_gh",
+        "line": "G_gh",
+        "line_bundle": "p1^*Theta_E^9 tensor p2^*Theta_E_gh^371 tensor (id_E,beta_gh^dagger)^*P_E",
+        "poincare_matrix": [
+          [
+            "9",
+            "beta_gh^dagger"
+          ],
+          [
+            "beta_gh",
+            "371"
+          ]
+        ],
+        "target_curve": {
+          "a4": "101*a^2 + 81*a + 72",
+          "a6": "20*a^2 + 91*a + 74"
+        },
+        "u": "[21]+[4]Frob"
+      }
+    ],
+    "frobenius_line_cycle": {
+      "G_g": "G_h",
+      "G_gh": "G_g",
+      "G_h": "G_gh"
+    },
+    "product_bundle_control": [
+      [
+        "9",
+        "0"
+      ],
+      [
+        "0",
+        "371"
+      ]
+    ]
+  },
+  "schema": "ecdlp.h018.cubic-theta-line-bundle-orbit.n611t.v1",
+  "script_sha256": "eb37052cc5121de7cfb86dc381730c73ee89e83de1c795aed3b1cfd79eac1f60",
+  "strongest_valid_statement": "The three cubic quotient factors define explicit normalized-Poincare line-bundle formulas L_i on E x E_i, cycling under Frobenius. Their polarization matrices are principal by the N611S map calculation, so each has a conditional one-dimensional theta space; no theta generator or divisor equation is yet computed.",
+  "timestamp_utc": "2026-08-02T04:24:03.427849+00:00"
+}
