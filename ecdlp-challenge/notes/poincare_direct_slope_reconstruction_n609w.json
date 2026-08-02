@@ -1,0 +1,50 @@
+{
+  "claim_status": "OBSERVATION / DIRECTLY RECONSTRUCTED H018 WEIGHTED-BLOWUP SLOPE FORM / MODEL-BOUND / TOY-EVIDENCE / STRICT_TRANSFORM_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_degree_nine_reconstructions_replay_heldouts": true,
+    "all_forms_avoid_cauchy_slope_pole": true,
+    "all_rows_have_sufficient_slope_samples": true,
+    "three_levels_used": true
+  },
+  "next_requirement": "Use this direct slope form, not N609T, to test exceptional roots and normal derivatives, then extend to geometric roots and reciprocal charts before global Cartier, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "normalization": "-det(V_Q)*(s*u)^8*lambda(P,Q), with v=s*u and Cauchy pole cleared by s-c",
+    "rows": [
+      {
+        "base_field_multiple_root_count": 0,
+        "base_field_root_count": 1,
+        "cauchy_pole_is_not_numerator_root": true,
+        "heldout_reconstruction_match": true,
+        "level": 0,
+        "numerator_degree": 1,
+        "sample_count": 30,
+        "support_slope_constant": "1"
+      },
+      {
+        "base_field_multiple_root_count": 0,
+        "base_field_root_count": 1,
+        "cauchy_pole_is_not_numerator_root": true,
+        "heldout_reconstruction_match": true,
+        "level": 1,
+        "numerator_degree": 1,
+        "sample_count": 30,
+        "support_slope_constant": "1"
+      },
+      {
+        "base_field_multiple_root_count": 0,
+        "base_field_root_count": 1,
+        "cauchy_pole_is_not_numerator_root": true,
+        "heldout_reconstruction_match": true,
+        "level": 17,
+        "numerator_degree": 1,
+        "sample_count": 30,
+        "support_slope_constant": "1"
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-direct-slope-reconstruction.n609w.v1",
+  "script_sha256": "b916c77567e997d25512fbaa5a5a43b1c708bd7648f927c1e1ae51316fd9bb66",
+  "strongest_valid_statement": "The actual formal normal constants reconstruct a degree-nine slope numerator after clearing the one Cauchy slope direction and replay on all held-out base-field slopes.",
+  "timestamp_utc": "2026-08-02T00:08:02.912923+00:00"
+}
