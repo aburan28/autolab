@@ -1,0 +1,2371 @@
+{
+  "admission": {
+    "advance_to_compact_normalization_geometry": true,
+    "all_open_multiplicity_counts_match_formal_p_critical_counts": true
+  },
+  "claim_status": "HYPOTHESIS / H018_RESIDUAL_RAMIFICATION_AUDIT / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_324_residuals_have_degree_nine": true,
+    "multiplicity_excess_matches_derivative_gcd": true,
+    "repeated_basefield_roots_reconstruct_curve_points": true,
+    "repeated_open_roots_reconstruct_selected_levels": true
+  },
+  "inputs": {
+    "n609f_primary_sha256": "77014613968a3db93b232a8d6f32c63d8f9ae1ea582b63fa770ee39937e63b98"
+  },
+  "next_requirement": "If the rational multiplicity profile matches the formal critical profile, construct a global compact curve or obtain an all-geometric branch divisor before inferring normalization genus, Jacobian structure, relations, rank, descent, or cost.",
+  "parameters": {
+    "curve_order": 109,
+    "levels": [
+      0,
+      1,
+      17
+    ],
+    "nonzero_q_count": 108
+  },
+  "preflight_pass": true,
+  "rows": [
+    {
+      "derivative_gcd_degree_total": 0,
+      "discriminant_zero_fiber_count": 0,
+      "factor_multiplicity_excess_total": 0,
+      "fiber_count": 108,
+      "formal_p_critical_source_count": 0,
+      "level": 0,
+      "open_multiplicity_matches_formal_p_critical_count": true,
+      "open_repeated_basefield_root_count": 0,
+      "per_fiber": [
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(1 : 51 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(1 : 52 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(2 : 31 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(2 : 72 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(4 : 35 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(4 : 68 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(8 : 21 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(8 : 82 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(9 : 12 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(9 : 91 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(10 : 2 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(10 : 101 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(12 : 42 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(12 : 61 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(14 : 1 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(14 : 102 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(15 : 18 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(15 : 85 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(16 : 4 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(16 : 99 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(19 : 1 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(19 : 102 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(21 : 6 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(21 : 97 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(23 : 36 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(23 : 67 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(25 : 11 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(25 : 92 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(26 : 42 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(26 : 61 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(27 : 24 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(27 : 79 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(30 : 45 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(30 : 58 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(31 : 39 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(31 : 64 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(34 : 4 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(34 : 99 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(37 : 48 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(37 : 55 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(41 : 39 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(41 : 64 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(42 : 32 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(42 : 71 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(43 : 26 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(43 : 77 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(50 : 49 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(50 : 54 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(53 : 4 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(53 : 99 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(54 : 40 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(54 : 63 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(56 : 9 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(56 : 94 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(58 : 3 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(58 : 100 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(60 : 14 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(60 : 89 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(62 : 22 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(62 : 81 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(63 : 16 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(63 : 87 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(64 : 32 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(64 : 71 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(65 : 42 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(65 : 61 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(69 : 49 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(69 : 54 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(70 : 1 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(70 : 102 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(71 : 9 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(71 : 94 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(72 : 22 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(72 : 81 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(73 : 17 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(73 : 86 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(74 : 29 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(74 : 74 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(78 : 37 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(78 : 66 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(79 : 9 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(79 : 94 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(80 : 20 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(80 : 83 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(81 : 13 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(81 : 90 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(83 : 48 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(83 : 55 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(86 : 48 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(86 : 55 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(87 : 49 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(87 : 54 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(88 : 41 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(88 : 62 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(94 : 25 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(94 : 78 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(95 : 15 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(95 : 88 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(97 : 27 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(97 : 76 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(98 : 10 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(98 : 93 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(99 : 33 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(99 : 70 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(100 : 32 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(100 : 71 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(101 : 23 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(101 : 80 : 1)",
+          "repeated_factors": []
+        }
+      ],
+      "repeated_basefield_root_count": 0,
+      "repeated_factor_degree_multiplicity_histogram": [],
+      "repeated_graph_root_count": 0,
+      "repeated_root_curve_failures": 0,
+      "repeated_root_level_failures": 0,
+      "residual_degree": 9
+    },
+    {
+      "derivative_gcd_degree_total": 0,
+      "discriminant_zero_fiber_count": 0,
+      "factor_multiplicity_excess_total": 0,
+      "fiber_count": 108,
+      "formal_p_critical_source_count": 0,
+      "level": 1,
+      "open_multiplicity_matches_formal_p_critical_count": true,
+      "open_repeated_basefield_root_count": 0,
+      "per_fiber": [
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(1 : 51 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(1 : 52 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(2 : 31 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(2 : 72 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(4 : 35 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(4 : 68 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(8 : 21 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(8 : 82 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(9 : 12 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(9 : 91 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(10 : 2 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(10 : 101 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(12 : 42 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(12 : 61 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(14 : 1 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(14 : 102 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(15 : 18 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(15 : 85 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(16 : 4 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(16 : 99 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(19 : 1 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(19 : 102 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(21 : 6 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(21 : 97 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(23 : 36 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(23 : 67 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(25 : 11 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(25 : 92 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(26 : 42 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(26 : 61 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(27 : 24 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(27 : 79 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(30 : 45 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(30 : 58 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(31 : 39 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(31 : 64 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(34 : 4 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(34 : 99 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(37 : 48 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(37 : 55 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(41 : 39 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(41 : 64 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(42 : 32 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(42 : 71 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(43 : 26 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(43 : 77 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(50 : 49 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(50 : 54 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(53 : 4 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(53 : 99 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(54 : 40 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(54 : 63 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(56 : 9 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(56 : 94 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(58 : 3 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(58 : 100 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(60 : 14 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(60 : 89 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(62 : 22 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(62 : 81 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(63 : 16 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(63 : 87 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(64 : 32 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(64 : 71 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(65 : 42 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(65 : 61 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(69 : 49 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(69 : 54 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(70 : 1 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(70 : 102 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(71 : 9 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(71 : 94 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(72 : 22 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(72 : 81 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(73 : 17 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(73 : 86 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(74 : 29 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(74 : 74 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(78 : 37 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(78 : 66 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(79 : 9 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(79 : 94 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(80 : 20 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(80 : 83 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(81 : 13 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(81 : 90 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(83 : 48 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(83 : 55 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(86 : 48 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(86 : 55 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(87 : 49 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(87 : 54 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(88 : 41 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(88 : 62 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(94 : 25 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(94 : 78 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(95 : 15 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(95 : 88 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(97 : 27 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(97 : 76 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(98 : 10 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(98 : 93 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(99 : 33 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(99 : 70 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(100 : 32 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(100 : 71 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(101 : 23 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(101 : 80 : 1)",
+          "repeated_factors": []
+        }
+      ],
+      "repeated_basefield_root_count": 0,
+      "repeated_factor_degree_multiplicity_histogram": [],
+      "repeated_graph_root_count": 0,
+      "repeated_root_curve_failures": 0,
+      "repeated_root_level_failures": 0,
+      "residual_degree": 9
+    },
+    {
+      "derivative_gcd_degree_total": 2,
+      "discriminant_zero_fiber_count": 2,
+      "factor_multiplicity_excess_total": 2,
+      "fiber_count": 108,
+      "formal_p_critical_source_count": 2,
+      "level": 17,
+      "open_multiplicity_matches_formal_p_critical_count": true,
+      "open_repeated_basefield_root_count": 2,
+      "per_fiber": [
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(1 : 51 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(1 : 52 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(2 : 31 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(2 : 72 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(4 : 35 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(4 : 68 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(8 : 21 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(8 : 82 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(9 : 12 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(9 : 91 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(10 : 2 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(10 : 101 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(12 : 42 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(12 : 61 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(14 : 1 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(14 : 102 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(15 : 18 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(15 : 85 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(16 : 4 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(16 : 99 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(19 : 1 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(19 : 102 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(21 : 6 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(21 : 97 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(23 : 36 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(23 : 67 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(25 : 11 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(25 : 92 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(26 : 42 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(26 : 61 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(27 : 24 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(27 : 79 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(30 : 45 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(30 : 58 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(31 : 39 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(31 : 64 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(34 : 4 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(34 : 99 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(37 : 48 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(37 : 55 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(41 : 39 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(41 : 64 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(42 : 32 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(42 : 71 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(43 : 26 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(43 : 77 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(50 : 49 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(50 : 54 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(53 : 4 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(53 : 99 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(54 : 40 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(54 : 63 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(56 : 9 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(56 : 94 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(58 : 3 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(58 : 100 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(60 : 14 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(60 : 89 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(62 : 22 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(62 : 81 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(63 : 16 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(63 : 87 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(64 : 32 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(64 : 71 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(65 : 42 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(65 : 61 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(69 : 49 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(69 : 54 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(70 : 1 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(70 : 102 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(71 : 9 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(71 : 94 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(72 : 22 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(72 : 81 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(73 : 17 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(73 : 86 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(74 : 29 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(74 : 74 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(78 : 37 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(78 : 66 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 1,
+          "discriminant_zero": true,
+          "multiplicity_excess": 1,
+          "q": "(79 : 9 : 1)",
+          "repeated_factors": [
+            {
+              "degree": 1,
+              "multiplicity": 2
+            }
+          ]
+        },
+        {
+          "derivative_gcd_degree": 1,
+          "discriminant_zero": true,
+          "multiplicity_excess": 1,
+          "q": "(79 : 94 : 1)",
+          "repeated_factors": [
+            {
+              "degree": 1,
+              "multiplicity": 2
+            }
+          ]
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(80 : 20 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(80 : 83 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(81 : 13 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(81 : 90 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(83 : 48 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(83 : 55 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(86 : 48 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(86 : 55 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(87 : 49 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(87 : 54 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(88 : 41 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(88 : 62 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(94 : 25 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(94 : 78 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(95 : 15 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(95 : 88 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(97 : 27 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(97 : 76 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(98 : 10 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(98 : 93 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(99 : 33 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(99 : 70 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(100 : 32 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(100 : 71 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(101 : 23 : 1)",
+          "repeated_factors": []
+        },
+        {
+          "derivative_gcd_degree": 0,
+          "discriminant_zero": false,
+          "multiplicity_excess": 0,
+          "q": "(101 : 80 : 1)",
+          "repeated_factors": []
+        }
+      ],
+      "repeated_basefield_root_count": 2,
+      "repeated_factor_degree_multiplicity_histogram": [
+        {
+          "count": 2,
+          "degree": 1,
+          "multiplicity": 2
+        }
+      ],
+      "repeated_graph_root_count": 0,
+      "repeated_root_curve_failures": 0,
+      "repeated_root_level_failures": 0,
+      "residual_degree": 9
+    }
+  ],
+  "schema": "ecdlp.h018.residual-ramification.n611f.v1",
+  "script_sha256": "2d17acfb79587ac6095ddf9856dd7220976bfa963e113e0e107690a2d77969be",
+  "strongest_valid_statement": "This is an exact base-field residual multiplicity audit. It does not determine geometric ramification at non-rational fibers, prove a global Cartier correspondence, establish normalization genus, or provide an ECDLP mechanism.",
+  "timestamp_utc": "2026-08-02T02:58:03.753364+00:00"
+}

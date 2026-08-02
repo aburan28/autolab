@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "advance_gate_matches": true,
+    "all_gcd_excess_equal": true,
+    "all_repeated_roots_replay": true,
+    "all_rows_match": true,
+    "formal_counts_match_open_multiplicity": true,
+    "n609f_input_hash_matches": true,
+    "primary_schema": true,
+    "primary_script_hash_matches": true
+  },
+  "primary_sha256": "999a19a55eb01085d828572b808c3ee347e3465695df602974adb10911286348",
+  "schema": "ecdlp.h018.residual-ramification.n611f.independent-verifier.v1",
+  "verification_pass": true,
+  "verifier_sha256": "67a3f0f79a5c953699cea8b0e8a755d18f66ad626f5d1b798b02e75a11ed7bc2"
+}
