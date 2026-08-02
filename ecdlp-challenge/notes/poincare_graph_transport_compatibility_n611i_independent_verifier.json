@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "aligned_match_count_replays": true,
+    "aligned_rank_replays": true,
+    "boundary_preserved": true,
+    "direct_match_count_replays": true,
+    "graph_rank_replays": true,
+    "schema": true,
+    "slope_replays": true
+  },
+  "primary_sha256": "04e1b262f7f70412d6282e187ae5903be7e6363a79aa75d0ffb2366617ddb446",
+  "replayed": {
+    "direct_transport_match_count": 0,
+    "graph_translation_slope": 50
+  },
+  "strongest_valid_statement": "The replay recomputes the graph translation slope, all 108 direct-transport checks, and the graph/aligned-control fibre-rank distributions independently.",
+  "verified": true
+}

@@ -1,0 +1,55 @@
+{
+  "assumptions": [
+    "N606Y/N607F first-factor transport uses Q -> Q + [84]R.",
+    "N608O graph evaluator uses h(R)=(phi(R),pi(R)).",
+    "The declared moving basis is regular on the audited nonzero fibres."
+  ],
+  "claim_status": "HYPOTHESIS / GRAPH_TO_POINCARE_DECK_INTERTWINER / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "aligned_control_collapses_every_regular_deck_fibre": true,
+    "aligned_control_matches_poincare_transport": true,
+    "graph_directly_matches_poincare_transport": false,
+    "graph_separates_every_regular_deck_fibre": true,
+    "graph_slope_is_consistent": true
+  },
+  "hypothesis_supported": false,
+  "next_requirement": "If the graph slope differs from 84, search for a genuinely vector-valued correction whose transition changes translation slope without factoring through pi; any candidate must preserve all-sheet rank and then supply literal overlap matrices.",
+  "preflight_pass": true,
+  "records": {
+    "aligned_control_match_count": 108,
+    "aligned_control_rank_distribution": {
+      "0": 0,
+      "1": 108,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    "curve_order": 109,
+    "direct_transport_match_count": 0,
+    "graph_rank_distribution": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 108
+    },
+    "graph_translation_slope": 50,
+    "inverse_poincare_base_shift": 61,
+    "nonzero_translation_count": 108,
+    "poincare_base_shift": 84
+  },
+  "schema": "ecdlp.h018.poincare-graph-transport-compatibility.n611i.v1",
+  "script_sha256": "68eeadc88ae3af3a367745083c0191237a4e8f56896a002cbdce8b90f2aa3e17",
+  "strongest_valid_statement": "A direct graph/Poincare/deck intertwiner requires the graph translation slope to equal the N606Y multiplier 84. The aligned control proves this condition is meaningful but, because it factors through pi, cannot separate deck sheets.",
+  "timestamp_utc": "2026-08-02T03:19:10.733853+00:00"
+}
