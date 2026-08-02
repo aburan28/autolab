@@ -1,0 +1,39 @@
+{
+  "claim_status": "OBSERVATION / DIRECT H018 WEIGHTED-BLOWUP RATIONAL STRICT-TRANSFORM SCREEN / MODEL-BOUND / TOY-EVIDENCE / RECIPROCAL_CHART_AND_GLOBAL_CARTIER_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_direct_roots_have_uniform_order_four_normal_contact": true,
+    "all_direct_roots_simple": true,
+    "one_direct_root_per_level": true
+  },
+  "next_requirement": "Test reciprocal and geometric slope charts before global Cartier, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "rows": [
+      {
+        "level": 0,
+        "normal_leading_coefficient": "20",
+        "normal_valuation": 4,
+        "root": "83",
+        "root_multiplicity": 1
+      },
+      {
+        "level": 1,
+        "normal_leading_coefficient": "20",
+        "normal_valuation": 4,
+        "root": "83",
+        "root_multiplicity": 1
+      },
+      {
+        "level": 17,
+        "normal_leading_coefficient": "20",
+        "normal_valuation": 4,
+        "root": "83",
+        "root_multiplicity": 1
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-direct-slope-normal.n609x.v1",
+  "script_sha256": "6be978da542b9eabaf14b5e2512a5a88a8651da11ddb41ee4d279a5a4206fa38",
+  "strongest_valid_statement": "Each directly reconstructed exceptional slope root is simple, while the normal correction begins at uniform order four. The simple slope derivative screens the rational strict transform in this chart despite higher normal contact.",
+  "timestamp_utc": "2026-08-02T00:10:36.217820+00:00"
+}
