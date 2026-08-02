@@ -7707,6 +7707,68 @@ class FocusHarnessTests(unittest.TestCase):
         }
         self.assertIn("m6_global_marked_fitting_locator_scope", ambiguity_ids)
 
+    def test_marked_fitting_dedup_returns_to_signed_outer_norm(self) -> None:
+        value = payload(
+            {
+                "random_hash_mask1": config(4, logs=True),
+                "mixed_balanced_stride_mask1": config(4, logs=True),
+            },
+            descents=[successful_descent()],
+        )
+        lane = "m6_marked_fitting_signed_norm_dedup"
+        probe = {
+            "schema": FOCUS.FRONTIER_PREFLIGHT_SCHEMAS[lane],
+            "classification": (
+                "MARKED_FITTING_NOT_DISTINCT_ALGORITHMIC_LANE__"
+                "UNIFIED_NONLOCAL_SIGNED_TRANSLATE_PRODUCT_OPEN"
+            ),
+            "source_bindings": {
+                "r177": {"path": "r177.json", "sha256": "a" * 64},
+                "r174": {"path": "r174.json", "sha256": "b" * 64},
+            },
+            "admission": {
+                "lane_admitted": False,
+                "passed_obligation_count": 15,
+                "obligation_count": 22,
+            },
+            "next_action": (
+                "Build the unified nonlocal signed elliptic translate product "
+                "modulo U in softly O(n+N) work."
+            ),
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = self.write_payload(root, value)
+            probe_path = root / "m6-marked-fitting-dedup.json"
+            probe_path.write_text(
+                json.dumps(probe, sort_keys=True) + "\n", encoding="utf-8"
+            )
+            report = FOCUS.build_report(
+                value,
+                source,
+                frontier_preflights={lane: (probe, probe_path)},
+            )
+
+        self.assertEqual(
+            report["next_action"]["focus_id"],
+            "s66_fused_factored_dual_chow_outer_norm_mod_u",
+        )
+        selected = [
+            row
+            for row in report["focus_queue"]
+            if row["id"] == "s66_fused_factored_dual_chow_outer_norm_mod_u"
+        ]
+        self.assertEqual(len(selected), 1)
+        self.assertEqual(selected[0]["priority_score"], 318)
+        self.assertEqual(report["summary"]["frontier_closed_lanes"], [lane])
+        ambiguity_ids = {
+            item["id"]
+            for item in report["autoresearch_steering"][
+                "ambiguity_resolutions"
+            ]
+        }
+        self.assertIn("m6_marked_fitting_signed_norm_dedup_scope", ambiguity_ids)
+
     def test_exposes_stored_but_unusable_and_routing_headroom(self) -> None:
         value = payload(
             {
@@ -8002,7 +8064,7 @@ class FocusHarnessTests(unittest.TestCase):
     def test_methodology_binds_the_source_post(self) -> None:
         self.assertEqual(
             FOCUS.SCHEMA,
-            "ecdlp.p1436_autoresearch_focus_report.v113",
+            "ecdlp.p1436_autoresearch_focus_report.v114",
         )
         self.assertEqual(
             FOCUS.METHODOLOGY["source_post_url"],

@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v113"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v114"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -565,6 +565,9 @@ DEFAULT_M6_PRINCIPAL_TARGET_PONTRYAGIN_RESULTANT_PROBE = Path(
 DEFAULT_M6_GLOBAL_MARKED_FITTING_LOCATOR_PROBE = Path(
     "p1553_m6_global_marked_fitting_locator_probe_report_r177.json"
 )
+DEFAULT_M6_MARKED_FITTING_SIGNED_NORM_DEDUP_PROBE = Path(
+    "p1553_m6_marked_fitting_signed_norm_dedup_probe_report_r178.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -903,6 +906,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_global_marked_fitting_locator": (
         "p1553.m6_global_marked_fitting_locator.r177.v1"
+    ),
+    "m6_marked_fitting_signed_norm_dedup": (
+        "p1553.m6_marked_fitting_signed_norm_dedup.r178.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -6772,7 +6778,39 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_global_marked_fitting_locator_lane.get("closed_by_current_evidence"):
+    m6_marked_fitting_signed_norm_dedup_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_marked_fitting_signed_norm_dedup"
+        )
+        or {}
+    )
+    if m6_marked_fitting_signed_norm_dedup_lane.get(
+        "closed_by_current_evidence"
+    ):
+        admission = (
+            m6_marked_fitting_signed_norm_dedup_lane.get("admission") or {}
+        )
+        add_focus_candidate(
+            candidates,
+            "s66_fused_factored_dual_chow_outer_norm_mod_u",
+            318,
+            str(
+                m6_marked_fitting_signed_norm_dedup_lane.get("next_action")
+                or CRITICAL_EXPERIMENTS[
+                    "s66_fused_factored_dual_chow_outer_norm_mod_u"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_marked_fitting_signed_norm_dedup_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} Fitting-filtration "
+                "obligations pass. R177's first layer is exactly the R174 signed "
+                "aggregate-norm factor; higher layers add multiplicities but no "
+                "ECDLP roots. The distinct marked-Fitting lane is closed, leaving "
+                "the unified nonlocal signed translate-product primitive."
+            ),
+        )
+    elif m6_global_marked_fitting_locator_lane.get("closed_by_current_evidence"):
         admission = m6_global_marked_fitting_locator_lane.get("admission") or {}
         add_focus_candidate(
             candidates,
@@ -11904,6 +11942,28 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_marked_fitting_signed_norm_dedup_scope",
+            "observed": (
+                "R178 factors the R177 marker into signed-incidence threshold "
+                "polynomials of global degrees 140, 71, 23, and 7. Six controls "
+                "verify that the first threshold is byte-identical to both the "
+                "R174 signed aggregate-norm factor and the R177 candidate gcd. "
+                "The remaining layers add multiplicity but no candidate roots."
+            ),
+            "resolution": (
+                "Close marked Fitting as a distinct ECDLP constructor lane. Return "
+                "to the existing fused signed dual-Chow outer norm or equivalent "
+                "nonlocal elliptic translate product modulo U. Reject nN target "
+                "grids, N dense quotient elements, n^2 pair/Fitting state, the "
+                "full marked determinant, and candidate inversions. Give higher "
+                "multiplicity layers no ECDLP attack credit and treat represented "
+                "costs as standard-route negatives, not circuit lower bounds."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -13140,6 +13200,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_GLOBAL_MARKED_FITTING_LOCATOR_PROBE,
     )
+    parser.add_argument(
+        "--m6-marked-fitting-signed-norm-dedup-probe",
+        dest="m6_marked_fitting_signed_norm_dedup_probe",
+        type=Path,
+        default=DEFAULT_M6_MARKED_FITTING_SIGNED_NORM_DEDUP_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -13603,6 +13669,10 @@ def main() -> int:
         (
             "m6_global_marked_fitting_locator",
             args.m6_global_marked_fitting_locator_probe,
+        ),
+        (
+            "m6_marked_fitting_signed_norm_dedup",
+            args.m6_marked_fitting_signed_norm_dedup_probe,
         ),
     ):
         if path.exists():
