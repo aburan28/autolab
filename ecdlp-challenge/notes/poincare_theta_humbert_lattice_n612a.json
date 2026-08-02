@@ -1,0 +1,155 @@
+{
+  "assumptions": [
+    "End(E)=Z[pi] with pi^2+5*pi+103=0, and phi_g^dagger phi_g=[2].",
+    "The standard Hermitian Neron-Severi identification and Kani/Weil refined Humbert irreducibility criterion apply over the algebraic closure."
+  ],
+  "bound_inputs": {
+    "notes/poincare_degree3_elliptic_class_n611x.json": "a04635537e12281f1d12fa050ed8888c4fa4c92c1f9aee4faf9c525df016cdf1",
+    "notes/poincare_degree3_elliptic_class_n611x_independent_verifier.json": "13f1a56263c788021ff0e576666eb127b56d9e50bda2965201428d362b135ba6",
+    "notes/poincare_degree3_quotient_presentation_n611z.json": "7134b2f70dd0d36ce59ede5d1464f2291512757ced4b9e5cce93448953b12fa1",
+    "notes/poincare_degree3_quotient_presentation_n611z_independent_verifier.json": "4f6895910a30e96a802a1f42e4174e1d5a51616bf26d82e0a0b29373a2e3528d"
+  },
+  "claim_status": "RESTRICTED THEOREM / FULL_CM_HOM_LATTICE_AND_GEOMETRIC_THETA_IRREDUCIBILITY / STANDARD_CM_ENDOMORPHISM_AND_HUMBERT_CRITERION_BOUND / MODEL-BOUND / TOY-EVIDENCE / CURVE_EQUATION_AND_EVALUATOR_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "exact_humbert_minimum_is_nine": true,
+    "full_two_torsion_and_phi_kernel_materialized": true,
+    "n611x_divisor_is_value_nine_witness": true,
+    "n611x_rank_one_class_receipt_binds": true,
+    "n611z_quotient_presentation_receipt_binds": true,
+    "only_even_cm_multiplier_annihilates_all_e_two": true,
+    "quotient_humbert_form_is_positive_integral": true,
+    "theta_is_primitive_principal_ns_class": true,
+    "unimodular_humbert_quotient_basis": true
+  },
+  "next_requirement": "Construct an explicit equation and degree-three maps for the irreducible genus-two theta curve, then build and charge its evaluator before any relation-collection or rho-comparison claim.",
+  "preflight_pass": true,
+  "records": {
+    "hom_lattice_argument": "For h:E->E_g, put v=phi_g^dagger h. Then phi_g v=[2]h annihilates E[2]. The recorded mod-two action forces v=2u, so h=phi_g u.",
+    "humbert_form": "q_M(D)=(D.M)^2-4*q_A(D)",
+    "minimum_value": 9,
+    "minimum_witness_ns_vector": [
+      -9,
+      -346,
+      -13,
+      -4
+    ],
+    "minimum_witness_quotient_coordinates": [
+      4,
+      3,
+      -3
+    ],
+    "mod_two_cm_multiplier_controls": [
+      {
+        "annihilates_all_e_two": true,
+        "coefficients_mod_2": [
+          0,
+          0
+        ],
+        "label": "0"
+      },
+      {
+        "annihilates_all_e_two": false,
+        "coefficients_mod_2": [
+          1,
+          0
+        ],
+        "label": "1"
+      },
+      {
+        "annihilates_all_e_two": false,
+        "coefficients_mod_2": [
+          0,
+          1
+        ],
+        "label": "Frob"
+      },
+      {
+        "annihilates_all_e_two": false,
+        "coefficients_mod_2": [
+          1,
+          1
+        ],
+        "label": "1+Frob"
+      }
+    ],
+    "n611x_divisor_vector": [
+      9,
+      346,
+      13,
+      4
+    ],
+    "ns_quadratic_form": "q_A(a,b,r,s)=a*b-2*(r^2-5*r*s+103*s^2)",
+    "quotient_basis_matrix": [
+      [
+        9,
+        -3,
+        0,
+        -1
+      ],
+      [
+        345,
+        -115,
+        0,
+        -38
+      ],
+      [
+        12,
+        -4,
+        1,
+        0
+      ],
+      [
+        4,
+        -1,
+        0,
+        0
+      ]
+    ],
+    "smith_left_matrix": [
+      [
+        38,
+        -1,
+        0,
+        1
+      ],
+      [
+        152,
+        -4,
+        0,
+        3
+      ],
+      [
+        152,
+        -4,
+        1,
+        0
+      ],
+      [
+        -115,
+        3,
+        0,
+        0
+      ]
+    ],
+    "ternary_humbert_coefficients": [
+      259512,
+      8136,
+      699824,
+      72,
+      10992,
+      471817
+    ],
+    "ternary_humbert_determinant": 6192,
+    "theta_vector": [
+      9,
+      345,
+      12,
+      4
+    ],
+    "two_torsion_size": 4
+  },
+  "schema": "ecdlp.h018.theta-humbert-lattice.n612a.v1",
+  "script_sha256": "b927955fd46cbe1aa87420d0cea3ea85d99dbd4c499a0d85e72430d1c8733243",
+  "strongest_valid_statement": "Under the stated CM endomorphism, Hermitian Neron-Severi, and refined Humbert assumptions, the full Hom lattice is phi_g Z[pi] and the reduced Humbert form of M has exact minimum nine. It therefore never represents one, so the associated principal theta class is geometrically irreducible. This establishes existence of a smooth genus-two theta curve over an algebraic closure, but not an equation, descent datum, evaluator, or ECDLP algorithm.",
+  "timestamp_utc": "2026-08-02T05:29:17.080337+00:00"
+}

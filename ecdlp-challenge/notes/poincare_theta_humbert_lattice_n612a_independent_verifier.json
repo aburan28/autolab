@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "exact_minimum_replay": true,
+    "humbert_form_replay": true,
+    "n611x_witness_replay": true,
+    "primary_gates": true,
+    "schema": true,
+    "two_torsion_replay": true,
+    "unimodular_lattice_replay": true
+  },
+  "primary_sha256": "24ef9b2e06dbea49b54d02233394e0070ab8d268a3ce502bd0bcbb6fc26c1802",
+  "strongest_valid_statement": "The independent replay reconstructs the full-Hom mod-two gate and the integral ternary Humbert form with no value through eight and a value-nine N611X witness. The resulting irreducibility conclusion remains conditional on the stated CM, Neron-Severi, and Humbert criteria and does not supply an explicit curve equation or ECDLP algorithm.",
+  "verified": true
+}
