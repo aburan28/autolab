@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "all_fiber_traces_match_pole_divisor": true,
+    "compression_ratio_matches": true,
+    "degree_histogram_matches": true,
+    "fiber_count_matches": true,
+    "held_out_descent_matches": true,
+    "inverse_orbit_support_matches": true,
+    "kummer_support_matches": true,
+    "primary_schema": true,
+    "primary_script_hash_matches": true,
+    "rank_matches": true,
+    "rho_estimate_matches": true,
+    "root_evaluations_match": true,
+    "route_remains_unpromotable": true
+  },
+  "primary_sha256": "f3c3494336abef0f6477556d3df958f7140de1988697a22d982d73108bcfbf92",
+  "schema": "ecdlp.h018.oriented-kummer-trace.n611d.independent-verifier.v1",
+  "verification_pass": true,
+  "verifier_sha256": "cbb245578ca1c14a5f1f101b6d70351912e974f7801b96e0ae5dbfee61f82ddc"
+}

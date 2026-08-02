@@ -1,0 +1,61 @@
+{
+  "admission": {
+    "compression_beyond_involution_only": false,
+    "kummer_support_below_quarter_group": false,
+    "rank_lower_bound_fibers_below_rho_estimate": false,
+    "route_promotable": false
+  },
+  "claim_status": "HYPOTHESIS / H018_ORIENTED_KUMMER_TRACE_PACKETS / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_324_residual_fibers_processed": true,
+    "all_nonzero_labels_are_inverse_orbits": true,
+    "all_oriented_kummer_relations_replay": true,
+    "full_oriented_kummer_rank": true,
+    "held_out_descent_recovers": true,
+    "held_out_rows_excluded_from_collection": true
+  },
+  "next_requirement": "A positive route needs a non-trace packet map with superconstant compression or a relation system not reducible to one independent original-group log per packet orbit.",
+  "parameters": {
+    "curve_order": 109,
+    "held_out_scalar": 37,
+    "levels": [
+      0,
+      1,
+      17
+    ]
+  },
+  "preflight_pass": true,
+  "records": {
+    "collection_fiber_count": 321,
+    "compression_ratio": 2.0,
+    "descent": {
+      "held_out_scalar": 37,
+      "level": 0,
+      "recovered": true,
+      "recovered_scalar": 37
+    },
+    "extension_root_evaluations": 2914,
+    "factor_degree_histogram": {
+      "1": 348,
+      "2": 166,
+      "3": 104,
+      "4": 86,
+      "5": 64,
+      "6": 62,
+      "7": 52,
+      "8": 34,
+      "9": 28
+    },
+    "fiber_count": 324,
+    "matrix_state_field_elements": 17334,
+    "minimum_independent_relation_rows": 54,
+    "oriented_kummer_base_size": 54,
+    "relation_rank": 54,
+    "rho_group_addition_estimate": 13.084983745524628,
+    "trace_factor_base_size": 108
+  },
+  "schema": "ecdlp.h018.oriented-kummer-trace.n611d.v1",
+  "script_sha256": "c4373c7839757c72ee088f16b88e888fe83eff344b416c390193a1b931c1e28b",
+  "strongest_valid_statement": "The direct trace factors admit an exact oriented Kummer quotient with public signs. This establishes only the involution quotient on the registered toy fixture; its rank and support must still beat rho before any speed claim.",
+  "timestamp_utc": "2026-08-02T02:44:50.133121+00:00"
+}
