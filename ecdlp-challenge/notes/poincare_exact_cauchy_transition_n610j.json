@@ -1,0 +1,442 @@
+{
+  "claim_status": "OBSERVATION / EXACT-H018-CAUCHY-TRANSITION REGULAR IN BOTH LAURENT ORDERS / MODEL-BOUND / TOY-EVIDENCE / COMMON_BIVARIATE_CHART_AND_GLOBAL_NORMALIZATION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "direct_order_is_regular": true,
+    "exact_parameter_has_nonzero_linear_term": true,
+    "reverse_order_is_regular": true
+  },
+  "next_requirement": "Compare the two expansions in a common finite bivariate chart and derive a literal transition identity. Then construct a global normalization and test a target-bearing composition law before factor-base, rank, descent, cost, or ECDLP claims.",
+  "preflight_pass": true,
+  "records": {
+    "direct_rows": [
+      {
+        "coefficients": [
+          {
+            "u_valuation": 1,
+            "v_exponent": 0
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 1
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 2
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 3
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 4
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 5
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 6
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 7
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 8
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 9
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 10
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 11
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 12
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 13
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 14
+          },
+          {
+            "u_valuation": 2,
+            "v_exponent": 15
+          }
+        ],
+        "level": 0,
+        "v_valuation": 0
+      },
+      {
+        "coefficients": [
+          {
+            "u_valuation": 1,
+            "v_exponent": 0
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 1
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 2
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 3
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 4
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 5
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 6
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 7
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 8
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 9
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 10
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 11
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 12
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 13
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 14
+          },
+          {
+            "u_valuation": 2,
+            "v_exponent": 15
+          }
+        ],
+        "level": 1,
+        "v_valuation": 0
+      },
+      {
+        "coefficients": [
+          {
+            "u_valuation": 1,
+            "v_exponent": 0
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 1
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 2
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 3
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 4
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 5
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 6
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 7
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 8
+          },
+          {
+            "u_valuation": 2,
+            "v_exponent": 9
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 10
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 11
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 12
+          },
+          {
+            "u_valuation": 0,
+            "v_exponent": 13
+          },
+          {
+            "u_valuation": 1,
+            "v_exponent": 14
+          },
+          {
+            "u_valuation": 2,
+            "v_exponent": 15
+          }
+        ],
+        "level": 17,
+        "v_valuation": 0
+      }
+    ],
+    "exact_parameter_linear_coefficient": "67",
+    "exact_parameter_valuation": 1,
+    "reverse_rows": [
+      {
+        "coefficients": [
+          {
+            "u_exponent": 0,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 1,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 2,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 3,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 4,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 5,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 6,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 7,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 8,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 9,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 10,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 11,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 12,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 13,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 14,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 15,
+            "v_valuation": 0
+          }
+        ],
+        "level": 0,
+        "u_valuation": 0
+      },
+      {
+        "coefficients": [
+          {
+            "u_exponent": 0,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 1,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 2,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 3,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 4,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 5,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 6,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 7,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 8,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 9,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 10,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 11,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 12,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 13,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 14,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 15,
+            "v_valuation": 0
+          }
+        ],
+        "level": 1,
+        "u_valuation": 0
+      },
+      {
+        "coefficients": [
+          {
+            "u_exponent": 0,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 1,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 2,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 3,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 4,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 5,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 6,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 7,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 8,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 9,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 10,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 11,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 12,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 13,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 14,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 15,
+            "v_valuation": 0
+          }
+        ],
+        "level": 17,
+        "u_valuation": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-exact-cauchy-transition.n610j.v1",
+  "script_sha256": "d7d8b695d4e57c9593e2b6c4a134ddd00b2d04907de3a7836e15a98edaeef56f",
+  "strongest_valid_statement": "The literal Cauchy pole factor v-w(u), with w(u) the support formal parameter, gives nonnegative inspected valuations in both ordered local expansions at all three levels. This corrects the tangent-factor obstruction in N610I and supplies a two-sided local transition signal.",
+  "timestamp_utc": "2026-08-02T00:56:14.644259+00:00"
+}
