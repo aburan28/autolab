@@ -1,0 +1,62 @@
+{
+  "claim_status": "OBSERVATION / LOCAL H018 EXCEPTIONAL SLOPE COORDINATE / MODEL-BOUND / TOY-EVIDENCE / FORMAL_BASE_IDEAL_AND_GLOBAL_RESOLUTION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_levels_have_a_nonzero_normal_slope_derivative": true,
+    "all_levels_have_the_same_simple_rational_root": true,
+    "independent_pencil_differences_are_order_eight_units": true
+  },
+  "next_requirement": "Derive the bivariate formal expansion and successive transforms of the local ideal. Do not infer a multiplicity sequence, global Cartier divisor, normalization, Jacobian, relation law, rank, descent, cost, or ECDLP advantage from this coordinate screen alone.",
+  "preflight_pass": true,
+  "records": {
+    "pencil_differences": [
+      {
+        "leading_coefficient": "37",
+        "level": 1,
+        "order_eight_unit": true,
+        "valuation": 8
+      },
+      {
+        "leading_coefficient": "11",
+        "level": 17,
+        "order_eight_unit": true,
+        "valuation": 8
+      }
+    ],
+    "rows": [
+      {
+        "cauchy_slope": "1",
+        "cleared_numerator_derivative_at_root": "86",
+        "level": 0,
+        "normal_slope_derivative_at_root": "94",
+        "normal_slope_derivative_is_unit": true,
+        "numerator_degree": 1,
+        "root": "83",
+        "root_multiplicity": 1
+      },
+      {
+        "cauchy_slope": "1",
+        "cleared_numerator_derivative_at_root": "86",
+        "level": 1,
+        "normal_slope_derivative_at_root": "94",
+        "normal_slope_derivative_is_unit": true,
+        "numerator_degree": 1,
+        "root": "83",
+        "root_multiplicity": 1
+      },
+      {
+        "cauchy_slope": "1",
+        "cleared_numerator_derivative_at_root": "86",
+        "level": 17,
+        "normal_slope_derivative_at_root": "94",
+        "normal_slope_derivative_is_unit": true,
+        "numerator_degree": 1,
+        "root": "83",
+        "root_multiplicity": 1
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-blowup-local-coordinate.n610b.v1",
+  "script_sha256": "18ac77b0ec5007d11293ca0e93fffb8b79940fa9c622faedc2271c533661e228",
+  "strongest_valid_statement": "At the common rational exceptional root, the directly reconstructed normal form has a nonzero slope derivative for all three tested pencil levels, while two independent level differences are order-eight units. This is direct local evidence for an etale slope coordinate together with a candidate (x+O(u^4), u^8 unit) base ideal.",
+  "timestamp_utc": "2026-08-02T00:20:47.644200+00:00"
+}
