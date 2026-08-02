@@ -1,0 +1,228 @@
+{
+  "claim_status": "NEGATIVE RESULT / NAIVE H018 CAUCHY CLEARANCE FAILS REVERSE-ORDER REGULARITY / MODEL-BOUND / TOY-EVIDENCE / ADDITIONAL_TRANSITION_CORRECTION_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_direct_numerators_have_nonnegative_u_valuation": true,
+    "all_levels_exhibit_the_same_reverse_diagonal_pole_profile": true
+  },
+  "next_requirement": "Derive the missing transition correction or prove this obstruction persists for every admissible local unit. Do not promote the ordered N610H screen to a global Cartier, normalization, Jacobian, relation, rank, descent, cost, or ECDLP claim.",
+  "preflight_pass": true,
+  "records": {
+    "cauchy_slope": "1",
+    "rows": [
+      {
+        "coefficient_v_valuations": [
+          {
+            "u_exponent": 0,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 1,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 2,
+            "v_valuation": -1
+          },
+          {
+            "u_exponent": 3,
+            "v_valuation": -2
+          },
+          {
+            "u_exponent": 4,
+            "v_valuation": -3
+          },
+          {
+            "u_exponent": 5,
+            "v_valuation": -4
+          },
+          {
+            "u_exponent": 6,
+            "v_valuation": -5
+          },
+          {
+            "u_exponent": 7,
+            "v_valuation": -6
+          },
+          {
+            "u_exponent": 8,
+            "v_valuation": -7
+          },
+          {
+            "u_exponent": 9,
+            "v_valuation": -8
+          },
+          {
+            "u_exponent": 10,
+            "v_valuation": -9
+          },
+          {
+            "u_exponent": 11,
+            "v_valuation": -10
+          },
+          {
+            "u_exponent": 12,
+            "v_valuation": -11
+          },
+          {
+            "u_exponent": 13,
+            "v_valuation": -12
+          },
+          {
+            "u_exponent": 14,
+            "v_valuation": -13
+          },
+          {
+            "u_exponent": 15,
+            "v_valuation": -14
+          }
+        ],
+        "level": 0,
+        "u_valuation": 0
+      },
+      {
+        "coefficient_v_valuations": [
+          {
+            "u_exponent": 0,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 1,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 2,
+            "v_valuation": -1
+          },
+          {
+            "u_exponent": 3,
+            "v_valuation": -2
+          },
+          {
+            "u_exponent": 4,
+            "v_valuation": -3
+          },
+          {
+            "u_exponent": 5,
+            "v_valuation": -4
+          },
+          {
+            "u_exponent": 6,
+            "v_valuation": -5
+          },
+          {
+            "u_exponent": 7,
+            "v_valuation": -6
+          },
+          {
+            "u_exponent": 8,
+            "v_valuation": -7
+          },
+          {
+            "u_exponent": 9,
+            "v_valuation": -8
+          },
+          {
+            "u_exponent": 10,
+            "v_valuation": -9
+          },
+          {
+            "u_exponent": 11,
+            "v_valuation": -10
+          },
+          {
+            "u_exponent": 12,
+            "v_valuation": -11
+          },
+          {
+            "u_exponent": 13,
+            "v_valuation": -12
+          },
+          {
+            "u_exponent": 14,
+            "v_valuation": -13
+          },
+          {
+            "u_exponent": 15,
+            "v_valuation": -14
+          }
+        ],
+        "level": 1,
+        "u_valuation": 0
+      },
+      {
+        "coefficient_v_valuations": [
+          {
+            "u_exponent": 0,
+            "v_valuation": 1
+          },
+          {
+            "u_exponent": 1,
+            "v_valuation": 0
+          },
+          {
+            "u_exponent": 2,
+            "v_valuation": -1
+          },
+          {
+            "u_exponent": 3,
+            "v_valuation": -2
+          },
+          {
+            "u_exponent": 4,
+            "v_valuation": -3
+          },
+          {
+            "u_exponent": 5,
+            "v_valuation": -4
+          },
+          {
+            "u_exponent": 6,
+            "v_valuation": -5
+          },
+          {
+            "u_exponent": 7,
+            "v_valuation": -6
+          },
+          {
+            "u_exponent": 8,
+            "v_valuation": -7
+          },
+          {
+            "u_exponent": 9,
+            "v_valuation": -8
+          },
+          {
+            "u_exponent": 10,
+            "v_valuation": -9
+          },
+          {
+            "u_exponent": 11,
+            "v_valuation": -10
+          },
+          {
+            "u_exponent": 12,
+            "v_valuation": -11
+          },
+          {
+            "u_exponent": 13,
+            "v_valuation": -12
+          },
+          {
+            "u_exponent": 14,
+            "v_valuation": -13
+          },
+          {
+            "u_exponent": 15,
+            "v_valuation": -14
+          }
+        ],
+        "level": 17,
+        "u_valuation": 0
+      }
+    ]
+  },
+  "schema": "ecdlp.h018.poincare-reverse-bivariate-numerator.n610i.v1",
+  "script_sha256": "ee4a7674da9f8571ae941b068f65c9d595bebbda5914ed9b01c2fb71f00e70ac",
+  "strongest_valid_statement": "The direct numerator has a uniform reverse-order diagonal pole profile: its u^e coefficient has v-valuation 1-e for e=2 through 15 at all tested levels. Thus clearing v-u alone does not give a symmetric bivariate regular section, despite the ordered regularity observed in N610H.",
+  "timestamp_utc": "2026-08-02T00:51:39.843302+00:00"
+}
