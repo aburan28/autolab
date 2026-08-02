@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "all_rows_match": true,
+    "all_sources_replay": true,
+    "primary_schema": true,
+    "primary_script_hash_matches": true,
+    "prime_curve_order": true,
+    "promotion_matches": true,
+    "route_remains_unpromotable": true
+  },
+  "primary_sha256": "72e27fd4f14938afa8e3f0e634b5c405a95c5f92ad251164672c7627e49a476e",
+  "schema": "ecdlp.line-ratio-coset-triple.n611e.independent-verifier.v1",
+  "verification_pass": true,
+  "verifier_sha256": "74a685bf8344f239c017288c5e51e1153a524f8ab334ca61abe1a406dc8da190"
+}

@@ -1,0 +1,2432 @@
+{
+  "claim_status": "HYPOTHESIS / LINE_RATIO_COSET_TRIPLE_PREFLIGHT / MODEL-BOUND / TOY-EVIDENCE / NO_ECDLP_CLAIM",
+  "exact_membership": "N(x)^d-c*D(x)^d == 0 mod C(x)",
+  "gates": {
+    "all_admitted_points_avoid_poles": true,
+    "all_admitted_triple_sources_replay": true,
+    "has_admitted_factor_base": true,
+    "prime_order_toy_curve": true
+  },
+  "next_requirement": "Only a promoted row may receive a source solver; otherwise search a factor family with a different pre-symmetrization membership algebra.",
+  "parameters": {
+    "controls": 32,
+    "coset_rule": [
+      "1",
+      "g^d"
+    ],
+    "curve": "y^2=x^3+x+32",
+    "curve_order": 101,
+    "degrees": [
+      5,
+      10,
+      20,
+      25
+    ],
+    "field_order": 101,
+    "maps": [
+      "y_over_y_minus_x",
+      "y_minus_1_over_y_plus_x_plus_1",
+      "y_minus_2x_minus_1_over_y_plus_x_minus_2",
+      "y_minus_x_minus_1_over_y_plus_2x_plus_1"
+    ]
+  },
+  "preflight_pass": true,
+  "promotion": {
+    "admit_source_solver": false,
+    "some_fourfold_density_lift_beats_controls": false,
+    "some_support_below_pair_state": false
+  },
+  "rows": [
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 100,
+      "degree": 5,
+      "denominator": [
+        -1,
+        1,
+        0
+      ],
+      "denominator_exclusions": 0,
+      "density_lift_over_mean": 3.2,
+      "factor_base_size": 6,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 31,
+            "total_degree": 10,
+            "x_degree": 0
+          },
+          {
+            "monomials": 31,
+            "total_degree": 10,
+            "x_degree": 1
+          },
+          {
+            "monomials": 26,
+            "total_degree": 10,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 10,
+        "total_monomials": 88
+      },
+      "map": "y_over_y_minus_x",
+      "numerator": [
+        0,
+        1,
+        0
+      ],
+      "random_control_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "random_control_maximum": 1,
+      "random_control_mean": 0.3125,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 4.190476190476191,
+      "unordered_pair_state": 21,
+      "zero_sum_distinct_triples": 1
+    },
+    {
+      "admitted_factor_base_size": false,
+      "coset": 32,
+      "defined_pool_size": 100,
+      "degree": 5,
+      "denominator": [
+        -1,
+        1,
+        0
+      ],
+      "denominator_exclusions": 0,
+      "factor_base_size": 4,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 37,
+            "total_degree": 11,
+            "x_degree": 0
+          },
+          {
+            "monomials": 36,
+            "total_degree": 11,
+            "x_degree": 1
+          },
+          {
+            "monomials": 30,
+            "total_degree": 11,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 11,
+        "total_monomials": 103
+      },
+      "map": "y_over_y_minus_x",
+      "numerator": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 100,
+      "degree": 10,
+      "denominator": [
+        -1,
+        1,
+        0
+      ],
+      "denominator_exclusions": 0,
+      "density_lift_over_mean": 0.6274509803921569,
+      "factor_base_size": 11,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 150,
+            "total_degree": 25,
+            "x_degree": 0
+          },
+          {
+            "monomials": 139,
+            "total_degree": 25,
+            "x_degree": 1
+          },
+          {
+            "monomials": 123,
+            "total_degree": 25,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 25,
+        "total_monomials": 412
+      },
+      "map": "y_over_y_minus_x",
+      "numerator": [
+        0,
+        1,
+        0
+      ],
+      "random_control_counts": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        3,
+        2,
+        0,
+        2,
+        1,
+        3,
+        1,
+        4,
+        2,
+        1,
+        2,
+        1,
+        1,
+        0,
+        1,
+        3,
+        1,
+        0,
+        2,
+        3,
+        3
+      ],
+      "random_control_maximum": 4,
+      "random_control_mean": 1.59375,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 6.242424242424242,
+      "unordered_pair_state": 66,
+      "zero_sum_distinct_triples": 1
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 14,
+      "defined_pool_size": 100,
+      "degree": 10,
+      "denominator": [
+        -1,
+        1,
+        0
+      ],
+      "denominator_exclusions": 0,
+      "density_lift_over_mean": 2.0,
+      "factor_base_size": 9,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 162,
+            "total_degree": 26,
+            "x_degree": 0
+          },
+          {
+            "monomials": 149,
+            "total_degree": 26,
+            "x_degree": 1
+          },
+          {
+            "monomials": 132,
+            "total_degree": 26,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 26,
+        "total_monomials": 443
+      },
+      "map": "y_over_y_minus_x",
+      "numerator": [
+        0,
+        1,
+        0
+      ],
+      "random_control_counts": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "random_control_maximum": 2,
+      "random_control_mean": 0.5,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 9.844444444444445,
+      "unordered_pair_state": 45,
+      "zero_sum_distinct_triples": 1
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 100,
+      "degree": 20,
+      "denominator": [
+        -1,
+        1,
+        0
+      ],
+      "denominator_exclusions": 0,
+      "density_lift_over_mean": 1.1395572666025024,
+      "factor_base_size": 28,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 614,
+            "total_degree": 55,
+            "x_degree": 0
+          },
+          {
+            "monomials": 584,
+            "total_degree": 55,
+            "x_degree": 1
+          },
+          {
+            "monomials": 548,
+            "total_degree": 55,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 55,
+        "total_monomials": 1746
+      },
+      "map": "y_over_y_minus_x",
+      "numerator": [
+        0,
+        1,
+        0
+      ],
+      "random_control_counts": [
+        31,
+        31,
+        31,
+        34,
+        31,
+        34,
+        34,
+        34,
+        37,
+        38,
+        27,
+        32,
+        31,
+        32,
+        31,
+        32,
+        32,
+        33,
+        34,
+        34,
+        26,
+        31,
+        37,
+        32,
+        33,
+        32,
+        33,
+        34,
+        31,
+        34,
+        29,
+        34
+      ],
+      "random_control_maximum": 38,
+      "random_control_mean": 32.46875,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 4.300492610837439,
+      "unordered_pair_state": 406,
+      "zero_sum_distinct_triples": 37
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 95,
+      "defined_pool_size": 100,
+      "degree": 20,
+      "denominator": [
+        -1,
+        1,
+        0
+      ],
+      "denominator_exclusions": 0,
+      "density_lift_over_mean": 1.3617021276595744,
+      "factor_base_size": 23,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 634,
+            "total_degree": 56,
+            "x_degree": 0
+          },
+          {
+            "monomials": 604,
+            "total_degree": 56,
+            "x_degree": 1
+          },
+          {
+            "monomials": 567,
+            "total_degree": 56,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 56,
+        "total_monomials": 1805
+      },
+      "map": "y_over_y_minus_x",
+      "numerator": [
+        0,
+        1,
+        0
+      ],
+      "random_control_counts": [
+        20,
+        20,
+        15,
+        16,
+        20,
+        16,
+        20,
+        16,
+        14,
+        17,
+        23,
+        14,
+        16,
+        22,
+        18,
+        25,
+        16,
+        18,
+        22,
+        17,
+        19,
+        17,
+        18,
+        18,
+        12,
+        14,
+        13,
+        18,
+        19,
+        19,
+        17,
+        15
+      ],
+      "random_control_maximum": 25,
+      "random_control_mean": 17.625,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 6.5398550724637685,
+      "unordered_pair_state": 276,
+      "zero_sum_distinct_triples": 24
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 100,
+      "degree": 25,
+      "denominator": [
+        -1,
+        1,
+        0
+      ],
+      "denominator_exclusions": 0,
+      "density_lift_over_mean": 1.078369905956113,
+      "factor_base_size": 30,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 951,
+            "total_degree": 70,
+            "x_degree": 0
+          },
+          {
+            "monomials": 916,
+            "total_degree": 70,
+            "x_degree": 1
+          },
+          {
+            "monomials": 865,
+            "total_degree": 70,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 70,
+        "total_monomials": 2732
+      },
+      "map": "y_over_y_minus_x",
+      "numerator": [
+        0,
+        1,
+        0
+      ],
+      "random_control_counts": [
+        42,
+        44,
+        39,
+        38,
+        34,
+        41,
+        42,
+        37,
+        32,
+        43,
+        41,
+        44,
+        41,
+        43,
+        38,
+        35,
+        42,
+        41,
+        48,
+        37,
+        46,
+        39,
+        42,
+        38,
+        35,
+        43,
+        33,
+        37,
+        46,
+        36,
+        39,
+        40
+      ],
+      "random_control_maximum": 48,
+      "random_control_mean": 39.875,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 5.875268817204301,
+      "unordered_pair_state": 465,
+      "zero_sum_distinct_triples": 43
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 10,
+      "defined_pool_size": 100,
+      "degree": 25,
+      "denominator": [
+        -1,
+        1,
+        0
+      ],
+      "denominator_exclusions": 0,
+      "density_lift_over_mean": 1.0914728682170542,
+      "factor_base_size": 24,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 977,
+            "total_degree": 71,
+            "x_degree": 0
+          },
+          {
+            "monomials": 939,
+            "total_degree": 71,
+            "x_degree": 1
+          },
+          {
+            "monomials": 892,
+            "total_degree": 71,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 71,
+        "total_monomials": 2808
+      },
+      "map": "y_over_y_minus_x",
+      "numerator": [
+        0,
+        1,
+        0
+      ],
+      "random_control_counts": [
+        20,
+        18,
+        19,
+        22,
+        18,
+        19,
+        18,
+        19,
+        20,
+        17,
+        18,
+        20,
+        17,
+        20,
+        15,
+        19,
+        26,
+        17,
+        14,
+        26,
+        19,
+        15,
+        22,
+        22,
+        24,
+        20,
+        19,
+        21,
+        26,
+        24,
+        26,
+        25
+      ],
+      "random_control_maximum": 26,
+      "random_control_mean": 20.15625,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 9.36,
+      "unordered_pair_state": 300,
+      "zero_sum_distinct_triples": 22
+    },
+    {
+      "admitted_factor_base_size": false,
+      "coset": 1,
+      "defined_pool_size": 99,
+      "degree": 5,
+      "denominator": [
+        1,
+        1,
+        1
+      ],
+      "denominator_exclusions": 1,
+      "factor_base_size": 5,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 33,
+            "total_degree": 10,
+            "x_degree": 0
+          },
+          {
+            "monomials": 31,
+            "total_degree": 10,
+            "x_degree": 1
+          },
+          {
+            "monomials": 25,
+            "total_degree": 10,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 10,
+        "total_monomials": 89
+      },
+      "map": "y_minus_1_over_y_plus_x_plus_1",
+      "numerator": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "admitted_factor_base_size": false,
+      "coset": 32,
+      "defined_pool_size": 99,
+      "degree": 5,
+      "denominator": [
+        1,
+        1,
+        1
+      ],
+      "denominator_exclusions": 1,
+      "factor_base_size": 3,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 39,
+            "total_degree": 11,
+            "x_degree": 0
+          },
+          {
+            "monomials": 35,
+            "total_degree": 11,
+            "x_degree": 1
+          },
+          {
+            "monomials": 30,
+            "total_degree": 11,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 11,
+        "total_monomials": 104
+      },
+      "map": "y_minus_1_over_y_plus_x_plus_1",
+      "numerator": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 99,
+      "degree": 10,
+      "denominator": [
+        1,
+        1,
+        1
+      ],
+      "denominator_exclusions": 1,
+      "density_lift_over_mean": 2.1333333333333333,
+      "factor_base_size": 12,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 150,
+            "total_degree": 25,
+            "x_degree": 0
+          },
+          {
+            "monomials": 139,
+            "total_degree": 25,
+            "x_degree": 1
+          },
+          {
+            "monomials": 126,
+            "total_degree": 25,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 25,
+        "total_monomials": 415
+      },
+      "map": "y_minus_1_over_y_plus_x_plus_1",
+      "numerator": [
+        0,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        3,
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        3,
+        5,
+        5,
+        5,
+        1,
+        1,
+        3,
+        3,
+        3,
+        1,
+        1,
+        2,
+        2,
+        3,
+        2,
+        2,
+        2,
+        1,
+        1,
+        4,
+        1,
+        4,
+        3,
+        3
+      ],
+      "random_control_maximum": 5,
+      "random_control_mean": 2.34375,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 5.32051282051282,
+      "unordered_pair_state": 78,
+      "zero_sum_distinct_triples": 5
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 14,
+      "defined_pool_size": 99,
+      "degree": 10,
+      "denominator": [
+        1,
+        1,
+        1
+      ],
+      "denominator_exclusions": 1,
+      "density_lift_over_mean": 1.8461538461538463,
+      "factor_base_size": 10,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 162,
+            "total_degree": 26,
+            "x_degree": 0
+          },
+          {
+            "monomials": 151,
+            "total_degree": 26,
+            "x_degree": 1
+          },
+          {
+            "monomials": 135,
+            "total_degree": 26,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 26,
+        "total_monomials": 448
+      },
+      "map": "y_minus_1_over_y_plus_x_plus_1",
+      "numerator": [
+        0,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        2,
+        2,
+        1,
+        0,
+        1,
+        3,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        0,
+        2,
+        2,
+        2,
+        1,
+        3,
+        1,
+        3,
+        3,
+        2,
+        2,
+        0,
+        3,
+        2,
+        0,
+        0
+      ],
+      "random_control_maximum": 3,
+      "random_control_mean": 1.625,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 8.145454545454545,
+      "unordered_pair_state": 55,
+      "zero_sum_distinct_triples": 3
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 99,
+      "degree": 20,
+      "denominator": [
+        1,
+        1,
+        1
+      ],
+      "denominator_exclusions": 1,
+      "density_lift_over_mean": 0.7710843373493976,
+      "factor_base_size": 18,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 614,
+            "total_degree": 55,
+            "x_degree": 0
+          },
+          {
+            "monomials": 579,
+            "total_degree": 55,
+            "x_degree": 1
+          },
+          {
+            "monomials": 544,
+            "total_degree": 55,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 55,
+        "total_monomials": 1737
+      },
+      "map": "y_minus_1_over_y_plus_x_plus_1",
+      "numerator": [
+        0,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        6,
+        9,
+        10,
+        9,
+        4,
+        7,
+        7,
+        3,
+        9,
+        7,
+        10,
+        6,
+        7,
+        7,
+        7,
+        10,
+        7,
+        7,
+        9,
+        7,
+        9,
+        9,
+        6,
+        8,
+        12,
+        10,
+        8,
+        8,
+        7,
+        11,
+        8,
+        5
+      ],
+      "random_control_maximum": 12,
+      "random_control_mean": 7.78125,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 10.157894736842104,
+      "unordered_pair_state": 171,
+      "zero_sum_distinct_triples": 6
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 95,
+      "defined_pool_size": 99,
+      "degree": 20,
+      "denominator": [
+        1,
+        1,
+        1
+      ],
+      "denominator_exclusions": 1,
+      "density_lift_over_mean": 1.6551724137931034,
+      "factor_base_size": 16,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 632,
+            "total_degree": 56,
+            "x_degree": 0
+          },
+          {
+            "monomials": 599,
+            "total_degree": 56,
+            "x_degree": 1
+          },
+          {
+            "monomials": 565,
+            "total_degree": 56,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 56,
+        "total_monomials": 1796
+      },
+      "map": "y_minus_1_over_y_plus_x_plus_1",
+      "numerator": [
+        0,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        7,
+        4,
+        5,
+        7,
+        5,
+        7,
+        8,
+        5,
+        7,
+        7,
+        2,
+        4,
+        5,
+        4,
+        6,
+        4,
+        4,
+        8,
+        2,
+        7,
+        5,
+        8,
+        5,
+        5,
+        2,
+        6,
+        5,
+        6,
+        7,
+        5,
+        5,
+        7
+      ],
+      "random_control_maximum": 8,
+      "random_control_mean": 5.4375,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 13.205882352941176,
+      "unordered_pair_state": 136,
+      "zero_sum_distinct_triples": 9
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 99,
+      "degree": 25,
+      "denominator": [
+        1,
+        1,
+        1
+      ],
+      "denominator_exclusions": 1,
+      "density_lift_over_mean": 1.145679012345679,
+      "factor_base_size": 26,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 955,
+            "total_degree": 70,
+            "x_degree": 0
+          },
+          {
+            "monomials": 915,
+            "total_degree": 70,
+            "x_degree": 1
+          },
+          {
+            "monomials": 872,
+            "total_degree": 70,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 70,
+        "total_monomials": 2742
+      },
+      "map": "y_minus_1_over_y_plus_x_plus_1",
+      "numerator": [
+        0,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        22,
+        32,
+        20,
+        28,
+        26,
+        23,
+        20,
+        25,
+        28,
+        33,
+        29,
+        26,
+        24,
+        26,
+        28,
+        35,
+        28,
+        24,
+        25,
+        23,
+        20,
+        30,
+        26,
+        21,
+        20,
+        29,
+        22,
+        21,
+        24,
+        18,
+        30,
+        24
+      ],
+      "random_control_maximum": 35,
+      "random_control_mean": 25.3125,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 7.811965811965812,
+      "unordered_pair_state": 351,
+      "zero_sum_distinct_triples": 29
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 10,
+      "defined_pool_size": 99,
+      "degree": 25,
+      "denominator": [
+        1,
+        1,
+        1
+      ],
+      "denominator_exclusions": 1,
+      "density_lift_over_mean": 0.8347826086956521,
+      "factor_base_size": 20,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 982,
+            "total_degree": 71,
+            "x_degree": 0
+          },
+          {
+            "monomials": 938,
+            "total_degree": 71,
+            "x_degree": 1
+          },
+          {
+            "monomials": 895,
+            "total_degree": 71,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 71,
+        "total_monomials": 2815
+      },
+      "map": "y_minus_1_over_y_plus_x_plus_1",
+      "numerator": [
+        0,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        11,
+        13,
+        10,
+        11,
+        15,
+        11,
+        9,
+        8,
+        11,
+        9,
+        13,
+        8,
+        11,
+        9,
+        11,
+        9,
+        6,
+        13,
+        12,
+        11,
+        13,
+        9,
+        9,
+        13,
+        11,
+        10,
+        15,
+        15,
+        11,
+        6,
+        8,
+        14
+      ],
+      "random_control_maximum": 15,
+      "random_control_mean": 10.78125,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 13.404761904761905,
+      "unordered_pair_state": 210,
+      "zero_sum_distinct_triples": 9
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 97,
+      "degree": 5,
+      "denominator": [
+        1,
+        1,
+        -2
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 5.333333333333333,
+      "factor_base_size": 7,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 33,
+            "total_degree": 10,
+            "x_degree": 0
+          },
+          {
+            "monomials": 31,
+            "total_degree": 10,
+            "x_degree": 1
+          },
+          {
+            "monomials": 26,
+            "total_degree": 10,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 10,
+        "total_monomials": 90
+      },
+      "map": "y_minus_2x_minus_1_over_y_plus_x_minus_2",
+      "numerator": [
+        -2,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "random_control_maximum": 2,
+      "random_control_mean": 0.375,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 3.2142857142857144,
+      "unordered_pair_state": 28,
+      "zero_sum_distinct_triples": 2
+    },
+    {
+      "admitted_factor_base_size": false,
+      "coset": 32,
+      "defined_pool_size": 97,
+      "degree": 5,
+      "denominator": [
+        1,
+        1,
+        -2
+      ],
+      "denominator_exclusions": 3,
+      "factor_base_size": 2,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 39,
+            "total_degree": 11,
+            "x_degree": 0
+          },
+          {
+            "monomials": 36,
+            "total_degree": 11,
+            "x_degree": 1
+          },
+          {
+            "monomials": 30,
+            "total_degree": 11,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 11,
+        "total_monomials": 105
+      },
+      "map": "y_minus_2x_minus_1_over_y_plus_x_minus_2",
+      "numerator": [
+        -2,
+        1,
+        -1
+      ]
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 97,
+      "degree": 10,
+      "denominator": [
+        1,
+        1,
+        -2
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 5.333333333333333,
+      "factor_base_size": 7,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 152,
+            "total_degree": 25,
+            "x_degree": 0
+          },
+          {
+            "monomials": 139,
+            "total_degree": 25,
+            "x_degree": 1
+          },
+          {
+            "monomials": 126,
+            "total_degree": 25,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 25,
+        "total_monomials": 417
+      },
+      "map": "y_minus_2x_minus_1_over_y_plus_x_minus_2",
+      "numerator": [
+        -2,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "random_control_maximum": 2,
+      "random_control_mean": 0.375,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 14.892857142857142,
+      "unordered_pair_state": 28,
+      "zero_sum_distinct_triples": 2
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 14,
+      "defined_pool_size": 97,
+      "degree": 10,
+      "denominator": [
+        1,
+        1,
+        -2
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 6.4,
+      "factor_base_size": 8,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 162,
+            "total_degree": 26,
+            "x_degree": 0
+          },
+          {
+            "monomials": 148,
+            "total_degree": 26,
+            "x_degree": 1
+          },
+          {
+            "monomials": 134,
+            "total_degree": 26,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 26,
+        "total_monomials": 444
+      },
+      "map": "y_minus_2x_minus_1_over_y_plus_x_minus_2",
+      "numerator": [
+        -2,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "random_control_maximum": 2,
+      "random_control_mean": 0.3125,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 12.333333333333334,
+      "unordered_pair_state": 36,
+      "zero_sum_distinct_triples": 2
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 97,
+      "degree": 20,
+      "denominator": [
+        1,
+        1,
+        -2
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 1.2307692307692308,
+      "factor_base_size": 16,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 616,
+            "total_degree": 55,
+            "x_degree": 0
+          },
+          {
+            "monomials": 579,
+            "total_degree": 55,
+            "x_degree": 1
+          },
+          {
+            "monomials": 549,
+            "total_degree": 55,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 55,
+        "total_monomials": 1744
+      },
+      "map": "y_minus_2x_minus_1_over_y_plus_x_minus_2",
+      "numerator": [
+        -2,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        4,
+        4,
+        6,
+        3,
+        3,
+        9,
+        4,
+        11,
+        7,
+        6,
+        6,
+        5,
+        5,
+        6,
+        6,
+        5,
+        6,
+        7,
+        8,
+        5,
+        5,
+        8,
+        7,
+        7,
+        5,
+        4,
+        9,
+        4,
+        4,
+        5,
+        4,
+        4
+      ],
+      "random_control_maximum": 11,
+      "random_control_mean": 5.6875,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 12.823529411764707,
+      "unordered_pair_state": 136,
+      "zero_sum_distinct_triples": 7
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 95,
+      "defined_pool_size": 97,
+      "degree": 20,
+      "denominator": [
+        1,
+        1,
+        -2
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 1.614678899082569,
+      "factor_base_size": 17,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 634,
+            "total_degree": 56,
+            "x_degree": 0
+          },
+          {
+            "monomials": 600,
+            "total_degree": 56,
+            "x_degree": 1
+          },
+          {
+            "monomials": 563,
+            "total_degree": 56,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 56,
+        "total_monomials": 1797
+      },
+      "map": "y_minus_2x_minus_1_over_y_plus_x_minus_2",
+      "numerator": [
+        -2,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        6,
+        3,
+        5,
+        8,
+        9,
+        4,
+        8,
+        9,
+        8,
+        5,
+        5,
+        8,
+        8,
+        8,
+        6,
+        5,
+        7,
+        6,
+        8,
+        7,
+        5,
+        5,
+        3,
+        5,
+        7,
+        13,
+        10,
+        4,
+        9,
+        11,
+        5,
+        8
+      ],
+      "random_control_maximum": 13,
+      "random_control_mean": 6.8125,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 11.745098039215685,
+      "unordered_pair_state": 153,
+      "zero_sum_distinct_triples": 11
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 97,
+      "degree": 25,
+      "denominator": [
+        1,
+        1,
+        -2
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 1.0953545232273838,
+      "factor_base_size": 21,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 953,
+            "total_degree": 70,
+            "x_degree": 0
+          },
+          {
+            "monomials": 914,
+            "total_degree": 70,
+            "x_degree": 1
+          },
+          {
+            "monomials": 864,
+            "total_degree": 70,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 70,
+        "total_monomials": 2731
+      },
+      "map": "y_minus_2x_minus_1_over_y_plus_x_minus_2",
+      "numerator": [
+        -2,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        12,
+        14,
+        11,
+        17,
+        13,
+        14,
+        17,
+        15,
+        15,
+        7,
+        11,
+        12,
+        13,
+        10,
+        14,
+        13,
+        15,
+        14,
+        16,
+        14,
+        15,
+        14,
+        8,
+        12,
+        13,
+        11,
+        9,
+        13,
+        14,
+        12,
+        11,
+        10
+      ],
+      "random_control_maximum": 17,
+      "random_control_mean": 12.78125,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 11.822510822510823,
+      "unordered_pair_state": 231,
+      "zero_sum_distinct_triples": 14
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 10,
+      "defined_pool_size": 97,
+      "degree": 25,
+      "denominator": [
+        1,
+        1,
+        -2
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 0.8145454545454546,
+      "factor_base_size": 23,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 978,
+            "total_degree": 71,
+            "x_degree": 0
+          },
+          {
+            "monomials": 939,
+            "total_degree": 71,
+            "x_degree": 1
+          },
+          {
+            "monomials": 892,
+            "total_degree": 71,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 71,
+        "total_monomials": 2809
+      },
+      "map": "y_minus_2x_minus_1_over_y_plus_x_minus_2",
+      "numerator": [
+        -2,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        15,
+        22,
+        18,
+        14,
+        18,
+        17,
+        13,
+        16,
+        15,
+        9,
+        16,
+        12,
+        15,
+        19,
+        21,
+        19,
+        18,
+        20,
+        13,
+        16,
+        20,
+        18,
+        18,
+        21,
+        18,
+        22,
+        17,
+        16,
+        17,
+        16,
+        21,
+        20
+      ],
+      "random_control_maximum": 22,
+      "random_control_mean": 17.1875,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 10.177536231884059,
+      "unordered_pair_state": 276,
+      "zero_sum_distinct_triples": 14
+    },
+    {
+      "admitted_factor_base_size": false,
+      "coset": 1,
+      "defined_pool_size": 97,
+      "degree": 5,
+      "denominator": [
+        2,
+        1,
+        1
+      ],
+      "denominator_exclusions": 3,
+      "factor_base_size": 1,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 33,
+            "total_degree": 10,
+            "x_degree": 0
+          },
+          {
+            "monomials": 31,
+            "total_degree": 10,
+            "x_degree": 1
+          },
+          {
+            "monomials": 26,
+            "total_degree": 10,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 10,
+        "total_monomials": 90
+      },
+      "map": "y_minus_x_minus_1_over_y_plus_2x_plus_1",
+      "numerator": [
+        -1,
+        1,
+        -1
+      ]
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 32,
+      "defined_pool_size": 97,
+      "degree": 5,
+      "denominator": [
+        2,
+        1,
+        1
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 2.2857142857142856,
+      "factor_base_size": 7,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 39,
+            "total_degree": 11,
+            "x_degree": 0
+          },
+          {
+            "monomials": 35,
+            "total_degree": 11,
+            "x_degree": 1
+          },
+          {
+            "monomials": 30,
+            "total_degree": 11,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 11,
+        "total_monomials": 104
+      },
+      "map": "y_minus_x_minus_1_over_y_plus_2x_plus_1",
+      "numerator": [
+        -1,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "random_control_maximum": 2,
+      "random_control_mean": 0.4375,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 3.7142857142857144,
+      "unordered_pair_state": 28,
+      "zero_sum_distinct_triples": 1
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 97,
+      "degree": 10,
+      "denominator": [
+        2,
+        1,
+        1
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 0.0,
+      "factor_base_size": 7,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 153,
+            "total_degree": 25,
+            "x_degree": 0
+          },
+          {
+            "monomials": 141,
+            "total_degree": 25,
+            "x_degree": 1
+          },
+          {
+            "monomials": 125,
+            "total_degree": 25,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 25,
+        "total_monomials": 419
+      },
+      "map": "y_minus_x_minus_1_over_y_plus_2x_plus_1",
+      "numerator": [
+        -1,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "random_control_maximum": 2,
+      "random_control_mean": 0.40625,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 14.964285714285714,
+      "unordered_pair_state": 28,
+      "zero_sum_distinct_triples": 0
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 14,
+      "defined_pool_size": 97,
+      "degree": 10,
+      "denominator": [
+        2,
+        1,
+        1
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 0.7804878048780488,
+      "factor_base_size": 11,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 162,
+            "total_degree": 26,
+            "x_degree": 0
+          },
+          {
+            "monomials": 150,
+            "total_degree": 26,
+            "x_degree": 1
+          },
+          {
+            "monomials": 134,
+            "total_degree": 26,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 26,
+        "total_monomials": 446
+      },
+      "map": "y_minus_x_minus_1_over_y_plus_2x_plus_1",
+      "numerator": [
+        -1,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        3,
+        1,
+        1,
+        1,
+        0,
+        3,
+        1,
+        1,
+        0,
+        2,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "random_control_maximum": 3,
+      "random_control_mean": 1.28125,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 6.757575757575758,
+      "unordered_pair_state": 66,
+      "zero_sum_distinct_triples": 1
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 97,
+      "degree": 20,
+      "denominator": [
+        2,
+        1,
+        1
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 2.169491525423729,
+      "factor_base_size": 11,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 612,
+            "total_degree": 55,
+            "x_degree": 0
+          },
+          {
+            "monomials": 582,
+            "total_degree": 55,
+            "x_degree": 1
+          },
+          {
+            "monomials": 546,
+            "total_degree": 55,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 55,
+        "total_monomials": 1740
+      },
+      "map": "y_minus_x_minus_1_over_y_plus_2x_plus_1",
+      "numerator": [
+        -1,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        2,
+        1,
+        4,
+        1,
+        3,
+        0,
+        1,
+        0,
+        5,
+        2,
+        2,
+        3,
+        0,
+        3,
+        1,
+        1,
+        4,
+        3,
+        2,
+        3,
+        0,
+        0,
+        2,
+        1,
+        0,
+        3,
+        2,
+        1,
+        3,
+        2,
+        2,
+        2
+      ],
+      "random_control_maximum": 5,
+      "random_control_mean": 1.84375,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 26.363636363636363,
+      "unordered_pair_state": 66,
+      "zero_sum_distinct_triples": 4
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 95,
+      "defined_pool_size": 97,
+      "degree": 20,
+      "denominator": [
+        2,
+        1,
+        1
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 1.1555555555555554,
+      "factor_base_size": 20,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 635,
+            "total_degree": 56,
+            "x_degree": 0
+          },
+          {
+            "monomials": 597,
+            "total_degree": 56,
+            "x_degree": 1
+          },
+          {
+            "monomials": 566,
+            "total_degree": 56,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 56,
+        "total_monomials": 1798
+      },
+      "map": "y_minus_x_minus_1_over_y_plus_2x_plus_1",
+      "numerator": [
+        -1,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        9,
+        12,
+        7,
+        13,
+        10,
+        12,
+        11,
+        13,
+        10,
+        11,
+        10,
+        11,
+        9,
+        11,
+        9,
+        8,
+        17,
+        10,
+        8,
+        11,
+        12,
+        9,
+        11,
+        13,
+        17,
+        8,
+        14,
+        10,
+        13,
+        13,
+        9,
+        19
+      ],
+      "random_control_maximum": 19,
+      "random_control_mean": 11.25,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 8.561904761904762,
+      "unordered_pair_state": 210,
+      "zero_sum_distinct_triples": 13
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 1,
+      "defined_pool_size": 97,
+      "degree": 25,
+      "denominator": [
+        2,
+        1,
+        1
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 1.1162790697674418,
+      "factor_base_size": 18,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 954,
+            "total_degree": 70,
+            "x_degree": 0
+          },
+          {
+            "monomials": 911,
+            "total_degree": 70,
+            "x_degree": 1
+          },
+          {
+            "monomials": 872,
+            "total_degree": 70,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 70,
+        "total_monomials": 2737
+      },
+      "map": "y_minus_x_minus_1_over_y_plus_2x_plus_1",
+      "numerator": [
+        -1,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        10,
+        10,
+        6,
+        4,
+        11,
+        9,
+        10,
+        5,
+        9,
+        8,
+        6,
+        7,
+        7,
+        13,
+        6,
+        9,
+        4,
+        8,
+        5,
+        12,
+        5,
+        6,
+        10,
+        7,
+        6,
+        9,
+        9,
+        10,
+        10,
+        9,
+        6,
+        12
+      ],
+      "random_control_maximum": 13,
+      "random_control_mean": 8.0625,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 16.005847953216374,
+      "unordered_pair_state": 171,
+      "zero_sum_distinct_triples": 9
+    },
+    {
+      "admitted_factor_base_size": true,
+      "coset": 10,
+      "defined_pool_size": 97,
+      "degree": 25,
+      "denominator": [
+        2,
+        1,
+        1
+      ],
+      "denominator_exclusions": 3,
+      "density_lift_over_mean": 1.1774891774891776,
+      "factor_base_size": 27,
+      "generic_remainder_profile": {
+        "coefficient_profiles": [
+          {
+            "monomials": 974,
+            "total_degree": 71,
+            "x_degree": 0
+          },
+          {
+            "monomials": 940,
+            "total_degree": 71,
+            "x_degree": 1
+          },
+          {
+            "monomials": 890,
+            "total_degree": 71,
+            "x_degree": 2
+          }
+        ],
+        "maximum_total_degree": 71,
+        "total_monomials": 2804
+      },
+      "map": "y_minus_x_minus_1_over_y_plus_2x_plus_1",
+      "numerator": [
+        -1,
+        1,
+        -1
+      ],
+      "random_control_counts": [
+        29,
+        30,
+        27,
+        31,
+        29,
+        37,
+        27,
+        27,
+        29,
+        27,
+        30,
+        33,
+        33,
+        33,
+        29,
+        27,
+        26,
+        30,
+        32,
+        24,
+        30,
+        25,
+        32,
+        29,
+        26,
+        29,
+        26,
+        25,
+        25,
+        23,
+        30,
+        34
+      ],
+      "random_control_maximum": 37,
+      "random_control_mean": 28.875,
+      "source_membership_failures": 0,
+      "support_to_pair_state": 7.417989417989418,
+      "unordered_pair_state": 378,
+      "zero_sum_distinct_triples": 34
+    }
+  ],
+  "schema": "ecdlp.line-ratio-coset-triple.n611e.v1",
+  "script_sha256": "b0314d5373485bce68d491142b41752d3ceb272ff5be26fe1b09ec25759f0636",
+  "strongest_valid_statement": "This screen tests a fixed finite family of line-ratio coset factor bases and exact three-point membership only. It establishes no source-solver, rank, descent, or ECDLP cost claim.",
+  "timestamp_utc": "2026-08-02T02:52:43.173918+00:00"
+}
