@@ -22,7 +22,7 @@ from urllib.parse import urlsplit
 from typing import Any, Iterable
 
 
-SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v109"
+SCHEMA = "ecdlp.p1436_autoresearch_focus_report.v110"
 SUMMATION_FFE_EVIDENCE_INVENTORY_SCHEMA = "ecdlp.p1436_summation_ffe_evidence_inventory.v3"
 SUMMATION_FFE_REPLAY_PLAN_SCHEMA = "ecdlp.p1436_summation_ffe_replay_plan.v3"
 SUMMATION_PAYLOAD_FIELDS = (
@@ -550,6 +550,10 @@ DEFAULT_M6_S3_DETERMINANTAL_TRANSFER_NONCOMMUTATIVITY_PROBE = Path(
     "p1553_m6_s3_determinantal_transfer_noncommutativity_"
     "probe_report_r173.json"
 )
+DEFAULT_M6_CONFLUENT_SIGNED_DUAL_CHOW_PUSHFORWARD_PROBE = Path(
+    "p1553_m6_confluent_signed_dual_chow_pushforward_"
+    "probe_report_r174.json"
+)
 FRONTIER_PREFLIGHT_SCHEMAS = {
     "idea340_public_chart": "ecdlp.p1436_idea340_public_chart_preflight.v1",
     "slice_quadratic_public_source": (
@@ -876,6 +880,9 @@ FRONTIER_PREFLIGHT_SCHEMAS = {
     ),
     "m6_s3_determinantal_transfer_noncommutativity": (
         "p1553.m6_s3_determinantal_transfer_noncommutativity.r173.v1"
+    ),
+    "m6_confluent_signed_dual_chow_pushforward": (
+        "p1553.m6_confluent_signed_dual_chow_pushforward.r174.v1"
     ),
 }
 DEFAULT_FIXED_CONFIG = "mixed_balanced_stride_mask1"
@@ -4208,6 +4215,40 @@ CRITICAL_EXPERIMENTS = {
             "s3_determinantal_transfer_noncommutativity_r173.json",
         ],
     },
+    "s66_fused_factored_dual_chow_outer_norm_mod_u": {
+        "hypothesis": (
+            "The N target linear factors can be fused with the two-chart "
+            "confluent outer norm over the degree-n divisor U in softly O(n+N) "
+            "work, without representing either dual-Chow coefficient triangle "
+            "or either selected-target query grid."
+        ),
+        "decisive_test": (
+            "Freeze U,V, W,V_T, the off-diagonal Delta_V chart, the geometric "
+            "tangent chart, and the exact R174 target-first/target-last identity. "
+            "Specify an arithmetic DAG that ingests the N linear target factors "
+            "and emits the signed aggregate or gcd modulo U. Charge all subproduct "
+            "or transposed state, divided-difference transforms, diagonal "
+            "corrections, quotient reductions, zero-divisor branches, "
+            "factorization, candidate output, and signed replay. Require softly "
+            "O(n+N) work and total cost strictly below B^(5/2), then replay all "
+            "R174/R173/R172/R166 controls."
+        ),
+        "falsifier": (
+            "The route represents Theta(N^2) target-Chow or Theta(n^2) selected-"
+            "Chow coefficients, emits nN or n^2 query points, applies N "
+            "independent quotient-ring transforms, differentiates interpolated "
+            "V as the curve tangent, drops the Q=P chart, reaches B^(5/2), "
+            "inverts candidate nonunits, or assumes a unit-cost multipoint, norm, "
+            "derivative, resultant, root, count, marginal, rank, or source oracle."
+        ),
+        "required_artifacts": [
+            "frozen_m6_confluent_signed_dual_chow_pushforward.json",
+            "m6_confluent_signed_dual_chow_pushforward_cost_ledger.json",
+            "m6_confluent_signed_dual_chow_pushforward_replay.json",
+            "m6_confluent_signed_dual_chow_pushforward_controls.json",
+            "confluent_signed_dual_chow_pushforward_r174.json",
+        ],
+    },
     "routing_intervention_generalization": {
         "hypothesis": "One fixed routing rule recovers natural-route rank on unseen curves.",
         "decisive_test": "Freeze the rule on development cells and replay it unchanged on every prospective cell.",
@@ -6587,7 +6628,39 @@ def ranked_focus_candidates(
         )
         or {}
     )
-    if m6_s3_determinantal_transfer_noncommutativity_lane.get(
+    m6_confluent_signed_dual_chow_pushforward_lane = (
+        ((frontier_status or {}).get("lanes") or {}).get(
+            "m6_confluent_signed_dual_chow_pushforward"
+        )
+        or {}
+    )
+    if m6_confluent_signed_dual_chow_pushforward_lane.get(
+        "closed_by_current_evidence"
+    ):
+        admission = (
+            m6_confluent_signed_dual_chow_pushforward_lane.get("admission") or {}
+        )
+        add_focus_candidate(
+            candidates,
+            "s66_fused_factored_dual_chow_outer_norm_mod_u",
+            310,
+            str(
+                m6_confluent_signed_dual_chow_pushforward_lane.get("next_action")
+                or CRITICAL_EXPERIMENTS[
+                    "s66_fused_factored_dual_chow_outer_norm_mod_u"
+                ]["decisive_test"]
+            ),
+            (
+                f"{m6_confluent_signed_dual_chow_pushforward_lane.get('classification')}: "
+                f"{admission.get('passed_obligation_count', 0)}/"
+                f"{admission.get('obligation_count', 0)} confluent dual-Chow "
+                "obligations pass. The signed two-chart pushforward exactly "
+                "replays R166 roots, but represented target Chow is B^(5/2), "
+                "represented selected Chow is B^(9/2), and standard query grids "
+                "are above rho. Only the fused factored outer norm remains."
+            ),
+        )
+    elif m6_s3_determinantal_transfer_noncommutativity_lane.get(
         "closed_by_current_evidence"
     ):
         admission = (
@@ -11526,6 +11599,29 @@ def ambiguity_resolutions(
             "operator_interrupt_required": False,
         },
         {
+            "id": "m6_confluent_signed_dual_chow_pushforward_scope",
+            "observed": (
+                "R174 constructs an exact signed target dual-Chow pushforward "
+                "with separate off-diagonal divided-difference and geometric "
+                "tangent charts. Six controls verify 68,326 signed factors, "
+                "1,486 selected-Chow derivatives, 8,922 target-Chow evaluations, "
+                "and all 140 R166 verified roots without the opposite-sign branch. "
+                "The target and selected represented Chow forms fill 204 and "
+                "4,770 coefficient slots."
+            ),
+            "resolution": (
+                "Remove signed incidence, tangent correctness, and target-order "
+                "interchange from the open contract. Require only a fused factored "
+                "dual-Chow outer norm below B^(5/2). Reject N^2 or n^2 Chow "
+                "coefficients, nN or n^2 query grids, N independent transforms, "
+                "interpolant-derivative tangents, and uncharged multipoint or norm "
+                "oracles. Give finite full density no lower-bound credit."
+            ),
+            "blocks_promotion": False,
+            "uncertainty_class": "non_blocking",
+            "operator_interrupt_required": False,
+        },
+        {
             "id": "target_descent_absence",
             "observed": f"{missing_descents} full cells contain no target-descent trials.",
             "resolution": "Treat absent descent as untested, never as success.",
@@ -12738,6 +12834,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=DEFAULT_M6_S3_DETERMINANTAL_TRANSFER_NONCOMMUTATIVITY_PROBE,
     )
+    parser.add_argument(
+        "--m6-confluent-signed-dual-chow-pushforward-probe",
+        dest="m6_confluent_signed_dual_chow_pushforward_probe",
+        type=Path,
+        default=DEFAULT_M6_CONFLUENT_SIGNED_DUAL_CHOW_PUSHFORWARD_PROBE,
+    )
     parser.add_argument("--fixed-config", default=DEFAULT_FIXED_CONFIG)
     parser.add_argument("--focus-budget", type=int, default=3)
     return parser.parse_args()
@@ -13185,6 +13287,10 @@ def main() -> int:
         (
             "m6_s3_determinantal_transfer_noncommutativity",
             args.m6_s3_determinantal_transfer_noncommutativity_probe,
+        ),
+        (
+            "m6_confluent_signed_dual_chow_pushforward",
+            args.m6_confluent_signed_dual_chow_pushforward_probe,
         ),
     ):
         if path.exists():
