@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "all_reduced_beta_inputs_are_even": true,
+    "declared_product_pairing": true,
+    "full_torsion_recomputed": true,
+    "plane_counts": true,
+    "primary_gates": true,
+    "schema": true
+  },
+  "primary_sha256": "8ae77dbb084ea43ad3a4269816d610a78eafdd50227a8fcb6e6857de0318fe30",
+  "strongest_valid_statement": "The independent replay confirms that the degree-six field contains both full two-torsion groups and that the reduced beta coefficient is even there; the primary's direct level-two selection conclusion remains negative.",
+  "verified": true
+}

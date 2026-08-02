@@ -1,0 +1,62 @@
+{
+  "assumptions": [
+    "The Weil pairing computed from the reduced principal polarization represents the level-two commutator form.",
+    "The result concerns only direct selection by N611U's cross map on full scalar two-torsion."
+  ],
+  "bound_inputs": {
+    "notes/poincare_cubic_reduced_polarization_frame_n611u.json": "9b20cdc502a19f19588f99cddbb5df28daf98bbf2052858f078cb002cca23632",
+    "notes/poincare_cubic_reduced_polarization_frame_n611u_independent_verifier.json": "16d8703dcc031e48e6f7931666c82b798c7e2ae744b58e511b4f738264fdfdd7"
+  },
+  "claim_status": "NEGATIVE RESULT / REDUCED_CROSS_MAP_DOES_NOT_SELECT_LEVEL2_FREY_KANI_GRAPH / MODEL-BOUND / TOY-EVIDENCE / HIGHER_LEVEL_OR_QUOTIENT_LATTICE_OPEN / NO_ECDLP_CLAIM",
+  "gates": {
+    "all_fifteen_maximal_isotropic_planes_replay": true,
+    "degree_six_contains_full_two_torsion": true,
+    "n611u_reduced_frame_receipt_binds": true,
+    "polarization_pairing_is_block_product": true,
+    "reduced_cross_map_vanishes_on_e_two_torsion": true,
+    "reduced_dual_cross_map_vanishes_on_eg_two_torsion": true,
+    "six_transverse_graph_planes_replay": true,
+    "unsuppressed_phi_positive_control_is_nonzero": true
+  },
+  "next_requirement": "Search a full quotient-lattice transformation or higher-level theta structure that selects a product presentation, then construct and evaluate the resulting genus-two theta curve before relation work.",
+  "preflight_pass": true,
+  "records": {
+    "cross_map": "phi_g o ([12]+[4]Frob)",
+    "cross_map_control": "phi_g",
+    "e_two_torsion_size": 4,
+    "eg_two_torsion_size": 4,
+    "field": "F_(103^6)",
+    "maximal_isotropic_plane_count": 15,
+    "pairing_matrix_bits": [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "transverse_graph_plane_count": 6
+  },
+  "schema": "ecdlp.h018.reduced-level2-gluing-audit.n611v.v1",
+  "script_sha256": "bad14752157558dc6d74a1cc3be5dce0a708041bef49e67201066670a4a0a06c",
+  "strongest_valid_statement": "Over F_(103^6), the reduced cross map beta and beta^dagger both vanish on full two-torsion, and M induces the block-product symplectic pairing. All fifteen maximal isotropic planes and six transverse graph planes exist, but beta selects none of them. A direct level-two Frey-Kani theta construction is therefore not supplied by the N611U cross term.",
+  "timestamp_utc": "2026-08-02T04:39:13.115376+00:00"
+}
